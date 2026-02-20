@@ -1,22 +1,11 @@
-ai
-!gai
+期货
+AI
 人工智能
-
-claude
-Anthropic
-
-chatgpt
-Sam Altman
-openai
-
-谷歌
-google
-gemini
-deepmind
-
-同济医院
-湖北省妇幼保健院
-
-DeepSeek
-梁文锋
+股票
+科技
+电动汽车
+教育
+财经
+地缘政治
+全球军事
 

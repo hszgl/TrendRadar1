@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2026-03-03 03:59:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">53.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303032938989800" target="_blank" class="news-link">美国中央司令部：两天前，伊朗在阿曼湾有11艘船，今天他们一艘都没有。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303032852085800" target="_blank" class="news-link">美上诉院驳回特朗普政府推迟关税退税请求</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303032812733800" target="_blank" class="news-link">伊朗红新月会：红新月救援人员在救援行动中遭到袭击。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303032802983800" target="_blank" class="news-link">摩根大通CEO戴蒙：人工智能可能将工作周缩短至四天，呼吁政府为人工智能时代重新培训工人。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303032754746800" target="_blank" class="news-link">摩根大通CEO戴蒙：人工智能的推动不会是赢家通吃的局面。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303032739331800" target="_blank" class="news-link">以军称袭击伊朗德黑兰市中心数十个政府机构</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303032424508800" target="_blank" class="news-link">以色列国防军：以色列空军对伊朗的实弹阵地进行了打击，并进一步加深了在伊朗西部的空中控制。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031640184800" target="_blank" class="news-link">西班牙拒绝美国利用其军事基地攻击伊朗</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031609957800" target="_blank" class="news-link">据以色列时报：伊朗导弹残骸击中巴林港口一艘油轮，导致一人遇难并引发火灾。</a> [11] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031256550800" target="_blank" class="news-link">以色列国防军：此次行动进一步削弱了伊朗实力。将继续打击伊朗政权在其活动的任何地区的系统和人员。</a> [13] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031239332800" target="_blank" class="news-link">以色列国防军发言人：在军事情报部门的指导下，空军完成了对德黑兰市中心数十个伊朗政权总部的袭击。</a> [14] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031228797800" target="_blank" class="news-link">以色列国防军：仍在打击伊朗导弹发射器和武器基地。</a> [15] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031225092800" target="_blank" class="news-link">据外媒报道，科威特成为海湾国家中第一个正式宣布其军人因伊朗敌对行动而出现牺牲的国家，该阵亡军人被确认是科威特海军士官瓦利德·马吉德·苏莱曼。</a> [16] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031116407800" target="_blank" class="news-link">以色列国防军发言人： 空军已完成对伊朗情报与安全部位于德黑兰总部的一系列空袭。</a> [17] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2011927999839172012" target="_blank" class="news-link">衡水中学设置 AI 监控系统，200 多个智能感知节点捕捉学生行为，如何评价此举措？能有效管理学生吗？</a> [17] <font color='grey'>- 03时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303031045949800" target="_blank" class="news-link">美国联邦巡回上诉法院拒绝了特朗普政府要求推迟关税退款争议程序的请求。</a> [18] <font color='grey'>- 03时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

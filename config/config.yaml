@@ -70,7 +70,7 @@ platforms:
     name: "抖音"
   - id: "zhihu"
     name: "知乎"
-     id: "cankaoxiaoxi"
+  - id: "cankaoxiaoxi"
     name: "参考消息"
   - id: "jin10"
     name: "金十数据"

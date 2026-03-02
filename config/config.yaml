@@ -68,6 +68,8 @@ platforms:
     name: "微博"
   - id: "douyin"
     name: "抖音"
+  - id: "xueqiu"
+    name: "雪球"
   - id: "cankaoxiaoxi"   
     name: "参考消息"    
   - id: "jin10"

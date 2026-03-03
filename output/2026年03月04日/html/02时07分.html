@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2026-03-04 02:07:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">50.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304015427151800" target="_blank" class="news-link">美国官员：美国国务院正与500名希望离开以色列的美国公民保持联系。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304015348921800" target="_blank" class="news-link">以色列军方：在对德黑兰的一次空袭中，击毙了伊朗伊斯兰革命卫队圣城旅驻黎巴嫩指挥官。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304015338572800" target="_blank" class="news-link">美国官员：已协助130名美国公民离开以色列，预计周二还将有100人离境。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304015214358800" target="_blank" class="news-link">美国官员：美方正积极调配军用飞机和包机，以帮助希望离开中东的美国公民。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304015159845800" target="_blank" class="news-link">美国官员表示，美方已与近3000名海外美国人取得联系。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304015112154800" target="_blank" class="news-link">以色列航空公司Israir：将于周四恢复从欧洲飞往特拉维夫机场的航班；首班航班将从罗马起飞。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304014503071800" target="_blank" class="news-link">据CBS：两位消息人士证实，美国在上周末对伊朗发动袭击期间使用了Anthropic的Claude AI模型，并且目前仍在继续使用。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2012219960907289351" target="_blank" class="news-link">国际原子能机构确认，伊朗纳坦兹核设施近日遭破坏，具体情况如何？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304014124007800" target="_blank" class="news-link">伊朗伊斯兰革命卫队： 缴获了一架赫尔墨斯900无人机，该无人机完整无损，并配备了全新的防空系统，现在已由革命卫队空天军控制。</a> [11] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304013921264800" target="_blank" class="news-link">两名安全消息人士：伊拉克击落一架试图袭击埃尔比勒美国领事馆的无人机。</a> [13] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304013716794800" target="_blank" class="news-link">伊朗什叶派宗教界最高权威之一纳赛尔·马卡雷姆·希拉兹：对未来毫不担忧。伊朗武装部队必将粉碎并击败侵略敌人。</a> [15] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304013546784800" target="_blank" class="news-link">美国总统特朗普：并没有受到以色列的压力而发动对伊朗的战争。如果说有什么的话，可能是我逼迫了以色列。</a> [16] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304013427135800" target="_blank" class="news-link">乌克兰总统泽连斯基：与欧盟委员会主席冯德莱恩进行了交谈，就伊朗局势和面临的所有挑战进行了讨论。</a> [18] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304013232693800" target="_blank" class="news-link">伊朗教育部长：约有170名学生和教师遇难，近20所学校和教育机构也被摧毁。</a> [19] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304012722464800" target="_blank" class="news-link">美国总统特朗普：如果伊朗继续拥有导弹，中东就永远不可能实现真正的和平。</a> [23] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304012525431800" target="_blank" class="news-link">美国总统特朗普：相信乌克兰问题会得到解决。</a> [25] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304012450553800" target="_blank" class="news-link">伊朗启动《紧急状态下国家经济韧性提升与民防建设计划》</a> [26] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%8D%97%E9%83%A8%E9%98%BF%E5%B7%B4%E6%96%AF%E6%B8%AF%E7%AD%89%E5%9C%B0%E9%81%AD%E5%AF%86%E9%9B%86%E7%A9%BA%E8%A2%AD%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">伊朗南部阿巴斯港等地遭密集空袭</a> [27] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304012406090800" target="_blank" class="news-link">美国总统特朗普：乌克兰在我优先事项清单上排得很靠前。</a> [27] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304012339854800" target="_blank" class="news-link">德国总理默茨：必须研究伊朗政权倒台后的应对战略。</a> [29] <font color='grey'>- 02时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304012333003800" target="_blank" class="news-link">美国总统特朗普：西班牙是“糟糕的盟友”，不想与他们有任何关系。</a> [30] <font color='grey'>- 02时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

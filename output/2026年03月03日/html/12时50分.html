@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 136</p><p>生成时间: 2026-03-03 12:50:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">32</td>
+                <td class="percentage">23.53%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争最新动态｜伊朗为什么要16国“陪葬”？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/03/ab551369144b4335bb1ee1762a66879b.html" target="_blank" class="news-link">美石油封锁致古巴缩减报纸印刷</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/03/28c022a30e2848d2aed0e23b94ec31e7.html" target="_blank" class="news-link">特朗普暗示：不排除向伊朗部署地面部队</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303122251525800" target="_blank" class="news-link">伊朗驻联合国大使阿米尔·赛义德·伊拉瓦尼：只要美以侵略持续，伊朗将继续果断自卫。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7611738955826462762/" target="_blank" class="news-link">美国会拟限制特朗普继续对伊动武</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%8F%82%E6%88%98%E5%AF%B9%E4%BC%8A%E7%A9%BA%E8%A2%AD" target="_blank" class="news-link">AI参战对伊空袭</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rBnoV8tG9m" target="_blank" class="news-link">特朗普批民主党：如果不动手，他们又要叫唤</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28351250&amp;amp;topic_name=%E6%89%93%E7%96%BC%E4%BA%86%21%E7%BE%8E%E5%86%9B%E6%88%96%E5%9C%B0%E9%9D%A2%E5%85%A5%E4%BE%B5%E4%BC%8A%E6%9C%97" target="_blank" class="news-link">打疼了!美军或地面入侵伊朗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303122045974800" target="_blank" class="news-link">伊朗称击中巴林美军基地指挥部大楼</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E5%9B%BD%E9%A6%96%E7%9B%B8%E7%A7%B0%E4%B8%8D%E4%BC%9A%E5%8F%82%E4%B8%8E%E5%AF%B9%E4%BC%8A%E6%9C%97%E8%BF%9B%E6%94%BB" target="_blank" class="news-link">英国首相称不会参与对伊朗进攻</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28351259&amp;amp;topic_name=%E4%BC%8A%E6%9C%97%E6%89%BE%E4%B8%9C%E5%A4%A7%E8%AF%89%E8%8B%A6%3A%E7%BE%8E%E6%96%B9%E7%8E%A9%E9%98%B4%E7%9A%84" target="_blank" class="news-link">伊朗找东大诉苦:美方玩阴的</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rBij7DRy9X" target="_blank" class="news-link">特朗普夫人首次主持安理会会议，中方强烈谴责</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rBl5ZGxUyT" target="_blank" class="news-link">美民调：近六成民众不赞成对伊朗动武</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303121721697800" target="_blank" class="news-link">政治和战略专家Samir Rageb：伊朗战争暴露了武器来源缺乏多样化如何对海湾国家的安全产生了反效果。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32684906" target="_blank" class="news-link">Claude卷入美以空袭伊朗实战？AI大模型正被纳入军事杀伤链引发担忧</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303120834177800" target="_blank" class="news-link">日本央行行长植田和男：为了使新时代的金融生态系统（特点是通过AI和区块链的融合产生新的金融服务）得以发展，有必要建立一种机制，以确保交易的透明度和真实性，特别是支付的安全性和稳健性。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32683719" target="_blank" class="news-link">如果伊朗提出请求中俄会向其提供军事支持吗？外交部回应</a> [11] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8rBgtxj4Dkq" target="_blank" class="news-link">在伊朗华人讲述惊心动魄24小时逃亡经历</a> [11] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2300466" target="_blank" class="news-link">美国前财长耶伦：中东冲突风险令美联储更倾向于按兵不动</a> [12] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303120218258800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-03-03）</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2011912652071395977" target="_blank" class="news-link">美以军事行动引发伊朗反击，战火蔓延至中东多国，美军基地究竟给当地带来了什么？</a> [14] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7612326063083618350/" target="_blank" class="news-link">美国驻沙特大使馆发生爆炸后起火</a> [16] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303115300299800" target="_blank" class="news-link">金十图示：2026年03月03日（周二）白银ETF持仓报告</a> [17] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303115258472800" target="_blank" class="news-link">金十图示：2026年03月03日（周二）黄金ETF持仓报告</a> [18] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%8F%91%E5%B8%83%E8%A2%AD%E5%87%BB%E7%BE%8E%E5%86%9B%E5%9F%BA%E5%9C%B0%E7%94%BB%E9%9D%A2%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">伊朗发布袭击美军基地画面</a> [20] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303114044975800" target="_blank" class="news-link">威特科夫披露伊朗谈判破裂细节：第二次谈判结束即意识到无法达成协议</a> [22] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303113633150800" target="_blank" class="news-link">金十图示：2026年03月03日（周二）富时中国A50指数成分股午盘收盘行情一览：石油、航运港口、银行股集体上攻，消费电子、白酒板块涨跌不一</a> [23] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303113433884800" target="_blank" class="news-link">美国军方拦截了一架针对位于伊拉克北部美军基地的伊朗无人机。</a> [25] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303113237211800" target="_blank" class="news-link">美国总统特朗普将于美国东部时间周二上午11点（北京时间今夜零点）在白宫与德国总理默茨会晤。</a> [26] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260303113116299800" target="_blank" class="news-link">早盘收盘，国内期货主力合约涨跌互现，集运欧线、燃油、SC原油封涨停，低硫燃料油（LU）涨超11%，甲醇涨近11%，液化石油气（LPG）涨超8%，丙烯涨超7%，聚丙烯、乙二醇（EG）、纯苯、塑料涨近6%。跌幅方面，碳酸锂跌超11%，沪锡跌超7%，铂跌超4%，沪银跌超3%，钯跌超2%。</a> [29] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7612191288775557156/" target="_blank" class="news-link">美法院驳回特朗普政府推迟退税请求</a> [30] <font color='grey'>- 12时50分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%86%8D%E5%BA%A6%E6%B6%A8%E5%81%9C%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">中国石油再度涨停</a> [30] <font color='grey'>- 12时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

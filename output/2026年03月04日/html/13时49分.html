@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 67</p><p>生成时间: 2026-03-04 13:49:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">9</td>
+                <td class="percentage">13.43%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争最新动态｜人大会议发言人回应伊朗局势</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7613178493744087103/" target="_blank" class="news-link">代表建议为AI内容添加不可去除水印</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32693730" target="_blank" class="news-link">阿里核心管理层齐聚聊AI，马云：AI拥有芯片，而人类拥有的是心</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2302261" target="_blank" class="news-link">谈中美关系、伊朗局势、扩大内需、机器人等，人大新闻发布会回应这些热点</a> [11] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%87%BB%E4%B8%AD%E7%BE%8E%E5%86%9B%E7%AC%AC3%E5%A5%97%E2%80%9C%E8%90%A8%E5%BE%B7%E2%80%9D%E7%B3%BB%E7%BB%9F" target="_blank" class="news-link">伊朗称击中美军第3套“萨德”系统</a> [12] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304131034384800" target="_blank" class="news-link">日本央行行长植田和男：与过去相比，企业正更积极地转嫁受汇率变动影响的成本，我们在制定政策时对此保持高度警惕。</a> [12] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304130907004800" target="_blank" class="news-link">日本央行行长植田和男：不评论汇率水平。</a> [14] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260304130853125800" target="_blank" class="news-link">巴林发生爆炸，美国公民被告诫立即寻找掩蔽处。</a> [15] <font color='grey'>- 13时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7612958869853356051/" target="_blank" class="news-link">伊朗为遭袭小学165名遇难者办葬礼</a> [16] <font color='grey'>- 13时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

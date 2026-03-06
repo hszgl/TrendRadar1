@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 80</p><p>生成时间: 2026-03-06 23:06:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">30.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争｜特朗普：让伊朗再次伟大！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306224842928800" target="_blank" class="news-link">美国国务院：将对数名卢旺达高级官员实施签证限制。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306224305395800" target="_blank" class="news-link">伊朗专家会议主席团成员：哈梅内伊未留下特别遗嘱，未指定具体人选，也未就继任者任命事宜作出任何指示。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3766902" target="_blank" class="news-link">非农疲软提振降息预期，美债走高，美股指低开，纳指跌超1.4%，WTI原油近两年来首破86美元，现货黄金短线拉升</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306224207334800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：市场没有系统性问题。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3766920" target="_blank" class="news-link">爆冷！美国2月非农就业人口减少9.2万，前两月就业下修6.9万，失业率意外升至4.4%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%80%90%E5%B8%A7%E5%88%86%E6%9E%90TES%E8%B5%9B%E5%9C%BANaiyou%E6%93%8D%E4%BD%9C" target="_blank" class="news-link">逐帧分析TES赛场Naiyou操作</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2305700" target="_blank" class="news-link">美国2月非农意外转负 三大期指集体走低 | 今夜看点</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306224106755800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：该领域拥有充足的安全保障，足以应对压力。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rHRuIXQ6KL" target="_blank" class="news-link">“甩锅”特朗普，与下属传婚外情，她被开了</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306224008555800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（资金赎回）未见2008年情形。</a> [11] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2305209" target="_blank" class="news-link">阿联酋考虑冻结伊朗资产！此举或重创伊朗经济命脉</a> [12] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223954355800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈及资金赎回问题）在轻微压力下仍见市场运行良好。</a> [12] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7613576573815668755/" target="_blank" class="news-link">伊朗称摧毁位于阿联酋和约旦萨德雷达</a> [14] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223909956800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：正密切关注私人信贷市场。</a> [15] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223901462800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：伊朗问题一旦解决，市场将迅速向前发展。</a> [16] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%80%BB%E7%BB%9F%EF%BC%9A%E4%B8%80%E4%BA%9B%E5%9B%BD%E5%AE%B6%E5%B7%B2%E5%BC%80%E5%A7%8B%E8%B0%83%E8%A7%A3%E5%86%B2%E7%AA%81" target="_blank" class="news-link">伊朗总统：一些国家已开始调解冲突</a> [19] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223701748800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈及伊朗与石油）一旦有必要，随时准备动用各种手段，但对尽快解决近期问题持乐观态度。</a> [20] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%8F%91%E5%B0%84%E8%B6%85%E9%87%8D%E5%9E%8B%E5%AF%BC%E5%BC%B9%E4%B8%BA%E9%81%87%E9%9A%BE%E5%AD%A6%E7%94%9F%E5%A4%8D%E4%BB%87%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">伊朗发射超重型导弹为遇难学生复仇</a> [21] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223621988800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈及伊朗与石油）制裁豁免是众多可用工具之一。</a> [22] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223549658800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈及伊朗与石油）短期不确定性何时结束由军方决定。</a> [24] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223536978800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：预计能源产量很快将趋于稳定。</a> [25] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223409282800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：天气因素影响了2月份的就业数据。</a> [29] <font color='grey'>- 23时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260306223358802800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈及美国就业表示）未来将不得不越来越多地参考数月数据的平均水平。</a> [30] <font color='grey'>- 23时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

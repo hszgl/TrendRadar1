@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 25</p><p>生成时间: 2026-03-08 05:27:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">60.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308045148922800" target="_blank" class="news-link">市场消息：伊拉克苏莱曼尼亚东部的一处伊朗库尔德反对派营地遭到袭击，造成一人死亡，两人受伤。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308044809171800" target="_blank" class="news-link">伊朗革命卫队发言人：冲突第一周共打击超200处美以目标</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308043811011800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：司法机关将果断打击雇佣军。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308042755475800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：我们的导弹库仍然完好无损，每个库的导弹都在经过精心规划后使用。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308042604294800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：我们不欢迎战争的扩大，但如果欧洲人干预，我们会作出回应。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308041637399800" target="_blank" class="news-link">当地新闻机构援引伊朗石油部消息人士的话称，包括首都德黑兰以西的卡拉季在内的三个地区的燃料库遭到袭击。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308041630102800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：特朗普最好承认他犯了错误，被以色列欺骗了。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308041606759800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：特朗普的歇斯底里行为和非外交言辞，显示出他在战略上的僵局，以及对以色列政策的完全依赖。这使得“美国优先”的口号变成了“以色列优先”。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308041345021800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：我们将为特朗普刺杀最高领袖哈梅内伊而惩罚他，绝不会让他逃脱。</a> [11] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308041247980800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：我们不欢迎战争，但侵略者必须受到惩罚。</a> [12] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308040947366800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：我们并未关闭霍尔木兹海峡，该海峡之所以关闭是因为战争。</a> [13] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308040759229800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：两个地区国家声称会阻止美国从他们的领土发动攻击，不过我们对此表示怀疑。我们会等着看看，如果他们真的阻止了，我们就不会对他们采取行动。</a> [14] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308040741839800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：我们与阿塞拜疆没有问题，但如果从那个国家对伊朗发起任何阴谋或攻击，我们会作出回应。</a> [15] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308040733299800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：伊朗官员在如何回应美国和以色列的侵略行为问题上并无分歧。</a> [16] <font color='grey'>- 05时27分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308040124265800" target="_blank" class="news-link">伊朗最高国家安全委员会秘书拉里贾尼：德黑兰与地区国家不存在任何问题。</a> [17] <font color='grey'>- 05时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

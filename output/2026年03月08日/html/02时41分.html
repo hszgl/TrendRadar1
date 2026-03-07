@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 44</p><p>生成时间: 2026-03-08 02:41:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">27</td>
+                <td class="percentage">61.36%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308022052099800" target="_blank" class="news-link">市场消息：巴格达美国大使馆附近传出了爆炸声。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308021807601800" target="_blank" class="news-link">市场消息：土耳其外交部长警告伊朗，不得再向土耳其发射任何导弹。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308021609292800" target="_blank" class="news-link">一位高级以色列安全消息人士表示，我们对伊朗的轰炸次数是美国的两倍，投下了7000枚炸弹。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308021350123800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗驻多哈大使馆表示，针对一些媒体和社交网络上关于伊朗伊斯兰共和国驻卡塔尔大使馆的传闻，我们在此声明，关于卡塔尔政府给伊朗大使馆成员一周时间离开该国的报道完全是毫无根据和虚假的。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7614214812960034340/" target="_blank" class="news-link">破5亿播放AI短剧成本仅3000元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308020752768800" target="_blank" class="news-link">委内瑞拉代总统：我们将特朗普承认我们的这一决定视为对委内瑞拉人民及其为国家真相而斗争的公正事业的认可。我们重申愿意建立基于相互尊重和平等的长期关系。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308020308788800" target="_blank" class="news-link">黎巴嫩安全消息人士称，周六，包括外交官及其家属在内的150多名伊朗国民离开黎巴嫩。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308015535108800" target="_blank" class="news-link">伊朗外交部长：我警告特朗普的特使，战争不会改善谈判地位。</a> [11] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2422310" target="_blank" class="news-link">伊朗股市继续暂停交易</a> [12] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308015336557800" target="_blank" class="news-link">伊朗外交部长：任何加剧伊朗行使自卫权的行为，其责任都将完全由美国承担。</a> [12] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308015301388800" target="_blank" class="news-link">伊朗外交部长：总统对地区缓和局势的开放态度，几乎立即就被特朗普总统对我方能力的误判所扼杀。</a> [13] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308015219595800" target="_blank" class="news-link">伊朗外交部长：如果特朗普想升级局势，他将如愿以偿。</a> [14] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308015132918800" target="_blank" class="news-link">市场消息：一位美国高级官员对以色列记者表示，战争的第二阶段已经开始，预计将持续12到14天。</a> [15] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308015044041800" target="_blank" class="news-link">俄罗斯驻英国大使：我们在伊朗战争中不是中立的。</a> [16] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014948305800" target="_blank" class="news-link">特朗普：伊朗下任领导人需要对美以表现友好</a> [17] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014808666800" target="_blank" class="news-link">阿布扎比国家石油公司：陆上业务仍在继续。</a> [18] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014802150800" target="_blank" class="news-link">阿布扎比国家石油公司：正审慎管理海上产量水平，以满足储油需求。</a> [19] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014755902800" target="_blank" class="news-link">阿布扎比国家石油公司：销售与贸易团队正主动与受影响客户沟通，以应对可能受到影响的发货计划。</a> [20] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014645807800" target="_blank" class="news-link">阿布扎比国家石油公司：鉴于当前持续影响霍尔木兹海峡航运的中断，其各业务部门正逐产品、逐笔交易地评估局势。</a> [21] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014637102800" target="_blank" class="news-link">阿布扎比国家石油公司：公司继续利用绕过霍尔木兹海峡的出口能力及国际储油设施，确保向全球市场的供应连续性。</a> [22] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014603368800" target="_blank" class="news-link">阿布扎比国家石油公司：已启动其成熟完善的操作规程，并与相关主管部门密切协作，以保护公司员工、资产和生产经营活动。</a> [23] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014504453800" target="_blank" class="news-link">据Techmeme：OpenAI硬件与机器人工程负责人Caitlin Kalinowski辞职，原因是美国对国内监控和致命自主武器系统的担忧。</a> [24] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308014431946800" target="_blank" class="news-link">美国国务院：美国谴责伊朗对阿塞拜疆共和国的无人机袭击。</a> [25] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308013731163800" target="_blank" class="news-link">据美国哥伦比亚广播公司（CBS）：美国官员表示，布什号航母将被部署到中东。布什号航母可能会与福特号和林肯号航母协同作战。</a> [26] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308013618389800" target="_blank" class="news-link">美媒：CIA秘密接触库尔德武装 商讨颠覆伊朗政权长效机制</a> [27] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308013117121800" target="_blank" class="news-link">市场消息：一架伊朗无人机袭击了阿联酋迪拜的玛丽娜23大厦。</a> [28] <font color='grey'>- 02时41分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%91%A8%E9%B8%BF%E7%A5%8E%E7%A7%B0AI%E6%97%B6%E4%BB%A3%E6%96%87%E7%A7%91%E7%94%9F%E6%9B%B4%E6%9C%89%E4%BC%98%E5%8A%BF" target="_blank" class="news-link">周鸿祎称AI时代文科生更有优势</a> [30] <font color='grey'>- 02时41分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

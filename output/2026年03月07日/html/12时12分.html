@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 105</p><p>生成时间: 2026-03-07 12:12:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">17.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307114458532800" target="_blank" class="news-link">美国地质勘探局：伊朗阿巴斯港以西发生4.1级地震。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307113827646800" target="_blank" class="news-link">美国中央司令部：美国军队在（对伊朗的）“史诗怒火行动”中已打击超过3000个目标。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307113025835800" target="_blank" class="news-link">分析师：非农意外爆冷表明美国经济处于波动之中</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307111601530800" target="_blank" class="news-link">据AXIOS网站：一名伊拉克库尔德官员表示，没有观察到美国在武装库尔德人以攻击伊朗。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32712738" target="_blank" class="news-link">申观两会｜当AI按下加速键，人与行业将走向何方？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307110909013800" target="_blank" class="news-link">市场消息：在迪拜国际机场附近看到烟雾升起，可能是伊朗的弹道导弹或无人机袭击所致。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307110835962800" target="_blank" class="news-link">日美首脑会晤前 日本方面呼吁美国不要加征关税</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BB%E5%88%B7%E7%88%86%E5%A4%96%E7%BD%91%E7%9A%84AI%E5%8D%B1%E6%9C%BA%E9%A2%84%E8%A8%80" target="_blank" class="news-link">解读刷爆外网的AI危机预言</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2305659" target="_blank" class="news-link">航空航天定调新兴支柱产业，记者一线调研：多家公司今年迎关键节点</a> [11] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307105857912800" target="_blank" class="news-link">消息人士称特朗普对在伊朗部署美地面部队表达“浓厚兴趣”</a> [11] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307104038827800" target="_blank" class="news-link">市场消息：伊朗无人机向以色列飞去。</a> [12] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2305816" target="_blank" class="news-link">特朗普称“与伊朗不会达成任何协议” 引发市场剧烈震荡</a> [13] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307104013103800" target="_blank" class="news-link">市场消息：伊朗向以色列发射了弹道导弹。</a> [13] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307103902700800" target="_blank" class="news-link">美国总务管理局：已终止与Anthropic公司签订的OneGov协议。</a> [14] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307102447081800" target="_blank" class="news-link">据伊朗梅赫新闻社：德黑兰的袭击瞄准了一处飞机燃料仓库。</a> [17] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307102326035800" target="_blank" class="news-link">市场消息：伊朗伊斯兰革命卫队向以色列发射了Qadr、Emad和Kheibar导弹。</a> [18] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260307101702629800" target="_blank" class="news-link">金十图示：中国2016年至今外汇、黄金储备规模及变化情况</a> [19] <font color='grey'>- 12时12分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E5%8F%91%E5%B0%84%E5%AF%BC%E5%BC%B9%E4%B8%BA%E9%81%87%E9%9A%BE%E5%AD%A6%E7%94%9F%E5%A4%8D%E4%BB%87" target="_blank" class="news-link">伊朗发射导弹为遇难学生复仇</a> [22] <font color='grey'>- 12时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

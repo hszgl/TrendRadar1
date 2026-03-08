@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2026-03-08 16:38:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">12</td>
+                <td class="percentage">16.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rKNzc0epsR" target="_blank" class="news-link">土伊边境的伊朗人：我姐姐在轰炸区，我必须回去</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308161543134800" target="_blank" class="news-link">伊朗总统：绝不允许敌人侵占一寸土地</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rKLRod7LyL" target="_blank" class="news-link">伊朗称已俘虏数名美军士兵，美方急了：满口谎言</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/08/3ca3b3a5bd6d479fa0d9bda629aa6504.html" target="_blank" class="news-link">西媒：古巴批美国举办“新殖民主义峰会”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2306306" target="_blank" class="news-link">AI养“龙虾”警惕安全风险</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308155916296800" target="_blank" class="news-link">据半岛电视台：俄罗斯驻伦敦大使安德烈·凯林表示，俄罗斯在对伊朗的战争中并不中立，莫斯科支持德黑兰。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3766971" target="_blank" class="news-link">伊朗宣布已选出新的最高领袖但未透露姓名，以色列：将视哈梅内伊继任者为目标</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308155713170800" target="_blank" class="news-link">伊朗称德黑兰空气污染加剧并警告防范酸雨风险</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260308152923213800" target="_blank" class="news-link">据AXIOS网站：美国政府官员透露，美国内部讨论过夺取伊朗战略性石油出口终端哈格岛（Kharg Island）的可能性。该岛承担着约90%的伊朗原油出口。</a> [11] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%AF%B9%E7%BE%8E%E5%86%9B%E7%9B%B4%E5%8D%87%E6%9C%BA%E5%9F%BA%E5%9C%B0%E5%8F%91%E5%8A%A8%E6%89%93%E5%87%BB" target="_blank" class="news-link">伊朗称对美军直升机基地发动打击</a> [13] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32726656" target="_blank" class="news-link">两会外长会｜王毅谈特朗普访华：今年是中美关系“大年”</a> [19] <font color='grey'>- 16时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7613996229068390443/" target="_blank" class="news-link">土伊边境的伊朗人：我姐姐在轰炸区</a> [30] <font color='grey'>- 16时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

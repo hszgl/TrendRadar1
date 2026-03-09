@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2026-03-10 03:23:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">46.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争｜特朗普：距离向伊朗派兵“还差得远”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310025343518800" target="_blank" class="news-link">现货白银日内涨幅扩大至2.00%，现报86.02美元/盎司。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024811210800" target="_blank" class="news-link">卡塔尔首相表示，伊朗的袭击阻碍了调解努力。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024624702800" target="_blank" class="news-link">市场消息：苹果(AAPL.O)推迟智能家居显示屏发布，等待新的人工智能功能开发完成。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024551872800" target="_blank" class="news-link">美国警告称，尼日利亚境内的美国设施和学校面临威胁。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024511881800" target="_blank" class="news-link">美国交通部副部长布拉德伯里：特朗普政府正在推进关于如何重建华盛顿杜勒斯机场的讨论。</a> [11] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024338106800" target="_blank" class="news-link">美国国会预算办公室（CBO）预计2026财年前五个月赤字将达1万亿美元。</a> [12] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024232969800" target="_blank" class="news-link">美国国会预算办公室估计，2月份预算赤字达3080亿美元。</a> [13] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024216821800" target="_blank" class="news-link">在美以对伊朗洛雷斯坦省居民区的袭击中，三名学生丧生。</a> [14] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024148768800" target="_blank" class="news-link">现货白银日内涨超1.00%，现报85.18美元/盎司。</a> [15] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024117610800" target="_blank" class="news-link">伊拉克总理祝贺伊朗新任最高领袖。</a> [17] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310024107713800" target="_blank" class="news-link">市场消息：在该地区能源基础设施遭受一系列无人机袭击后，伊拉克北部基尔库克油田向土耳其杰伊汉出口码头输送的石油流量急剧下降。业内消息人士周一向Kpler证实，目前经由基尔库克-杰伊汉管道输送的原油量约为9千桶/日，与几天前约23万桶/日的水平相比大幅下降。</a> [18] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310023944681800" target="_blank" class="news-link">黎巴嫩真主党高级官员表示，该组织向以色列发射导弹是为了报复伊朗前最高领袖哈梅内伊被杀。</a> [19] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310023355501800" target="_blank" class="news-link">市场消息：由于部分政府机构停摆进入第24天，美国部分机场安检延误持续第二天。</a> [23] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310023309268800" target="_blank" class="news-link">美国原油期货结算价为每桶94.77美元，上涨3.87美元，涨幅4.26%。纽约商品交易所柴油期货4月合约结算价为每加仑3.5866美元。</a> [24] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310023140282800" target="_blank" class="news-link">美媒：如果穆杰塔巴不满足美国的要求，特朗普支持将其击毙</a> [25] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615019258359057947/" target="_blank" class="news-link">哈梅内伊之子当选伊朗最高领袖</a> [27] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%BC%BA%E8%B0%83%E4%BE%B5%E7%95%A5%E6%8C%81%E7%BB%AD%E5%B0%B1%E4%B8%8D%E8%B0%88%E5%81%9C%E7%81%AB%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">伊朗强调侵略持续就不谈停火</a> [27] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310023051566800" target="_blank" class="news-link">上海黄金交易所黄金T+D 3月9日（周一）晚盘收盘上涨0.12%报1140.0元/克；&lt;br/&gt;上海黄金交易所白银T+D 3月9日（周一）晚盘收盘上涨1.77%报21478.0元/千克。</a> [27] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00883" target="_blank" class="news-link">中国海洋石油</a> [28] <font color='grey'>- 03时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310022147977800" target="_blank" class="news-link">市场消息：美国总统特朗普暗示支持打击伊朗新任最高领袖。</a> [28] <font color='grey'>- 03时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 123</p><p>生成时间: 2026-03-10 12:22:52</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">19.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争｜伊媒头版：特朗普，直视他们的眼睛！</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/10/19013fb57a91403f9e89bfacdbff908c.html" target="_blank" class="news-link">真主党祝贺穆杰塔巴当选伊朗新任最高领袖</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310115831883800" target="_blank" class="news-link">印度JSW钢铁公司：2026年2月粗钢产量为240万吨。美国俄亥俄州工厂因产能爬坡及冬季风暴导致产量下降。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310115221414800" target="_blank" class="news-link">金十图示：2026年03月10日（周二）白银ETF持仓报告</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rNO6BpLzV9" target="_blank" class="news-link">普京：依赖霍尔木兹海峡的石油或在月内停产</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310115214241800" target="_blank" class="news-link">金十图示：2026年03月10日（周二）黄金ETF持仓报告</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E9%A6%96%E5%91%A8%E6%89%93%E5%87%BB%E8%A1%8C%E5%8A%A8%E8%8A%B1%E8%B4%B9%E7%BA%A660%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">美国首周打击行动花费约60亿美元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rNS9E6Ovmp" target="_blank" class="news-link">美媒最新民调：特朗普支持率下滑至44%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rNHWVF0sW5" target="_blank" class="news-link">伊朗青年逆行回国：我要保卫我的国家</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2307908" target="_blank" class="news-link">英伟达也要“烹龙虾”？将推智能体开源平台NemoClaw 预计下周亮相</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8rLzabkgb0a" target="_blank" class="news-link">躲过伊朗导弹？水手拍到“林肯”号正常起降舰载机</a> [11] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2014626634171380479" target="_blank" class="news-link">伊朗称阿拉伯或欧洲国家驱逐美、以大使即可通过霍尔木兹海峡，怎样看待这一要求？会对能源市场有哪些影响？</a> [11] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310113650690800" target="_blank" class="news-link">伊朗革命卫队：摧毁近10部美国先进雷达</a> [12] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310113217669800" target="_blank" class="news-link">特朗普宣称对伊战争“基本结束”、将暂免部分石油制裁、G7会后称暂不释放油储......市场风险情绪大逆转，油价经历疯狂24小时。当前美油多头持续占优，后市市场情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）</a> [14] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E9%9D%A9%E5%91%BD%E5%8D%AB%E9%98%9F%EF%BC%9A%E6%88%98%E4%BA%89%E7%BB%93%E6%9D%9F%E7%94%B1%E4%BC%8A%E6%9C%97%E5%86%B3%E5%AE%9A" target="_blank" class="news-link">伊朗革命卫队：战争结束由伊朗决定</a> [15] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310113143680800" target="_blank" class="news-link">麦格理：10%的澳大利亚抵押贷款还款面临人工智能冲击风险</a> [15] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310113049046800" target="_blank" class="news-link">早盘收盘，国内期货主力合约涨跌互现。沪银涨超6%，铂、钯涨超4%，碳酸锂、苯乙烯、沪锡涨超2%；跌幅方面，集运欧线跌超11%，SC原油、烧碱跌超8%，甲醇跌超7%，乙二醇、丁二烯橡胶跌超6%，沥青、液化石油气（LPG）跌超5%。</a> [18] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7614472649384837162/" target="_blank" class="news-link">美总统称出动B-2轰炸伊朗</a> [20] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310112030240800" target="_blank" class="news-link">以军称打死约1900名伊朗军人</a> [20] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ300164" target="_blank" class="news-link">通源石油</a> [24] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615157885911289398/" target="_blank" class="news-link">伊朗称拥有“更强大数量更多”导弹</a> [26] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E6%91%A7%E6%AF%81%E8%BF%9110%E9%83%A8%E7%BE%8E%E5%9B%BD%E5%85%88%E8%BF%9B%E9%9B%B7%E8%BE%BE" target="_blank" class="news-link">伊朗：摧毁近10部美国先进雷达</a> [27] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%BC%80%E5%A7%8B%E7%94%A9%E9%94%85%E4%BA%86%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">美国开始甩锅了</a> [27] <font color='grey'>- 12时22分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%AA%92%E4%BD%93%EF%BC%9A%E7%BE%8E%E5%AF%BC%E5%BC%B9%E5%87%BB%E4%B8%AD%E9%9C%8D%E6%A2%85%E5%9B%A0%E5%9C%B0%E5%8C%BA%E5%AD%A6%E6%A0%A1" target="_blank" class="news-link">伊朗媒体：美导弹击中霍梅因地区学校</a> [28] <font color='grey'>- 12时22分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

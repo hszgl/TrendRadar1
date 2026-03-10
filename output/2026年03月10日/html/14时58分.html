@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2026-03-10 14:58:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争｜伊朗提出停火条件</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310144720101800" target="_blank" class="news-link">阿塞拜疆向伊朗提供人道主义援助</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310144609695800" target="_blank" class="news-link">印度贸易部长：政府将采取措施，为受伊朗危机影响的出口商提供保险和航运支持。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2308078" target="_blank" class="news-link">专家预言“霍尔木兹危机”将持续更久，特朗普发出“20倍攻击力”警告！</a> [11] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E6%8F%90%E5%BB%BA%E8%AE%AE%E5%90%8E%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%BE%88%E5%BF%AB%E5%81%9C%E7%81%AB%23&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">普京提建议后特朗普称很快停火</a> [12] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310143845230800" target="_blank" class="news-link">据伊朗媒体Fars News：伊朗向位于伊拉克库尔德斯坦的美国军事基地发射了弹道导弹。</a> [12] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310143830239800" target="_blank" class="news-link">沙特阿美首席执行官：中断持续的时间越长，对全球石油市场造成的后果就越灾难性，对全球经济的后果也越严重。</a> [13] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310143741461800" target="_blank" class="news-link">沙特阿美首席执行官：霍尔木兹海峡的航运恢复至关重要，因为石油闲置产能大多集中于该地区。</a> [15] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2014397594542040051" target="_blank" class="news-link">蔚来李斌称频繁超快充伤电池，超充再快也没换电快，怎样看待他的说法？电动汽车用户该如何选择？</a> [17] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E6%96%B9%E7%A7%B0%E4%B8%8D%E4%BC%9A%E8%AE%A9%E5%8D%B0%E5%BA%A6%E8%83%9C%E8%BF%87%E7%BE%8E%E5%9B%BD%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">美方称不会让印度胜过美国</a> [20] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310143131338800" target="_blank" class="news-link">市场消息：匈牙利政府禁止出口原油和部分石油产品。</a> [21] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7614462286512095273/" target="_blank" class="news-link">伊朗：摧毁近10部美国先进雷达</a> [23] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310142534259800" target="_blank" class="news-link">Kpler：波斯湾的石油出口并未完全中断</a> [23] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615506341926555145/" target="_blank" class="news-link">以军称袭击伊朗核试验设施</a> [26] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310141044930800" target="_blank" class="news-link">美国联邦航空局状态页面显示，捷蓝航空的停飞指令已取消。</a> [27] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%20%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">肖战 黄金时代</a> [29] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%A4%96%E9%95%BF%EF%BC%9A%E6%96%B0%E4%BB%BB%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E4%B8%8D%E4%BC%9A%E4%B8%8E%E7%BE%8E%E8%B0%88%E5%88%A4" target="_blank" class="news-link">伊朗外长：新任最高领袖不会与美谈判</a> [30] <font color='grey'>- 14时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260310140458203800" target="_blank" class="news-link">据以色列12频道：以色列最近的空袭目标之一是德黑兰的伊朗核实验室。</a> [30] <font color='grey'>- 14时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

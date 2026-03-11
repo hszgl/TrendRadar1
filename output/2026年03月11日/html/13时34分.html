@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 65</p><p>生成时间: 2026-03-11 13:34:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">11</td>
+                <td class="percentage">16.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311130833998800" target="_blank" class="news-link">市场消息：美国建议公民在地区紧张局势中考虑离开黎巴嫩的选项。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615708720052142143/" target="_blank" class="news-link">一口价黄金涨价成风</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767196" target="_blank" class="news-link">IEA拟提议释放创纪录石油储备，G7领导人22:00紧急电话会，今晚油价或迎第三波剧烈波动</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311125757553800" target="_blank" class="news-link">据伊朗Defapress新闻：伊朗武装部队发言人谢卡尔奇呼吁地区国家和穆斯林同胞指出“美以藏身之处”，以避免误伤、确保伊朗打击的精准性和最大效果。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311125734631800" target="_blank" class="news-link">据伊朗Defapress新闻：伊朗武装部队发言人谢卡尔奇誓言，将对以色列和美国袭击伊朗居民区的行为予以报复。</a> [11] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2309250" target="_blank" class="news-link">黄仁勋亲写博文：AI是“五层蛋糕”基础设施，还需数万亿美元建设！</a> [12] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615377810491998214/" target="_blank" class="news-link">马斯克批评“养虾热潮”</a> [16] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311122643150800" target="_blank" class="news-link">韩国产业部：韩国将参与国际能源署关于释放石油储备的讨论，并正在评估应采取的立场。</a> [19] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7614854839474044937/" target="_blank" class="news-link">伊朗青年逆行回国称要保卫国家</a> [26] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E8%BA%AB%E4%BB%B7%E8%BE%BE8390%E4%BA%BF%E7%BE%8E%E5%85%83%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">马斯克身价达8390亿美元</a> [28] <font color='grey'>- 13时34分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7615455795723976739" target="_blank" class="news-link">OpenAI 亲自教你如何构建可靠 AI 代码，从古法编程转向 Agnet 编程，或者 PUA 你的 AI</a> [28]</div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

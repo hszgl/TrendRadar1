@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 74</p><p>生成时间: 2026-03-11 19:07:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">31.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争｜美媒：特朗普在美以伊战争中的致命误判</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2426448" target="_blank" class="news-link">航空航天被列为我国新兴支柱产业</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311185556353800" target="_blank" class="news-link">地中海航运公司：自2026年4月9日起至另行通知，亚洲至美国和加拿大东海岸的冷藏货附加费将按每TEU 322美元收取。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311185525599800" target="_blank" class="news-link">地中海航运公司：自2026年4月9日起至另行通知，亚洲至美国和加拿大东海岸的紧急燃油附加费将按干货每TEU 125美元收取。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7615467320466591295/" target="_blank" class="news-link">《新闻联播》正在直播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rPOHY9z0as" target="_blank" class="news-link">美参议员：以色列逼我们打伊朗，美国显得太软弱了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311185414323800" target="_blank" class="news-link">美国驻巴格达大使馆：伊朗对伊拉克各地重要基础设施进行攻击。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rPIAQCqu2S" target="_blank" class="news-link">别惊讶！伊朗出口的石油比战前还多</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311185357929800" target="_blank" class="news-link">法国财长：预计G7领导人将讨论战略石油储备问题。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rPQuWjUwk5" target="_blank" class="news-link">佩斯科夫：普京暂无前往美国参加G20峰会的计划</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311184604562800" target="_blank" class="news-link">地中海航运公司：将对亚洲至美国和加拿大航线征收紧急燃油附加费。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311184537087800" target="_blank" class="news-link">据德意志新闻社：德国将释放部分石油储备。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rPOIjVIxPv" target="_blank" class="news-link">西班牙猛批德国：你表现得像是美国附庸</a> [11] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2013629176020763886" target="_blank" class="news-link">伊朗现在是个什么情况呢？</a> [11] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311184446551800" target="_blank" class="news-link">伊朗战争引发油价剧震 Andurand基金上周盈利6%</a> [12] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2309709" target="_blank" class="news-link">伊朗警告：将对美以经济目标采取报复行动</a> [13] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311183957891800" target="_blank" class="news-link">英国财相称伊朗战争对英国经济影响仍难评估</a> [14] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311183940604800" target="_blank" class="news-link">以色列外长：呼吁联合国安理会谴责伊朗，并立即将伊朗革命卫队列为恐怖组织。</a> [15] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311183408212800" target="_blank" class="news-link">日本首相高市早苗：将释放相当于15天的私营部门石油储备和一个月的国家石油储备。</a> [17] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311183015949800" target="_blank" class="news-link">日本首相高市早苗：日本甚至将会在国际能源署正式作出决定之前就释放石油储备。</a> [20] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311182949597800" target="_blank" class="news-link">日本首相高市早苗：日本最快将于3月16日开始释放部分石油储备。</a> [21] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A6%88%E5%A6%88%E5%90%AC%E5%84%BF%E5%AD%90%E8%AF%9D%E5%9B%A43%E5%B9%B4%E9%BB%84%E9%87%91%E8%B5%9A40%E4%B8%87" target="_blank" class="news-link">妈妈听儿子话囤3年黄金赚40万</a> [27] <font color='grey'>- 19时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260311181726358800" target="_blank" class="news-link">两位消息人士：国际能源署将于格林尼治时间13时（北京时间晚上21时）公布其关于释放战略石油储备的建议。</a> [30] <font color='grey'>- 19时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

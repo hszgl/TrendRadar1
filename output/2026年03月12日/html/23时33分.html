@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2026-03-12 23:33:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">19.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争｜伊朗新最高领袖声明全文：绝不放弃复仇</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312232026240800" target="_blank" class="news-link">巴西财长Haddad：将临时征收石油出口税。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616260558777794579/" target="_blank" class="news-link">光伏的“曙光”来了吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767369" target="_blank" class="news-link">伊朗新领袖首份声明：不会放弃复仇，霍尔木兹海峡将继续关闭，必要时开辟新战线</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312231855942800" target="_blank" class="news-link">巴西财长Haddad：汽油价格仍处于巴西石油公司定价政策范围内，柴油价格是最令我们担忧的。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E9%98%B2%E9%83%A8%E8%A2%AB%E6%9B%9D%E9%BE%99%E8%99%BE%E9%97%A8%23&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">美国防部被曝龙虾门</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312231146876800" target="_blank" class="news-link">现货黄金短线下挫20美元，一度跌破5110美元/盎司，日内跌1.28%。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310682" target="_blank" class="news-link">“养虾潮”来袭，AI抢饭碗，理财经理慌了？</a> [13] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E8%A6%81%E6%B1%82%E5%9C%B0%E5%8C%BA%E7%BE%8E%E5%86%9B%E5%9F%BA%E5%9C%B0%E5%85%B3%E9%97%AD%23&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">伊朗最高领袖要求地区美军基地关闭</a> [13] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312230635581800" target="_blank" class="news-link">消息人士：受无人机袭击和风暴影响，3月份俄罗斯新罗西斯克的石油出口较计划滞后10天。</a> [14] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312230214337800" target="_blank" class="news-link">英国国防大臣希利：越来越多证据显示，伊朗可能已经开始在霍尔木兹海峡布设水雷。</a> [21] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312230129668800" target="_blank" class="news-link">美国总统特朗普： 欢迎伊朗国家足球队参加世界杯，但我真的不认为他们在那里是合适的，为了他们自己的生命和安全。</a> [22] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312225537667800" target="_blank" class="news-link">特朗普政府拟暂停《琼斯法案》以平抑油价</a> [24] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312224753678800" target="_blank" class="news-link">德国总理默茨：应赋予德国警方权力，能够以特定目的开展基于人工智能的自动化数据分析。</a> [28] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312224721728800" target="_blank" class="news-link">市场消息：美国总统特朗普政府拟暂停《琼斯法案》以平抑油价。</a> [30] <font color='grey'>- 23时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

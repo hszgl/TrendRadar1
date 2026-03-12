@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 97</p><p>生成时间: 2026-03-12 17:10:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">22</td>
+                <td class="percentage">22.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争｜美军发布摧毁伊朗3架军机视频</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170831973800" target="_blank" class="news-link">IEA月报：俄罗斯2月原油出口较1月减少41万桶/日，降至420万桶/日。2月原油产量从1月的930万桶/日降至860万桶/日。2月石油及燃料出口收入降至95.1亿美元，低于1月的109.8亿美元，为俄乌冲突爆发以来最低水平。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/12/999d6fc39197448ca8be2995101016f3.html" target="_blank" class="news-link">领跑《福布斯》全球富豪排行榜 马斯克财富估值达8390亿美元</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%9B%BD%E5%B0%86%E5%AF%B9%E5%8D%8E%E5%90%AF%E5%8A%A8%E8%B4%B8%E6%98%93%E8%B0%83%E6%9F%A5" target="_blank" class="news-link">中方回应美国将对华启动贸易调查</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310747" target="_blank" class="news-link">特朗普称将对包括中国在内的贸易伙伴启动新的贸易调查，中方回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170622947800" target="_blank" class="news-link">IEA月报：海湾国家的石油总产量已减少至少1000万桶/日。如果航运流动无法迅速恢复，供应损失还将进一步扩大。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616177643201462335/" target="_blank" class="news-link">睡眠有个“黄金4小时”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310349" target="_blank" class="news-link">SkillHub上线 腾讯推出“中国专供”的AI Skills社区</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310326" target="_blank" class="news-link">美能源部长：将从下周起释放1.72亿桶战略石油储备</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170420150800" target="_blank" class="news-link">IEA月报：将3月、4月石油需求增长预期下调约100万桶/日。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310268" target="_blank" class="news-link">美以伊战争持续12日：霍尔木兹海峡“已成战场” 多国同意释放战略石油储备</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%B9%B4%E5%8A%A0%E5%BF%AB%E7%A0%94%E7%A9%B6%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%AB%8B%E6%B3%95%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">今年加快研究人工智能立法</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170347998800" target="_blank" class="news-link">IEA月报：预计3月份全球石油供应将减少800万桶/日，降至2022年以来最低水平。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170339274800" target="_blank" class="news-link">IEA大幅下调石油供应增长预期 称中东战争造成史上最大石油供应中断</a> [11] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2310272" target="_blank" class="news-link">谷歌和特斯拉组建“电网利用联盟” AI缺电逻辑有望持续演绎</a> [12] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170305745800" target="_blank" class="news-link">IEA月报：中东战争引发史上最大规模的石油供应中断。</a> [12] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170240385800" target="_blank" class="news-link">IEA月报：将2026年石油供应总量预测从1.086亿桶/日下调至1.072亿桶/日。</a> [14] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170146234800" target="_blank" class="news-link">IEA月报：将2026年全球石油供应增长预期从240万桶/日下调至110万桶/日。</a> [19] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170108664800" target="_blank" class="news-link">IEA月报：2月份全球石油供应环比增加38万桶/日。</a> [20] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312170047668800" target="_blank" class="news-link">IEA月报：将2026年全球石油需求增长预测从85万桶/日下调至64万桶/日。</a> [21] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312165513641800" target="_blank" class="news-link">乌克兰安全局官员：乌克兰无人机袭击了俄罗斯Krasnodar地区一处石油泵站的基础设施。</a> [24] <font color='grey'>- 17时10分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260312165337421800" target="_blank" class="news-link">伊朗外交部发言人：敌人不能随心所欲地发动战争，也不能随心所欲地要求停火。</a> [26] <font color='grey'>- 17时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 46</p><p>生成时间: 2026-03-17 05:07:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">29</td>
+                <td class="percentage">63.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊朗：使用导弹袭击美军空军基地</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317044608983800" target="_blank" class="news-link">美国总统特朗普：战争很快就会结束，但不是这周。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317044201946800" target="_blank" class="news-link">美国总统特朗普：我们并不清楚是否有任何水雷被布设在霍尔木兹海峡。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317044129034800" target="_blank" class="news-link">特朗普政府请求法官重新考虑阻止针对鲍威尔刑事调查的裁决</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317044039136800" target="_blank" class="news-link">英伟达(NVDA.O)： 扩大与现代汽车和起亚汽车在自动驾驶技术方面的合作。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317044000425800" target="_blank" class="news-link">Lyft(LYFT.O)盘后上涨3.2%，Lyft将使用英伟达人工智能技术提升公司在全球运营中的机器学习系统。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043743475800" target="_blank" class="news-link">英伟达(NVDA.O)开始将Dynamo投入生产部署，该系统是一款被广泛采用、面向AI工厂的推理操作系统。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043657484800" target="_blank" class="news-link">美国总统特朗普：将在“合适的时机”揭示哪些国家在提供帮助。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043630290800" target="_blank" class="news-link">戴尔(DELL.N)推出搭载英伟达GB300的桌面系统，用于运行自主式AI代理，并集成NVIDIA NeMoCLAW和NVIDIA OpenShell。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043539548800" target="_blank" class="news-link">Uber(UBER.N)盘后上涨3%，英伟达与Uber将推出由英伟达软件驱动的全球自动驾驶车队，计划于2027年上半年启动。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043528007800" target="_blank" class="news-link">美国总统特朗普：（谈英国首相斯塔默）我告诉他，我们不需要你的航母。</a> [11] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2314450" target="_blank" class="news-link">全程直击黄仁勋“全栈AI”演讲：算力产业新蓝图开启</a> [12] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043453852800" target="_blank" class="news-link">美国总统特朗普：（谈及哈尔格岛）在某个时候，输油管道方面将会发生一些事情。</a> [12] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043335605800" target="_blank" class="news-link">美国总统特朗普：如果我们不这样做，就会有核战争。</a> [13] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043308055800" target="_blank" class="news-link">美国总统特朗普：其他国家应该感谢我。</a> [14] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043301770800" target="_blank" class="news-link">美国总统特朗普：（谈及在伊朗的行动）我为我们所做的感到非常自豪。</a> [15] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043211394800" target="_blank" class="news-link">戴尔(DELL.N)：宣布推出采用英伟达技术的戴尔人工智能数据平台。</a> [16] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043159061800" target="_blank" class="news-link">英伟达(NVDA.O)：亚马逊云服务（AWS）将部署英伟达人工智能基础设施，包括LPUs以及超过100万块英伟达GPU，部署将从今年开始。</a> [17] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317043048956800" target="_blank" class="news-link">戴尔(DELL.N)：将全面支持英伟达最新的人工智能存储与数据管理创新。</a> [18] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1995548550365472676" target="_blank" class="news-link">以游戏《生化危机》中里昂的工资水平，他在美国能过上什么样的生活？</a> [18] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317042820105800" target="_blank" class="news-link">亚马逊(AMZN.O)：与英伟达合作开发多模态AI助手技术，以增强面向车载体验的Alexa自定义助手。</a> [19] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317042753605800" target="_blank" class="news-link">英伟达(NVDA.O)：与优步合作推出的“全栈式”自动驾驶出租车将于2028年前在28个市场上线运营，首批将在2027年上半年于洛杉矶和旧金山启动。</a> [20] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317042747128800" target="_blank" class="news-link">英伟达(NVDA.O)：比亚迪、吉利、五十铃和日产正基于NVIDIA DRIVE Hyperion平台开发L4级自动驾驶车辆。</a> [21] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317042659179800" target="_blank" class="news-link">英伟达(NVDA.O)宣布日产、比亚迪、现代、吉利为“自动驾驶出租车（Robo-Taxi）”准备就绪的合作伙伴。</a> [22] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317042600526800" target="_blank" class="news-link">美国总统特朗普：我想要的战争比几乎任何人都少。</a> [23] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%8F%B4%E5%8A%A9%E4%BC%8A%E6%9C%97%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89%E7%89%A9%E8%B5%84%E5%AE%8C%E6%88%90%E4%BA%A4%E6%8E%A5%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">中国援助伊朗人道主义物资完成交接</a> [24] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317042534246800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗否认近期与美国接触的报道。</a> [24] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B5%E4%B8%87%E7%BE%8E%E9%87%91%E5%B0%8F%E5%B1%8B%E7%AE%80%E9%99%8B%E4%BC%BC%E4%BB%93%E5%BA%93%23&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">马斯克5万美金小屋简陋似仓库</a> [25] <font color='grey'>- 05时07分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616705806347780147/" target="_blank" class="news-link">伊朗称打击阿布扎比美军基地</a> [29] <font color='grey'>- 05时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

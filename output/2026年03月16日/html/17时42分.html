@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 118</p><p>生成时间: 2026-03-16 17:42:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">17.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316173629473800" target="_blank" class="news-link">印度政府官员：部分城市燃气公司正向液化石油气用户发放激励，鼓励其改用管道天然气。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7616995731195052086/" target="_blank" class="news-link">中美就特朗普总统访华事保持着沟通</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rXXAfLW18s" target="_blank" class="news-link">特朗普会投入地面部队吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%AF%B9%E6%B8%B8%E6%88%8F%E7%89%88%E6%9D%83%E6%9C%89%E4%BD%95%E5%BD%B1%E5%93%8D" target="_blank" class="news-link">AI对游戏版权有何影响</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2314062" target="_blank" class="news-link">外交部：中美双方就特朗普总统访华事宜保持着沟通</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316173354766800" target="_blank" class="news-link">媒体：美国参议院仍在等待美联储主席提名人沃什的相关文件</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2016900692145637068" target="_blank" class="news-link">外交部回应特朗普将推迟访华言论，「双方就特朗普总统访华事宜保持着沟通」，哪些信息值得关注？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316173312786800" target="_blank" class="news-link">伊朗向以色列和美国基地发射导弹和无人机。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767567" target="_blank" class="news-link">特朗普承诺“护航”，美股期货走高，WTI原油涨2.2%，现货黄金跌破5000美元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316173214842800" target="_blank" class="news-link">伊朗导弹碎片击中以色列中部多个地点。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316173126326800" target="_blank" class="news-link">南向资金今日净卖出12.5亿元。港股通（沪）方面，盈富基金、小米集团-W分别获净卖出35.74亿港元、8.58亿港元；中国海洋石油净买入额居首，金额为7.31亿港元；港股通（深）方面，中国海洋石油、中芯国际分别获净卖出3.84亿港元、2.86亿港元；腾讯控股净买入额居首，金额为18.66亿港元。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767578" target="_blank" class="news-link">创业板涨超1%，存储芯片大爆发，华虹半导体直线拉升，农业白酒等“老登股”大涨，恒科指大涨逾2%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7617650823451705407/" target="_blank" class="news-link">伊朗称440公斤浓缩铀被埋废墟</a> [11] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E5%91%BC%E5%90%81%E5%A4%9A%E5%9B%BD%E6%B4%BE%E5%86%9B%E8%88%B0%E6%8A%A4%E8%88%AA%23&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">中方回应特朗普呼吁多国派军舰护航</a> [12] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32775654" target="_blank" class="news-link">释新闻｜特朗普呼吁组建“护航联盟”打通霍尔木兹海峡，为何反应平平？</a> [14] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260316172549901800" target="_blank" class="news-link">又有油轮通过霍尔木兹海峡！伊朗外长：仅对“敌人”关闭</a> [14] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32775440" target="_blank" class="news-link">内塔尼亚胡回应死亡传闻：买咖啡自证仍“在世”！伊朗下达“追杀令”</a> [20] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7617108607432212490" target="_blank" class="news-link">315晚会曝光“AI大模型被投毒”，让AI听话，GEO是什么，带给我们什么思考</a> [21] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7616650313060483123" target="_blank" class="news-link">深度解析Compose中的BoxWithConstraints</a> [28] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%8A%A8%E7%94%A8%E2%80%9C%E6%B3%A5%E7%9F%B3%E2%80%9D%E5%AF%BC%E5%BC%B9+%E9%87%8A%E6%94%BE%E5%93%AA%E4%BA%9B%E4%BF%A1%E5%8F%B7" target="_blank" class="news-link">伊朗动用“泥石”导弹 释放哪些信号</a> [29] <font color='grey'>- 17时42分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7616654151095615531" target="_blank" class="news-link">3分钟搭建AI开发团队：Agency-Agents实战指南</a> [30] <font color='grey'>- 17时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

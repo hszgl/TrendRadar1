@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 110</p><p>生成时间: 2026-03-17 16:59:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">28</td>
+                <td class="percentage">25.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28351961&amp;amp;topic_name=%E5%8F%8D%E6%82%94%2B%E6%8B%92%E5%AE%9A%E5%B1%85%2C%E4%BC%8A%E6%9C%97%E5%A5%B3%E8%B6%B33%E4%BA%BA%E5%9B%9E%E5%9B%BD" target="_blank" class="news-link">反悔+拒定居,伊朗女足3人回国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23AI%E5%A4%A7%E5%8E%82%E6%9C%88%E8%96%AA3%E4%B8%87%E7%96%AF%E6%8A%A2%E6%96%87%E7%A7%91%E7%94%9F%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">AI大厂月薪3万疯抢文科生</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/17/261e81cd20dc41c4857c50309b21ebbc.html" target="_blank" class="news-link">特朗普批评盟友对护航霍尔木兹海峡反应冷淡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618123908893380150/" target="_blank" class="news-link">中方回应特朗普称推迟一个月访华</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317165747243800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰拥有除了反弹道能力外的完整防空系统。美国拥有出色的反弹道系统。通过结合这两种优势，可以在任何面临大规模攻击的国家上空构建防护。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%8F%AF%E8%83%BD%E6%8E%A8%E8%BF%9F%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">中方回应特朗普称可能推迟访华</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317165646462800" target="_blank" class="news-link">乌克兰总统泽连斯基：数千枚爱国者导弹无法阻止数万架伊朗“沙赫德”无人机。这样的无人机成本是单枚爱国者导弹的四十分之一。因此，在生产时间和导弹成本方面，根本无法与无人机竞争。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/17/4fde36a7ccbd406caa5db73c4c544d1b.html" target="_blank" class="news-link">印度遭遇液化石油气危机</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317165600023800" target="_blank" class="news-link">知情人士：字节原计划推出的一代豆包AI眼镜或不会上市</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317165304505800" target="_blank" class="news-link">伊朗方面报道称，有关伊朗最高国家安全委员会秘书拉里贾尼的信息将在几分钟后发布。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E5%90%91%E4%BC%8A%E6%9C%97%E6%8F%90%E4%BE%9B%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89%E6%8F%B4%E5%8A%A9%23&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">中方向伊朗提供人道主义援助</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%90%91%E4%BC%8A%E6%9C%97%E7%AD%894%E5%9B%BD%E6%8F%90%E4%BE%9B%E4%BA%BA%E9%81%93%E4%B8%BB%E4%B9%89%E6%8F%B4%E5%8A%A9" target="_blank" class="news-link">中方向伊朗等4国提供人道主义援助</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164955057800" target="_blank" class="news-link">伊朗最高安全官遭精准空袭，以军评估暗杀已成功！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2315375" target="_blank" class="news-link">外交部：美方已澄清 特朗普访华事与霍尔木兹海峡通航问题无关</a> [11] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2315232" target="_blank" class="news-link">存储芯片供应即将暴雷？三星史上最大规模罢工已迫在眉睫</a> [12] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7617738403773382710/" target="_blank" class="news-link">中方：向伊朗等4国提供人道主义援助</a> [13] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2315141" target="_blank" class="news-link">“芯荒”难解！SK集团董事长：存储芯片短缺或持续至2030年</a> [13] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164647646800" target="_blank" class="news-link">博茨瓦纳方面表示，特贝帕特什瓦（Thebephatshwa）没有美国军事基地。</a> [16] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164622614800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：伊朗战争对世界经济具有重大影响。</a> [18] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164530011800" target="_blank" class="news-link">未来数周定生死！穆迪：霍尔木兹不通，美国衰退难避免</a> [19] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164506626800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：现在绝对是时候结束伊朗战争了。</a> [20] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%87%91%E4%BB%B7%E5%A4%A7%E8%B7%8C%E9%BB%84%E9%87%919%E7%82%B9%E5%BC%80%E5%8D%969%E7%82%B901%E5%88%86%E5%94%AE%E7%BD%84%23&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">金价大跌黄金9点开卖9点01分售罄</a> [22] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164456943800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：我们准备好投资与美国的关系，但“跳探戈需要两个人跳”。</a> [22] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164421148800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：很明显，我们必须考虑到美国政策的不可预测性。</a> [23] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164229308800" target="_blank" class="news-link">欧盟外交与安全政策高级代表卡拉斯：我们并不真正理解美国的举动。</a> [27] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164152095800" target="_blank" class="news-link">科大讯飞发布桌面AI助理Loomy，已适配钉钉、QQ等主流IM工具</a> [28] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E8%AE%BF%E5%8D%8E%E6%97%B6%E9%97%B4%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">外交部回应特朗普访华时间</a> [30] <font color='grey'>- 16时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260317164046852800" target="_blank" class="news-link">美国福特号航母船员收到通知留在中东直至五月</a> [30] <font color='grey'>- 16时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

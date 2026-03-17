@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 49</p><p>生成时间: 2026-03-18 03:35:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">38.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318032355772800" target="_blank" class="news-link">伊朗原子能组织：布什尔核电站区域遭袭</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318032156939800" target="_blank" class="news-link">特朗普谈反恐中心主任辞职：他走人是好事</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318031642165800" target="_blank" class="news-link">伊拉克石油部长：伊拉克政府与库尔德斯坦当局达成协议，自周三起恢复向土耳其杰伊汉港出口石油。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318030432298800" target="_blank" class="news-link">伊拉克库尔德斯坦地区总理巴尔扎尼表示，与巴格达政府的磋商将继续进行，以确保为石油和天然气公司提供保障，使其能够在安全的环境中恢复生产。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318030311931800" target="_blank" class="news-link">伊拉克库尔德斯坦地区总理巴尔扎尼表示，我们已决定在条件允许的情况下，尽快通过库尔德斯坦地区输油管道出口石油。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318025914002800" target="_blank" class="news-link">英伟达CEO黄仁勋：回购和分红将是一个非常大的数字。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318025633666800" target="_blank" class="news-link">英伟达CEO黄仁勋：到2027年底，Blackwell和Rubin芯片带来的营收机遇“可能将超过1万亿美元”。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318025427767800" target="_blank" class="news-link">英伟达CEO黄仁勋：Groq可能会为数据中心市场带来25%的增长空间。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318024555126800" target="_blank" class="news-link">伊朗证实巴斯基民兵指挥官身亡</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318024409341800" target="_blank" class="news-link">亚马逊股价走高，最新上涨1%，报214美元以上，此前报道称，该公司首席执行官预计到2036年，人工智能将使亚马逊云服务的销售额翻一番，达到6000亿美元。</a> [11] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318024220367800" target="_blank" class="news-link">美国中央司令部：美军继续搜寻并摧毁对美国人和伊朗邻国构成威胁的伊朗目标。</a> [12] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318024011419800" target="_blank" class="news-link">亚马逊(AMZN.O)首席执行官：到2036年，人工智能将使亚马逊云服务销售额翻倍至6000亿美元（此前预计为3000亿美元）。</a> [14] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318023832354800" target="_blank" class="news-link">市场消息：土耳其官方消息否认了有关五角大楼要求使用土耳其空军基地驻扎美国加油机以保护其安全的报道。</a> [16] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32784308" target="_blank" class="news-link">美国家反恐中心主任辞职：无法昧着良心支持对伊朗战争</a> [17] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318023339305800" target="_blank" class="news-link">文件显示：美国证券交易委员会与马斯克表示，他们正在谈判解决关于马斯克披露其Twitter股份的民事诉讼。</a> [18] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318023041692800" target="_blank" class="news-link">上海黄金交易所黄金T+D 3月17日（周二）晚盘收盘下跌0.21%报1113.31元/克；&lt;br/&gt;上海黄金交易所白银T+D 3月17日（周二）晚盘收盘下跌1.86%报20024.0元/千克。</a> [22] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318022741392800" target="_blank" class="news-link">市场消息：伊朗核能组织公共外交与信息中心表示，针对敌方发射物击中布什尔核电站的消息，国家核安全系统中心确认，幸运的是没有造成财务、技术或人员损失，核电站的任何部分也未受到损害。这种行为违反了关于核设施免受军事攻击的所有国际规定，可能对整个地区，包括波斯湾邻国，造成不可逆转的后果。</a> [25] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318022726944800" target="_blank" class="news-link">据华盛顿邮报：因近期发生的袭击事件，美国要求所有大使馆审查安全措施。</a> [26] <font color='grey'>- 03时35分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%AF%B9%E7%BE%8E%E4%BB%A5%E5%8F%91%E5%8A%A858%E6%B3%A2%E6%89%93%E5%87%BB%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">伊朗对美以发动58波打击</a> [29] <font color='grey'>- 03时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

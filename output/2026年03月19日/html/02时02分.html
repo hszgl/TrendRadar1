@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 68</p><p>生成时间: 2026-03-19 02:02:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">26.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊朗最高领袖就拉里贾尼遇害发声</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319015250702800" target="_blank" class="news-link">惠誉：航班中断对美国机场影响甚微。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319015248303800" target="_blank" class="news-link">美国零售联合会：预计美国劳动力市场状况将趋缓，预计全年非农就业增长将较为低迷，失业率仍将维持在4.5%以下。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319015210394800" target="_blank" class="news-link">消息人士：特朗普政府预计将很快取消夏季汽油法规，以抑制能源价格。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%8F%91%E5%B0%84%E9%9B%86%E6%9D%9F%E5%BC%B9%E5%A4%B4%E5%AF%BC%E5%BC%B9%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%23&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">伊朗发射集束弹头导弹袭击以色列</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319015057988800" target="_blank" class="news-link">美国零售联合会：仍持乐观态度，认为美国经济的基本面将支撑未来一年的持续稳定。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319015051864800" target="_blank" class="news-link">惠誉：定价能力使美国交通基础设施免受高油价影响。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319014957202800" target="_blank" class="news-link">美国零售联合会：预计美国消费者的韧性将持续至2026年。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319014940745800" target="_blank" class="news-link">美国零售联合会：预计2026年美国零售销售额将比2025年增长4.4%，达到5.6万亿美元。</a> [11] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319013604785800" target="_blank" class="news-link">伊朗国家天然气公司：南帕尔斯气田大火已被扑灭 能源供应正常</a> [14] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319013303737800" target="_blank" class="news-link">伊朗痛批欧洲“双重标准” 重申主权捍卫决心</a> [18] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618396235598675987/" target="_blank" class="news-link">约7吨重流星划过美国多地上空</a> [19] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319012737453800" target="_blank" class="news-link">以色列国防军：过去24小时内在伊朗西部和中部完成了数十次攻击，超过200个伊朗恐怖政权的目标遭到攻击。国防军继续打击伊朗恐怖政权在西部和中部的弹道导弹阵地和防御系统。</a> [25] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618144836088188479/" target="_blank" class="news-link">伊朗证实拉里贾尼遇难 其子一同身亡</a> [26] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">黄金</a> [27] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E7%89%B9%E6%95%99%E5%A5%B3%E8%80%81%E5%B8%881%E5%A4%A95%E6%AC%A1%E6%80%A7%E4%BE%B5%E7%94%B7%E7%AB%A5%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">美国特教女老师1天5次性侵男童</a> [29] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618482201037901355/" target="_blank" class="news-link">黄金价格下跌 普通人能入手吗</a> [30] <font color='grey'>- 02时02分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7618157782085910543" target="_blank" class="news-link">AI焦虑下，前端该何去何从</a> [30] <font color='grey'>- 02时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

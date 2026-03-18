@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2026-03-19 03:29:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">10</td>
+                <td class="percentage">18.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319032336369800" target="_blank" class="news-link">据华盛顿检查者报：特朗普将于下周会见农业机械公司约翰迪尔的首席执行官。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319031958257800" target="_blank" class="news-link">市场消息：以色列方面报道称，以色列在里海袭击了伊朗海军舰艇。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319031755717800" target="_blank" class="news-link">美联储主席鲍威尔：人工智能投资也可能会提高中性利率。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319031732081800" target="_blank" class="news-link">美联储主席鲍威尔：需谨慎看待通用人工智能将带来通胀回落的观点。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319031710167800" target="_blank" class="news-link">美联储主席鲍威尔：更高的生产率是一件好事，生成式人工智能应该为此做出贡献。</a> [11] <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319031703134800" target="_blank" class="news-link">美联储主席鲍威尔：石油及石油衍生品参与众多商品和服务的生产。</a> [12] <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319031658732800" target="_blank" class="news-link">美联储主席鲍威尔：尚未开始看到人工智能带来的生产率效应。</a> [13] <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319031652546800" target="_blank" class="news-link">美联储主席鲍威尔：迄今为止，生产率的提高并非源于生成式人工智能，可能是因为疫情期间的调整。</a> [15] <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/OXY" target="_blank" class="news-link">西方石油</a> [23] <font color='grey'>- 03时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E8%AF%B4%E4%B8%AD%E4%B8%9C%E4%B8%89%E5%9B%BD%E7%9F%B3%E6%B2%B9%E8%AE%BE%E6%96%BD%E6%88%90%E5%90%88%E6%B3%95%E6%89%93%E5%87%BB%E7%9B%AE%E6%A0%87%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">伊说中东三国石油设施成合法打击目标</a> [26] <font color='grey'>- 03时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

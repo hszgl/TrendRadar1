@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 41</p><p>生成时间: 2026-03-19 05:04:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">39.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319045058028800" target="_blank" class="news-link">市场消息：美国陆军导弹项目负责人Frank Lozano表示，美国陆军“非常接近”部署美军首个高超音速武器，这一判断与五角大楼近期认为在部署前仍需更多测试的评估存在分歧。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319044943987800" target="_blank" class="news-link">科威特外交部：对伊朗针对卡塔尔拉斯拉凡工业区设施的攻击表示强烈谴责和愤慨。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319044847192800" target="_blank" class="news-link">美国贸易代表办公室：美国和墨西哥宣布在《美墨加协定》联合评估前推进双边讨论的下一步举措。美国贸易代表Jamieson Greer与墨西哥经济部长Marcelo Ebrard今日会面，正式启动在7月1日《美墨加协定》联合评估前的双边技术性讨论。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319044528184800" target="_blank" class="news-link">美国联邦航空管理局（FAA）：已取消对蒙特利尔国际机场的地面停飞令。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319044038950800" target="_blank" class="news-link">市场分析：霍尔木兹海峡持续受阻，美国或转向军事手段</a> [13] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319044010725800" target="_blank" class="news-link">惠誉：美国私人信贷违约率在2026年2月降至5.4%。</a> [14] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319043748543800" target="_blank" class="news-link">以色列军方：已“首次”开始打击伊朗北部的目标。</a> [17] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319043732835800" target="_blank" class="news-link">美国参议院少数党领袖舒默：特朗普在中东发动了一场战争，但现在他试图逃避代价，把账单留给美国人民，而这场战争似乎没有结束的迹象。鲁比奥和赫格塞斯需要公开宣誓作证。美国人民应当得到答案，也应当获得问责。</a> [18] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319043154673800" target="_blank" class="news-link">现货白银向下触及75美元/盎司，日内跌5.31%。</a> [21] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319042541721800" target="_blank" class="news-link">卡塔尔外交部要求一名伊朗安全武官在24小时内离境。</a> [23] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319042428712800" target="_blank" class="news-link">现货白银日内大跌5.00%，现报75.24美元/盎司。</a> [24] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319042422827800" target="_blank" class="news-link">卡塔尔外交部宣布伊朗驻卡塔尔大使馆的军事与安全随员为“不受欢迎的人”。</a> [25] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319041839090800" target="_blank" class="news-link">卡塔尔称伊朗导弹击中LNG枢纽，造成严重破坏</a> [27] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618591739103677988/" target="_blank" class="news-link">特朗普豁免执行《琼斯法》遏制高油价</a> [28] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%9F%B3%E6%B2%B9%E5%B7%A5%E4%B8%9A%E8%AE%BE%E6%96%BD%E9%81%AD%E8%A2%AD%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">伊朗石油工业设施遭袭</a> [28] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319041333546800" target="_blank" class="news-link">伊朗打击伊拉克境内美军基地及库尔德武装基地</a> [29] <font color='grey'>- 05时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

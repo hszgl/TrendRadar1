@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2026-03-18 15:56:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">22.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨因伊朗战争与特朗普决裂，他什么来头？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E7%A1%AE%E8%AE%A4%E6%8E%A8%E8%BF%9F%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">中方回应特朗普确认推迟访华</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318152632094800" target="_blank" class="news-link">伊朗外长称拉里贾尼遇害不会动摇伊朗政治架构</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E7%A1%AE%E8%AE%A4%E6%8E%A8%E8%BF%9F%E8%AE%BF%E5%8D%8E%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">中方回应特朗普确认推迟访华</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2435021" target="_blank" class="news-link">中方回应特朗普称推迟访华</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318152332242800" target="_blank" class="news-link">日本石油协会：日本3月14日汽油库存为150万千升，3月7日为166万千升。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767800" target="_blank" class="news-link">伊朗“事实上的最高负责人”，被刺杀了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318152312767800" target="_blank" class="news-link">日本石油协会：3月14日日本原油库存1028万千升，前值为1052万千升。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318152205772800" target="_blank" class="news-link">日本石油协会：3月8日至3月14日炼厂开工率为69.1%，此前为77.6%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ratjazHcDk" target="_blank" class="news-link">凤凰女记者：拉里贾尼身亡，伊朗军方誓言报仇，民众忧心忡忡</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318152020049800" target="_blank" class="news-link">美联储降息窗口会否全面后移？国际现货黄金正受两方制约 | Live分析更新中</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8raajLUudf0" target="_blank" class="news-link">为何不谴责美以？高市早苗：因为我要见特朗普</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2316633" target="_blank" class="news-link">全球AI需求激增、Token调用量上扬 阿里云部分产品最高涨34%</a> [11] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618469958896537139/" target="_blank" class="news-link">伊朗处决一名为以工作间谍</a> [12] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E9%9D%A9%E5%91%BD%E5%8D%AB%E9%98%9F%E6%8A%A5%E5%A4%8D%E8%A1%8C%E5%8A%A8%E5%8D%87%E7%BA%A7%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">伊朗革命卫队报复行动升级</a> [15] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318151145483800" target="_blank" class="news-link">外交部：中美双方将继续就特朗普总统访华事保持沟通</a> [15] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318151008646800" target="_blank" class="news-link">德福科技：近期已对部分电池客户所供应的锂电铜箔产品加工费启动提价</a> [17] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2017533900855984294" target="_blank" class="news-link">美国国家反恐中心主任因不满发动对伊朗战争辞职，称伊并未对美构成迫在眉睫的威胁，如何看待此事？</a> [18] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32786281" target="_blank" class="news-link">伊朗官方证实拉里贾尼死于空袭，其子、副手一同遇害</a> [20] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260318150456375800" target="_blank" class="news-link">挂单报告：国际现货黄金空单密集 国际现货白银留意多单押注</a> [20] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7617343027990183945/" target="_blank" class="news-link">以军威胁“追杀”伊朗新任最高领袖</a> [26] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618157912195731007/" target="_blank" class="news-link">长城汽车固态电池仍处于开发验证阶段</a> [28] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%86%9B%E8%A2%AB%E6%9B%9D%E6%8B%9F%E5%A4%A7%E8%A7%84%E6%A8%A1%E4%BB%BF%E5%88%B6%E4%BC%8A%E6%9C%97%E6%97%A0%E4%BA%BA%E6%9C%BA" target="_blank" class="news-link">美军被曝拟大规模仿制伊朗无人机</a> [30] <font color='grey'>- 15时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

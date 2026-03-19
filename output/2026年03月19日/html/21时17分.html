@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 114</p><p>生成时间: 2026-03-19 21:17:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">31</td>
+                <td class="percentage">27.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319205531445800" target="_blank" class="news-link">美国气候预测中心：预计未来一个月将从拉尼娜转变为中性厄尔尼诺-南方涛动（ENSO）状态，且2026年5月至7月期间以中性ENSO状态为主。2026年6月至8月，厄尔尼诺现象很可能出现，并将持续至少至2026年底。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rcw11Bk6KE" target="_blank" class="news-link">伊朗：命中美国第五舰队</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319205428209800" target="_blank" class="news-link">美国气候预测中心：根据当前海洋和大气观测数据，拉尼娜现象仍持续存在。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618459226796523571/" target="_blank" class="news-link">伊朗：击中美国第五舰队</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%90%AF%E5%8A%A8%E7%AC%AC64%E6%B3%A2%E8%A1%8C%E5%8A%A8+%E5%91%BD%E4%B8%AD%E7%BE%8E%E5%86%9B%E8%88%B0%E9%98%9F" target="_blank" class="news-link">伊朗称启动第64波行动 命中美军舰队</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7617925341054615606/" target="_blank" class="news-link">现货黄金白银暴跌</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767926" target="_blank" class="news-link">报道：伊朗拟对霍尔木兹海峡船只征收“安全通行费”，布油回落</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%97%B6%E4%BB%A3%E5%93%AA%E4%BA%9B%E4%B8%93%E4%B8%9A%E6%9B%B4%E5%AE%B9%E6%98%93%E8%A2%AB%E6%9B%BF%E4%BB%A3" target="_blank" class="news-link">AI时代哪些专业更容易被替代</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2318602" target="_blank" class="news-link">油价继续飙升 欧美股市承压 黄金白银重挫 | 今夜看点</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%A4%96%E9%95%BF%E5%9B%9E%E5%BA%94%E7%BE%8E2000%E4%BA%BF%E7%BE%8E%E5%85%83%E6%88%98%E4%BA%89%E6%8B%A8%E6%AC%BE%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">伊朗外长回应美2000亿美元战争拨款</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319205154829800" target="_blank" class="news-link">美国交通部长达菲：航空旅行几乎将完全停摆。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7617909377227882506/" target="_blank" class="news-link">伊朗议员称拟征收霍尔木兹海峡通行费</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767905" target="_blank" class="news-link">“绕过”霍尔木兹海峡，沙特石油出口“恢复过半”，但这个“B计划”能保得住吗？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204926264800" target="_blank" class="news-link">美国交通部长达菲被问及政府停摆期间航空旅行是否安全时回答：是的，很安全。</a> [11] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2318157" target="_blank" class="news-link">一图看懂AI产业链哪些环节在涨价：算力、存储、大模型…...</a> [12] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204911945800" target="_blank" class="news-link">美国内政部长：美日今日将商讨协议。</a> [12] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32795314" target="_blank" class="news-link">以防长称以军无需批准即可击杀任何伊朗官员，外交部回应</a> [16] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204656268800" target="_blank" class="news-link">佩尔亨特公司首席经济学卡勒姆·皮克林：尽管英国央行官员私下可能仍认为下一次利率调整更有可能是降息而非上加息，因为伊朗战争的时间表存在不确定性，但主张进行这样的调整是不明智的。</a> [16] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%E4%B8%BA%E5%95%A5%E4%B8%80%E7%9B%B4%E8%B7%8C%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">黄金为啥一直跌</a> [17] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204639787800" target="_blank" class="news-link">现货白银跌超10%，逼近67美元关口。</a> [17] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH600988" target="_blank" class="news-link">赤峰黄金</a> [18] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204606319800" target="_blank" class="news-link">现货黄金跌破4550美元/盎司，日内跌超5.5%。</a> [18] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32795341" target="_blank" class="news-link">美联储按兵不动美元大涨，人民币对美元汇率跌破6.9</a> [19] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618387888183836715/" target="_blank" class="news-link">央视AI短片《流金谷恩仇录》爆火</a> [20] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%8A%A8%E7%94%A8%E6%96%B0%E4%B8%80%E4%BB%A3%E8%87%AA%E6%9D%80%E5%BC%8F%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%9C%BA%E7%BE%A4" target="_blank" class="news-link">伊朗动用新一代自杀式无人机机群</a> [20] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204435312800" target="_blank" class="news-link">美国国防部长赫格塞思：伊朗有能力作出正确选择，不应以美国的阿拉伯盟友为目标。</a> [21] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204427396800" target="_blank" class="news-link">美国国防部长赫格塞思：伊朗知道，一旦袭击哈尔格岛，我们就能掌控任何议题。</a> [22] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204412656800" target="_blank" class="news-link">美国内政部长：琼斯法案豁免将有助于降低价格。</a> [23] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204305784800" target="_blank" class="news-link">李斌：蔚来自研芯片量产已超55万颗</a> [27] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204239028800" target="_blank" class="news-link">通胀担忧加剧，黄金一路暴跌！你还相信牛市吗？金十研究员Steven正在直播，点击进入直播间观看&gt;&gt;&lt;font class=&quot;important-text&quot;&gt;&lt;/font&gt;</a> [28] <font color='grey'>- 21时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319204204873800" target="_blank" class="news-link">现货黄金失守4600美元关口</a> [29] <font color='grey'>- 21时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2026-03-20 05:04:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">10</td>
+                <td class="percentage">29.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320041715775800" target="_blank" class="news-link">以总理称持续袭击伊朗至必要时为止</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320041415431800" target="_blank" class="news-link">美日联合声明：日本同意在美国对由GE Vernova与日立推进的小型模块化反应堆项目，以及天然气发电领域，进行最高达730亿美元的投资。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320041311465800" target="_blank" class="news-link">美国参议院少数党领袖舒默：正如我们整个星期一直所做的那样，民主党人将继续占据议事席位，以阻止共和党所谓压制选民权利的《SAVE法案》。无论需要多长时间，我们在任何情况下都不会让这项法案获得通过。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320041053895800" target="_blank" class="news-link">美国贸易代表办公室：美国、日本发布关键矿物合作行动计划。美日将把首轮最低价格磋商重点聚焦于部分关键矿物；将就可支持多边协议各方构建韧性关键矿物市场的贸易措施进行磋商；将共同确定在美国、日本及其他国家开展的特定具有战略意义的关键矿产的开采、加工和制造项目。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3767948" target="_blank" class="news-link">特朗普称告知以色列勿攻击伊朗能源设施，卡塔尔称伊袭破坏17%LNG产能</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320035831178800" target="_blank" class="news-link">美国投资公司协会（ICI）：截至3月18日的一周，货币市场基金资产增加了386.8亿美元，达到了7.86万亿美元。</a> [12] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320034351916800" target="_blank" class="news-link">据半岛电视台：以色列总理内塔尼亚胡表示，以色列将暂停袭击伊朗主要气田。</a> [13] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320033936467800" target="_blank" class="news-link">以色列总理内塔尼亚胡：从来没有哪两位领导人能像我与特朗普这样步调一致。</a> [14] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320032833408800" target="_blank" class="news-link">美国发布与俄油有关制裁的许可</a> [20] <font color='grey'>- 05时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E8%AD%A6%E5%91%8A%EF%BC%9A%E8%8B%A5%E8%83%BD%E6%BA%90%E8%AE%BE%E6%96%BD%E5%86%8D%E9%81%AD%E8%A2%AD%E5%B0%86%E6%8A%A5%E5%A4%8D" target="_blank" class="news-link">伊朗警告：若能源设施再遭袭将报复</a> [28] <font color='grey'>- 05时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

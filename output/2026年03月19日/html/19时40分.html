@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 67</p><p>生成时间: 2026-03-19 19:40:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">12</td>
+                <td class="percentage">17.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2318364" target="_blank" class="news-link">海湾能源设施又遭伊朗攻击 沙特红海炼厂首次遭袭 国际油价飙升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618919836424490505/" target="_blank" class="news-link">《新闻联播》正在直播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2436455" target="_blank" class="news-link">新闻联播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618739606183870474/" target="_blank" class="news-link">伊朗要求阿联酋作出赔偿</a> [12] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319191514875800" target="_blank" class="news-link">伊朗情报部称，97人因“协助以色列”而被捕。</a> [12] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319191425640800" target="_blank" class="news-link">伊朗动用新一代自杀式无人机机群 对以色列发动报复性打击</a> [14] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2017544894055407699" target="_blank" class="news-link">如何看待黄仁勋「OpenClaw 是 AI 时代的 Linux」的观点？其将如何加速行业的发展？</a> [18] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319190417596800" target="_blank" class="news-link">美国银行：将美光科技(MU.O)目标价从400美元上调至500美元。</a> [21] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260319185704979800" target="_blank" class="news-link">美国总统特朗普与日本首相高市早苗的工作午餐被取消，峰会会谈时间则相应延长。</a> [23] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%9F%AD%E5%89%A7%E6%96%B9%E7%A7%B0%E7%94%B7%E4%BA%8C%E4%BB%A5%E4%B8%8BAI%E6%BC%94%E5%91%98%E6%97%A0%E6%B3%95%E5%AE%9E%E7%8E%B0" target="_blank" class="news-link">短剧方称男二以下AI演员无法实现</a> [25] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7617810945540866086/" target="_blank" class="news-link">针对伊朗局势欧盟暂无明确行动方案</a> [29] <font color='grey'>- 19时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E8%AD%A6%E5%91%8A%EF%BC%9A%E8%8B%A5%E8%83%BD%E6%BA%90%E8%AE%BE%E6%96%BD%E5%86%8D%E9%81%AD%E8%A2%AD%E5%B0%86%E6%8A%A5%E5%A4%8D" target="_blank" class="news-link">伊朗警告：若能源设施再遭袭将报复</a> [29] <font color='grey'>- 19时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

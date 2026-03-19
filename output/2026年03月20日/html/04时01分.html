@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2026-03-20 04:01:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">30.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320032955560800" target="_blank" class="news-link">以色列总理内塔尼亚胡：我不确定现在谁在掌控伊朗。穆杰塔巴还没有露面。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320032833408800" target="_blank" class="news-link">美国再度放松俄油制裁</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320032425463800" target="_blank" class="news-link">美防长称请求白宫批准针对伊朗行动的拨款</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320031721039800" target="_blank" class="news-link">日本首相高市早苗：特朗普和我讨论了日本在霍尔木兹海的援助法律限制。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320031716498800" target="_blank" class="news-link">以色列总理内塔尼亚胡：伊朗政权可能会存活下来。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320031247840800" target="_blank" class="news-link">美国财政部：今天颁发的许可证取代了先前发布的许可证。</a> [13] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320031127772800" target="_blank" class="news-link">以色列总理内塔尼亚胡：以色列在针对南帕尔斯的行动中系单独行动。特朗普要求我们暂停今后此类袭击。</a> [14] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320030927813800" target="_blank" class="news-link">美国财政部：允许销售截至2026年3月12日已装载至船只的俄罗斯原油及石油产品。</a> [17] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%86%85%E5%A1%94%E5%B0%BC%E4%BA%9A%E8%83%A1%E6%89%BE%E7%BE%8E%E5%9B%BD%E5%A4%A7%E4%BD%BF%E8%87%AA%E8%AF%81%E6%B4%BB%E7%9D%80" target="_blank" class="news-link">内塔尼亚胡找美国大使自证活着</a> [18] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320030759021800" target="_blank" class="news-link">美国财政部在其网站上发布消息，宣布签发一项新的俄罗斯相关通用许可证。</a> [19] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320030659708800" target="_blank" class="news-link">以色列总理内塔尼亚胡：如果我们不在一段时间内采取行动，也许几年后，伊朗就会有能力向芝加哥发射弹道导弹。</a> [22] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320030654307800" target="_blank" class="news-link">乌克兰总统泽连斯基：俄罗斯和伊朗政权并非偶然地互相帮助，必须制止他们。</a> [23] <font color='grey'>- 04时01分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618387888183836715/" target="_blank" class="news-link">央视AI短片《流金谷恩仇录》爆火</a> [30] <font color='grey'>- 04时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

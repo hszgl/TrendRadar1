@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 71</p><p>生成时间: 2026-03-20 19:54:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">14</td>
+                <td class="percentage">19.72%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320193105753800" target="_blank" class="news-link">印度2月石油炼制产品产量同比下降1.0%。印度2月煤炭产量同比增长2.3%。印度2月主要行业产值同比增长2.3%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8reZQtJ6zfo" target="_blank" class="news-link">中国中东问题特使会见伊朗驻华大使(图)</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8reXnxHbSXD" target="_blank" class="news-link">特朗普点名日本参加霍尔木兹护航，日本去不去都是错误选择？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618757136979345446/" target="_blank" class="news-link">伊朗新一轮袭击直指以色列政府中枢</a> [11] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28352132&amp;amp;topic_name=%E8%83%A1%E5%A1%9E%E6%92%91%E4%BC%8A%E6%9C%97%2C%E6%88%96%E5%B0%86%E5%B0%81%E9%94%81%E6%9B%BC%E5%BE%B7%E6%B5%B7%E5%B3%A1" target="_blank" class="news-link">胡塞撑伊朗,或将封锁曼德海峡</a> [12] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320192636888800" target="_blank" class="news-link">巴西航空工业公司高管称，该公司正在考虑申请美国关税退税。</a> [12] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320192552936800" target="_blank" class="news-link">2026年3月20日，中国政府中东问题特使翟隽会见伊朗驻华大使法兹里，双方就当前中东地区紧张局势交换意见。</a> [14] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320192509658800" target="_blank" class="news-link">受伊朗战争影响，英国家庭能源账单将增加332英镑。</a> [15] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320191510172800" target="_blank" class="news-link">瑞士政府：在与伊朗发生冲突期间，不得向相关国家出口军事装备。</a> [22] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%B8%B4%E6%9C%9B%E5%AE%9E%E6%88%98%E4%B8%AD%E7%BB%99%E7%BE%8E%E5%86%9B%E8%88%B0%E6%B2%89%E9%87%8D%E4%B8%80%E5%87%BB%23&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">伊朗称渴望实战中给美军舰沉重一击</a> [23] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320191455001800" target="_blank" class="news-link">瑞士政府：伊朗战争期间不向美国出口武器。</a> [23] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320191401472800" target="_blank" class="news-link">美国能源部长赖特：新的软银发电厂将使用天然气发电。</a> [24] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320191347170800" target="_blank" class="news-link">美国能源部长赖特：软银将为俄亥俄州带来“绝对繁荣”，助力人工智能发展。</a> [26] <font color='grey'>- 19时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260320191224820800" target="_blank" class="news-link">美国能源部长赖特：软银在俄亥俄州有一个令人振奋的项目。</a> [28] <font color='grey'>- 19时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

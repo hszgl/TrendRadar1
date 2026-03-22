@@ -1,0 +1,86 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2026-03-22 22:02:15</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>tieba</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">23.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322215621177800" target="_blank" class="news-link">市场消息：美国财长贝森特称，有时候必须升级事态才能缓和局势。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322215117228800" target="_blank" class="news-link">佩斯科夫：暗杀伊朗领导人产生“极其严重后果”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322214256450800" target="_blank" class="news-link">德国总理默茨：今天下午，我与美国总统特朗普讨论了伊朗、以色列和乌克兰的局势。我们一致同意保持密切联系。我们的交流将很快继续。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322213800248800" target="_blank" class="news-link">市场消息：一枚伊朗弹道导弹击中了以色列安全技术企业梅尔集团的总部。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32810179" target="_blank" class="news-link">“不欢迎”，沙特要求伊朗武官24小时内离境</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322213202090800" target="_blank" class="news-link">市场消息：美国财长贝森特称，有充足的石油供应。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322213151477800" target="_blank" class="news-link">市场消息：美国财长贝森特称，对霍尔木兹岛防御工事的打击不会停止。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322212622164800" target="_blank" class="news-link">市场消息：美国财长贝森特称，“50天”高油价可以换来“50年伊朗无核”。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322212406137800" target="_blank" class="news-link">市场消息：美国财长贝森特称，美国总统特朗普会不惜一切代价在伊朗达成目标；有足够的钱来支持军事行动。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1979047803796878267" target="_blank" class="news-link">中国古代为什么不把银子按照铜钱的形制铸造成钱币，省去了剪和称这类流程不是更方便百姓使用？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2320606" target="_blank" class="news-link">美媒：特朗普团队已密谋与伊朗“和谈” 细节曝光</a> [11] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322211619308800" target="_blank" class="news-link">伊朗任命新的情报部门代理负责人。</a> [14] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322210815068800" target="_blank" class="news-link">市场消息：伊朗向以色列发射导弹。</a> [16] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322210541222800" target="_blank" class="news-link">英国前官员：英国“对伊朗导弹毫无防御能力”</a> [18] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322205906321800" target="_blank" class="news-link">据土耳其外交消息人士透露，土耳其外长在通话中与伊朗和埃及外长、美国官员以及欧盟外交政策负责人探讨了结束战争的举措。</a> [19] <font color='grey'>- 22时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

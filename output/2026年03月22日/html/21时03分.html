@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 73</p><p>生成时间: 2026-03-22 21:03:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">20</td>
+                <td class="percentage">27.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rhvBhkG2DN" target="_blank" class="news-link">以总理：将直接打击伊朗革命卫队领导人</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322202609721800" target="_blank" class="news-link">美国总统特朗普：如今伊朗被击败，美国最大的敌人就是激进左翼、极其无能的民主党！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322202356274800" target="_blank" class="news-link">以色列军方称，自战争爆发以来，伊朗已向以色列发射了400多枚弹道导弹，其中92%已被拦截。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%AA%92%E4%BD%93%EF%BC%9A%E4%BC%8A%E5%AE%98%E5%91%98%E6%8F%90%E5%87%BA%E5%81%9C%E6%88%98%E5%85%AD%E9%A1%B9%E6%9D%A1%E4%BB%B6" target="_blank" class="news-link">伊朗媒体：伊官员提出停战六项条件</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768072" target="_blank" class="news-link">下周重磅日程：特朗普对伊发出48小时通牒、博鳌论坛、美团拼多多小米财报</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322200229315800" target="_blank" class="news-link">英国官员称未发现伊朗有计划或有能力袭击欧洲</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768099" target="_blank" class="news-link">美媒：特朗普团队已开始谋划与伊朗“和谈”事宜</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322200100766800" target="_blank" class="news-link">美国总统特朗普：周一，美国移民及海关执法局（ICE）将前往机场，协助我们优秀的运输安全管理局（TSA）工作人员。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7618960620453642250/" target="_blank" class="news-link">伊朗议长回应特朗普“最后通牒”</a> [11] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322195534496800" target="_blank" class="news-link">以总理称将直接打击伊朗伊斯兰革命卫队领导人</a> [11] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2019102219950117658" target="_blank" class="news-link">伊朗武装部队称已从防御转为进攻，已生产并制造了先进装备和武器，伊朗下一步反击会瞄准哪些核心目标？</a> [11] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322194957113800" target="_blank" class="news-link">伊朗方面称其拥有足够一年使用的基本物资储备</a> [13] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322194850819800" target="_blank" class="news-link">伊朗发起第74波打击</a> [14] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322194652727800" target="_blank" class="news-link">伊朗称地面部队处于战备“巅峰状态”</a> [17] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%AA%92%E4%BD%93%E7%A7%B0%E4%BC%8A%E5%AE%98%E5%91%98%E6%8F%90%E5%87%BA%E5%81%9C%E6%88%98%E5%85%AD%E9%A1%B9%E6%9D%A1%E4%BB%B6%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">伊朗媒体称伊官员提出停战六项条件</a> [18] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322194508599800" target="_blank" class="news-link">伊朗革命卫队：迄今为止，在这场区域性较量中，我们已实现了让美军基地撤离、对海峡控制权的巩固、对全球能源命脉的掌控、对以色列科技企业的摧毁，以及在全世界激起对你们（美国和以色列）的憎恶。</a> [18] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322194350942800" target="_blank" class="news-link">伊朗革命卫队：针对（美国、以色列的）‘攻击发电厂的威胁’，我们已建立起一个涵盖科技与政治领域的‘红色打击目标库’。</a> [19] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322193832570800" target="_blank" class="news-link">美媒：沙特正试图阻止也门胡塞武装加入伊朗战事</a> [20] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B7%91%E9%A9%AC%E6%8B%89%E6%9D%BE%E6%8A%A4%E8%88%AA%E7%9A%84%E6%B0%91%E8%AD%A6%E5%B1%85%E7%84%B6%E6%98%AFAI%E6%9C%BA%E5%99%A8%E4%BA%BA" target="_blank" class="news-link">跑马拉松护航的民警居然是AI机器人</a> [23] <font color='grey'>- 21时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E5%9C%B0%E9%9D%A2%E9%83%A8%E9%98%9F%E5%A4%84%E4%BA%8E%E6%88%98%E5%A4%87%E5%B7%85%E5%B3%B0%E7%8A%B6%E6%80%81" target="_blank" class="news-link">伊朗：地面部队处于战备巅峰状态</a> [28] <font color='grey'>- 21时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

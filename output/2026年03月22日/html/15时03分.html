@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 73</p><p>生成时间: 2026-03-22 15:03:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">17.81%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊朗：允许非敌方船只通过霍尔木兹海峡</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7619957030270275114/" target="_blank" class="news-link">以色列拦截伊朗导弹失败瞬间画面曝光</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/22/8c28402f9ad84f54b50dd9a4a132136a.html" target="_blank" class="news-link">俄媒：伊朗文化遗产正遭到“野蛮侵害”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/22/47ce0152064f4763870f8d5ab266e9b6.html" target="_blank" class="news-link">俄外交部：袭击伊朗纳坦兹铀浓缩设施是粗暴违反国际法</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/22/9ba0123ec7fd4619a9606c06d0409f14.html" target="_blank" class="news-link">外媒：沙特要求伊朗武官24小时内离境</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rhPSWAl42N" target="_blank" class="news-link">美国前FBI局长米勒去世，曾负责特朗普“通俄门”调查</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BB%A5%E8%89%B2%E5%88%97%E6%8B%A6%E6%88%AA%E4%BC%8A%E6%9C%97%E5%AF%BC%E5%BC%B9%E5%A4%B1%E8%B4%A5%E7%9E%AC%E9%97%B4%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">以色列拦截伊朗导弹失败瞬间</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768077" target="_blank" class="news-link">伊朗战争已三周，美国“稳油价”的牌“几乎打完”，原油“期现价差”越拉越大</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rhITNvbPgx" target="_blank" class="news-link">在高市面前提珍珠港，特朗普二儿子夸父亲答得好</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322140149107800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：伊朗驻国际海事组织代表表示，除敌方（船只）外，各国船只经协调达成安全与安保安排后均可通过霍尔木兹海峡。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260322135846242800" target="_blank" class="news-link">伊朗说允许非敌方船只通过霍尔木兹海峡</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E5%85%81%E8%AE%B8%E9%9D%9E%E6%95%8C%E6%96%B9%E8%88%B9%E5%8F%AA%E9%80%9A%E8%BF%87%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9" target="_blank" class="news-link">伊朗：允许非敌方船只通过霍尔木兹</a> [14] <font color='grey'>- 15时03分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32806010" target="_blank" class="news-link">美F-35实战中被“首杀”，“被摧毁的”伊朗防空还能撑多久？</a> [19] <font color='grey'>- 15时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

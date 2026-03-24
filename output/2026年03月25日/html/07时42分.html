@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 71</p><p>生成时间: 2026-03-25 07:42:06</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">33.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325071651693800" target="_blank" class="news-link">现货白银日内涨幅扩大至1.00%，现报71.77美元/盎司。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325071304352800" target="_blank" class="news-link">卡塔尔液化天然气田受损后，Airgas化工产品公司限制氦气订单。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2323637" target="_blank" class="news-link">【早报】美方提出含“15项条件”的和谈方案，特朗普：伊朗同意“永不拥核”；日本拟将中日关系定位降级，中方回应</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325070305485800" target="_blank" class="news-link">小摩CEO：战争暴露美国战时产能短板</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620957502988897834/" target="_blank" class="news-link">美拟推动停火1月 与伊朗和谈方案曝光</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768225" target="_blank" class="news-link">CPU王炸登场！阿里新一代旗舰处理器玄铁C950刷新全球纪录，为AI Agent时代量身定制</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2323574" target="_blank" class="news-link">中东战事推高生活成本 民调显示特朗普支持率创重返白宫后新低</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768269" target="_blank" class="news-link">小米电话会：未来三年AI领域投入600亿，内存涨价“尽力消化不排除传导”，汽车出海时间表不变</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325065512314800" target="_blank" class="news-link">特朗普：伊朗送了一份“巨额礼物”！美国15项停火条件曝光</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325065018557800" target="_blank" class="news-link">挪威国家石油公司CEO：预计纽约帝国风电项目将在年底前实现首次发电，并于明年完工。</a> [11] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2442005" target="_blank" class="news-link">AI时代最离谱的KPI</a> [12] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620447407301574683/" target="_blank" class="news-link">特朗普称伊朗同意永不拥有核武器</a> [14] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">现货黄金</a> [14] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325064758702800" target="_blank" class="news-link">当地时间24日晚，伊朗中部城市亚兹德发生强烈爆炸。</a> [15] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%90%91%E4%BC%8A%E6%9C%97%E6%8F%90%E5%87%BA%E2%80%9C15%E9%A1%B9%E6%9D%A1%E4%BB%B6%E2%80%9D%E5%92%8C%E8%B0%88%E6%96%B9%E6%A1%88" target="_blank" class="news-link">美向伊朗提出“15项条件”和谈方案</a> [16] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620083118104133638/" target="_blank" class="news-link">伊朗责令擅自通过霍尔木兹海峡船返航</a> [18] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325064506039800" target="_blank" class="news-link">据华尔街日报：安杜里尔工业公司、Palantir、洛克希德·马丁公司正在为美国“金穹”项目开发软件。</a> [19] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32822614" target="_blank" class="news-link">王毅同伊朗外长阿拉格齐通电话：谈起来总比打下去好</a> [20] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325064051929800" target="_blank" class="news-link">OpenAI首席财务官：本轮融资总额达1200亿美元</a> [20] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1937236067859306429" target="_blank" class="news-link">如何看待 Ai 音乐创作这个趋势？</a> [20] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620117820361474067/" target="_blank" class="news-link">招商银行上调黄金账户点差至5元/克</a> [21] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325064010859800" target="_blank" class="news-link">SK海力士：计划于2026年内在美国上市ADR（美国存托凭证），已向美国证交会（SEC）秘密提交上市申请。</a> [21] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325063733355800" target="_blank" class="news-link">OpenAI首席财务官弗里尔：我们必须打造一家为上市做好准备的公司，此轮融资是为了降低相关风险。</a> [22] <font color='grey'>- 07时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325063148791800" target="_blank" class="news-link">消息人士称，特朗普政府预计最快于周三放宽夏季汽油法规，以抑制能源价格。</a> [23] <font color='grey'>- 07时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

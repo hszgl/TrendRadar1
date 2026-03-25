@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2026-03-25 19:23:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">22.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325191248950800" target="_blank" class="news-link">工信部公开征求《人工智能 安全治理 模型上下文协议应用安全要求》等121项行业标准计划项目意见。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rmkkOjixQd" target="_blank" class="news-link">伊朗称向美林肯号航母发射导弹</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rmc4sy9a8S" target="_blank" class="news-link">伊朗大使：未与美国直接或间接谈判</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rmd4uQJqtB" target="_blank" class="news-link">伊拉克不忍了？“允许亲伊朗武装报复美以”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620769723227295238/" target="_blank" class="news-link">《新闻联播》正在直播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rmfQorUqLB" target="_blank" class="news-link">击毁F-35A，再看伊朗防空作战能力，其实还凑合？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%90%91%E7%BE%8E%E8%88%AA%E6%AF%8D%E5%8F%91%E5%B0%84%E5%AF%BC%E5%BC%B9" target="_blank" class="news-link">伊朗称向美航母发射导弹</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%A3%B0%E6%98%8E%E9%80%9A%E8%A1%8C%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%E8%88%B9%E5%8F%AA%E6%9D%A1%E4%BB%B6%23&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">伊朗声明通行霍尔木兹海峡船只条件</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rmg1K8OuB2" target="_blank" class="news-link">伊朗喊话特朗普：美国在中东地区的投资将不复存在</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190801891800" target="_blank" class="news-link">黄金坑已现？新债王喊抄底黄金丨Hi，今天怎么看？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190441454800" target="_blank" class="news-link">赤峰黄金：李金阳及其一致行动人拟协议转让公司12.73%股份</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7621115921008574491/" target="_blank" class="news-link">美以军事打击伊朗引发四重裂痕</a> [11] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rmENBz41he" target="_blank" class="news-link">美前商务部长：对伊战争致美国经济压力暴增</a> [12] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190146598800" target="_blank" class="news-link">美国国防部：洛克希德马丁公司将把普雷西斯打击导弹的交付置于战时状态。</a> [12] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190040429800" target="_blank" class="news-link">葡萄牙央行：伊朗战争的影响以及近期风暴造成的损害正在对经济活动产生压力。</a> [13] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190002609800" target="_blank" class="news-link">美国至3月20日当周MBA抵押贷款再融资活动指数 1145，前值1341。</a> [14] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190002611800" target="_blank" class="news-link">美国至3月20日当周MBA30年期固定抵押贷款利率 6.43%，前值6.3%。</a> [15] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190002608800" target="_blank" class="news-link">美国至3月20日当周MBA抵押贷款申请活动指数 310.7，前值347.1。</a> [16] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325190002601800" target="_blank" class="news-link">美国至3月20日当周MBA抵押贷款购买指数 163.6，前值172.9。</a> [17] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%96%8A%E8%AF%9D%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E7%BE%8E%E5%9B%BD%E5%B7%B2%E2%80%9C%E6%88%98%E7%95%A5%E5%A4%B1%E8%B4%A5%E2%80%9D" target="_blank" class="news-link">伊朗喊话特朗普：美国已“战略失败”</a> [20] <font color='grey'>- 19时23分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260325185531437800" target="_blank" class="news-link">声明显示：伊拉克总理已指示外交部，就针对其“军事单位”的袭击事件召见美国驻伊拉克代办。</a> [23] <font color='grey'>- 19时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

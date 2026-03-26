@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2026-03-27 07:37:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">10</td>
+                <td class="percentage">18.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨特朗普：再推迟10天打击伊朗发电厂</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768430" target="_blank" class="news-link">谈判僵局重燃市场恐慌，全球债市大跌，油价重新走强，芯片股拖累美股，美元冲高回落</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327071249685800" target="_blank" class="news-link">当地时间3月27日凌晨伊朗首都德黑兰传出爆炸声。伊朗防空系统已启动，拦截来袭的敌对目标。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2326270" target="_blank" class="news-link">美股收盘：标普、纳指创开战后最大单日跌幅 特朗普盘后发声</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768491" target="_blank" class="news-link">伊朗通过中间人回应美15点停火提议 提出明确前提条件</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768434" target="_blank" class="news-link">特朗普还能压制油价多久？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32838545" target="_blank" class="news-link">伊朗已正式回应美国提出的停火协议15点内容</a> [14] <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327065804485800" target="_blank" class="news-link">白宫：特朗普总统签署行政令，禁止联邦承包商实施多元化、公平与包容措施（DEI）。</a> [25] <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327065103863800" target="_blank" class="news-link">特朗普宣布：对伊能源打击再延10天，系应伊朗要求！</a> [27] <font color='grey'>- 07时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327065023770800" target="_blank" class="news-link">古特雷斯：任命中东问题特使与伊朗方面进行“直接接触”</a> [28] <font color='grey'>- 07时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

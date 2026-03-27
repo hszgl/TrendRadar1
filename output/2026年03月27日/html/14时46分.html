@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 102</p><p>生成时间: 2026-03-27 14:46:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">15.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨英首相回击特朗普：我不会任人摆布</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/27/6fb4ebf672c747cb891152be41d79da5.html" target="_blank" class="news-link">俄方驳斥“俄向伊朗提供情报”说法</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/27/6d7004e7803443d388b81f146a14923d.html" target="_blank" class="news-link">法国否认向美国压力屈服</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rpolXOFi6s" target="_blank" class="news-link">伊朗抗议议长和外长被列为暗杀目标</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2017224899635142906" target="_blank" class="news-link">AI 短剧《雪山救狐狸》为什么火了？它戳中了什么点？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327143226680800" target="_blank" class="news-link">日本劝退外国援助请求：石油储备将优先供国内使用</a> [12] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B9%98%E5%A5%B3%E5%A4%9A%E6%83%85AI%E9%99%B6%E5%96%86%E7%89%88" target="_blank" class="news-link">湘女多情AI陶喆版</a> [14] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2445342" target="_blank" class="news-link">经济学家：房地产有止跌回暖迹象</a> [14] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327143121219800" target="_blank" class="news-link">市场消息：美国参议院通过法案，将为国土安全部的大部分运作提供资金，迈出结束停摆的重要一步。</a> [15] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%89%93%E7%A0%B4165%E5%B9%B4%E4%BC%A0%E7%BB%9F+%E7%BE%8E%E9%92%9E%E5%B0%86%E5%8D%B0%E7%89%B9%E6%9C%97%E6%99%AE%E7%AD%BE%E5%90%8D" target="_blank" class="news-link">打破165年传统 美钞将印特朗普签名</a> [18] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32837558" target="_blank" class="news-link">特朗普再次就停战谈判威胁伊朗</a> [19] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327142809389800" target="_blank" class="news-link">菲律宾外长：石油储备仅能维持40到45天</a> [19] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327142612353800" target="_blank" class="news-link">分析：伊朗战争可能加剧亚洲私募股权领域十年来最严重的融资困境</a> [20] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%85%83%E7%BA%B8%E5%B8%81%E5%B0%86%E5%8D%B0%E7%89%B9%E6%9C%97%E6%99%AE%E7%AD%BE%E5%90%8D%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">美元纸币将印特朗普签名</a> [21] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327142521631800" target="_blank" class="news-link">德国外长：美国与伊朗已进行间接接触，这是积极的信号。</a> [22] <font color='grey'>- 14时46分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327141551825800" target="_blank" class="news-link">以色列国防军：在夜间行动中打击了伊朗境内的弹道导弹及防空系统生产设施。</a> [29] <font color='grey'>- 14时46分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

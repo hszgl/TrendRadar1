@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 49</p><p>生成时间: 2026-03-28 03:24:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">38.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328031036878800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：截至3月24日当周，布伦特原油期货市场上的投机者将净多头仓位减少21,579手，降至407,125手。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rqZBHfSeym" target="_blank" class="news-link">伊朗官员称考虑退出《不扩散核武器条约》</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328030555224800" target="_blank" class="news-link">据纽约时报：美国总统特朗普与印度总理莫迪就伊朗局势通了电话，埃隆·马斯克也加入了通话。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328030231326800" target="_blank" class="news-link">伊朗高级官员：尚未决定是否回应美国的提议</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328025813632800" target="_blank" class="news-link">伊朗外长与黎巴嫩议长通话 讨论地区最新局势</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328025549470800" target="_blank" class="news-link">美国农业部长罗林斯：（谈霍尔木兹海峡通行受阻对肥料的影响）我对成本感到担忧。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328025517273800" target="_blank" class="news-link">美国国土安全部：美国运输安全管理局的员工最早将于周一收到工资。</a> [11] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328024241849800" target="_blank" class="news-link">美国海岸警卫队：两艘从墨西哥驶往古巴运送援助物资的船只已被发现的说法“不正确”。</a> [12] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328024209903800" target="_blank" class="news-link">伊朗高级官员：鉴于此前工业和核基础设施遭到袭击，德黑兰方面尚未决定是否回应美国的提议，这份回应原本预计于周五或周六作出。</a> [13] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2020941462666305824" target="_blank" class="news-link">Science 封面论文称「人工智能的谄媚影响人的思维方式」，这种「谄媚」还会产生哪些其他影响？</a> [13] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328024014210800" target="_blank" class="news-link">伊朗高级官员：美国在呼吁对话的同时又对伊朗发动袭击的做法“不可容忍”。</a> [14] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328023428762800" target="_blank" class="news-link">白宫备忘录：美国总统特朗普指示国土安全部部长和美国行政管理和预算局局长补偿美国运输安全管理局员工。</a> [16] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7620599484363915273/" target="_blank" class="news-link">军情六处前负责人：伊朗占据“优势”</a> [18] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328023015859800" target="_blank" class="news-link">上海黄金交易所黄金T+D 3月27日（周五）晚盘收盘上涨1.35%报1004.45元/克；&lt;br/&gt;上海黄金交易所白银T+D 3月27日（周五）晚盘收盘上涨2.56%报17730.0元/千克。</a> [18] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328022742355800" target="_blank" class="news-link">伊朗外长：以总理在用美国人的钱和命豪赌</a> [19] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328022514262800" target="_blank" class="news-link">美国众议院议长约翰逊：我们计划尽快对国土安全部临时拨款法案进行投票。</a> [20] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328022325501800" target="_blank" class="news-link">国际原子能机构：已获伊朗通报，位于亚兹德省（又称阿尔达坎）的沙希德·雷扎耶·内贾德黄饼生产设施今日遭到袭击。</a> [22] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328022158948800" target="_blank" class="news-link">美国众议院议长约翰逊：几分钟前与美国总统特朗普通了话。</a> [23] <font color='grey'>- 03时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260328022125496800" target="_blank" class="news-link">伊朗称将为人道主义物资通过霍尔木兹海峡提供便利</a> [24] <font color='grey'>- 03时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

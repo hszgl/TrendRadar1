@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 159</p><p>生成时间: 2026-03-27 13:12:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">14.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rpf1MsTCnS" target="_blank" class="news-link">“伊朗强硬派正疾呼造核弹，这两人死后彻底压不住了”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rpf1MsTCli" target="_blank" class="news-link">自战事爆发以来，伊朗平均每天卖油能多赚1.7亿</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%E5%A4%A7%E4%B9%B0%E5%AE%B6%E5%BC%80%E5%A7%8B%E6%8A%9B%E5%94%AE%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">黄金大买家开始抛售</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327124527758800" target="_blank" class="news-link">从Anthropic泄露的文件显示，新一代超强模型Claude Mythos已在测试中，Anthropic认为它“带来了前所未有的网络安全风险”。马斯克就此表示：“令人深感担忧”。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2326528" target="_blank" class="news-link">130.5%！半导体分立器件制造业开年利润暴增 AI或成最强推手</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327124343259800" target="_blank" class="news-link">伊朗战争将日本铝溢价推升至11年高位</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2326560" target="_blank" class="news-link">大摩数据印证特朗普口中“大礼” ：霍尔木兹海峡流量正明显增加</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2326466" target="_blank" class="news-link">黄金为何跌不停？美伊战火下，这一“超级央妈粉”两周狂抛超58吨！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rpZSKNA39N" target="_blank" class="news-link">美元纸币将印上特朗普签名</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/27/f21ab87184434d408a88bd37aa11808a.html" target="_blank" class="news-link">伊朗斥美停战建议“片面且不公平”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327124012992800" target="_blank" class="news-link">中国平安郭晓涛：2025年综合投资收益率6.3% 黄金为核心策略资产之一</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/27/c8357f69022a4cea958bc9b2b22de2c8.html" target="_blank" class="news-link">伊朗禁止运动员前往“敌对”国家</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327123600313800" target="_blank" class="news-link">印度石油天然气公司（ONGC）股价上涨2.2%。</a> [11] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2326367" target="_blank" class="news-link">美伊极致拉扯：特朗普称收到“大礼”，再推迟10天打击能源设施！</a> [13] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7621688276944093203/" target="_blank" class="news-link">特朗普揭晓所谓伊朗“大礼”</a> [17] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7621515098240385060/" target="_blank" class="news-link">联合国：伊朗人道局势持续恶化</a> [20] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327122312171800" target="_blank" class="news-link">印度石油部长：将继续以及时、积极、协调的方式采取行动。</a> [20] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327122237307800" target="_blank" class="news-link">印度石油部长：全球局势仍处于动荡之中，我们正实时密切跟踪事态发展。</a> [21] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327122226463800" target="_blank" class="news-link">印度石油部长：关于印度将实施（能源）封锁的传言完全不属实。</a> [22] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327121714973800" target="_blank" class="news-link">俄外长：美国干涉中东局势使情况变得更加“严峻”</a> [24] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00883" target="_blank" class="news-link">中国海洋石油</a> [26] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327121204076800" target="_blank" class="news-link">俄外长否认俄向伊朗提供情报</a> [29] <font color='grey'>- 13时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7621399961460424731/" target="_blank" class="news-link">特朗普将签行政令向机场安检人员发薪</a> [30] <font color='grey'>- 13时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

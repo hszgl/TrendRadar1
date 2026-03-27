@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2026-03-27 21:51:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">17.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/27/625f1808b0ac4a53b7ed16150545a84e.html" target="_blank" class="news-link">外媒：特朗普称乌克兰曾试图干预美2024年大选</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28352439&amp;amp;topic_name=%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E7%A0%B4%E7%94%B2%2CAI%E6%B0%B4%E5%86%9B%E7%8E%B0%E5%8E%9F%E5%BD%A2" target="_blank" class="news-link">一行代码破甲,AI水军现原形</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7621371545780715574/" target="_blank" class="news-link">中国人工智能走在世界前列</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BDAI%E6%A8%A1%E5%9E%8B%E8%B0%83%E7%94%A8%E9%87%8F%E7%88%86%E5%8F%91%E5%BC%8F%E5%A2%9E%E9%95%BF" target="_blank" class="news-link">中国AI模型调用量爆发式增长</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E5%AE%A3%E5%B8%83%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%E5%B7%B2%E7%BB%8F%E5%85%B3%E9%97%AD" target="_blank" class="news-link">伊朗宣布霍尔木兹海峡已经关闭</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2020919092639527140" target="_blank" class="news-link">3 月 27 日伊朗革命卫队表示「霍尔木兹海峡已关闭」，对石油及能源市场影响有多大？油价会再次上涨吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768528" target="_blank" class="news-link">伊朗战争“避风港”：比亚迪3月大涨，电车股成恒科最佳之一</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2020885312767881505" target="_blank" class="news-link">Naiyou 假赛被罚终身禁赛，LPL 打野为什么多次出现假赛风波？电竞选手的「假赛」又是如何调查定性的？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2327400" target="_blank" class="news-link">市场谨慎情绪升温 美股期指延续跌势 原油黄金上涨 | 今夜看点</a> [12] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327212400259800" target="_blank" class="news-link">消息人士：美国仅能确认约三分之一的伊朗导弹库已被摧毁</a> [14] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327212212951800" target="_blank" class="news-link">以军已向伊朗发射约1.5万枚导弹和炸弹</a> [16] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E4%B8%80%E5%A4%A9%E5%90%91%E4%BB%A5%E8%89%B2%E5%88%97%E5%8F%91%E5%B0%8410%E8%BD%AE%E5%AF%BC%E5%BC%B9%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">伊朗一天向以色列发射10轮导弹</a> [19] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327211820606800" target="_blank" class="news-link">消息人士称，鉴于波罗的海港口遭遇无人机袭击，俄罗斯石油生产商正警告买家，石油供应可能面临不可抗力。</a> [19] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327211650383800" target="_blank" class="news-link">印度贸易部长：与美国贸易代表格里尔就印美双边贸易谈判的下一步举措进行了对话。</a> [21] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327211339507800" target="_blank" class="news-link">金十图示：2026年03月27日（周五）新闻联播今日要点</a> [22] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327211323733800" target="_blank" class="news-link">分析师：特朗普“周末动手”阴影再现，市场紧张情绪升温</a> [23] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260327211231206800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：美以联军的空袭行动袭击了伊朗西南部以及中部城市伊斯法罕的钢铁厂。</a> [25] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E5%8A%9D%E8%BF%943%E8%89%98%E8%AF%95%E5%9B%BE%E9%80%9A%E8%BF%87%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E8%88%B9%E5%8F%AA" target="_blank" class="news-link">伊朗：劝返3艘试图通过霍尔木兹船只</a> [26] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7621049438628823090/" target="_blank" class="news-link">伊朗就IAEA总干事不当言论发出警告</a> [27] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E5%91%A8%E4%BE%83%E8%B0%88%E7%BE%8E%E5%9B%BD%E6%9C%BA%E5%9C%BA%E6%92%9E%E6%9C%BA" target="_blank" class="news-link">世界周侃谈美国机场撞机</a> [29] <font color='grey'>- 21时51分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7621357906713821230" target="_blank" class="news-link">聊聊 AI Coding 的最新范式：Harness Engineering：我们这群程序员，又要继续学了？</a> [30] <font color='grey'>- 21时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

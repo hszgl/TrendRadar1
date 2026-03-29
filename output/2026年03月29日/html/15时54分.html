@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 99</p><p>生成时间: 2026-03-29 15:54:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">18.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨邻近霍尔木兹海峡伊朗码头被炸致5死</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329152202116800" target="_blank" class="news-link">伦敦民众举行反美以抗议 怒斥“美国立场有毒”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rtAdqyYXui" target="_blank" class="news-link">美国新国土安全部长为什么是个“印第安人MAGA”？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rsyM3HesUA" target="_blank" class="news-link">万斯：无意滞留伊朗，将很快撤出</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329151511459800" target="_blank" class="news-link">伊朗军队谴责针对伊拉克库尔德斯坦地区主席官邸的无人机袭击。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768660" target="_blank" class="news-link">面对海湾国家安抚，美国投资者“忧心忡忡”：中东经济还能撑多久？中东还有钱投资美国吗？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329150254798800" target="_blank" class="news-link">周六，伊朗境内至少有24名平民在冲突中丧生，这是迄今为止战争中单日死亡人数最高的记录之一。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329150010388800" target="_blank" class="news-link">最后3天！VIP秒抓黄金异动！</a> [11] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2021341440131735804" target="_blank" class="news-link">如何评价美军 E-3 预警机被曝遭伊朗导弹摧毁？这款预警机有何特别之处？被击中会对美军造成哪些影响？</a> [11] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7622514193077698596/" target="_blank" class="news-link">伊朗德黑兰再遭空袭</a> [13] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329145652626800" target="_blank" class="news-link">以色列国防军已探测到伊朗再次发射的弹道导弹。预计在接下来的几分钟内，以色列南部将响起警报。</a> [15] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2021263346008158508" target="_blank" class="news-link">伊朗科技大学遭美以空袭，本轮冲突已造成伊朗 252 名师生死亡，对伊朗教育系统打击有多大？</a> [18] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%83%A1%E5%A1%9E%E4%BC%8A%E6%9C%97%E9%BB%8E%E5%B7%B4%E5%AB%A9%E5%90%8C%E6%AD%A5%E8%A2%AD%E5%87%BB%E4%BB%A5%E8%89%B2%E5%88%97%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">胡塞伊朗黎巴嫩同步袭击以色列</a> [19] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329143435766800" target="_blank" class="news-link">伊朗外长就黎巴嫩记者遇袭身亡表示哀悼</a> [22] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329143201029800" target="_blank" class="news-link">一名出生于美国的以色列士兵在黎巴嫩南部的战斗中阵亡。</a> [23] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E4%BB%A5%E8%A2%AD%E5%87%BB%E9%82%BB%E8%BF%91%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%E4%BC%8A%E6%9C%97%E7%A0%81%E5%A4%B4%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">美以袭击邻近霍尔木兹海峡伊朗码头</a> [26] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329142351784800" target="_blank" class="news-link">美以袭击邻近霍尔木兹海峡的伊朗码头 致5人死亡</a> [26] <font color='grey'>- 15时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329142158715800" target="_blank" class="news-link">市场消息：美国KC-135空中加油机宣布在约旦空域进入紧急状态。</a> [27] <font color='grey'>- 15时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

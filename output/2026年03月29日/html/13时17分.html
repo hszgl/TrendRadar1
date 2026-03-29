@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 137</p><p>生成时间: 2026-03-29 13:17:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">14</td>
+                <td class="percentage">10.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨3所大学遭美以攻击，伊朗驻华使馆表态</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E5%85%A8%E5%9B%BD%E7%88%86%E5%8F%91%E5%8F%8D%E5%AF%B9%E7%89%B9%E6%9C%97%E6%99%AE%E6%94%BF%E5%BA%9C%E9%9B%86%E4%BC%9A%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">美国全国爆发反对特朗普政府集会</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7621824327100940294/" target="_blank" class="news-link">全美超900万人举行抗议反对特朗普</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD1000%E4%BA%BA%E5%8C%85%E5%9B%B4%E6%94%BF%E5%BA%9C%E6%9C%BA%E6%9E%84%E5%A4%A7%E6%A5%BC%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">美国1000人包围政府机构大楼</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32852314" target="_blank" class="news-link">观察｜国家级中试基地发布成果，医疗AI如何迈向规模化应用</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768657" target="_blank" class="news-link">周六，仅“四艘船”经由“伊朗走廊”穿越霍尔木兹海峡，其中两艘LPG船驶往印度</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%85%85%E7%94%B5%E6%B6%A8%E4%BB%B7%E5%9B%A0%E7%94%A8%E6%B2%B9%E5%8F%91%E7%94%B5%E7%B3%BB%E8%B0%A3%E8%A8%80" target="_blank" class="news-link">新能源车充电涨价因用油发电系谣言</a> [11] <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E7%88%86%E5%8F%91%E5%8F%8D%E7%89%B9%E6%9C%97%E6%99%AE%E6%94%BF%E5%BA%9C%E9%9B%86%E4%BC%9A" target="_blank" class="news-link">美国爆发反特朗普政府集会</a> [13] <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329120007037800" target="_blank" class="news-link">为何说土耳其抛黄金恰是黄金价值的反向确认？</a> [15] <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329115436402800" target="_blank" class="news-link">叙利亚消息人士称，四架无人机袭击了位于叙利亚东北部哈塞克附近的美国卡斯拉克基地。</a> [16] <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329114142057800" target="_blank" class="news-link">美媒：若伊朗在海峡建立收费系统，收入可媲美埃及苏伊士运河</a> [22] <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329113841095800" target="_blank" class="news-link">美副总统称无意滞留伊朗将很快撤出</a> [24] <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%89%93%E5%87%BB%E7%BE%8E%E5%86%9B%E8%97%8F%E5%8C%BF%E5%9C%B0+%E7%BE%8E%E5%86%9B%E5%90%A6%E8%AE%A4" target="_blank" class="news-link">伊朗称打击美军藏匿地 美军否认</a> [29] <font color='grey'>- 13时17分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260329110244084800" target="_blank" class="news-link">阿联酋国防部表示，目前正应对来自伊朗的无人机和导弹。</a> [30] <font color='grey'>- 13时17分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

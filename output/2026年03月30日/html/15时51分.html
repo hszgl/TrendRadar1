@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-03-30 15:51:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">14.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨美以空袭伊朗一儿童游乐场</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/30/cb4c31c89da74c4cb04fb86d1a25e147.html" target="_blank" class="news-link">特朗普宣称已实现伊朗“政权更迭”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330154555529800" target="_blank" class="news-link">金十数据整理：每日房地产行业动态汇总（2026-03-30）</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330154454088800" target="_blank" class="news-link">创耀科技：公司星闪芯片销量持续增长</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/30/ba2ba84af6ab45a3a4c4cdfca8eb6299.html" target="_blank" class="news-link">美国放行一艘俄罗斯油轮赴古巴</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330154353514800" target="_blank" class="news-link">据伊朗伊斯兰共和国通讯社（IRNA）：伊朗代理国防部长对土耳其防长表示，德黑兰将继续“惩罚侵略者、建立威慑并确保战争不会重演”。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E4%B8%80%E5%84%BF%E7%AB%A5%E6%B8%B8%E4%B9%90%E5%9C%BA%E9%81%AD%E7%BE%8E%E4%BB%A5%E8%A2%AD%E5%87%BB" target="_blank" class="news-link">伊朗一儿童游乐场遭美以袭击</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rubpGeBu1W" target="_blank" class="news-link">特朗普私下问：2028，万斯还是鲁比奥？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768721" target="_blank" class="news-link">伊朗官员：计划对通过霍尔木兹海峡船只实施更严格的准入与收费制度</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2328360" target="_blank" class="news-link">特朗普：不排除占领伊朗石油枢纽哈尔克岛</a> [12] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330153553975800" target="_blank" class="news-link">特朗普称“下一个目标将是古巴”，中方回应</a> [13] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330153442086800" target="_blank" class="news-link">中方回应4名美国议员窜访台湾</a> [15] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%86%9B%E5%87%86%E5%A4%87%E5%9C%A8%E4%BC%8A%E6%9C%97%E5%B1%95%E5%BC%80%E6%95%B0%E5%91%A8%E5%9C%B0%E9%9D%A2%E6%88%98%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">美军准备在伊朗展开数周地面战</a> [16] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330153309878800" target="_blank" class="news-link">据伊朗SNN通讯社：伊朗伊斯兰革命卫队确认海军司令阿里礼萨·坦格西里遇难。</a> [18] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330153015740800" target="_blank" class="news-link">上海黄金交易所黄金T+D 3月30日（周一）收盘上涨1.81%报1009.0元/克；&lt;br/&gt;上海黄金交易所白银T+D 3月30日（周一）收盘上涨1.57%报17560.0元/千克。</a> [19] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330152731891800" target="_blank" class="news-link">国际现货黄金牛市转弱但回调受限，长期多头二次集结？ | Live分析更新中</a> [21] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330152515917800" target="_blank" class="news-link">以色列国防军：已加大对伊朗武器生产行业的打击力度，过去两天已瞄准约40处设施。</a> [25] <font color='grey'>- 15时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330152505452800" target="_blank" class="news-link">富宝资讯：碳酸锂期货偏强震荡，富宝电池级碳酸锂报166900元/吨</a> [26] <font color='grey'>- 15时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

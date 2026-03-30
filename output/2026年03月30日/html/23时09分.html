@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 103</p><p>生成时间: 2026-03-30 23:09:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">18.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223428649800" target="_blank" class="news-link">墨西哥总统辛鲍姆：美国移民拘留所墨西哥公民死亡事件发生后，我们将采取措施。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rvIfVFBMLi" target="_blank" class="news-link">特朗普威胁：若不达成协议，就摧毁伊朗发电厂、油井和哈尔克岛</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768769" target="_blank" class="news-link">特朗普：若达不成协议将“摧毁伊朗所有发电厂、油井及哈尔克岛”，伊朗回应：若遭袭，将给整个地区断电！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8rvJk8X80ws" target="_blank" class="news-link">鲁比奥：绝不允许伊朗永久控制霍尔木兹海峡</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223203106800" target="_blank" class="news-link">惠誉评级：受伊朗战争影响，海湾合作委员会债券发行利差升至五年来高位；但仍低于疫情暴发时水平。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223147625800" target="_blank" class="news-link">美国3月达拉斯联储制造业原材料支付价格指数 32.7，前值31.7。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223138084800" target="_blank" class="news-link">美国3月达拉斯联储制造业装船指数 1.8，前值9.9。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2329414" target="_blank" class="news-link">伊朗议会正研究退出《不扩散核武器条约》问题</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223131902800" target="_blank" class="news-link">美国3月达拉斯联储制造业就业指数 -1，前值7.5。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223119639800" target="_blank" class="news-link">美国3月达拉斯联储制成品价格指数 18.4，前值17.9。</a> [11] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223107869800" target="_blank" class="news-link">美国3月达拉斯联储新订单指数 6.1，前值11.1。</a> [12] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223059459800" target="_blank" class="news-link">美国3月达拉斯联储制造业产出指数 6.8，前值12.5。</a> [13] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330223029651800" target="_blank" class="news-link">美国3月达拉斯联储商业活动指数 -0.2，预期1.5，前值0.2。</a> [14] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/OXY" target="_blank" class="news-link">西方石油</a> [20] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1977151242334672705" target="_blank" class="news-link">人工智能时代，我们应该学习什么样的知识才能不被淘汰？</a> [20] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330222648251800" target="_blank" class="news-link">美国天然气期货下跌逾5%，至每百万英热单位2.85美元。</a> [22] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/AA" target="_blank" class="news-link">美国铝业</a> [25] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%AE%9E%E6%96%BD%E2%80%9C%E7%9C%9F%E5%AE%9E%E6%89%BF%E8%AF%BA-4%E2%80%9D%E7%AC%AC87%E8%BD%AE%E8%A1%8C%E5%8A%A8" target="_blank" class="news-link">伊朗实施“真实承诺-4”第87轮行动</a> [27] <font color='grey'>- 23时09分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28352548&amp;amp;topic_name=%E4%BC%8A%E6%9C%97%E4%BD%BF%E9%A6%86%E5%8F%91%E5%A3%B0%3A%E4%B8%BA%E5%8F%97%E5%AE%B3%E5%9B%BD%E5%A4%8D%E4%BB%87" target="_blank" class="news-link">伊朗使馆发声:为受害国复仇</a> [30] <font color='grey'>- 23时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

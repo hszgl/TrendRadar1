@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 115</p><p>生成时间: 2026-03-30 17:19:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">17</td>
+                <td class="percentage">14.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ruuG1aRNqh" target="_blank" class="news-link">特朗普说中东冲突或很快停止，外交部回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330171211690800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰已收到来自盟友的信号，建议放缓对俄罗斯石油行业的打击。如果俄罗斯准备停止对乌克兰能源设施的袭击，基辅方面也将采取对等行动。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7622434907419361334/" target="_blank" class="news-link">中方回应4名美国议员窜访台湾</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%9F%B3%E6%B2%B9%E5%8D%B1%E6%9C%BA%E4%BC%9A%E5%86%8D%E6%AC%A1%E5%87%BA%E7%8E%B0%E5%90%97" target="_blank" class="news-link">石油危机会再次出现吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7622378476884607030/" target="_blank" class="news-link">伊朗革命卫队确认海军司令遇难</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E4%BC%8A%E6%96%AF%E5%85%B0%E9%9D%A9%E5%91%BD%E5%8D%AB%E9%98%9F%E7%A1%AE%E8%AE%A4%E6%B5%B7%E5%86%9B%E5%8F%B8%E4%BB%A4%E9%81%87%E9%9A%BE" target="_blank" class="news-link">伊朗伊斯兰革命卫队确认海军司令遇难</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330171124431800" target="_blank" class="news-link">伊朗外交部发言人巴盖伊：已转达给伊朗的提案大多“不切实际、不合理且过分”。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330171025306800" target="_blank" class="news-link">伊朗外交部发言人巴盖伊：未与美国进行直接对话，仅通过中介传递信息。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E8%AF%81%E5%AE%9E%E9%9D%A9%E5%91%BD%E5%8D%AB%E9%98%9F%E6%B5%B7%E5%86%9B%E5%8F%B8%E4%BB%A4%E6%AD%BB%E4%BA%8E%E7%A9%BA%E8%A2%AD%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">伊朗证实革命卫队海军司令死于空袭</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330170826061800" target="_blank" class="news-link">伊朗哈塔姆·安比亚中央司令部发言人佐尔法赫里上校：（向美国总统表示）他应该知道，我们已经多次声明，伊朗从未是任何战争的发起者，但在每次侵略之后，我们凭借力量和神圣意志决定着战争的结束。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2328629" target="_blank" class="news-link">每天700万桶！绕开霍尔木兹成效显著 沙特 “石油生命线” 满负荷运转</a> [12] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330170547413800" target="_blank" class="news-link">国投白银LOF：本基金将于2026年3月31日开市起至当日10:30停牌，自2026年3月31日10:30复牌，停牌期间本基金赎回业务照常办理。</a> [14] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330170515278800" target="_blank" class="news-link">华安基金：华安标普全球石油指数（LOF）4月3日暂停赎回</a> [16] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32858053" target="_blank" class="news-link">伊朗称已打击中东地区两家与美国军工航天工业有关的企业</a> [20] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330170028580800" target="_blank" class="news-link">金十图示：2026年03月30日（周一）上海黄金交易所市场行情</a> [23] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9F%A9%E7%BA%A2%E7%A7%80%E7%89%99%E7%BC%9D%E8%87%AA%E8%AF%81%E2%80%9C%E4%B8%8D%E6%98%AFAI%E4%BA%BA%E2%80%9D" target="_blank" class="news-link">韩红秀牙缝自证“不是AI人”</a> [28] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260330165916331800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰随时准备在任何国家与美国、俄罗斯会面。</a> [29] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

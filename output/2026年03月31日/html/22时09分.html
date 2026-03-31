@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 122</p><p>生成时间: 2026-03-31 22:09:05</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">10.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨美媒：伊朗打坏的E3不是一架而是俩</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3768819" target="_blank" class="news-link">特朗普释放停战信号，美股指高开，科技股多数上涨，房利美、房地美涨超10%，金银油齐涨</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/03/31/afd86d7730eb4adf960d10173fa3f48e.html" target="_blank" class="news-link">泽连斯基：伊朗战事长期化对乌克兰非常不利</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%AD%A6%E8%A3%85%E9%83%A8%E9%98%9F%E6%80%BB%E5%8F%82%E8%B0%8B%E9%95%BF%E9%A1%BE%E9%97%AE%E9%81%87%E8%A2%AD%E8%BA%AB%E4%BA%A1" target="_blank" class="news-link">伊朗武装部队总参谋长顾问遇袭身亡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260331213500001800" target="_blank" class="news-link">美国3月芝加哥PMI将于十分钟后公布。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7623242804392902665" target="_blank" class="news-link">💥 Claude Code 源码泄露？我把这个最强 AI Coding Agent 的架构扒干净了</a> [14] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32865145" target="_blank" class="news-link">美国打伊朗，阿拉伯国家掏钱？白宫新闻秘书：特朗普有这想法</a> [18] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260331212646497800" target="_blank" class="news-link">巴西政府：正研究采取临时措施，以缓解油价上涨对当地液化石油气价格的影响。</a> [20] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260331212235142800" target="_blank" class="news-link">美国总统特朗普：很高兴地宣布，英国国王和王后将于4月27日至30日访问美国，进行历史性的国事访问，将参加4月28日晚在白宫举行的盛大宴会。</a> [22] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%86%9B%E9%A2%84%E8%AD%A6%E6%9C%BA%E8%A2%AB%E5%87%BB%E6%AF%81+%E4%BC%8A%E6%9C%97%E4%B8%BA%E4%BD%95%E5%B1%A1%E6%9C%89%E6%96%A9%E8%8E%B7" target="_blank" class="news-link">美军预警机被击毁 伊朗为何屡有斩获</a> [25] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260331211939578800" target="_blank" class="news-link">Marvell首席执行官：与英伟达的交易将“推动互操作性”。</a> [25] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E9%AB%98%E5%B1%82%E5%90%91%E7%BE%8E%E5%9B%BD%E5%8F%91%E5%87%BA%E5%AF%86%E9%9B%86%E8%AD%A6%E5%91%8A" target="_blank" class="news-link">伊朗高层向美国发出密集警告</a> [28] <font color='grey'>- 22时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7622831099429437446/" target="_blank" class="news-link">伊朗称将继续针对侵略者开展防御行动</a> [30] <font color='grey'>- 22时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

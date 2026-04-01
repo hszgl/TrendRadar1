@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 108</p><p>生成时间: 2026-04-01 19:55:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">17.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊朗议长嘲讽鲁比奥：做啥“美国梦”呢</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7623691090163482660/" target="_blank" class="news-link">列车进站美国男子突然推搡等车乘客</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401193149042800" target="_blank" class="news-link">现货黄金突破4750美元/盎司，日内涨1.79%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2022729020421220020" target="_blank" class="news-link">伊朗副议长称目前最高领袖未批准任何谈判，如何解读？美伊关系未来将如何发展？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%94%A8AI%E8%BF%98%E5%8E%9F%E5%A5%B6%E5%A5%B6%E7%9A%84%E7%AC%91%E8%84%B8" target="_blank" class="news-link">UP主用AI还原奶奶的笑脸</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401192203402800" target="_blank" class="news-link">波音(BA.N)：根据协议，波音公司、美国国防部和 PAC-3 导弹组件改进项目主承包商洛克希德马丁公司将立即开始提高产量，并将在今年晚些时候就多年期合同的授予进行谈判。</a> [11] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401191930880800" target="_blank" class="news-link">崔东树：26年1-2月锂电池出口额142亿美元 增长46%</a> [12] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401191743029800" target="_blank" class="news-link">美国抵押贷款利率升至去年8月以来最高</a> [14] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%91%A8%E6%B7%B1%E6%96%B0%E6%AD%8C%E7%A6%81%E6%AD%A2%E7%94%A8%E4%BA%8EAI%E8%AE%AD%E7%BB%83%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">周深新歌禁止用于AI训练</a> [16] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401191348453800" target="_blank" class="news-link">拜耳公司总裁：公司业务已转向以美国为中心的发展战略。在近期新药上市取得进展之前，不会考虑资产出售。</a> [18] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32871533" target="_blank" class="news-link">外媒：特朗普正“认真考虑”让美国退出北约</a> [19] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401191252251800" target="_blank" class="news-link">瑞士政府驳斥了美国关于制造业部门存在产能过剩和过度生产的指控。瑞士联邦委员会称已决定采取必要措施，在相关调查背景下阐明瑞士的立场。</a> [20] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401191117890800" target="_blank" class="news-link">波音(BA.N)与美国国防部签署为期七年的框架协议，以扩大PAC-3制导头的生产。</a> [21] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401190915664800" target="_blank" class="news-link">伊朗高官：伊朗人民面对侵略不会沉默</a> [22] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401190709357800" target="_blank" class="news-link">美国国防部：将PAC-3 MSE导弹导引头产能提高两倍。</a> [23] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401190534462800" target="_blank" class="news-link">美国国防部与波音、洛克希德马丁达成协议。</a> [25] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401190356228800" target="_blank" class="news-link">伊朗称已开展“真实承诺-4”第89波打击行动</a> [28] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BA%AC%E4%B8%9C%E5%BF%AB%E4%B9%90%E5%87%8F%E9%87%8D%E8%B5%A2%E9%BB%84%E9%87%91%E5%85%A8%E5%9B%BD%E5%BC%80%E5%90%AF" target="_blank" class="news-link">京东快乐减重赢黄金全国开启</a> [30] <font color='grey'>- 19时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260401190122990800" target="_blank" class="news-link">美国至3月27日当周MBA抵押贷款申请活动指数 278.3，前值310.7。</a> [30] <font color='grey'>- 19时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

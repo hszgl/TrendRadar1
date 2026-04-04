@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 103</p><p>生成时间: 2026-04-04 16:50:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">20.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404163217645800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：一枚弹片击中布什尔核电站外围区域，造成一人死亡。事件未对工厂主要部件造成损害，生产未受影响。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E6%8F%90%E8%AE%AE%E5%81%9C%E7%81%AB48%E5%B0%8F%E6%97%B6%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">美国提议停火48小时</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404162324305800" target="_blank" class="news-link">美以袭击伊朗石化经济特区 造成至少5人受伤</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404161946032800" target="_blank" class="news-link">以色列军方电台：空军刚刚袭击了伊朗西南部的一个石化综合体。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769222" target="_blank" class="news-link">二战以来最大军费年增！特朗普政府寻求2027财年国防预算1.5万亿美元，非国防支出压缩10%</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E6%94%BF%E5%BA%9C%E4%BA%BA%E4%BA%8B%E5%A4%A7%E6%8D%A2%E8%A1%80" target="_blank" class="news-link">特朗普政府人事大换血</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404161829033800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗当局表示，在美国与以色列对卡拉季B1桥发动的“恐怖袭击”中，遇难人数已升至13人，多名伤者因伤势严重不治身亡。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2335312" target="_blank" class="news-link">伊朗总统：让国际社会评判 谁是谈判者谁是恐怖分子</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%82%AC%E8%B5%8F%E6%B4%BB%E6%8D%89%E8%A2%AB%E5%87%BB%E8%90%BD%E7%9A%84%E7%BE%8E%E5%86%9B%E9%A3%9E%E8%A1%8C%E5%91%98" target="_blank" class="news-link">伊朗悬赏活捉被击落的美军飞行员</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769207" target="_blank" class="news-link">特朗普发布2027预算提案，国防开支飙升50%至1.5万亿美元</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404161513657800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：伊朗西南部胡齐斯坦省班达尔伊玛目石化综合体遭到空袭，部分设施受损。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404161409359800" target="_blank" class="news-link">印度石油部：印度未来几个月的原油需求已得到充分保障。</a> [11] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404161301848800" target="_blank" class="news-link">印度石油部：印度炼油企业已落实原油供应，其中包括来自伊朗的原油；伊朗原油进口不存在付款障碍。</a> [12] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404161246565800" target="_blank" class="news-link">市场消息：代理顾问机构机构股东服务公司（Institutional Shareholder Services，ISS）建议就英国石油(BP.N)董事会的相关提案投反对票，该提案涉及撤销部分此前的气候信息披露决议，并可能允许仅以线上形式召开股东大会。</a> [13] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404160555275800" target="_blank" class="news-link">伊朗警告以色列：若伊使馆和外交机构遭袭 将迅速反击</a> [14] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32901007" target="_blank" class="news-link">一名美军战机飞行员仍失踪，特朗普：希望“那种情况”不会发生</a> [17] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%E5%A4%A7%E5%B9%85%E5%9B%9E%E8%90%BD%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">黄金大幅回落</a> [18] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404155146443800" target="_blank" class="news-link">伊媒：美以对伊朗石化特别经济区发动空袭 很可能造成伤亡</a> [21] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404155018594800" target="_blank" class="news-link">伊官员：伊朗石油出口量有所增加 全国燃料供应正常</a> [22] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624384049926569990/" target="_blank" class="news-link">伊朗称若基础设施遭袭将更有力回击</a> [23] <font color='grey'>- 16时50分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404153732501800" target="_blank" class="news-link">据伊朗媒体Fars News：伊朗西南部胡齐斯坦省马赫沙赫尔（Mahshahr）石化特别经济区传出多起爆炸声。</a> [25] <font color='grey'>- 16时50分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

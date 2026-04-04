@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 69</p><p>生成时间: 2026-04-04 19:33:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">23.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊媒头版嘲讽美国：空中颜面尽失</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404190011114800" target="_blank" class="news-link">巴基斯坦外长：感谢伊朗外长的澄清。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s3NhKYvZFG" target="_blank" class="news-link">伊朗号召民众找到美国飞行员就开枪，富商悬赏5万美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624435052776279615/" target="_blank" class="news-link">《新闻联播》正在直播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2455277" target="_blank" class="news-link">新闻联播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404185427980800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：真主党向贾巴勒·尼里亚（Jabal Niriya）发动导弹袭击，该地为以色列北部的空中作战与监视基地。此次打击目标为位于被占领北部地区、与米隆（Miron）系统相关联的设施。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404185155651800" target="_blank" class="news-link">伊朗外长：与奥地利外交部长今日进行了电话会谈，就最新地区和国际局势以及双边关系进行了讨论。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404184601381800" target="_blank" class="news-link">伊朗外长：还记得西方曾对乌克兰扎波罗热核电站附近的敌对行动表达的愤怒吗？以色列和美国如今已对我们的布什尔核电站发动了四次轰炸。放射性沉降将终结的是海湾合作委员会各国首都的生命，而不是德黑兰。对我们石化设施的袭击也传递出真实意图。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404184110917800" target="_blank" class="news-link">以色列军队表示，已对伊朗首都德黑兰发动了新一轮空袭。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404183735072800" target="_blank" class="news-link">伊朗外长：美国媒体对伊朗的立场进行了误传。我们对巴基斯坦的努力深表感谢，从未拒绝前往伊斯兰堡（参加调解会谈）。我们关心的是结束对我们施加的非法战争的明确和持久的条件。</a> [11] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404182518640800" target="_blank" class="news-link">伊朗否认石化经济特区遭袭后发生有毒物质泄漏</a> [13] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404182034793800" target="_blank" class="news-link">据伊朗媒体Fars News：在伊斯法罕莫巴拉凯（Mobarakeh）发生的一次美以袭击中，一名红新月会人道主义工作人员遇难。</a> [16] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404181922680800" target="_blank" class="news-link">伊媒：伊朗允许必需品船只经霍尔木兹海峡前往伊朗港口</a> [18] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404181430565800" target="_blank" class="news-link">专家分析：美国中东“任务收缩” 其全球声望或将下降</a> [20] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260404180422484800" target="_blank" class="news-link">奥地利副总理：不想卷入特朗普发动的战争</a> [21] <font color='grey'>- 19时33分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E5%87%BB%E8%90%BD%E4%B8%80%E6%9E%B6%E7%BE%8E%E5%9B%BD%E2%80%9C%E5%8D%A2%E5%8D%A1%E6%96%AF%E2%80%9D%E6%97%A0%E4%BA%BA%E6%9C%BA" target="_blank" class="news-link">伊朗：击落一架美国“卢卡斯”无人机</a> [27] <font color='grey'>- 19时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2026-04-05 21:09:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">24.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨美军深入伊朗营救飞行员内幕全揭晓</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/05/2e3f4e32f6884057a64231020be22c7c.html" target="_blank" class="news-link">托马斯·弗里德曼：特朗普该如何退出伊朗战争？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405203218759800" target="_blank" class="news-link">金十图示：2026年04月05日（周日）新闻联播今日要点</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/05/2b1c4edbc64d479b82de9428afb2c508.html" target="_blank" class="news-link">美国特勤局调查白宫附近“夜间枪声”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s536DTpz6I" target="_blank" class="news-link">美媒终于发现：美以炸完，伊朗几小时就能修好导弹掩体</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A6%88%E5%A6%88%E4%B8%8D%E7%9F%A5%E5%84%BF%E5%AD%90%E5%8E%BB%E4%B8%96%E8%B7%9FAI%E5%84%BF%E5%AD%90%E8%81%8A%E4%BA%861%E5%B9%B4%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">妈妈不知儿子去世跟AI儿子聊了1年</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405202830436800" target="_blank" class="news-link">伊拉克国家通讯社：伊拉克感谢伊朗允许伊拉克油轮通过霍尔木兹海峡。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769257" target="_blank" class="news-link">下周重磅日程：特朗普再发“最后通牒”、中美通胀数据、三星与天孚通信业绩</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405202641454800" target="_blank" class="news-link">据伊朗国家媒体报道，伊朗外交部官员表示，近期在美国被捕的伊朗公民与已故伊朗伊斯兰革命卫队圣城旅指挥官卡西姆·苏莱曼尼并无亲属关系。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769293" target="_blank" class="news-link">伊朗媒体发布“被击落”美军军机图像：残骸遍地，余烟飘散</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405202514812800" target="_blank" class="news-link">以色列总理内塔尼亚胡：祝贺特朗普通过美国勇敢的战士们成功救回了一位勇敢的美国飞行员。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8s4k0EtHRMa" target="_blank" class="news-link">外媒：特朗普一直待在白宫，并未公开露面接受记者采访</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405202247610800" target="_blank" class="news-link">日本政府考虑5月追加释放国家石油储备</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624898510541835830/" target="_blank" class="news-link">伊朗公布被击落美军机画面：残骸遍地</a> [12] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405200932018800" target="_blank" class="news-link">一周展望：战争第六周特朗普的剧本要崩、CPI将爆，金价又要出大戏？</a> [12] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405200543778800" target="_blank" class="news-link">特朗普“F词”大骂伊朗 威胁打击伊朗电厂和桥梁</a> [13] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405200237166800" target="_blank" class="news-link">伊朗发动对美以第96波打击</a> [15] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405200000087800" target="_blank" class="news-link">伊朗已将以色列电厂列入攻击目标</a> [16] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405195621932800" target="_blank" class="news-link">特朗普：成功营救F-15飞行员 将于周一举行发布会</a> [17] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405195446661800" target="_blank" class="news-link">美国总统特朗普：我们已从伊朗境内的崇山峻岭中救出了那位伤势严重但非常勇敢的F-15机组人员/军官。</a> [18] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405193412293800" target="_blank" class="news-link">伊朗称打击海湾多国石化与能源设施 警告进一步打击美国利益</a> [20] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405193228886800" target="_blank" class="news-link">伊朗红新月会：今天早晨，位于法尔斯省塞皮丹县的一辆伊朗红新月会救援车辆在空袭中被完全摧毁。车辆是在该县的科姆赫地区执行救援任务时被摧毁的。截至目前，已有46辆伊朗红新月会和紧急医疗服务的救护车在美以空袭伊朗中受损。此外，四名伊朗红新月会的救援人员在袭击中殉职。</a> [21] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260405191547345800" target="_blank" class="news-link">据以色列时报：以色列消防部门表示，在伊朗一枚弹道导弹袭击贝尔谢巴以南一处工业区后，目前不存在危险物质泄漏的风险。以色列消防与救援局称，导弹击中了内奥特霍瓦夫（Neot Hovav）工业区的一处空地，冲击波和弹片对一座工厂建筑造成了轻微损坏。</a> [24] <font color='grey'>- 21时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624177782130098217/" target="_blank" class="news-link">巴格达爆发示威抗议美以军事打击伊朗</a> [29] <font color='grey'>- 21时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2026-04-06 19:51:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">25.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊朗回应谈判问题：国防优先，拒绝胁迫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406193540180800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：阿萨卢耶两家公用事业公司遭袭，导致石化装置供电中断。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s6mUOQE9eu" target="_blank" class="news-link">伊朗称袭击了一艘美军两栖攻击舰</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406192321854800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：为阿萨卢耶石化工厂提供电力、水和氧气的公司遭到袭击，帕尔斯石化公司未受影响。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406192139969800" target="_blank" class="news-link">伊朗发动“真实承诺-4”第98波攻势 打击美军两栖攻击舰</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769303" target="_blank" class="news-link">央行抛售黄金影响几何？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406191558543800" target="_blank" class="news-link">金十数据4月6日讯，伊朗伊斯兰革命卫队称，其袭击了美国两栖攻击舰LHA-7。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E7%BE%8E%E6%96%B9%E8%90%A5%E6%95%91%E9%A3%9E%E8%A1%8C%E5%91%98%E6%88%96%E4%B8%BA%E7%AA%83%E5%8F%96%E6%B5%93%E7%BC%A9%E9%93%80" target="_blank" class="news-link">伊朗：美方营救飞行员或为窃取浓缩铀</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406191150038800" target="_blank" class="news-link">以色列国防部长卡茨：已指示以色列军方继续全力打击伊朗的“国家基础设施”。</a> [11] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406191124078800" target="_blank" class="news-link">以色列国防部长卡茨：以色列国防军对位于伊斯法罕的伊朗最大石化设施实施强力打击。目前，这两处设施（合计约占伊朗石化出口约85%）已被瘫痪，处于停运状态。</a> [12] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406191050590800" target="_blank" class="news-link">以色列国防部长卡茨：以色列空军不久前袭击了伊朗“最大的石化设施”。</a> [13] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406191030041800" target="_blank" class="news-link">市场消息：伊朗方面报道称，卡塔尔船只在霍尔木兹海峡被迫掉头。</a> [14] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624513547506958377/" target="_blank" class="news-link">伊朗：美营救飞行员或为窃取浓缩铀</a> [16] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32911737" target="_blank" class="news-link">易烊千玺被“换脸”？红果短剧：坚决打击AI短剧素材违规使用、无授权盗用等行为</a> [18] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406190423312800" target="_blank" class="news-link">国际原子能机构：可以确认，近期在伊朗布什尔核电站附近发生了军事打击。</a> [21] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406190358039800" target="_blank" class="news-link">伊朗伊斯兰革命卫队：阿联酋与“犹太复国主义政权”的无人机联合生产中心，以及驻扎在阿里·萨利姆基地的数架飞机，均遭无人机和导弹精确打击。</a> [22] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406185306338800" target="_blank" class="news-link">伊朗外交部发言人：美方营救飞行员行动或为窃取浓缩铀</a> [24] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7624422672949035046" target="_blank" class="news-link">从“能跑”到“能用”：Gemma 4 如何成为本地 AI Agent 的实用之选</a> [24] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406185143337800" target="_blank" class="news-link">特朗普再次极限施压，和平协议成市场二元开关 | 每日市场观察4.6</a> [25] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406184901537800" target="_blank" class="news-link">据伊朗媒体Fars News：伊朗阿萨卢耶的南帕尔斯石化设施遭到袭击。</a> [26] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7624405552064217124" target="_blank" class="news-link">2026 年 AI 领域最火范式：Harness Engineering（驾驭工程）全解析</a> [26] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406184342998800" target="_blank" class="news-link">伊朗外交部：伊朗外长阿拉格齐与日本外相茂木敏充进行了电话交谈，讨论了双边关系的最新状况以及地区和国际局势。</a> [28] <font color='grey'>- 19时51分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7624757025520058378" target="_blank" class="news-link">LangChain 第一阶段学完后，我对 AI Agent 开发的 6 个核心判断</a> [29]</div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%93%9D%E8%8E%93%E4%BA%A7%E9%87%8F%E8%B6%85%E8%B6%8A%E7%BE%8E%E5%9B%BD%E8%B7%83%E5%B1%85%E5%85%A8%E7%90%83%E7%AC%AC%E4%B8%80" target="_blank" class="news-link">中国蓝莓产量超越美国跃居全球第一</a> [30] <font color='grey'>- 19时51分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

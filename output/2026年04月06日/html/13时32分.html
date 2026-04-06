@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 141</p><p>生成时间: 2026-04-06 13:32:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">26</td>
+                <td class="percentage">18.44%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">美以伊战争丨伊朗民众狂踩美军被炸运输机残骸</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/06/eb4ecfe6186a41e19466069c4e209074.html" target="_blank" class="news-link">伊朗议长向美国喊话：“停止这场危险的游戏”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s69cgPQyHt" target="_blank" class="news-link">伊朗两处住宅遭袭受损，至少13人死亡</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/06/ed3aae05257e4a0698da450270ddf5c7.html" target="_blank" class="news-link">伊朗革命卫队宣布：霍尔木兹海峡“将永远不复从前”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7625358991010889791/" target="_blank" class="news-link">美国女生崩溃哭诉油价贵要骑马上班了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%975%E5%90%8D%E6%95%99%E6%8E%8860%E5%A4%9A%E5%90%8D%E5%A4%A7%E5%AD%A6%E7%94%9F%E9%81%AD%E8%A2%AD%E8%BA%AB%E4%BA%A1%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">伊朗5名教授60多名大学生遭袭身亡</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/06/90b2fd01cca64538ad0528dfbf7d9d08.html" target="_blank" class="news-link">特朗普遭批“令人尴尬且幼稚”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E7%BE%8E%E4%BB%A5%E7%A9%BA%E8%A2%AD%E4%BC%8A%E6%9C%97%E8%B0%A2%E9%87%8C%E5%A4%AB%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6" target="_blank" class="news-link">伊朗：美以空袭伊朗谢里夫理工大学</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769302" target="_blank" class="news-link">特朗普“飙脏话”威胁打开霍尔木兹海峡，伊朗最高领袖回应“将继续利用这一战略杠杆”，伊朗革命卫队称正备战“波斯湾新秩序”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E9%80%8F%E9%9C%B2%E7%BE%8E%E5%86%9B%E8%90%A5%E6%95%91%E9%A3%9E%E8%A1%8C%E5%91%98%E7%BB%86%E8%8A%82" target="_blank" class="news-link">特朗普透露美军营救飞行员细节</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7625464964748152374/" target="_blank" class="news-link">美媒警告美石油产量难以弥补当前缺口</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406125940934800" target="_blank" class="news-link">特朗普怒斥高院：在关税和出生公民权问题上接连做出“糟糕决定”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406125837778800" target="_blank" class="news-link">以色列军方：已识别出从伊朗向以色列发射的导弹，防空系统已展开拦截。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406125424733800" target="_blank" class="news-link">据伊朗米赞通讯社：伊朗处决一名被指控在1月抗议活动中袭击军事设施的男子。</a> [11] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2024438239881159390" target="_blank" class="news-link">伊朗两天击落 12 架美军战机，包括 2 架 C-130 运输机等，这个军事水平如何？对战局影响多大？</a> [11] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624956792581226546/" target="_blank" class="news-link">伊朗称美为避免丢脸轰炸被击落军机</a> [13] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/06/9d3d108b35c848c79e448f4f702a6961.html" target="_blank" class="news-link">特朗普再次推迟对伊朗的最后通牒</a> [13] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32908682" target="_blank" class="news-link">时隔七年印度首次宣布购买伊朗原油，并称支付无障碍</a> [14] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406123140611800" target="_blank" class="news-link">以军称空袭伊朗德黑兰基础设施</a> [14] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%A7%B0%E6%88%96%E5%B0%86%E5%B0%81%E9%94%81%E6%9B%BC%E5%BE%B7%E6%B5%B7%E5%B3%A1%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">伊朗称或将封锁曼德海峡</a> [18] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32909372" target="_blank" class="news-link">诺奖得主、国际原子能机构前总干事敦促海湾各国：阻止特朗普</a> [19] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406121342962800" target="_blank" class="news-link">AirAsia X创始人：燃油成本基本上已翻了一倍多。</a> [19] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406120359099800" target="_blank" class="news-link">AirAsia X创始人：飞机交付未出现延误；今年将按计划接收四架新机。</a> [22] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406120353341800" target="_blank" class="news-link">AirAsia X创始人：不受林吉特汇率波动影响；油价是最关键因素。</a> [23] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7624358204419358774/" target="_blank" class="news-link">一枚炮弹击中伊拉克美国领事馆</a> [25] <font color='grey'>- 13时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260406120124811800" target="_blank" class="news-link">AirAsia X创始人：马来西亚国家石油公司告知我们，燃油储备可维持至6月。越南和泰国对飞机加油仍有一定限制。</a> [27] <font color='grey'>- 13时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 100</p><p>生成时间: 2026-04-08 19:57:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">27</td>
+                <td class="percentage">27.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨万斯：伊朗若无诚意，会发现特朗普不好惹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408194155373800" target="_blank" class="news-link">据消息人士和数据表明，俄罗斯乌斯季卢加港在暂停两周后已恢复石油出口。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2338136" target="_blank" class="news-link">美副总统万斯：美伊停火为“脆弱休战” 特朗普“急于看到进展”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s9wZwOS9ih" target="_blank" class="news-link">美媒爆料：特朗普最后期限前，伊朗突然“松口”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sA26HlQssR" target="_blank" class="news-link">特朗普：能轻易恢复对伊朗动武</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408194018063800" target="_blank" class="news-link">通胀担忧稍稍降温，现货黄金反弹延续？点击观看GMA指标直播分析&lt;font class=&quot;important-text&quot;&gt;&lt;/font&gt;</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8s9z1JP6xX1" target="_blank" class="news-link">以色列被曝不愿收手，希望伊朗战事再持续至少1个月</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E4%BF%83%E4%BD%BF%E4%BC%8A%E6%9C%97%E5%90%8C%E6%84%8F%E5%81%9C%E7%81%AB%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">中方回应促使伊朗同意停火</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408193324097800" target="_blank" class="news-link">裕信银行：若伊朗战争结束 美元或进一步下跌</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769476" target="_blank" class="news-link">伊朗称美国原则上承诺履行八项义务，若美不接受“十点计划”，停火协议将无效</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2338015" target="_blank" class="news-link">伊拉克石油已蓄势待发：只要海峡重开 一周内即可恢复战前出口量</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sA0kCFW17z" target="_blank" class="news-link">胡锡进：这180度大转折，伊朗创造了历史</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%B7%B2%E5%8F%91%E5%8A%A8%E7%AC%AC100%E8%BD%AE%E6%94%BB%E5%8A%BF" target="_blank" class="news-link">伊朗称已发动第100轮攻势</a> [12] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192950256800" target="_blank" class="news-link">美国信用风险指标降至近一个月来的最低水平。</a> [13] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192822499800" target="_blank" class="news-link">特朗普：将与伊朗讨论关税和制裁事宜 铀浓缩将被禁止</a> [16] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192724987800" target="_blank" class="news-link">美国总统特朗普：美国正与伊朗合作清除掩埋的核材料。</a> [17] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E8%83%BD%E8%BD%BB%E6%98%93%E6%81%A2%E5%A4%8D%E5%AF%B9%E4%BC%8A%E6%9C%97%E5%8A%A8%E6%AD%A6%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">特朗普称能轻易恢复对伊朗动武</a> [18] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192542534800" target="_blank" class="news-link">据ABC新闻：美国总统特朗普表示，可能就霍尔木兹海峡过境费开展美伊联合项目。</a> [18] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%B7%B2%E5%8F%91%E5%8A%A8100%E6%B3%A2%E6%89%93%E5%87%BB%E8%A1%8C%E5%8A%A8%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">伊朗称已发动100波打击行动</a> [19] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192441064800" target="_blank" class="news-link">美国总统特朗普：（谈伊朗问题）已就15点中的许多内容达成一致。</a> [19] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192351027800" target="_blank" class="news-link">美国总统特朗普：美国将与伊朗就关税和制裁豁免问题进行谈判，不会允许伊朗进行铀浓缩。</a> [20] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E4%BF%83%E4%BD%BF%E4%BC%8A%E6%9C%97%E5%90%8C%E6%84%8F%E5%81%9C%E7%81%AB" target="_blank" class="news-link">中方回应促使伊朗同意停火</a> [21] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192311181800" target="_blank" class="news-link">美国白宫发言人：目前有关（美伊）举行面对面会谈的讨论正在进行中，但一切要等到总统或白宫正式宣布后才能确定。</a> [21] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408192132963800" target="_blank" class="news-link">央行又成功抄底黄金？它比我们多知道什么</a> [25] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7624757025521106954" target="_blank" class="news-link">AI时代，工程师的学习方式已经过时了</a> [27] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7625107538134417460" target="_blank" class="news-link">一人公司六步闭环：我把 WorkBuddy 用成了&quot;AI 合伙人&quot;</a> [28] <font color='grey'>- 19时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260408191539727800" target="_blank" class="news-link">英国外交大臣库珀：伊朗必须立即停止在霍尔木兹海峡的一切布雷活动、无人机袭击以及其他阻断商业航运的企图。</a> [29] <font color='grey'>- 19时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

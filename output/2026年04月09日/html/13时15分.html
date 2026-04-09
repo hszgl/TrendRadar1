@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 152</p><p>生成时间: 2026-04-09 13:15:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">28</td>
+                <td class="percentage">18.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨伊朗被曝要求油轮用比特币支付海峡通行费</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/09/e449c8c665184db885225742ab4ea7f7.html" target="_blank" class="news-link">马克龙：有必要将伊朗停火协议扩展到黎巴嫩</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/09/d803bf9f7d75430d99ae5083f5ef5369.html" target="_blank" class="news-link">伊方称美国违反和平计划三项条款</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/09/c69cb1e1b898461db16067d4615f3aca.html" target="_blank" class="news-link">美媒：特朗普考虑从某些北约国家撤军作为惩罚</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409130837349800" target="_blank" class="news-link">韩国总统李在明：伊朗战争的影响可能会持续相当长一段时间。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sB098ZojvN" target="_blank" class="news-link">“北约盟友没帮忙，特朗普打算这样惩罚”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409130825168800" target="_blank" class="news-link">特朗普：美军驻留伊朗，违约就“开火”，规模将前所未有</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sBBnRWw3el" target="_blank" class="news-link">特朗普说美媒披露的10项停战条款是“假新闻”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769534" target="_blank" class="news-link">停火首日即遇变数：特朗普“反复横跳”，不承认伊朗“10点计划”做基础</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/09/1fc77a7e61ef471c960d15e518103408.html" target="_blank" class="news-link">伊朗称会比以往更谨慎地对待美伊和谈</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409130433054800" target="_blank" class="news-link">澳新银行：能源转型和数据中心增长带动需求韧性，将使市场保持4%至5%的供应缺口，从而支撑铜价。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2338839" target="_blank" class="news-link">特朗普：美媒披露的伊方10项停火条款是“假新闻”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sB7RUmKL09" target="_blank" class="news-link">意大利前总理：不能为美国流血，找中国去</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409130200734800" target="_blank" class="news-link">澳新银行：石油供应中断已显著收紧全球原油供需平衡，市场正迅速从年初的供应过剩转为大幅短缺。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409130142570800" target="_blank" class="news-link">印度石油和天然气部长将在2026年4月9日至10日对卡塔尔进行正式访问。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2338693" target="_blank" class="news-link">低轨卫星互联网迎利好 美国拟放宽频谱功率限制 宽带容量有望提升7倍</a> [12] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2025480538157315795" target="_blank" class="news-link">美国被曝将从部分北约国家撤出军事部署，因其未能对美以提供帮助，欧洲局势可能如何变化？北约有解体风险吗？</a> [13] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32926200" target="_blank" class="news-link">假作真时真亦假：美以伊战事陷入AI信息迷雾</a> [14] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409130006378800" target="_blank" class="news-link">印度石油部秘书：天然气行业难以扩大规模以满足国内需求。</a> [14] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409125710746800" target="_blank" class="news-link">印度石油部秘书：伊朗战争凸显印度应对不利局势准备中的短板。</a> [15] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%AF%A6%E8%A7%A3%E7%BE%8E%E5%9B%BD%E9%87%8D%E8%BF%94%E6%9C%88%E7%90%83%E6%95%B4%E4%BD%93%E8%AE%A1%E5%88%92" target="_blank" class="news-link">详解美国重返月球整体计划</a> [16] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BB%A5%E8%89%B2%E5%88%97%E8%AE%AE%E5%91%98%E5%85%AC%E5%BC%80%E8%BE%B1%E9%AA%82%E7%89%B9%E6%9C%97%E6%99%AE%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">以色列议员公开辱骂特朗普</a> [17] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32925603" target="_blank" class="news-link">大涨超300点，人民币对美元即期汇率升至3年多新高</a> [18] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409124326601800" target="_blank" class="news-link">120万桶原油“海上漂流”，印尼扣押的伊朗超级油轮身价大涨！</a> [19] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409124022399800" target="_blank" class="news-link">日本首相高市早苗：与伊朗举行首脑会谈，两国领导人的相关努力具有重要意义。</a> [22] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E5%85%AC%E5%B8%83%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%E5%AE%89%E5%85%A8%E8%88%AA%E8%B7%AF%E5%9B%BE" target="_blank" class="news-link">伊朗公布霍尔木兹海峡安全航路图</a> [23] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409123552093800" target="_blank" class="news-link">腾讯云发布AI算力、容器服务、EMR相关产品价格调整公告</a> [27] <font color='grey'>- 13时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260409123321846800" target="_blank" class="news-link">市场消息：俄罗斯以40%的折扣向亚洲买家提供受美国制裁的液化天然气。</a> [30] <font color='grey'>- 13时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

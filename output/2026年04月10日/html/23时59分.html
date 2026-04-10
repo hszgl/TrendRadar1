@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 62</p><p>生成时间: 2026-04-10 23:59:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">12</td>
+                <td class="percentage">19.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410233305750800" target="_blank" class="news-link">美国前军事官员：美军有能力打开海峡，但政治风险很大</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410233248888800" target="_blank" class="news-link">据纽约邮报：若与伊朗和平谈判失败，特朗普准备动用武力。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410233017921800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850504&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/04/L0FUuQ9wjv5TrILFaKkYG.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410232440042800" target="_blank" class="news-link">据悉美伊代表团抵达巴基斯坦，伊朗将参加谈判</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410232009756800" target="_blank" class="news-link">据阿拉伯媒体事件报 (Al Hadath)：伊朗代表团抵达巴基斯坦的细节被保密。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410230707666800" target="_blank" class="news-link">据伊朗国家媒体：伊朗外长阿拉格齐表示，美国必须履行承诺，将黎巴嫩纳入停火协议，并停止以色列对黎巴嫩的袭击。</a> [16] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410230016351800" target="_blank" class="news-link">巴西财政部长：巴西总统卢拉与美国总统特朗普的对话有助于达成协议。这为与美国的其他交易铺平了道路。美国官员表示希望下周在华盛顿与我进一步深入会谈。</a> [19] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410225939504800" target="_blank" class="news-link">伊朗议长称谈判开始前需实现黎巴嫩停火及解冻伊朗被冻结资产</a> [20] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410225103285800" target="_blank" class="news-link">科威特陆军表示，伊朗发动的袭击以国民卫队设施为目标，导致多名人员受伤。</a> [22] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7627057914037289014/" target="_blank" class="news-link">中国AI芯片格局反转</a> [24] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410224423064800" target="_blank" class="news-link">伊朗议长：黎巴嫩停火和释放伊朗资产必须在谈判之前完成</a> [25] <font color='grey'>- 23时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260410224150825800" target="_blank" class="news-link">据CBS：美国官员表示，来自美国国家安全委员会、国务院和国防部的专家将组成美国代表团前往伊斯兰堡。</a> [27] <font color='grey'>- 23时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

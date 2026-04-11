@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 47</p><p>生成时间: 2026-04-12 02:54:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">34.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨伊美即将举行第三轮会谈</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412023852112800" target="_blank" class="news-link">据德黑兰时报：巴基斯坦总理将紧急访问沙特，这将是其一个月内第二次访问沙特。此行目的是讨论伊朗与美国在伊斯兰堡正在进行的谈判，并探讨实现该地区持久和平的途径。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412022331554800" target="_blank" class="news-link">以色列总理内塔尼亚胡：正如特朗普所说，必须清除伊朗的浓缩铀，要么通过协议，要么通过其它方式。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412022103183800" target="_blank" class="news-link">以色列总理内塔尼亚胡：如果我们没有发起“咆哮狮子”和“崛起狮子”的行动，伊朗就会拥有核弹。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412022025395800" target="_blank" class="news-link">以色列总理内塔尼亚胡：我们瓦解了伊朗的核计划和导弹计划，但任务还没有完成，伊朗仍然掌握着浓缩铀。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412020943446800" target="_blank" class="news-link">以色列总理内塔尼亚胡：伊朗已不再拥有任何铀浓缩设施。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412020738183800" target="_blank" class="news-link">以色列总理内塔尼亚胡：以色列打击了伊朗各地的目标，在反击行动中打破了对恐惧的屏障。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412020656447800" target="_blank" class="news-link">以色列总理内塔尼亚胡：目前的战斗“尚未结束”。伊朗曾试图消灭以色列，但它现在正努力求生。我们还有更多工作要做。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412014936446800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：美伊谈判仍在继续，但伊朗坚持维护其军事成果。</a> [13] <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412014853151800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：霍尔木兹海峡仍是伊斯兰堡会谈中存在严重分歧的主要焦点之一。</a> [14] <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412014042996800" target="_blank" class="news-link">据《华尔街日报》：一名美国官员称，两艘驱逐舰在波斯湾执行任务后按计划离开，未记录任何问题。</a> [16] <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412013046658800" target="_blank" class="news-link">市场消息：以色列方面据报道要求结束伊朗的核计划，并将黎巴嫩冲突与更广泛的伊朗战线分隔开。</a> [19] <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412012858921800" target="_blank" class="news-link">伊朗国家电视台驻伊斯兰堡记者：美国在谈判中仍坚持其“过分的要求”。</a> [20] <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412012445428800" target="_blank" class="news-link">据伊朗国家电视台驻伊斯兰堡记者报道，伊朗与美国在谈判中正就分歧进行最后弥合。</a> [22] <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260412011326508800" target="_blank" class="news-link">以总理称将继续打击伊朗及其代理人</a> [23] <font color='grey'>- 02时54分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E8%AD%A6%E5%91%8A%E7%BE%8E%E9%A9%B1%E9%80%90%E8%88%B0%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">伊朗警告美驱逐舰</a> [26] <font color='grey'>- 02时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

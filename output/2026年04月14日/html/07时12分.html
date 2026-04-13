@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2026-04-14 07:12:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">36.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414065836073800" target="_blank" class="news-link">万斯透露谈判细节：谈判僵局在于伊朗授权不足</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414065200628800" target="_blank" class="news-link">美国副总统万斯：我们需要看到霍尔木兹海峡完全开放，这是伊朗人在谈判中试图改变规则的事情之一，我们明确表示这是不可接受的。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414064859267800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日减少5.227吨，当前持仓量为1047.192吨。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414064740613800" target="_blank" class="news-link">市场消息：美国联合航空首席执行官已提议可能与竞争对手美国航空进行合并。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769807" target="_blank" class="news-link">连封锁霍尔木兹这招都用上了，特朗普在伊朗问题上已无牌可打？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414064202659800" target="_blank" class="news-link">美国副总统万斯：能源价格虽然令人痛苦，但也不会一直维持在高位。</a> [14] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414064137451800" target="_blank" class="news-link">伊朗媒体：特朗普声称“34艘船只通过霍尔木兹海峡”说法不实</a> [15] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414064006233800" target="_blank" class="news-link">据纽约时报：两名伊朗高级官员和一名美国官员透露，伊朗表示可以暂停铀浓缩活动长达五年，但特朗普政府拒绝了这一提议，坚持要求暂停期限为二十年。</a> [16] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414062740663800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日减少19.71吨，当前持仓量为15271.53吨。欢迎点击查看数据中心…</a> [18] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414062433791800" target="_blank" class="news-link">伊朗要求中东国家对其进行赔偿</a> [19] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414062242037800" target="_blank" class="news-link">万斯称与伊朗谈判取得大量进展 第二轮谈判取决于伊朗</a> [20] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414061917971800" target="_blank" class="news-link">美国副总统万斯：（谈匈牙利选举）我们当然会与下一任总理合作。</a> [22] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414061227197800" target="_blank" class="news-link">美国副总统万斯：预计伊朗将在开放海峡方面取得进展。</a> [24] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414061038534800" target="_blank" class="news-link">美国副总统万斯：（谈及潜在的第二轮会谈）现在球在伊朗一方。</a> [25] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414060707204800" target="_blank" class="news-link">美国副总统万斯：与伊朗的谈判取得了很大进展。</a> [26] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7627268703821840426/" target="_blank" class="news-link">AI辅助炒股哪家强</a> [27] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414060651219800" target="_blank" class="news-link">据美国哥伦比亚广播公司（CBS）：特朗普表示，教皇利奥应该远离政治。</a> [27] <font color='grey'>- 07时12分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260414060118981800" target="_blank" class="news-link">WTI原油周二开盘持稳，美股股指期货微涨，现货黄金小幅高开。</a> [30] <font color='grey'>- 07时12分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

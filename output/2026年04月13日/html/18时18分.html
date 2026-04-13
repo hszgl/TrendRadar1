@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 140</p><p>生成时间: 2026-04-13 18:18:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">28</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨教皇回击特朗普：我并不惧怕</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E7%89%88%E5%BE%AE%E4%BF%A1%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">马斯克版微信</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28353157&amp;amp;topic_name=%E5%AE%88%E6%8A%A4%E6%9C%AA%E6%88%90%E5%B9%B4%2CAI%E4%BC%B4%E4%BE%A3%E5%85%A8%E7%A6%81%E5%94%AE" target="_blank" class="news-link">守护未成年,AI伴侣全禁售</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769784" target="_blank" class="news-link">美国“封锁”逼近，布油破百，美股盘前科技股普跌，黄金回调，铝价四年新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413175614622800" target="_blank" class="news-link">克里姆林宫：（就特朗普有关封锁伊朗港口的言论）此类行动将对全球市场产生负面影响。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E5%90%91%E4%BC%8A%E6%9C%97%E6%8F%90%E4%BE%9B%E6%AD%A6%E5%99%A8%E4%BC%A0%E9%97%BB" target="_blank" class="news-link">中方回应向伊朗提供武器传闻</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2342212" target="_blank" class="news-link">中国计划向伊朗提供武器？外交部回应</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sI5EiH0EGq" target="_blank" class="news-link">美媒鼓噪：特朗普让美国利益遭四连击，中俄获利</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769793" target="_blank" class="news-link">“马斯克版微信”真的来了！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2342208" target="_blank" class="news-link">特朗普威胁若中国向伊朗供武就加征关税，外交部：关税战没有赢家</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413175544974800" target="_blank" class="news-link">克里姆林宫就特朗普拟封锁伊朗港口的举措表示：诸多细节尚不明确。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413175532314800" target="_blank" class="news-link">克里姆林宫：俄罗斯关于从伊朗接收浓缩铀的提议仍有效，但目前并未提出这一要求。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E8%A7%86%E8%88%B0%E8%88%B9%E9%9D%A0%E8%BF%91%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E4%B8%BA%E8%BF%9D%E5%8F%8D%E5%81%9C%E7%81%AB%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">伊朗视舰船靠近霍尔木兹为违反停火</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2342207" target="_blank" class="news-link">特朗普重申将封锁进出伊朗港口船只 中方回应</a> [11] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413175338946800" target="_blank" class="news-link">行业消息来源和路透社的测算显示，俄罗斯3月份海运石油产品出口量较2月份增长0.9%。</a> [11] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413175333849800" target="_blank" class="news-link">金蝶国际：一季度AI原生产品签约合同金额达2.3亿元</a> [12] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2342301" target="_blank" class="news-link">特朗普“封锁令”倒计时！霍尔木兹航运再陷中断 150美元油价警报拉响</a> [13] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2464515" target="_blank" class="news-link">特朗普：将封锁伊朗</a> [13] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413175125738800" target="_blank" class="news-link">两连板天普股份：公司存在被立案调查等多项风险 且无开展人工智能业务计划</a> [16] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413174907529800" target="_blank" class="news-link">赫伯罗特就霍尔木兹海峡的封锁表示，难以评估美国方案能否奏效。</a> [19] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413174857298800" target="_blank" class="news-link">印尼国防部：正与美国讨论允美军飞越印尼领空提案</a> [20] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7627690218269851702" target="_blank" class="news-link">卷AI、卷算法、2026 年的前端工程师到底在卷什么？</a> [21] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7627327134639947816" target="_blank" class="news-link">Spring AI Aliababa和AgentScope，哪个更好？</a> [22] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413174748614800" target="_blank" class="news-link">印尼国家矿业控股公司：2026年黄金产量目标为31.7吨，同比增长6%。</a> [23] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7627001206730014761" target="_blank" class="news-link">AI Agent中6种常用的设计模式</a> [23] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260413174729355800" target="_blank" class="news-link">LESG数据显示，北海福蒂斯原油价格涨至每桶148.87美元的历史新高，原因是美国拟封锁霍尔木兹海峡的计划加剧了供应担忧。</a> [24] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E5%90%91%E4%BC%8A%E6%9C%97%E6%8F%90%E4%BE%9B%E6%AD%A6%E5%99%A8%E8%AF%B4%E6%B3%95%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">中方回应向伊朗提供武器说法</a> [26] <font color='grey'>- 18时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AC%A7%E6%B4%B2%E5%A4%9A%E5%9B%BD%E7%BD%95%E8%A7%81%E5%AF%B9%E7%BE%8E%E5%9B%BD%E8%AF%B4%E2%80%9C%E4%B8%8D%E2%80%9D" target="_blank" class="news-link">欧洲多国罕见对美国说“不”</a> [27] <font color='grey'>- 18时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

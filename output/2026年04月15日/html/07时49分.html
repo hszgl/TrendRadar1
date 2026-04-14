@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2026-04-15 07:49:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">14</td>
+                <td class="percentage">25.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨万斯：对当前美伊局势进展“感到乐观”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415073559458800" target="_blank" class="news-link">WTI原油日内大跌4.00%，现报88.37美元/桶。市场开始发酵早前特朗普称“美国对伊朗的战争已经结束”的言论。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2344222" target="_blank" class="news-link">【早报】特朗普：与伊朗会谈可能未来两天内举行；国际油价重挫</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sKYhtuAqqg" target="_blank" class="news-link">美军上调对伊朗战事伤员人数</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415072600419800" target="_blank" class="news-link">美国副总统万斯：特朗普总统指示我们要“带着诚意进行谈判”。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415072051837800" target="_blank" class="news-link">据华尔街日报：知情人士称，美国检察官皮罗办公室的检察官突访美联储总部，视察翻新工地现场。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2027291572392261446" target="_blank" class="news-link">伊朗要求五个中东国家赔偿战争损失，这一诉求背后隐藏着哪些深层战略意图？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415071703356800" target="_blank" class="news-link">特朗普称伊朗战争已经结束</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769955" target="_blank" class="news-link">监测机构称伊朗出发的两艘船通过霍尔木兹，美军称上万人员执行伊港口“封锁令”，首日六船折返</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3769945" target="_blank" class="news-link">通胀全面低于预期！美国3月PPI同比上涨4%，创三年最高纪录，环比涨幅收窄至0.5%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2344176" target="_blank" class="news-link">英伟达发布全球首个开源量子人工智能模型 量子计算板块激昂大涨</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628753825699991090/" target="_blank" class="news-link">特朗普暗示美伊会谈或在2天内恢复</a> [12] <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%80%BB%E7%BB%9F%E8%B5%9E%E6%89%AC%E4%B8%AD%E5%9B%BD%E7%AD%896%E5%9B%BD%E5%8F%8D%E6%88%98%E7%AB%8B%E5%9C%BA" target="_blank" class="news-link">伊朗总统赞扬中国等6国反战立场</a> [12] <font color='grey'>- 07时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415064037229800" target="_blank" class="news-link">欧洲筹划霍尔木兹海峡战后护航计划，美国或被排除在外</a> [15] <font color='grey'>- 07时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

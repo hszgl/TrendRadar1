@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 135</p><p>生成时间: 2026-04-15 15:56:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">9.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BA%BA%E6%B0%91%E5%B8%81%E6%B1%87%E7%8E%87%E4%B8%BA%E4%BD%95%E6%8C%81%E7%BB%AD%E5%8D%87%E5%80%BC" target="_blank" class="news-link">人民币汇率为何持续升值</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨美军：停火后一架战略无人机在波斯湾坠毁</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415152557597800" target="_blank" class="news-link">马斯克：恭喜特斯拉AI芯片设计团队成功完成AI5芯片的流片。AI6、Dojo3以及其他令人期待的芯片也正在开发中。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415152104044800" target="_blank" class="news-link">日本首相高市早苗：将通过财政手段“帮助亚洲采购石油”，欲提供100亿美元的援助。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415151908538800" target="_blank" class="news-link">高盛：石油曲线前端的风险溢价已经下降</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2027712105613190656" target="_blank" class="news-link">美军称已完全切断伊朗海上进出口贸易，已拦截 8 艘进出伊朗港口的油轮，对其国内国际市场有何影响？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415151607519800" target="_blank" class="news-link">标普：伊朗冲突下，东南亚地区中印尼主权评级面临最大风险</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415151328181800" target="_blank" class="news-link">高盛：美国3月PPI意外降温 但PCE相关的分项强于预期</a> [12] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7628392289102233636/" target="_blank" class="news-link">伊朗中部遇袭期间美制通信设备失灵</a> [14] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9B%9D%E7%88%B1%E5%A5%87%E8%89%BA%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%90%88%E4%BD%9C%E8%89%BA%E4%BA%BA%E7%AD%BE%E7%BA%A6AI%E6%8E%88%E6%9D%83%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">曝爱奇艺与深度合作艺人签约AI授权</a> [19] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415150439573800" target="_blank" class="news-link">黄金看涨期权押注意愿已明显放缓，日内先关注此处保护情况</a> [20] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415150421084800" target="_blank" class="news-link">金十图示：2026年04月15日（周三）富时中国A50指数成分股今日收盘行情一览：银行、制药、金属板块收高，消费电子、光伏、航海等板块收低</a> [21] <font color='grey'>- 15时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260415150327638800" target="_blank" class="news-link">挂单报告：国际现货黄金高位回落 国际现货白银警惕上方空单</a> [23] <font color='grey'>- 15时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

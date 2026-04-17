@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 108</p><p>生成时间: 2026-04-17 23:37:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">33</td>
+                <td class="percentage">30.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E8%88%AA%E6%AF%8D%E5%8F%88%E7%9D%80%E7%81%AB%E4%BA%86" target="_blank" class="news-link">美国航母又着火了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sP8qU1elQh" target="_blank" class="news-link">伊朗：在停火剩余时间内，霍尔木兹海峡完全开放</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2347931" target="_blank" class="news-link">伊朗外长宣布谈判期间开放海峡 国际油价闪崩10%、纳指冲击13连涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417230755273800" target="_blank" class="news-link">伊朗开放霍尔木兹海峡 特朗普狂发11条帖子</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417230524838800" target="_blank" class="news-link">据伊朗媒体Fars News：伊朗官员表示，如果美国海军的封锁行动持续下去，德黑兰将视其为违反停火协议的行为，并将关闭霍尔木兹海峡。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sPFMrNRcR5" target="_blank" class="news-link">特朗普：北约“纸老虎”离远点儿，一点用没有</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770230" target="_blank" class="news-link">霍尔木兹将开放，核谈判现曙光，道指涨超1%，WTI油价跳水跌超11%，白银涨5%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BC%8A%E6%9C%97%E5%AE%A3%E5%B8%83%E5%BC%80%E6%94%BE%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1" target="_blank" class="news-link">伊朗宣布开放霍尔木兹海峡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨特朗普：伊朗同意永不关闭霍尔木兹海峡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2028584383469110522" target="_blank" class="news-link">伊朗称停火剩余时间内，霍尔木兹海峡对所有商船完全开放，背后有何考量？双方有哪些谈判策略？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sPDM2WK6YG" target="_blank" class="news-link">伊朗军方人士：军舰仍被禁止通过霍尔木兹海峡</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417230012185800" target="_blank" class="news-link">特朗普再度抨击部分美媒</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417225347378800" target="_blank" class="news-link">特朗普称伊朗同意停止浓缩铀</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417225218969800" target="_blank" class="news-link">据美国哥伦比亚广播公司（CBS）：美国情报官员称，伊朗仍拥有数千枚导弹和单向攻击型无人机。</a> [11] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">黄金</a> [12] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417225031989800" target="_blank" class="news-link">美国五年期国债收益率日内下跌10个基点。</a> [12] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417224938429800" target="_blank" class="news-link">现货白银向上触及83美元/盎司，日内涨5.85%。</a> [13] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%BC%80%E6%94%BE%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%91%E5%B8%96%E8%AF%B4%E8%B0%A2%E8%B0%A2%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">伊朗开放霍尔木兹特朗普发帖说谢谢</a> [15] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417224607001800" target="_blank" class="news-link">欧洲天然气价格在美国总统特朗普关于霍尔木兹海峡的言论发布后一度下跌10%。</a> [15] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32994886" target="_blank" class="news-link">特朗普确认伊朗开放霍尔木兹海峡</a> [17] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417224434437800" target="_blank" class="news-link">特朗普向NewsNation表示，伊朗同意了&quot;一切&quot;。</a> [18] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417224410809800" target="_blank" class="news-link">据Axios记者：美国与伊朗在结束战争的三页谅解备忘录谈判中取得进展。</a> [19] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417224323373800" target="_blank" class="news-link">特朗普对NewsNation表示：伊朗同意停止浓缩铀。</a> [20] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/OXY" target="_blank" class="news-link">西方石油</a> [22] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417224054538800" target="_blank" class="news-link">美国总统特朗普：伊朗已同意不再关闭霍尔木兹海峡。它将不再被用作对抗世界的武器。</a> [22] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417223538514800" target="_blank" class="news-link">伊朗开放霍尔木兹海峡表态刺激国际油价下跌超10%</a> [24] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00883" target="_blank" class="news-link">中国海洋石油</a> [25] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417223347207800" target="_blank" class="news-link">美国股市延续涨势，道指上涨2.00%。</a> [25] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417223319744800" target="_blank" class="news-link">美国总统特朗普：对世界来说这是一个伟大而辉煌的日子。</a> [26] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417223058781800" target="_blank" class="news-link">美国总统特朗普：感谢巴基斯坦及其伟大的总理和陆军元帅，这两位是了不起的人物。</a> [27] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417223057220800" target="_blank" class="news-link">中东危机暂告一段落？美联储降息预期重燃，黄金逼近4900美元</a> [28] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%BE%8E%E5%9B%BD%E5%8D%96%E4%B8%AD%E5%9B%BD%E5%B0%8F%E5%95%86%E5%93%81%E6%9C%88%E5%85%A5%E4%B8%8A%E4%B8%87%E7%BE%8E%E5%85%83" target="_blank" class="news-link">男子美国卖中国小商品月入上万美元</a> [29] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260417222756457800" target="_blank" class="news-link">美国总统特朗普： 再一次（强调），这个协议与黎巴嫩没有任何关系，但我们会，让黎巴嫩再次伟大！</a> [30] <font color='grey'>- 23时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

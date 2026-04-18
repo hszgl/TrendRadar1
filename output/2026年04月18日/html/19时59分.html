@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2026-04-18 19:59:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">20.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sQeanseg3w" target="_blank" class="news-link">海事情报公司：伊朗向试图穿越霍尔木兹海峡的油轮开火</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418195224031800" target="_blank" class="news-link">巴西总统卢拉：联合国安全理事会的五个常任理事国必须团结起来改变他们（美国）的行为。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%90%91%E8%AF%95%E5%9B%BE%E7%A9%BF%E8%B6%8A%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E7%9A%84%E6%B2%B9%E8%BD%AE%E5%BC%80%E7%81%AB" target="_blank" class="news-link">伊朗向试图穿越霍尔木兹的油轮开火</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418193635341800" target="_blank" class="news-link">美国中央司令部：美国军队正在对进入或离开伊朗港口和沿海地区的船只实施海上封锁。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770316" target="_blank" class="news-link">伊朗开火逼退油轮，霍尔木兹不到24小时再封锁！伊军方：美国“屡次违背承诺”，已恢复控制</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sQdmFg9bfW" target="_blank" class="news-link">穆杰塔巴：伊朗海军已做好准备，将给敌方“新的惨痛失败”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418193546183800" target="_blank" class="news-link">美国中央司令部：自封锁开始以来，已有23艘船只遵从美国军方的指示掉头。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2028416884643472906" target="_blank" class="news-link">起点百分之十的新书使用 AI 润色，起点会因为 AI 文而完蛋吗？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%EF%BC%9A%E5%87%86%E5%A4%87%E5%A5%BD%E7%BB%99%E6%95%8C%E4%BA%BA%E6%96%B0%E7%9A%84%E6%83%A8%E8%B4%A5" target="_blank" class="news-link">伊朗最高领袖：准备好给敌人新的惨败</a> [12] <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7629706641082155035/" target="_blank" class="news-link">曝伊朗向霍尔木兹海峡附近一油轮开火</a> [13] <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418192208533800" target="_blank" class="news-link">美伊极限拉扯！中东局势变数迭起，黄金反弹还能维持多久？</a> [13] <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33000655" target="_blank" class="news-link">伊朗尚未同意与美国举行下一轮谈判</a> [17] <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418191300312800" target="_blank" class="news-link">伊朗宣布暂停机票销售 航班须逐一审批</a> [20] <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418190540624800" target="_blank" class="news-link">航运消息人士：商船收到伊朗海军的无线电消息，霍尔木兹海峡再次关闭，禁止任何船只通行。</a> [21] <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418185939029800" target="_blank" class="news-link">伊朗最高领袖穆杰塔巴：伊朗军队正在英勇地捍卫属于它的土地、水域和旗帜。</a> [24] <font color='grey'>- 19时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260418184642347800" target="_blank" class="news-link">伊朗最高领袖穆杰塔巴：伊朗海军已准备好使敌人遭遇“新的惨痛的失败”。</a> [25] <font color='grey'>- 19时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

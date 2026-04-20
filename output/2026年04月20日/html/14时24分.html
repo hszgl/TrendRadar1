@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 127</p><p>生成时间: 2026-04-20 14:24:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">22</td>
+                <td class="percentage">17.32%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨特朗普透露谈判消息：伊朗担心有诈</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sTZHdV97eY" target="_blank" class="news-link">特朗普把万斯踢出谈判？曾放话“谈崩了就怪他”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/20/22737bbcaefe41b48ec3de51b57507f8.html" target="_blank" class="news-link">卢拉抨击美对伊朗战争：“疯狂之举”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/20/033f3d5586644e798f68be43fb1400b3.html" target="_blank" class="news-link">特朗普警告：“不再当好好先生”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sTO3SFkNJq" target="_blank" class="news-link">白宫新闻秘书难招架，特朗普给9个记者9种回答</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/04/20/50d18f50fd3b4c189584119716a161b3.html" target="_blank" class="news-link">美军对伊朗商船开火，霍尔木兹海峡再受管控致油价飙升</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7630464363427069993/" target="_blank" class="news-link">女子酒窝超大被网友怀疑是AI</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260420140905172800" target="_blank" class="news-link">三星SDI与梅赛德斯-奔驰签署电动汽车电池供应协议</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770361" target="_blank" class="news-link">周末美伊“各施手段”，油价飙升近8%、美股期货回落，日韩股市上涨，黄金小幅走软</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sTGH8fIj93" target="_blank" class="news-link">特朗普透露谈判消息：伊朗担心有诈</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2348969" target="_blank" class="news-link">超1600亿美元！“特朗普关税退款”周一启动，企业能全部拿回吗？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://sports.ifeng.com/c/8sTGH8fIj0S" target="_blank" class="news-link">确认！伊朗男足正备战世界杯</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E8%A7%82%E4%BC%97&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">AI观众</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7629634964927021099/" target="_blank" class="news-link">美以打击伊朗加剧盟友分裂</a> [11] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%BC%A0%E8%8B%A5%E6%98%80%E5%B7%A5%E4%BD%9C%E5%AE%A4%20%E6%B2%A1%E7%AD%BE%E8%BF%87AI%E6%8E%88%E6%9D%83&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">张若昀工作室 没签过AI授权</a> [14] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E8%89%BA%E4%BA%BA%E5%BA%93%20%E8%87%AA%E6%8E%98%E5%9D%9F%E5%A2%93&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">AI艺人库 自掘坟墓</a> [15] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E9%85%92%E7%AA%9D%E8%B6%85%E5%A4%A7%E8%A2%AB%E7%BD%91%E5%8F%8B%E6%80%80%E7%96%91%E6%98%AFAI" target="_blank" class="news-link">女子酒窝超大被网友怀疑是AI</a> [16] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%99%88%E5%93%B2%E8%BF%9C%E4%B8%9E%E7%A3%8A%E6%9B%BE%E8%88%9C%E6%99%9E%E5%85%A5%E9%A9%BB%E7%88%B1%E5%A5%87%E8%89%BAAI%E8%89%BA%E4%BA%BA%E5%BA%93%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">陈哲远丞磊曾舜晞入驻爱奇艺AI艺人库</a> [18] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33006467" target="_blank" class="news-link">伊朗媒体：只要海上封锁持续，谈判就不会进行</a> [20] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260420134728261800" target="_blank" class="news-link">中央财经大学主任陈端：金融信息“AI污染”已成为扰动资本市场资源配置的新型风险源</a> [28] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%E8%B7%B3%E6%B0%B4%E6%9A%B4%E8%B7%8C%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">黄金跳水暴跌</a> [29] <font color='grey'>- 14时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260420134659002800" target="_blank" class="news-link">“左右互搏”降息术？沃什这招能让特朗普如愿吗？</a> [29] <font color='grey'>- 14时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

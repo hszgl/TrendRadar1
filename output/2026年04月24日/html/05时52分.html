@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 49</p><p>生成时间: 2026-04-24 05:52:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">27</td>
+                <td class="percentage">55.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W" target="_blank" class="news-link">伊朗战争丨伊朗：启动防空系统旨在应对小型无人机</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424053549629800" target="_blank" class="news-link">美媒：特朗普拟邀请普京参加在美举办的G20峰会</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770720" target="_blank" class="news-link">特朗普下令击沉任何霍尔木兹布雷船，伊朗据称启动德黑兰防空系统拦截“敌对目标”、以否认空袭</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424053416340800" target="_blank" class="news-link">美国总统特朗普：黎巴嫩总统可能在三周内与以色列总理内塔尼亚胡会面。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424053344851800" target="_blank" class="news-link">美国总统特朗普：以色列将采取精准行动，它会自我防卫。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770666" target="_blank" class="news-link">伊朗局势搅动市场，美股震荡收跌，软件股重挫，芯片逆市连涨17日，原油三连涨</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424053319421800" target="_blank" class="news-link">英特尔(INTC.O)：2026年芯片制造设备方面的开支将同比增长25%。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424053307020800" target="_blank" class="news-link">以媒：以空军两名技术人员涉嫌“为伊朗从事间谍活动”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7631948690998955526/" target="_blank" class="news-link">特朗普的“真实社交”翻车了吗</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424053239449800" target="_blank" class="news-link">美国总统特朗普：我认为今年实现以色列和黎巴嫩和平的机会很大。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424053211748800" target="_blank" class="news-link">美国总统特朗普：下次会议将涉及以色列总理内塔尼亚胡和黎巴嫩总理。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7631795172485316671/" target="_blank" class="news-link">武汉妈妈花60余万为女儿买近1斤黄金</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424052856315800" target="_blank" class="news-link">美国国务卿鲁比奥：乐观地认为，几周内我们将更接近实现以色列和黎巴嫩和平。</a> [11] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424052850518800" target="_blank" class="news-link">美国总统特朗普：我认为黎以领导人将在接下来的两周内到访白宫。</a> [12] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424052524927800" target="_blank" class="news-link">英特尔(INTC.O)CEO：将通过特斯拉CEO埃隆·马斯克的Terafab项目寻找非常规方式提升制造能力。</a> [13] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424052230292800" target="_blank" class="news-link">据ABC新闻：美国司法部逮捕了一名士兵，他在马杜罗被逮捕的事件上下注获利超40万美元。</a> [14] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424052154328800" target="_blank" class="news-link">特朗普宣布黎以停火时间延长三周</a> [15] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424051746386800" target="_blank" class="news-link">英特尔(INTC.O)CEO：人工智能基础设施的加速部署为代工业务带来了机遇。</a> [17] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424051740128800" target="_blank" class="news-link">英特尔(INTC.O)CEO：人工智能正通过物理人工智能、机器人和边缘人工智能进入现实世界。CPU重新成为人工智能的基础。</a> [18] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424051619282800" target="_blank" class="news-link">据华盛顿邮报：美国总统特朗普打算邀请俄罗斯总统普京参加在迈阿密举行的G20峰会。</a> [19] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424051240495800" target="_blank" class="news-link">AI驱动需求回升 英特尔一季度营收超预期</a> [22] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424051157866800" target="_blank" class="news-link">伊朗外长：伊朗人民比以往任何时候更团结</a> [23] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424051126196800" target="_blank" class="news-link">美媒：若停火破裂 美军拟加码打击伊朗海岸目标</a> [24] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7631620269232898058/" target="_blank" class="news-link">美国一女子28年不剪指甲</a> [26] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E5%B7%B2%E5%88%B6%E5%AE%9A%E9%92%88%E5%AF%B9%E7%BE%8E%E6%96%B9%E7%9A%84%E5%8F%8D%E5%87%BB%E7%9B%AE%E6%A0%87%E6%B8%85%E5%8D%95" target="_blank" class="news-link">伊朗：已制定针对美方的反击目标清单</a> [26] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7631866696617168422/" target="_blank" class="news-link">伊朗称已收到首笔霍尔木兹通行费</a> [29] <font color='grey'>- 05时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424050043767800" target="_blank" class="news-link">据CNN：美军正制定计划，若停火破裂，将打击伊朗在霍尔木兹海峡的防御系统。</a> [29] <font color='grey'>- 05时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

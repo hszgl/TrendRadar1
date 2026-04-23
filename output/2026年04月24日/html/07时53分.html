@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2026-04-24 07:53:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">30.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770666" target="_blank" class="news-link">伊朗局势搅动市场，美股震荡收跌，芯片连涨17日，英伟达盘后飙升20%，原油四连涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sZpiNBhf3l" target="_blank" class="news-link">特朗普的嘴，开了挂了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424073145437800" target="_blank" class="news-link">特朗普：美国“无意影响”伊朗参加2026年美加墨世界杯</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2354199" target="_blank" class="news-link">【早报】伊朗：谈判重心已转为彻底停战；特朗普称“不想仓促行事”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7632094520066182697/" target="_blank" class="news-link">特朗普下达击沉令 伊朗亮7条反击方案</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sZFDagj9Cb" target="_blank" class="news-link">石破茂：日本不能“盲目跟着美国跑”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424070959737800" target="_blank" class="news-link">市场消息：文件显示，埃隆·马斯克的SpaceX上个月获得了200亿美元的过渡贷款，以在美国IPO前重组其大部分债务。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%8F%91%E5%B8%83%E6%8B%A6%E6%88%AA2%E8%89%98%E8%B4%A7%E8%BD%AE%E8%A7%86%E9%A2%91%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">伊朗发布拦截2艘货轮视频</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424065441860800" target="_blank" class="news-link">美国总统特朗普：银行们必须公正且妥善对待在洛杉矶野火中失去家园的人们。</a> [11] <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424065314415800" target="_blank" class="news-link">美国总统特朗普：我们将关注银行业采取的行动。很难与富国银行“打交道”。</a> [12] <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424064652305800" target="_blank" class="news-link">特朗普宣布黎以停火延长三周，有助扫清美伊结束战事的关键障碍</a> [13] <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424064650416800" target="_blank" class="news-link">微软：OpenAI的GPT-5.5将于明天在微软Foundry正式发布。</a> [14] <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424064132721800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日减少64.76吨，当前持仓量为15137.79吨。欢迎点击查看数据中心...</a> [16] <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260424063617138800" target="_blank" class="news-link">特朗普预计普京不会出席G20 但称他的参与“可能有用”</a> [17] <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%EF%BC%9A%E8%B0%88%E5%88%A4%E9%87%8D%E5%BF%83%E5%B7%B2%E8%BD%AC%E4%B8%BA%E5%BD%BB%E5%BA%95%E5%81%9C%E6%88%98" target="_blank" class="news-link">伊朗：谈判重心已转为彻底停战</a> [24] <font color='grey'>- 07时53分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8B%E4%BB%A4%E5%87%BB%E6%B2%89%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E5%B8%83%E9%9B%B7%E8%88%B9%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">特朗普称下令击沉霍尔木兹布雷船</a> [27] <font color='grey'>- 07时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

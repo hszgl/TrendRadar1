@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 37</p><p>生成时间: 2026-04-25 04:08:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">56.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7632309024016580627/" target="_blank" class="news-link">男子30年前被扣押2859克黄金申请退赔</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425033951908800" target="_blank" class="news-link">特朗普称伊朗拟提出提议回应美方要求 伊方暂无回应</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425033416429800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：截至4月21日当周，COMEX铜期货投机性净多头寸增加6995手至59132手。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425033333730800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：截至4月21日当周，COMEX白银期货投机性净多头寸减少2184手至8863手。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425033308849800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：截至4月21日当周，COMEX黄金期货投机性净多头寸减少3354手至95498手。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425033224103800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：截至4月21日当周，投机者将CBOT美国2年期国债期货净空头寸增加39547手至1743353手，美国5年期国债期货净空头寸减少92995手至1532750手，美国10年期国债期货净空头寸减少9394手至790971手，超长期国债期货净空头寸减少536手至300287手。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770826" target="_blank" class="news-link">美伊谈判有望：伊朗外长率团访巴先与调解方谈、暂不接触美方，特朗普特使周六赴巴</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425033024773800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：截至4月21日当周，NYMEX、ICE市场的天然气期货净空头寸增加9557手至22734手。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425032947049800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）：截至4月21日当周，WTI原油期货投机性净多头寸增加5332手至111915手。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425032701652800" target="_blank" class="news-link">据沙特哈达斯电视台（Al-Hadath）：巴基斯坦将在接下来的几个小时内与伊朗外长阿拉格齐合作，优先解决霍尔木兹危机。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425032233344800" target="_blank" class="news-link">据伊朗国家电视台记者：伊朗外交部长阿拉齐在伊斯兰堡没有安排与美国的会晤，但巴基斯坦可以传达伊朗对结束冲突的关切。</a> [12] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425030632061800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗尚未决定与美国进行谈判。</a> [15] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425030408018800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗并未向美国提出面对面会谈的请求。</a> [16] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2476611" target="_blank" class="news-link">戛纳电影宫的中国AI时刻</a> [17] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425025518310800" target="_blank" class="news-link">美财政部对伊朗实施新一轮金融制裁</a> [17] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425025309983800" target="_blank" class="news-link">巴基斯坦外交部：伊朗外长阿拉格齐将与巴基斯坦高级领导层举行会议，讨论最新的地区发展及为地区和平与稳定所做的持续努力。</a> [18] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425025242021800" target="_blank" class="news-link">美国总统特朗普：计划下周与英国查尔斯国王讨论包括伊朗、北约和数字服务税在内的多个议题。</a> [19] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425025211926800" target="_blank" class="news-link">美国总统特朗普：伊朗希望进行对话，看看是否能够达成协议。</a> [20] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425025154863800" target="_blank" class="news-link">美国总统特朗普：伊朗计划提出一项旨在解决美方要求的方案。</a> [21] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425025130840800" target="_blank" class="news-link">美国总统特朗普：与伊朗谈判的美国官员正在与当下掌权的人打交道。</a> [22] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260425025107863800" target="_blank" class="news-link">巴基斯坦外交部：由伊朗外长阿拉格齐率领的代表团今天抵达伊斯兰堡。</a> [23] <font color='grey'>- 04时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

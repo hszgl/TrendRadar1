@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-04-29 03:08:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">30.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429030025624800" target="_blank" class="news-link">埃隆·马斯克在加州联邦法院的OpenAI案庭审中出庭作证。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429025700770800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC将5月乌姆卢卢（UMM Lulu）原油价格设定为与穆尔班原油持平。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429025354754800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC将5月份的穆尔班原油官方售价定为每桶110.75美元。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429025050446800" target="_blank" class="news-link">海湾合作委员会秘书长贾西姆·布达维表示，在吉达举行的海湾合作委员会峰会谴责了伊朗的袭击，并补充说，这些袭击导致海湾国家与德黑兰之间的信任急剧下降。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429025003263800" target="_blank" class="news-link">市场分析：科技股抛售潮折射出OpenAI的巨大影响力</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429024103001800" target="_blank" class="news-link">美国驻乌克兰大使将因与美国总统特朗普的分歧而离职。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429023704724800" target="_blank" class="news-link">美国士兵否认利用内幕消息押注马杜罗被俘虏</a> [12] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429023352830800" target="_blank" class="news-link">美国宣布对35个伊朗相关实体及个人实施制裁</a> [13] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429023054506800" target="_blank" class="news-link">美国原油期货结算价为每桶99.93美元，上涨3.56美元，涨幅3.69%。</a> [15] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429023046900800" target="_blank" class="news-link">上海黄金交易所黄金T+D 4月28日（周二）晚盘收盘下跌1.23%报1014.23元/克；&lt;br/&gt;上海黄金交易所白银T+D 4月28日（周二）晚盘收盘下跌1.44%报18024.0元/千克。</a> [16] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429023026738800" target="_blank" class="news-link">特朗普回应德国总理嘲笑：他根本不懂自己在说什么</a> [17] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429022605924800" target="_blank" class="news-link">美国总统特朗普：德国总理对伊朗问题的发言毫无根据。</a> [18] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429022426041800" target="_blank" class="news-link">消息人士透露，美国情报部门正在研判伊朗对特朗普宣布获胜可能做出的反应。官员们认为，尽管军事选项依然存在，但冲突大规模升级的可能性已有所降低。</a> [19] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429022255130800" target="_blank" class="news-link">美国联邦通信委员会下令对迪士尼旗下8家ABC电视台启动牌照提前审查，以调查潜在的歧视违规行为。</a> [20] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429021912504800" target="_blank" class="news-link">苹果(AAPL.O)计划在iOS 27和macOS 27中对照片编辑功能进行AI全面升级，旨在更好地与安卓展开竞争。新功能包括利用Apple Intelligence的设备端模型，对照片进行扩展、增强及重新构图。</a> [22] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429021657295800" target="_blank" class="news-link">美国财政部：对35个伊朗实体和个人实施制裁。</a> [23] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260429021612523800" target="_blank" class="news-link">美国财政部海外资产控制办公室(OFAC)：在霍尔木兹海峡向伊朗支付“过路费”的公司面临“重大制裁”。</a> [24] <font color='grey'>- 03时08分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B2%97%E4%BD%8D%E8%A2%ABAI%E6%9B%BF%E4%BB%A3%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E6%9D%AD%E5%B7%9E%E5%8F%91%E5%B8%83%E6%8C%87%E5%BC%95" target="_blank" class="news-link">岗位被AI替代怎么办？杭州发布指引</a> [28] <font color='grey'>- 03时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

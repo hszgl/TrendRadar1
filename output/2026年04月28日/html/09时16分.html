@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 139</p><p>生成时间: 2026-04-28 09:16:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">13.67%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3770961" target="_blank" class="news-link">科技巨头财报周前夕，标普纳指新高，芯片指数终结连涨，英伟达再新高，布油六连阳</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7633080337707220998/" target="_blank" class="news-link">主持人念枪手宣言惹怒特朗普</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E8%8E%B7%E5%85%A8%E7%90%83%E6%9C%80%E5%A4%A7%E9%92%A0%E7%A6%BB%E5%AD%90%E7%94%B5%E6%B1%A0%E8%AE%A2%E5%8D%95" target="_blank" class="news-link">宁德时代获全球最大钠离子电池订单</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428090920725800" target="_blank" class="news-link">据国会山报记者：消息人士透露，美国副总统万斯原定于周四前往爱荷华州的行程已推迟至下周二。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428090856854800" target="_blank" class="news-link">车企警告：若美墨加协定削弱，廉价车型或退出美国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2357460" target="_blank" class="news-link">事关霍尔木兹！伊朗提出“重开新方案” 白宫证实特朗普与团队讨论</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7633580302010420745/" target="_blank" class="news-link">伊朗边见普京边提方案 美闭门研判</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771035" target="_blank" class="news-link">伊朗外长称美方请求谈判、伊方正考虑，美国务卿称伊重开霍尔木兹提议不可接受</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2357445" target="_blank" class="news-link">德国总理：美国就伊朗战事缺乏战略性退出方案 | 环球市场</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W?isFull=0&amp;immersion=true&amp;ifengsp=1" target="_blank" class="news-link">伊朗战争丨美伊在核不扩散条约审议大会上交锋</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428090123867800" target="_blank" class="news-link">上海黄金交易所黄金T+D 4月28日（周二）早盘盘初下跌0.47%报1032.5元/克；&lt;br/&gt;上海黄金交易所白银T+D 4月28日（周二）早盘盘初下跌0.37%报18680.0元/千克。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428090109384800" target="_blank" class="news-link">据华尔街日报：外资汽车制造商警告称，如果美墨加协定（USMCA）未能续签，最便宜的车型可能会退出美国市场。消息人士称，汽车制造商的警告已传达给美国总统特朗普的经济顾问。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8sgWMgQ3gaL" target="_blank" class="news-link">怕再和特朗普起冲突，北约拟取消2028年年度峰会</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2357343" target="_blank" class="news-link">桥水高管发出警告：AI对传统软件公司构成“生存性风险”</a> [13] <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428085533931800" target="_blank" class="news-link">LG电子盘中涨15%，韩媒称，LG电子CEO将于周二在首尔会见英伟达CEO黄仁勋之女Madison Huang。</a> [15] <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33062114" target="_blank" class="news-link">特朗普为什么出现在了这场他拒绝了15年的Party上？｜907编辑部</a> [19] <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428082157764800" target="_blank" class="news-link">日本财务大臣片山皋月：将与美国紧密协调，必要时将采取行动。</a> [26] <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%90%91%E7%BE%8E%E5%9B%BD%E6%8F%903%E4%B8%AA%E6%9D%A1%E4%BB%B6%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">伊朗向美国提3个条件</a> [29] <font color='grey'>- 09时16分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260428081635439800" target="_blank" class="news-link">消息人士：特朗普对伊朗最新提议不满意</a> [30] <font color='grey'>- 09时16分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

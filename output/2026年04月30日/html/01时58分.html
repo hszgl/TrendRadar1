@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2026-04-30 01:58:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">25</td>
+                <td class="percentage">39.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7634125311717690922/" target="_blank" class="news-link">美国媒体预测中国新航母情况</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W?isFull=0&amp;immersion=true&amp;ifengsp=1" target="_blank" class="news-link">伊朗战争丨五角大楼：伊朗战事已“烧掉”250亿美元</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430013311964800" target="_blank" class="news-link">消息人士称，欧佩克+可能将产量配额提高20.6万桶/日，减去阿联酋1.8万桶/日的份额。预计将在周日会议上达成提高石油产量配额的协议，但阿联酋将缺席。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771197" target="_blank" class="news-link">特朗普“为无限期封锁伊朗”做准备，但对达成临时协议持开放态度</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012358183800" target="_blank" class="news-link">美国众议院投票决定就移民及海关执法局、边境巡逻队的拨款蓝图以及延长《外国情报监视法》授权的措施展开辩论。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012243289800" target="_blank" class="news-link">普京与特朗普通话 普京提出伊朗核计划建议</a> [11] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012222292800" target="_blank" class="news-link">克里姆林宫官员：美国总统特朗普与俄罗斯总统普京讨论了经济和能源项目的潜在合作机会。</a> [12] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012209016800" target="_blank" class="news-link">克里姆林宫官员：俄罗斯总统普京谴责对美国总统特朗普的刺杀企图。</a> [13] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012147314800" target="_blank" class="news-link">克里姆林宫官员：俄罗斯总统普京提议在五月胜利日（5月9日）庆祝活动期间实施俄乌停火，特朗普对此反应积极。</a> [14] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012114913800" target="_blank" class="news-link">俄罗斯总统普京与美国总统特朗普的通话持续超过1.5小时，气氛友好且商务化。</a> [15] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/OXY" target="_blank" class="news-link">西方石油</a> [16] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012107018800" target="_blank" class="news-link">俄罗斯总统普京表示支持美国总统特朗普延长伊朗停火的决定。</a> [16] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7634165333766442539/" target="_blank" class="news-link">马斯克为何不惜重金拿下Cursor</a> [17] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012044411800" target="_blank" class="news-link">俄罗斯总统普京向特朗普提出了关于伊朗核计划的建议。</a> [17] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012033940800" target="_blank" class="news-link">俄罗斯总统普京与美国总统特朗普讨论了伊朗问题。</a> [18] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430012024015800" target="_blank" class="news-link">俄罗斯总统普京与美国总统特朗普进行了电话交谈。</a> [19] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33069677" target="_blank" class="news-link">美国上周要求多家芯片公司停止向华虹半导体发货，外交部回应</a> [20] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430011544167800" target="_blank" class="news-link">特朗普要求以色列总理内塔尼亚胡行事更加谨慎，不要摧毁建筑物，因为这会损害以色列的形象。</a> [20] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00883" target="_blank" class="news-link">中国海洋石油</a> [22] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430011357873800" target="_blank" class="news-link">伊朗议长呼吁民众保持团结挫败敌人阴谋</a> [22] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430011101832800" target="_blank" class="news-link">俄罗斯黑海港口图阿普塞的一家石油炼油厂在乌克兰无人机袭击后发生火灾，已宣布进入区域紧急状态。</a> [23] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%86%8D%E6%AC%A1%E6%97%A0%E8%A7%86%E8%8B%B1%E7%8E%8B%E5%AE%A4%E8%A7%84%E7%9F%A9%E6%8B%8D%E5%9B%BD%E7%8E%8B%E8%82%A9%E8%86%80%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">特朗普再次无视英王室规矩拍国王肩膀</a> [24] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260430010627021800" target="_blank" class="news-link">美国国务卿鲁比奥：会见了英国外交大臣 ，讨论了霍尔木兹海峡航行自由的必要性。</a> [25] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9C%A8%E5%BC%82%E7%8E%AF%E4%B8%AD%E6%BC%94%E5%A5%8FSee%20you%20again" target="_blank" class="news-link">在异环中演奏See you again</a> [29] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7633508445018849316/" target="_blank" class="news-link">阿联酋为何退出石油输出国组织</a> [30] <font color='grey'>- 01时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

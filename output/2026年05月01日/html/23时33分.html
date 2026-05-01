@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 117</p><p>生成时间: 2026-05-01 23:33:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">20.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501232413245800" target="_blank" class="news-link">文件显示，美国反垄断监管机构批准英特尔(INTC.O)收购Sambanova Systems交易。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/01/8f63a49732db4d68b4579793436a3fd0.html" target="_blank" class="news-link">特朗普狠批默茨，还点名意大利和西班牙</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501231630221800" target="_blank" class="news-link">美国警告船运公司，即使以慈善名义支付霍尔木兹海峡通行费，也会使其面临制裁风险。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501231543542800" target="_blank" class="news-link">白宫拒评有关伊朗回应细节</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/01/fbae46f7b07146fa9140cafd5a9a4f84.html" target="_blank" class="news-link">伊朗外长：五角大楼在撒谎</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501231455080800" target="_blank" class="news-link">伊朗消息人士：伊朗仍对美国深感不信任</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771459" target="_blank" class="news-link">伊朗提新谈判方案，美股高开高走，苹果绩后一度涨近6%，美油盘中跌超5%</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W?isFull=0&amp;immersion=true&amp;ifengsp=1" target="_blank" class="news-link">伊朗战争丨美军最大航母“福特”号已离开中东</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501231055200800" target="_blank" class="news-link">美国财政部警告船运公司，为通过霍尔木兹海峡支付通行费将使其面临制裁风险。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501230903973800" target="_blank" class="news-link">美国财政部网站更新针对伊朗的相关制裁。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771451" target="_blank" class="news-link">谷歌、卡特彼勒成“大赢家”，AI和财报压倒战争，4月的美股创2020年以来最强</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501230758280800" target="_blank" class="news-link">消息人士称，英国石油公司北海资产若全面出售，估值可能达到20亿欧元。相关评估仍在进行中，出售并非板上钉钉。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33088375" target="_blank" class="news-link">屡遭暗杀还不考虑穿防弹衣？特朗普：穿着显胖</a> [11] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501230727933800" target="_blank" class="news-link">据悉英国石油公司新任首席执行官考虑出售资产，正对英国北海资产进行审查。</a> [11] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33088692" target="_blank" class="news-link">总统能上太空吗？特朗普现场发问，NASA局长：可以安排</a> [12] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33088694" target="_blank" class="news-link">美国拟禁止被列入所谓“覆盖清单”实体在美开展电信业务，商务部回应</a> [15] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501225711327800" target="_blank" class="news-link">伊朗议会议长卡利巴夫：战胜敌对超级大国之后进行重建的日子即将到来。</a> [18] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501225206321800" target="_blank" class="news-link">美国能源部长赖特：作为特朗普“和平管道”议程的一部分，中欧和东欧正在讨论多个管道项目，以促进繁荣与安全。</a> [19] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501224936857800" target="_blank" class="news-link">美国SEC拟将企业季报改半年报的提案通过白宫审查</a> [20] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501222838293800" target="_blank" class="news-link">巴基斯坦官员称伊朗递交的最新谈判方案已转交美国</a> [23] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501222117386800" target="_blank" class="news-link">乌克兰外交部长：俄罗斯5月9日的停火提议是莫斯科再次试图取悦美国。</a> [26] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501221701535800" target="_blank" class="news-link">美国国债收益率继续下跌，10年期收益率最新报4.35%。</a> [27] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501221603622800" target="_blank" class="news-link">伊朗足协主席：国家队是否赴美参加世界杯仍需与国际足联沟通协调</a> [28] <font color='grey'>- 23时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260501221502975800" target="_blank" class="news-link">航运数据显示，委内瑞拉对美国的石油出口增至约44.5万桶/日。</a> [30] <font color='grey'>- 23时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

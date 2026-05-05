@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 55</p><p>生成时间: 2026-05-06 06:31:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">11</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506060658367800" target="_blank" class="news-link">据阿联酋国家新闻机构：阿联酋总统接到包括以色列总理内塔尼亚胡在内的多位领导人的电话，谴责伊朗对阿联酋的攻击，并表示支持阿联酋为维护安全所采取的措施。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8stU4o7sEc4" target="_blank" class="news-link">美官员：美商船穿越霍尔木兹海峡时，曾遭伊朗袭击</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771570" target="_blank" class="news-link">苹果正考虑与英特尔和三星合作，为其生产主要设备芯片</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506053246013800" target="_blank" class="news-link">美国国务院：他们讨论了美俄关系、俄乌战争以及伊朗问题。</a> [11] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506053215367800" target="_blank" class="news-link">美国国务院：美国国务卿鲁比奥今天与俄罗斯外长拉夫罗夫进行了交谈。</a> [13] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506053137812800" target="_blank" class="news-link">美官员称美商船穿越霍尔木兹海峡时曾遭伊朗袭击</a> [14] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506052656012800" target="_blank" class="news-link">美国证券交易委员会（SEC）文件显示，Alphabet提交了总额85亿加元的四批次票据发行申请。</a> [15] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506052544732800" target="_blank" class="news-link">Cerence AI：国际贸易委员会诉状请求发布有限排除令，禁止包括音箱、显示器、电视、平板电脑和流媒体设备在内的某些智能设备进口至美国。</a> [16] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506052339847800" target="_blank" class="news-link">Cerence AI：也提起了地区法院诉讼。</a> [17] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506052300378800" target="_blank" class="news-link">Cerence AI：向美国国际贸易委员会对亚马逊提起诉讼。</a> [18] <font color='grey'>- 06时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506051442353800" target="_blank" class="news-link">AMD(AMD.O)：Meta芯片的出货预计将于下半年如期启动。</a> [24] <font color='grey'>- 06时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

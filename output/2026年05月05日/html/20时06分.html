@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 104</p><p>生成时间: 2026-05-05 20:06:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">15.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7635805021707468842/" target="_blank" class="news-link">伊朗外长将应邀访华</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W?isFull=0&amp;immersion=true&amp;ifengsp=1" target="_blank" class="news-link">伊朗战争丨伊朗外长今日启程访问北京</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505193547367800" target="_blank" class="news-link">伊朗司法总监：任何扰乱霍尔木兹海峡航道的行为，都将遭到伊朗武装力量的坚决回击。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7636330220844322355/" target="_blank" class="news-link">伊朗向美舰发射导弹视频曝光</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505193528992800" target="_blank" class="news-link">美国人工智能公司同意向美国政府提前开放其模型以供评估。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%A4%96%E9%95%BF%E9%98%BF%E6%8B%89%E6%A0%BC%E9%BD%90%E5%B0%86%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">伊朗外长阿拉格齐将访华</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505193512616800" target="_blank" class="news-link">谷歌、微软与美国联邦人工智能中心达成协议。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505193316991800" target="_blank" class="news-link">以色列消息人士称正与美国协调 或准备对伊朗新一轮打击</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E5%A4%96%E4%BA%A4%E9%83%A8%E9%95%BF%E8%AE%BF%E5%8D%8E%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">伊朗外交部长访华</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2362589" target="_blank" class="news-link">伊朗导弹搅动国际油市 冲突重燃担忧致美股指数全线下跌| 今夜看点</a> [11] <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505192644514800" target="_blank" class="news-link">美国中央司令部:“乔治·H·W·布什”号航空母舰（CVN 77）正穿越阿拉伯海，此时美军正从阿曼湾对伊朗实施海上封锁，并在霍尔木兹海峡支援“自由计划”。该航母舰上载有60余架各型飞机。</a> [15] <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2034903072279721909" target="_blank" class="news-link">特朗普出席活动白宫附近突发枪击， 一名枪手被击毙，具体情况如何？</a> [18] <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33098897" target="_blank" class="news-link">美国军舰强行“疏导”霍尔木兹海峡，成功了吗？</a> [20] <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505191801628800" target="_blank" class="news-link">法国总统马克龙谴责伊朗对阿联酋的攻击。</a> [21] <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260505190749811800" target="_blank" class="news-link">继“友谊”输油管道过境运输中断后，哈萨克斯坦KMG公司将把石油出口转向里海管道联盟（CPC）管道及俄罗斯港口。</a> [27] <font color='grey'>- 20时06分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7634874542255407142" target="_blank" class="news-link">一天一个开源项目（第89篇）：Warp - AI 驱动的现代化 Rust 终端</a> [29] <font color='grey'>- 20时06分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 122</p><p>生成时间: 2026-05-06 21:15:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">15.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506211110394800" target="_blank" class="news-link">伊朗和沙特外长呼吁加强地区合作，以防止紧张局势升级。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/06/2a6ef9bed3984d9d90a4599829e12262.html" target="_blank" class="news-link">20多名美议员施压特朗普，要求承认以色列拥核</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506211009116800" target="_blank" class="news-link">伊朗近日已拒绝此类提议。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506210812950800" target="_blank" class="news-link">伊朗正在讨论结束战争，而非核问题。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506210723225800" target="_blank" class="news-link">伊朗高级议员表示，美媒Axios的报道更像是美国的愿望清单而非现实，美国在这场注定失败的战争中，绝不可能获得任何其在面对面谈判中未能得到的东西。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506210552326800" target="_blank" class="news-link">伊朗学生通讯社：美媒AXIOS（关于伊朗问题）报道的部分内容属于猜测。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771664" target="_blank" class="news-link">伊朗称将确保船只安全通过霍尔木兹海峡</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506210002186800" target="_blank" class="news-link">夜盘开盘，沪锡、沪银主力合约涨超2%，烧碱、国际铜涨超1%；跌幅方面，SC原油主力合约跌近4%，棕榈油、丁二烯橡胶跌超2%。</a> [13] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%B0%86%E7%A1%AE%E4%BF%9D%E8%88%B9%E5%8F%AA%E5%AE%89%E5%85%A8%E9%80%9A%E8%BF%87%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1" target="_blank" class="news-link">伊朗将确保船只安全通过霍尔木兹海峡</a> [14] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2489884" target="_blank" class="news-link">现货黄金升至4600美元</a> [14] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506205947437800" target="_blank" class="news-link">伊朗公布被击落敌方无人机残骸</a> [15] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506205116010800" target="_blank" class="news-link">停战消息突发！原油暴跌，黄金暴涨能持续多久？短线如何布局？金十VIP小文正在直播中，点击观看&lt;font class=&quot;important-text&quot;&gt;&lt;/font&gt;</a> [19] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506205016039800" target="_blank" class="news-link">伊朗议会议长卡利巴夫：霍尔木兹海峡对美国而言已变得难以忍受，而德黑兰甚至尚未真正出手。</a> [20] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506204713730800" target="_blank" class="news-link">伊朗外交部发言人表示，伊朗正在审议美方提案，并将向巴基斯坦转达其立场。</a> [22] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7636368072584544298/" target="_blank" class="news-link">伊朗赞赏中方始终站在历史正确一边</a> [23] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506204308788800" target="_blank" class="news-link">美国AI公司Anthropic高管下周将访韩</a> [24] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506204058586800" target="_blank" class="news-link">美国4月就业创一年多新高 劳动力市场显现企稳迹象</a> [25] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506203944129800" target="_blank" class="news-link">美国财政部宣布1250亿美元再融资计划</a> [27] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506203802228800" target="_blank" class="news-link">美国财政部将维持与上一季度相同的回购步伐。</a> [29] <font color='grey'>- 21时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

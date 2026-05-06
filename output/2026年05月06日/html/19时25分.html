@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 132</p><p>生成时间: 2026-05-06 19:25:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">27</td>
+                <td class="percentage">20.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/loc/timeline/event/8r727OWpK5W?isFull=0&amp;immersion=true&amp;ifengsp=1" target="_blank" class="news-link">伊朗战争丨 美伊接近达成“停战备忘录”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/06/6fb35441f4354093962354925f036a0a.html" target="_blank" class="news-link">降低潜在风险 推动“黄金回家” 欧盟多国不愿再将黄金储备存放美国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506191807674800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：预计全年GDP增长4%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506191646861800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：不参与私人信贷的人不必担心。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506191427807800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：Mythos模型显示我们之前忽视的脆弱性。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7636699708399865370/" target="_blank" class="news-link">中方再回应特朗普访华</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2363872" target="_blank" class="news-link">知情人士：白宫认为与伊朗接近达成停战谅解备忘录</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506191411841800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：行政命令将提供关于人工智能的&#x27;清晰路线图&#x27;。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7636519805516025398/" target="_blank" class="news-link">《新闻联播》正在直播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771614" target="_blank" class="news-link">美伊接近达成停战备忘录，美股期指短线拉升，美油暴跌10%，黄金涨超3%触及4700美元</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2490381" target="_blank" class="news-link">新闻联播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506191353302800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：正在研究可能针对人工智能和商业的行政命令。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7636723322763349546/" target="_blank" class="news-link">知情人：伊朗将同意将铀浓缩材料运出</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506191114249800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：我们并没有威胁美联储的独立性。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506191110012800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：美联储主席鲍威尔的相关问题仍然不确定。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190924842800" target="_blank" class="news-link">美国天然气期货日内下跌3.00%，现报2.704美元/百万英热。</a> [11] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2363932" target="_blank" class="news-link">一图看懂 | 全球AI链迎史诗级共振暴涨，A股市场跑出了哪些“黑马”？</a> [13] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%AD%E5%9B%BD%E4%BB%BD%E9%A2%9D%E9%99%8D%E8%87%B30&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">英伟达中国份额降至0</a> [13] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190819087800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：昨天战情室气氛高涨。</a> [13] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E6%AD%A3%E8%AF%84%E4%BC%B0%E7%BE%8E%E6%8F%90%E5%87%BA%E7%9A%84%E5%81%9C%E6%88%98%E8%B0%85%E8%A7%A3%E5%A4%87%E5%BF%98%E5%BD%95" target="_blank" class="news-link">伊朗正评估美提出的停战谅解备忘录</a> [14] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190807088800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：信用卡支出“飙升至极点”。</a> [14] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190505253800" target="_blank" class="news-link">美国白宫国家经济委员会主任哈塞特：（谈伊朗）看来他们目前正取得巨大进展。</a> [20] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190002270800" target="_blank" class="news-link">美国至5月1日当周MBA抵押贷款购买指数 171.1，前值177.7。</a> [25] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190002269800" target="_blank" class="news-link">美国至5月1日当周MBA抵押贷款再融资活动指数 928.6，前值977.9。</a> [26] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190002267800" target="_blank" class="news-link">美国至5月1日当周MBA抵押贷款申请活动指数 285.3，前值298.5。</a> [27] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506190002261800" target="_blank" class="news-link">美国至5月1日当周MBA30年期固定抵押贷款利率 6.45%，前值6.37%。</a> [28] <font color='grey'>- 19时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260506185936386800" target="_blank" class="news-link">美国2-7年期国债收益率当日下降10个基点。</a> [29] <font color='grey'>- 19时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

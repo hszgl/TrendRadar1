@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2026-05-08 03:15:31</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">29.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508031004808800" target="_blank" class="news-link">美国总统特朗普：已同意给欧盟委员会主席冯德莱恩时间至美国建国250周年纪念日；否则，很遗憾，他们的关税将立即大幅上调。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508030903418800" target="_blank" class="news-link">伊朗南部传出爆炸声 具体原因尚不明确</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508030827265800" target="_blank" class="news-link">美国总统特朗普：与欧盟委员会主席冯德莱恩的通话非常愉快。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508030645348800" target="_blank" class="news-link">据塔斯尼姆通讯社：爆炸声可能与伊朗革命卫队为警告船只而进行的行动有关。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508030102168800" target="_blank" class="news-link">伊朗外交部发言人：最高领袖穆杰塔巴全面掌控局势</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771759" target="_blank" class="news-link">全球AI新王诞生！Anthropic估值冲爆1.2万亿，首次反超OpenAI</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508030011388800" target="_blank" class="news-link">美国3月消费信贷 248.6亿美元，预期122.5亿美元，前值由94.84亿美元修正为88.5亿美元。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508025852117800" target="_blank" class="news-link">市场消息：美国国务卿鲁比奥批准向中东国家提供258亿美元的武器支持。</a> [12] <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508025520184800" target="_blank" class="news-link">据伊朗迈赫尔通讯社报道，在格什姆岛听到了爆炸声。</a> [14] <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508025407806800" target="_blank" class="news-link">伊朗阿巴斯港市附近听到爆炸声</a> [15] <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508025345869800" target="_blank" class="news-link">Axios记者辟谣：过去三周从未报道“协议即将达成”，系伊朗政权宣传攻势</a> [16] <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508024308079800" target="_blank" class="news-link">据伊朗国家电视台报道，伊朗南部阿巴斯港周边传出数次爆炸声。</a> [18] <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508023703707800" target="_blank" class="news-link">据伊朗努尔新闻(Nour News)：伊朗最高领袖穆杰塔巴正在管理事态发展，任何行动都需经过他的许可。</a> [20] <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508023655424800" target="_blank" class="news-link">据伊朗努尔新闻(Nour News)：伊朗外交部发言人表示，最高领袖穆杰塔巴对所有事务和问题拥有全面监督权。</a> [21] <font color='grey'>- 03时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508023402510800" target="_blank" class="news-link">博通(AVGO.O)股价小幅走低，下跌3.6%，报410美元。有报道称博通与OpenAI的交易因融资问题受阻。</a> [22] <font color='grey'>- 03时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

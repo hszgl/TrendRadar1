@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2026-05-08 06:05:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">20</td>
+                <td class="percentage">47.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508053624907800" target="_blank" class="news-link">美国军方：美国中央司令部已消除来袭威胁，并瞄准了袭击美军的伊朗军事设施。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508053537409800" target="_blank" class="news-link">美国军方：没有美国资产遭到袭击。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508053448834800" target="_blank" class="news-link">美国军方：5月7日，当美国海军导弹驱逐舰穿越霍尔木兹海峡驶向阿曼湾时，美军拦截了伊朗的袭击，并进行了自卫反击。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508052530857800" target="_blank" class="news-link">据福克斯新闻记者：从一位美国高级官员处获悉，美军刚刚袭击了伊朗米纳布的卡尔甘港海军检查站。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508051844746800" target="_blank" class="news-link">伊朗武装部队：美军袭击油轮并空袭沿海地区 伊方已进行反击</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508051504904800" target="_blank" class="news-link">据伊朗Press TV：伊朗最高联合军事指挥部称，美国在一些地区国家的配合下，对平民地区进行了空袭。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508050937532800" target="_blank" class="news-link">伊朗最高联合军事指挥部：伊朗将对任何袭击作出强有力的回应，绝不犹豫。</a> [11] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508050930126800" target="_blank" class="news-link">美法院裁定特朗普的10%全球关税不成立</a> [12] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508050844212800" target="_blank" class="news-link">伊朗最高联合军事指挥部：美国袭击进入霍尔木兹海峡的伊朗油轮及另一艘船只，违反了停火协议。</a> [13] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508045940660800" target="_blank" class="news-link">市场消息：美国贸易法院裁定特朗普提出的10%全球关税提案不成立。</a> [17] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508045826432800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：对敌对美国驱逐舰的袭击是使用导弹和自杀式无人机实施的。</a> [19] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508045742354800" target="_blank" class="news-link">现货黄金在纽约尾盘转跌，现货白银涨幅收窄至1.5%，WTI原油涨1.6%。</a> [20] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508045629089800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗海军瞄准了霍尔木兹海峡附近的三艘美国驱逐舰。</a> [21] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508045335463800" target="_blank" class="news-link">伊朗首都德黑兰西部传来巨响</a> [23] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508045221355800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：伊朗南部米纳布（Minab）传出爆炸声。</a> [24] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508045157834800" target="_blank" class="news-link">美媒：美军打击伊朗港口 美官员称并非重燃战争或结束停火</a> [25] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508044708787800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：阿巴斯港市再次传出爆炸声。</a> [26] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508044650093800" target="_blank" class="news-link">据福克斯新闻记者：美国高级官员表示与伊朗的停火并未结束。</a> [27] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508044535643800" target="_blank" class="news-link">英伟达获得了一项五年期认购权，可以每股70美元的价格购买IREN最多3000万股股票，这意味着英伟达有权向IREN投资至多21亿美元。</a> [28] <font color='grey'>- 06时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260508044222582800" target="_blank" class="news-link">据福克斯新闻记者：美军刚刚对伊朗的格什姆港和阿巴斯港发动了打击；一位美国高级官员透露，这并不意味着战争重燃。</a> [29] <font color='grey'>- 06时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

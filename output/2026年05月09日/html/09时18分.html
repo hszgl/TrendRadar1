@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 129</p><p>生成时间: 2026-05-09 09:18:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">25</td>
+                <td class="percentage">19.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771825" target="_blank" class="news-link">非农缓解“滞胀”担忧，美股新高，英特尔和存储芯片股暴涨，Rocket Lab绩后涨34%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%B8%83%E6%9C%89%E5%85%B3UFO%E6%96%87%E4%BB%B6" target="_blank" class="news-link">美国公布有关UFO文件</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509084336868800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.512吨，当前持仓量为1033.995吨。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2036053539319804953" target="_blank" class="news-link">八家新能源车企远程「锁电」被约谈，续航最高缩水 200 公里，此举有哪些实际影响？法律上如何定性车企行为？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9B%BD%E5%AE%89%E9%83%A8%EF%BC%9A%E6%9F%90%E6%89%8B%E6%9C%BA%E8%8A%AF%E7%89%87%E5%8E%82%E6%BC%8F%E6%B4%9E%E8%A2%AB%E9%9D%9E%E6%B3%95%E5%88%A9%E7%94%A8" target="_blank" class="news-link">国安部：某手机芯片厂漏洞被非法利用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509083220034800" target="_blank" class="news-link">特朗普祝贺母亲节快乐 称美国的就业人数比以往任何时候都要多</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509082543847800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日减少30.96吨，当前持仓量为15048.3吨。欢迎点击查看数据中心...</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8syALbeUOvl" target="_blank" class="news-link">受够了！德国喊话多国组建对抗特朗普新联盟</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509082432028800" target="_blank" class="news-link">美国中央司令部：美国在中东地区的部队保持战备状态。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771864" target="_blank" class="news-link">冲击中国AI融资王！报道：DeepSeek首轮融资目标500亿元，估值或突破3500亿元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509082122589800" target="_blank" class="news-link">特朗普称可能恢复“自由计划”行动</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%9E%E7%BB%AD%E4%B8%A4%E5%A4%A9%E4%BA%A4%E7%81%AB+%E4%BC%8A%E6%9C%97%E8%AD%A6%E5%91%8A%E5%86%B2%E7%AA%81%E5%8F%AF%E8%83%BD%E9%87%8D%E7%87%83" target="_blank" class="news-link">连续两天交火 伊朗警告冲突可能重燃</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3771807" target="_blank" class="news-link">创业板跌近1%，芯片半导体集体调整，机器人逆势爆发，恒指跌近1%，科网股多跌，快手涨超9%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2366578" target="_blank" class="news-link">美国国防部发布有关UFO的新文件 称公众可自行判断真相</a> [12] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509081713536800" target="_blank" class="news-link">伊朗外长：美国破坏性做法正在削弱外交进程</a> [13] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=8%E5%AE%B6%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E4%BC%81%E8%A2%AB%E7%BA%A6%E8%B0%88" target="_blank" class="news-link">8家新能源车企被约谈</a> [14] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509081247654800" target="_blank" class="news-link">伊朗议员：哈尔克岛附近油污实为欧洲油轮排放物</a> [18] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E6%83%85%E5%B1%80%E6%8A%A5%E5%91%8A%E6%B3%84%E4%BA%86%E7%89%B9%E6%9C%97%E6%99%AE%E7%9A%84%E5%BA%95%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">中情局报告泄了特朗普的底</a> [19] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509080946529800" target="_blank" class="news-link">美国总统特朗普：（关于汉坦病毒）我们似乎已经控制住了局势。</a> [23] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509080936578800" target="_blank" class="news-link">美国总统特朗普：与巴西总统卢拉讨论了关税问题。</a> [24] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509080929775800" target="_blank" class="news-link">美国总统特朗普：无意撤换美国食品药品监督管理局（FDA）局长。</a> [25] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509080904461800" target="_blank" class="news-link">美国总统特朗普：可能会将驻德部队调往波兰。</a> [26] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509080844957800" target="_blank" class="news-link">美国总统特朗普：俄罗斯与乌克兰之间的停火可能会超过3天。</a> [27] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A7%B0%E9%93%9C%E7%BA%BF%E5%B7%B2%E6%97%A0%E6%B3%95%E6%BB%A1%E8%B6%B3%E9%9C%80%E6%B1%82%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">黄仁勋称铜线已无法满足需求</a> [28] <font color='grey'>- 09时18分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260509080827651800" target="_blank" class="news-link">美国总统特朗普：预计伊朗将很快作出回应。</a> [28] <font color='grey'>- 09时18分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

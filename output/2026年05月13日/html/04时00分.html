@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 54</p><p>生成时间: 2026-05-13 04:00:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">29.63%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513032711352800" target="_blank" class="news-link">印度政府调整黄金和白银进口关税。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513031924607800" target="_blank" class="news-link">伊朗外交部：伊朗驻科威特大使馆需要获得对被拘留伊朗公民的接触权。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513031833254800" target="_blank" class="news-link">伊朗外交部：被科威特逮捕的四名伊朗人正在进行例行海上巡逻任务，由于“导航中断”，这才进入了科威特领海。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513031717822800" target="_blank" class="news-link">声明显示：伊朗外交部驳斥科威特关于德黑兰计划对该海湾国家采取“敌对行动”的声明。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513031104835800" target="_blank" class="news-link">“狂怒”可能变“重锤”，美国拟用改名规避战争授权时限问题</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3772030" target="_blank" class="news-link">报道称马斯克、库克、贝莱德、美光CEO等将随特朗普访华，黄仁勋缺席</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513025310570800" target="_blank" class="news-link">据Politico：美国副总统万斯将聘请Cliff Sims担任国家安全顾问。</a> [12] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513025035185800" target="_blank" class="news-link">声明显示：美国联邦通信委员会无线电信局与航天局批准EchoStar向SpaceX出售约65兆赫频谱。</a> [14] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513024737641800" target="_blank" class="news-link">伊拉克、巴基斯坦与伊朗达成能源运输协议 伊朗展现控制力</a> [15] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513023414045800" target="_blank" class="news-link">Meta：将为竞争对手的人工智能聊天机器人提供一个月的WhatsApp免费访问权限。</a> [18] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2031495233876251385" target="_blank" class="news-link">Ai 时代，现在还有人在坚持古法编程吗？</a> [19] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513023055198800" target="_blank" class="news-link">上海黄金交易所黄金T+D 5月12日（周二）晚盘收盘下跌0.73%报1025.9元/克；&lt;br/&gt;上海黄金交易所白银T+D 5月12日（周二）晚盘收盘下跌0.28%报20912.0元/千克。</a> [20] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513022656149800" target="_blank" class="news-link">伊朗：与美谈判先决条件是结束战事和解除封锁霍尔木兹海峡</a> [21] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513022537073800" target="_blank" class="news-link">据伊朗媒体Fars News：伊朗已通知巴基斯坦，美国的海上封锁加剧了与华盛顿谈判的信任危机。</a> [22] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513022216219800" target="_blank" class="news-link">巴西国家石油公司：公司对在四到五年内实现巴西柴油生产自给自足充满信心。</a> [23] <font color='grey'>- 04时00分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD4%E6%9C%88CPI%E8%B0%83%E6%95%B4%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88" target="_blank" class="news-link">美国4月CPI调整意味着什么</a> [29] <font color='grey'>- 04时00分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

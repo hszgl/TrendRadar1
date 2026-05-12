@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-05-12 12:24:23</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">32</td>
+                <td class="percentage">15.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512121155180800" target="_blank" class="news-link">快手：正在评估拟议重组可灵AI之相关资产及业务的方案，拟议方案仍处于初步阶段</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3772036" target="_blank" class="news-link">韩国政策高层：AI产业的超额利润应返还全民，提议设立“公民红利”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/12/e5365b9cfdb6485990ff22ac9c90cb60.html" target="_blank" class="news-link">港媒：深圳华强北以AI创新提升全球吸引力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512121045683800" target="_blank" class="news-link">德国极右翼政党AfD批评伊朗战争后支持率飙升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2037161087863353508" target="_blank" class="news-link">美国总统特朗普时隔九年再度对中国进行国事访问，双方可能会就哪些问题进行磋商？较上次访华会有什么变化？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8t3NrhrUsGT" target="_blank" class="news-link">伊朗官员：伊美就浓缩铀处置方式存在严重分歧</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512120124906800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-05-12）</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512115550867800" target="_blank" class="news-link">金十图示：2026年05月12日（周二）白银ETF持仓报告</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8t3U0fuEtVk" target="_blank" class="news-link">委内瑞拉代总统否认将成为美国第51州</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512115547914800" target="_blank" class="news-link">金十图示：2026年05月12日（周二）黄金ETF持仓报告</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2037128887558207003" target="_blank" class="news-link">贾跃亭出任 FF 全球 CEO，公司将升为物理 AI 生态公司，这是什么概念，市场为何愿意不断为其梦想买单？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512115437463800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：霍尔木兹海峡持续的通行中断正在影响天然气产品的提取。</a> [11] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512115422515800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：正在与客户和合作伙伴就具体交易进行逐案洽谈。</a> [12] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512115403604800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：阿联酋住宅和工业客户的需求增长正在提升公司天然气的整体需求。</a> [13] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512115320443800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：公司目标是在2026年底前恢复80%的产能，并在2027年实现全面恢复。</a> [14] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2037091318204032140" target="_blank" class="news-link">央视曝光三无手搓汽车，从新能源车拆下翻新锂电池自行组装，这种汽车有何风险？暴露出监管与产业链哪些问题？</a> [14] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512115130838800" target="_blank" class="news-link">黄金“验证日”来了！今晚CPI是跳板还是天花板？</a> [15] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512114935128800" target="_blank" class="news-link">缺乏AI企业和估值吸引力 外国投资者创纪录撤资印度股市</a> [16] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512113842509800" target="_blank" class="news-link">OpenAI冲刺IPO之际 其CEO奥尔特曼恐面临严厉审查</a> [18] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33149674" target="_blank" class="news-link">从加法到减法：人工智能时代最难的，不是创新，而是割舍</a> [19] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512113628039800" target="_blank" class="news-link">日本财长：日美“非常良好地协调”汇率政策，贝森特被指默许干预</a> [19] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7638119976965390374/" target="_blank" class="news-link">美国酒店现黑熊 警察撬门后拔腿就跑</a> [20] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33160584" target="_blank" class="news-link">美国总统特朗普：非常期待中国之行</a> [20] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E7%A1%AE%E8%AE%A4%E9%A6%96%E4%BE%8B%E6%B1%89%E5%9D%A6%E7%97%85%E6%AF%92%E6%84%9F%E6%9F%93%E7%97%85%E4%BE%8B%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">美国确认首例汉坦病毒感染病例</a> [20] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%91%E6%96%87%E7%A7%B0%E9%9D%9E%E5%B8%B8%E6%9C%9F%E5%BE%85%E4%B8%AD%E5%9B%BD%E4%B9%8B%E8%A1%8C%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">特朗普发文称非常期待中国之行</a> [24] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512113033440800" target="_blank" class="news-link">早盘收盘，国内期货主力合约涨跌互现。沪银涨超6%，液化石油气（LPG）涨超5%，铂、沪铜、国际铜、燃料油、低硫燃料油（LU）涨超2%；跌幅方面，多晶硅跌超4%，工业硅、焦煤、烧碱跌超2%，生猪、氧化铝、棕榈油跌超1%。</a> [26] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7637780467634192420/" target="_blank" class="news-link">美国议员撺掇特朗普对华强硬</a> [27] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH601857" target="_blank" class="news-link">中国石油</a> [27] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512112941853800" target="_blank" class="news-link">金十整理：机构前瞻美国4月CPI及核心CPI年率</a> [27] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512112729019800" target="_blank" class="news-link">美媒：马斯克的Grok在AI竞赛中正节节败退</a> [28] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7637805749168472107" target="_blank" class="news-link">重度 AI 编程用户的一天：我怎么把 Claude Code / Codex 工作流搬进浏览器工作台</a> [28] <font color='grey'>- 12时24分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260512112222106800" target="_blank" class="news-link">据华尔街日报：美国众议院监督委员会已启动一项调查，以探究有关OpenAI CEO奥尔特曼潜在的利益冲突，同时多位共和党州检察长呼吁美国证交会（SEC）进行审查。</a> [30] <font color='grey'>- 12时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

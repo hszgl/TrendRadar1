@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 170</p><p>生成时间: 2026-05-13 16:15:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">26</td>
+                <td class="percentage">15.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">特朗普访华</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2369985" target="_blank" class="news-link">特朗普空中发文：能够与众多的杰出人士一同前往伟大的中国，是我的荣幸</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7638441986101559359/" target="_blank" class="news-link">国台办回应特朗普访华或讨论台湾问题</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8t5hJ4xQWHE" target="_blank" class="news-link">沙特、阿联酋被曝曾秘密空袭伊朗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513155228548800" target="_blank" class="news-link">金十数据整理：每日房地产行业动态汇总（2026-05-13）</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8t5gNSeUArW" target="_blank" class="news-link">“美国人薪资三年来首次跑输通胀”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2369925" target="_blank" class="news-link">功率半导体密集涨价！AI数据中心成最大推手 业内预计供需紧张短期难解</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2369967" target="_blank" class="news-link">AI超节点放量元年？国内大厂相继押注 OEM环节或成下一受益方向</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8t5mv472h4W" target="_blank" class="news-link">美国海军将建造史上最贵军舰：核动力“特朗普”级战列舰</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3772146" target="_blank" class="news-link">最后一刻临时追加！黄仁勋加入特朗普访华代表团</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%97%B6%E9%9A%949%E5%B9%B4%E5%86%8D%E8%AE%BF%E5%8D%8E+%E5%87%A0%E7%82%B9%E5%80%BC%E5%BE%97%E5%85%B3%E6%B3%A8" target="_blank" class="news-link">特朗普时隔9年再访华 几点值得关注</a> [11] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2370077" target="_blank" class="news-link">外交部：中方欢迎特朗普总统对中国进行国事访问</a> [12] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%AC%A2%E8%BF%8E%E7%89%B9%E6%9C%97%E6%99%AE%E8%AE%BF%E9%97%AE%E4%B8%AD%E5%9B%BD%23&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">欢迎特朗普访问中国</a> [12] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E6%B0%B4%E4%B8%8B%E8%88%B0%E9%98%9F%E8%BF%98%E8%83%BD%E6%92%91%E5%A4%9A%E4%B9%85" target="_blank" class="news-link">美国水下舰队还能撑多久</a> [13] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%9C%9F%E5%BE%85%E4%B8%8E%E4%B8%AD%E6%96%B9%E4%BC%9A%E6%99%A4" target="_blank" class="news-link">特朗普期待与中方会晤</a> [14] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%9B%9E%E5%BA%94%E8%AE%BF%E5%8D%8E%E5%9B%A2%E9%AB%98%E7%AE%A1%E5%90%8D%E5%8D%95%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">特朗普回应访华团高管名单</a> [15] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=A%E8%82%A1%E6%94%B6%E7%9B%98%EF%BC%9A%E6%B2%AA%E6%8C%87%E6%B6%A80.67%25+AI%E7%AE%97%E5%8A%9B%E8%B5%B0%E9%AB%98" target="_blank" class="news-link">A股收盘：沪指涨0.67% AI算力走高</a> [16] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2037651644314116713" target="_blank" class="news-link">美以袭击伊朗进入第 75 天，当前局势如何？哪些信息值得关注？</a> [16] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513153509395800" target="_blank" class="news-link">国际现货黄金依然展现韧性，白银正在走出阴影？ | Live分析更新中</a> [17] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33166126" target="_blank" class="news-link">白宫公布名单：美国16位商业巨头与特朗普一同访华</a> [18] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E4%B8%AD%E6%96%B9%E6%AC%A2%E8%BF%8E%E7%89%B9%E6%9C%97%E6%99%AE%E6%80%BB%E7%BB%9F%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">外交部：中方欢迎特朗普总统访华</a> [19] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2037631560241739641" target="_blank" class="news-link">不少车主反映停车位「缩水」，而新能源车身普遍变宽停车越来越难，停车位真的缩水了吗？宽度标准该调整了吗？</a> [19] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7638601174863380516" target="_blank" class="news-link">2026 Android I/O ，全新 AI 手机、 Android PC 和车载驾驶</a> [25] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7638885172441448467" target="_blank" class="news-link">坏了，黑客学会用AI写外挂了</a> [27] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260513153025994800" target="_blank" class="news-link">上海黄金交易所黄金T+D 5月13日（周三）收盘下跌0.35%报1029.8元/克；&lt;br/&gt;上海黄金交易所白银T+D 5月13日（周三）收盘上涨1.48%报21280.0元/千克。</a> [28] <font color='grey'>- 16时15分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7638267536363634723" target="_blank" class="news-link">AI时代，谁最容易被淘汰？</a> [28] <font color='grey'>- 16时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 52</p><p>生成时间: 2026-05-15 03:19:53</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">17</td>
+                <td class="percentage">32.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515023029031800" target="_blank" class="news-link">上海黄金交易所黄金T+D 5月14日（周四）晚盘收盘下跌0.36%报1022.56元/克；&lt;br/&gt;上海黄金交易所白银T+D 5月14日（周四）晚盘收盘下跌2.87%报20824.0元/千克。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515023013964800" target="_blank" class="news-link">委内瑞拉央行代理行长：与美国财政部保持每日对话，关系密切。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515023006519800" target="_blank" class="news-link">委内瑞拉央行代理行长：2026年第一季度，石油行业GDP下降2.1%，非石油行业GDP增长3.1%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515022123441800" target="_blank" class="news-link">伊朗外长阿拉格齐：任何以尊重的语言与伊朗对话的人，都会得到同样语言的回应。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515022055760800" target="_blank" class="news-link">伊朗外长阿拉格齐：我们早已习惯敌人的这些威胁。他们长期以来以各种形式和方法重复着威胁，但他们自己清楚，从这些威胁甚至是从他们发动的战争中，他们一无所获，今后也不会有所得。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515021742369800" target="_blank" class="news-link">xAI正式推出Grok Build早期测试版，旨在为超级Grok重度用户提供编码代理服务。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515021419544800" target="_blank" class="news-link">伊朗外长阿拉格齐：地区国家如今意识到，不能依赖美国和以色列来保障安全。</a> [11] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515021146475800" target="_blank" class="news-link">美国疾病控制与预防中心：目前美国没有汉坦病毒病例。</a> [12] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515021140763800" target="_blank" class="news-link">市场消息：自2月份以来，已有50余名研究人员和工程师离职离开SpaceX AI部门。</a> [13] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515020532996800" target="_blank" class="news-link">美国疾病控制与预防中心：目前有41人正在接受汉坦病毒监测。</a> [14] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515015928058800" target="_blank" class="news-link">以色列总理内塔尼亚胡：如果我们没有对伊朗发动两次战争，我们将面临一个拥有核弹的实体，这对我们构成生存威胁。</a> [16] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515015238925800" target="_blank" class="news-link">伊朗外交部：外长阿拉格奇与俄罗斯外长拉夫罗夫会晤，双方讨论并回顾了德黑兰与莫斯科在政治、能源、交通及地区合作领域的合作情况。双方还就西亚地区的最新发展及与伊朗核问题相关的谈判交换了意见。</a> [19] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515014339972800" target="_blank" class="news-link">伊朗革命卫队指挥官贾法里：伊朗坚持谈判的前提条件。</a> [21] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7639747881846443571/" target="_blank" class="news-link">中国AI企业正在海外闷声发大财</a> [26] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7639681041455648265/" target="_blank" class="news-link">阿里投的AI项目终于看到回头钱了</a> [27] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E8%B0%88%E4%BC%9A%E6%99%A4%E6%84%9F%E5%8F%97%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">马斯克谈会晤感受</a> [28] <font color='grey'>- 03时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%BA%E4%B8%AD%E5%9B%BD%E5%B0%91%E5%B9%B4%E5%84%BF%E7%AB%A5%E9%A9%BB%E8%B6%B3%E9%BC%93%E6%8E%8C" target="_blank" class="news-link">特朗普为中国少年儿童驻足鼓掌</a> [29] <font color='grey'>- 03时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

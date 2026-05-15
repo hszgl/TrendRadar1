@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 120</p><p>生成时间: 2026-05-15 23:37:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">19.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8t9bt9Na6ev" target="_blank" class="news-link">高市早苗赶忙和特朗普通电话</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515230336973800" target="_blank" class="news-link">美国能源部长：将以1.2桶对1桶回补战略石油储备</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3772341" target="_blank" class="news-link">全球长债收益率飙升，美股走低，纳指跌2%，英伟达跌4%，白银大跌9%，黄金跌3%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8t9YbPXdwcg" target="_blank" class="news-link">美国中央情报局局长跑去古巴，想干啥？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515230204417800" target="_blank" class="news-link">市场消息：委内瑞拉提出一项石油合同，以启动与钻井公司的谈判。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2038396347775022033" target="_blank" class="news-link">美以袭击伊朗进入第 77 天，当前局势如何？哪些信息值得关注？</a> [11] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33182040" target="_blank" class="news-link">美国总统特朗普结束访华离京</a> [12] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515223425944800" target="_blank" class="news-link">美国能源部长赖特：新英格兰地区的州长们对修建一条向本州输送天然气的管道感兴趣。</a> [12] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2372862" target="_blank" class="news-link">油价与美债收益率齐升 美股期指集体走低 芯片股盘前普跌 | 今夜看点</a> [13] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515223347970800" target="_blank" class="news-link">美国能源部长赖特：美国将从战略石油储备中释放的每一桶石油都将得到补充。</a> [13] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515223256818800" target="_blank" class="news-link">美国证券交易委员会（SEC）文件显示，穆巴达拉投资公司报告持有博通(AVGO.O)39,550股股份。</a> [14] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2038577207740715513" target="_blank" class="news-link">外交部介绍美国总统特朗普访华情况，称「两国元首达成一系列新共识」，哪些信息值得关注？</a> [14] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515223153342800" target="_blank" class="news-link">金融软件提供商OneStream宣布扩大与微软(MSFT.O)的战略合作伙伴关系，以在首席财务官办公室内推广人工智能的应用并提升其价值。</a> [16] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515223045360800" target="_blank" class="news-link">美国证券交易委员会（SEC）文件显示，穆巴达拉投资公司报告持有苹果(AAPL.O)38,034股股份。</a> [18] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515222754374800" target="_blank" class="news-link">美国能源部长赖特：美国可以轻松将天然气出口翻倍，且不会影响国内价格。</a> [19] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E8%82%A1%E6%8C%87%E4%BD%8E%E5%BC%80+%E8%8A%AF%E7%89%87%E8%82%A1%E9%9B%86%E4%BD%93%E4%B8%8B%E6%8C%AB" target="_blank" class="news-link">美股三大股指低开 芯片股集体下挫</a> [20] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33181420" target="_blank" class="news-link">外交部发言人就美国总统特朗普访华情况答记者问</a> [20] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515222157867800" target="_blank" class="news-link">消息人士：委内瑞拉国家石油公司的工人们正在努力扑灭天然气设施的火灾。</a> [20] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2035685308566610183" target="_blank" class="news-link">为什么我们总怪父母没抓住房产和互联网红利，可轮到自己面对 AI 时代红利时，也没好好抓住？</a> [20] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515222118984800" target="_blank" class="news-link">巴基斯坦外交部长：被美国扣押船只上的11名巴基斯坦公民和20名伊朗公民已被遣返。</a> [21] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515222100344800" target="_blank" class="news-link">消息人士：委内瑞拉国家石油公司在委内瑞拉马拉开博湖的天然气设施发生火灾。</a> [23] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515221943869800" target="_blank" class="news-link">王文涛部长会见美国嘉吉公司董事会主席兼首席执行官尚博远</a> [24] <font color='grey'>- 23时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260515221224628800" target="_blank" class="news-link">市场消息：第三轮黎以谈判的第二日会议在美国国务院开始。</a> [28] <font color='grey'>- 23时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

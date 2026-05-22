@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 190</p><p>生成时间: 2026-05-22 17:37:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">22</td>
+                <td class="percentage">11.58%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%B1%E8%87%AA%E6%B8%85%E6%95%A3%E6%96%87AI%E7%8E%87%E8%B6%8560%25" target="_blank" class="news-link">朱自清散文AI率超60%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/89d4aa17865a45e19791165de9545adc.html" target="_blank" class="news-link">专家文章 人工智能不会导致“就业末日”降临</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/274fa17768074dd9a48065fea1a5b130.html" target="_blank" class="news-link">英伟达业绩超出预期 Anthropic迎来首个盈利季度</a> <font color='red'><strong>[3]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260522170749302800" target="_blank" class="news-link">波兰总理图斯克：特朗普总统关于美国军队在波兰驻扎的决定对波兰和美国来说是个好消息。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/bfdbfe0a3fe5402580f50c64c57b7183.html" target="_blank" class="news-link">印尼央行打响汇率保卫战</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2040844706804938444" target="_blank" class="news-link">英特尔 CEO 陈立武设立新规，芯片两次流片未量产即解雇员工，会如何影响其研发？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%83%9D%E5%93%A5%E6%9D%8E%E5%B9%BF%E5%A5%87%E5%9B%9E%E5%BA%94AI%E4%B9%B0%E7%93%9C" target="_blank" class="news-link">郝哥李广奇回应AI买瓜</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2378847" target="_blank" class="news-link">内存、PCB、ABF！一文读懂：英伟达没涨 但Rubin生态圈全嗨了</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7642580693547057188/" target="_blank" class="news-link">朱自清《荷塘月色》AI率超60%</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2378985" target="_blank" class="news-link">美国暂停一项对台军售案，外交部回应</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3772862" target="_blank" class="news-link">特朗普密集谈伊朗、关税与AI，称美国将获得伊浓缩铀、重申伊不能拥有核武</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2378649" target="_blank" class="news-link">今晚11点！美联储新主席沃什将宣誓就职 特朗普“降息梦”能实现吗？</a> [11] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2379110" target="_blank" class="news-link">【每日收评】创业板指高开高走涨超2%，PCB等AI硬件全线爆发</a> [12] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/22/a25c1237f5bb4c028007bae0072e4f9e.html" target="_blank" class="news-link">巴基斯坦军方高层将访伊朗</a> [12] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260522165922514800" target="_blank" class="news-link">阿联酋总统顾问安瓦尔：与美国的联系已成为国家防御的脊梁。美国在每个海湾国家的考量中变得更加重要。</a> [14] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2040949624073152492" target="_blank" class="news-link">如何评价《一人之下》最新话（763 话）最后一页疑似使用 AI？</a> [14] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ000630" target="_blank" class="news-link">铜陵有色</a> [17] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260522165508029800" target="_blank" class="news-link">阿联酋总统顾问安瓦尔：我们看到伊朗有能力使用其手中掌握的任何武器，这就是我们此次冲突得到的教训。我们必须避免进一步的军事竞争，但要深入挖掘以解决根本问题。</a> [18] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%8B%9F%E5%BB%BA%E2%80%9C%E5%87%AF%E6%97%8B%E9%97%A8%E2%80%9D+%E6%96%B9%E6%A1%88%E8%8E%B7%E6%89%B9" target="_blank" class="news-link">特朗普拟建“凯旋门” 方案获批</a> [19] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260522165415271800" target="_blank" class="news-link">阿联酋总统顾问安瓦尔：伊朗核计划曾是我们的第二或第三个担忧，现在是我们的首要担忧。</a> [20] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7641185466500382763" target="_blank" class="news-link">Python 协程进化史：从 yield 到 async/await 的底层实现</a> [23] <font color='grey'>- 17时37分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E5%8E%BB%E4%B8%8D%E5%8E%BB%E5%84%BF%E5%AD%90%E5%A9%9A%E7%A4%BC%E9%83%BD%E4%BC%9A%E8%A2%AB%E9%AA%82%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">特朗普说去不去儿子婚礼都会被骂</a> [29] <font color='grey'>- 17时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

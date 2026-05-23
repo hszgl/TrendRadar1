@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2026-05-24 04:08:29</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">10</td>
+                <td class="percentage">25.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524033422942800" target="_blank" class="news-link">伊朗总统：伊朗在美方谈判中寻求自身合法权利，但过往经历要求我们保持谨慎。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524031522354800" target="_blank" class="news-link">据法新社援引知情人士报道，法国总统马克龙与特朗普及海湾领导人通话，呼吁通过谈判解决与伊朗的问题。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524030926094800" target="_blank" class="news-link">据福克斯新闻援引消息人士：美国总统特朗普与阿拉伯国家领导人的通话“非常积极”。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524025439308800" target="_blank" class="news-link">伊朗驻巴基斯坦大使：若对方展现出足够诚意，我们持谨慎乐观态度，有望推动形成积极步骤。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524023127521800" target="_blank" class="news-link">据Axios援引知情人士：美国总统特朗普与卡塔尔、沙特阿拉伯、阿联酋、埃及、土耳其和巴基斯坦的领导人进行了通话。多位领导人在通话中敦促特朗普接受协议。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524023014038800" target="_blank" class="news-link">据Axios报道，一名以色列官员称，美国总统特朗普预计将在周六与以色列总理内塔尼亚胡通话，讨论正在酝酿中的伊朗协议。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524022655250800" target="_blank" class="news-link">两名了解谈判情况的巴基斯坦消息人士称，伊朗和巴基斯坦已向美国提交了修订后的提议，内容包括结束战争、开放霍尔木兹海峡。</a> [11] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524021855506800" target="_blank" class="news-link">据福克斯新闻：美国驻乌克兰大使馆发布安全警报。</a> [12] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524021828299800" target="_blank" class="news-link">据福克斯新闻：美国驻乌克兰大使馆警告可能发生大规模空袭。</a> [13] <font color='grey'>- 04时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524020446449800" target="_blank" class="news-link">据Axios援引美国官员称：双方接近达成结束战争的协议，剩余分歧主要集中在某些要点的措辞表述上。</a> [14] <font color='grey'>- 04时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

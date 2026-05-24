@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 147</p><p>生成时间: 2026-05-24 15:37:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">25</td>
+                <td class="percentage">17.01%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tN4z0QKtP2" target="_blank" class="news-link">特朗普访华让印度有点傻眼了，鲁比奥“收拾烂摊子”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151758515800" target="_blank" class="news-link">美国国务卿鲁比奥：必须确保中东地区的航运和海上航行自由。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151717185800" target="_blank" class="news-link">美国国务卿鲁比奥：印度是全球有影响力的国家之一。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/24/cfdb4e4b15b74ae1b5d2d87f9820430d.html" target="_blank" class="news-link">日媒：石油危机冲击菲律宾人日常生活</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151709433800" target="_blank" class="news-link">美国国务卿鲁比奥：美国和印度在能源领域的战略一致。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151604986800" target="_blank" class="news-link">美国国务卿鲁比奥：印度与美国在反恐方面的战略一致。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2041479338491732945" target="_blank" class="news-link">美国政府宣布在美外国人申请绿卡须返回原籍国，此举将带来哪些影响？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tNveTJoK6i" target="_blank" class="news-link">美媒称伊朗同意放弃高浓缩铀库存</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151447603800" target="_blank" class="news-link">据伊朗法尔斯通讯社：潜在的谅解备忘录包括在谈判期间暂时解除对伊朗石油、天然气和石化的制裁。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%AA%92%E7%A7%B0%E4%BC%8A%E6%9C%97%E5%90%8C%E6%84%8F%E6%94%BE%E5%BC%83%E9%AB%98%E6%B5%93%E7%BC%A9%E9%93%80%E5%BA%93%E5%AD%98" target="_blank" class="news-link">美媒称伊朗同意放弃高浓缩铀库存</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151240550800" target="_blank" class="news-link">美国国务卿鲁比奥：印度是重要的战略伙伴。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151214447800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：美国承诺从伊朗周边撤军这一举措是德黑兰在潜在谅解备忘录中强调的另一个要点。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3772984" target="_blank" class="news-link">1季度做了3711笔交易！高频交易、先买后吹——这是“白宫股神”特朗普的交易策略</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tNtwAnmJXH" target="_blank" class="news-link">美国在委内瑞拉举行军事演练</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524151045105800" target="_blank" class="news-link">印度外交部长苏杰生：与美国讨论了印度旅客面临的签证问题。美国和印度有着共同利益和共同挑战。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3772986" target="_blank" class="news-link">供不应求却拒绝涨价，日东纺&quot;市占率保卫战&quot;背后，豪赌AI玻纤长期景气</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524150748126800" target="_blank" class="news-link">印度外交部长苏杰生：在与美国国务卿鲁比奥的谈话中讨论了尽早达成贸易协议的事宜。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524150729202800" target="_blank" class="news-link">印度外交部长苏杰生：印度与美国讨论了关于西亚地区的发展情况。</a> [11] <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2510293" target="_blank" class="news-link">美媒称伊朗同意放弃高浓缩铀库存</a> [15] <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524144750244800" target="_blank" class="news-link">伊媒：霍尔木兹海峡通行现状变化将取决于美国履约情况</a> [17] <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524143056684800" target="_blank" class="news-link">伊媒披露潜在谅解备忘录：双期限谈判、石油制裁解除、黎巴嫩停火</a> [18] <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/631674202" target="_blank" class="news-link">为啥二战主要参战国中，日本和美国没有独立空军？</a> [19] <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7642994069251997750/" target="_blank" class="news-link">美国在委内瑞拉举行军事演练</a> [22] <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524134231876800" target="_blank" class="news-link">土耳其总统埃尔多安办公室表示，埃尔多安向多国领导人表态，土耳其已准备好为伊朗潜在协议的落实提供各类支持。</a> [29] <font color='grey'>- 15时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260524134053296800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗革命卫队指挥官艾哈迈德·瓦希迪表示，伊朗武装力量在导弹、空中、海上、地面、太空及网络作战方面均处于最高级别的战备和积极威慑状态。</a> [30] <font color='grey'>- 15时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 188</p><p>生成时间: 2026-05-26 18:05:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">26</td>
+                <td class="percentage">13.83%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tRUm9hPRif" target="_blank" class="news-link">伊朗愿将高浓缩铀移交至中国？中方回应</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%93%E5%AE%B6%EF%BC%9A%E7%BE%8E%E5%86%9B%E5%87%A0%E4%B9%8E%E5%85%A8%E9%9D%A2%E8%90%BD%E5%90%8E%E8%A7%A3%E6%94%BE%E5%86%9B" target="_blank" class="news-link">美国专家：美军几乎全面落后解放军</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526174854928800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗副安全局长访问俄罗斯进行会谈。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2042011385488487939" target="_blank" class="news-link">「长辈的油车开了 10 多年，我的 4 年就得换」，新能源车迭代竞速致多输，车企为何追求快速迭代？降速可行吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773113" target="_blank" class="news-link">A股尾盘拉升，沪指险翻红，有色金属拉升，芯片半导体集体下挫，恒科指涨超1%，智谱再创新高</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2381630" target="_blank" class="news-link">伊朗是否已请求将高浓缩铀转运至中国？外交部回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tRe4GWXi93" target="_blank" class="news-link">伊朗男足参加美墨世界杯：比赛日跨境入美，踢完就撤回墨西哥</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/05/26/666046c5f10e418fa3a54567767a9542.html" target="_blank" class="news-link">特朗普“强制要求”沙特等国立即与以色列关系正常化</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526174535130800" target="_blank" class="news-link">现货白银日内跌超3.00%，现报75.71美元/盎司。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2381678" target="_blank" class="news-link">多家A股公司称PPO树脂“满产满销” 算力基建带火高频高速覆铜板主流基材</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tRHolWd0Kl" target="_blank" class="news-link">创纪录！特朗普最新民调曝光</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7644108014995164681/" target="_blank" class="news-link">伊朗称击落一架美军无人机</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773115" target="_blank" class="news-link">边打边谈！美军对伊朗实施“自卫打击”，鲁比奥：与伊朗达成的协议“还需几天”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773084" target="_blank" class="news-link">AI繁荣的隐秘真相：数万亿云收入背后的“循环计账游戏”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7643746413328334882" target="_blank" class="news-link">前端初级岗位暴跌62%：我带了三年的实习生被裁了，而AI是他亲手教的</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2381769" target="_blank" class="news-link">【焦点复盘】三大指数收盘涨跌互现，AI硬件端分化加剧，先进封装概念强者恒强</a> [12] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%A2%9E%E8%82%A5%E7%AA%81%E5%87%BA+%E9%A9%AC%E8%B7%AF%E9%83%BD%E5%BF%AB%E6%92%91%E4%B8%8D%E4%BD%8F%E4%BA%86" target="_blank" class="news-link">新能源车增肥突出 马路都快撑不住了</a> [14] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526173343685800" target="_blank" class="news-link">据AXIOS：美国国务卿鲁比奥的助手被提拔至白宫国家安全高层职位。</a> [15] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526173209454800" target="_blank" class="news-link">南向资金今日净卖出9.68亿元。港股通（沪）方面，中芯国际、腾讯控股分别获净卖出12.68亿港元、8.39亿港元；中国海洋石油净买入额居首，金额为9.56亿港元；港股通（深）方面，阿里巴巴-W、中国海洋石油分别获净卖出11.2亿港元、9.94亿港元；中芯国际净买入额居首，金额为19.24亿港元。</a> [18] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526173204237800" target="_blank" class="news-link">伊媒：伊朗坚持在协议宣布之初即可马上使用一半伊朗被冻结资金</a> [19] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33236124" target="_blank" class="news-link">伊朗是否已请求将高浓缩铀转运至中国？外交部回应</a> [20] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526172942373800" target="_blank" class="news-link">工信部：持续提升电动汽车及动力电池安全标准要求 优化动力电池、驱动电机等核心部件系统性能标准</a> [22] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526172818935800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗议会议长卡里巴夫（对卡塔尔）的访问“总体良好”，并推动了与美国的谈判进展。</a> [23] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7643033880698421300" target="_blank" class="news-link">从 Figma 走查到 AI 可验证产物：我如何重构客户端 UI 交付链路</a> [24] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7643668218096041984" target="_blank" class="news-link">从 Vibe Coding 到 SDD：AI 编程的工程化演进</a> [26] <font color='grey'>- 18时05分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260526172547297800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗伊斯兰议会议长卡利巴夫访问卡塔尔是为了就如何落实伊朗对其（被冻结）资金的要求达成协议。</a> [27] <font color='grey'>- 18时05分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

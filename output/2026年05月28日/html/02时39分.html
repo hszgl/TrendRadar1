@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 71</p><p>生成时间: 2026-05-28 02:39:04</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">21.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528020910744800" target="_blank" class="news-link">美国联邦航空管理局（FAA）局长预计，波音将在未来90天内继续提高737 MAX的生产速度。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528020659080800" target="_blank" class="news-link">据科技媒体TechCrunch：Meta公司推出Instagram、Facebook和WhatsApp订阅服务，未来还将推出更多，包括人工智能计划。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528020420473800" target="_blank" class="news-link">美国联邦航空管理局（FAA）局长：联邦航空管理局支持波音737 MAX生产速度提升。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528015214900800" target="_blank" class="news-link">沙特阿拉伯将向也门提供价值1.5亿美元的石油衍生品。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528015122939800" target="_blank" class="news-link">伊朗最高领袖派驻革命卫队代表：我方始终要求谈判团队严格遵循最高领袖制定的方针开展工作。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2383044" target="_blank" class="news-link">【数据看盘】多路资金激烈博弈华天科技，量化资金联手游资抢筹光伏人气股</a> [13] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528013305878800" target="_blank" class="news-link">OpenAI在美国中期选举前部署网络安全及虚假信息防御措施。</a> [15] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528012853446800" target="_blank" class="news-link">特朗普：可能会与国会商讨暂停征收汽油税一事</a> [16] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528011924837800" target="_blank" class="news-link">金十提示：美国总统特朗普结束白宫内阁会议讲话。</a> [17] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528011859815800" target="_blank" class="news-link">美国总统特朗普：伊朗已经发生政权更迭，因为该国现处于新领导层的治理之下。</a> [18] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528011751426800" target="_blank" class="news-link">美国总统特朗普：（谈伊朗）我们并不是为了政权而来。</a> [19] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528011427030800" target="_blank" class="news-link">美国总统特朗普：若《亚伯拉罕协议》无法落实，我不确定是否还要与伊朗达成协议。如果海湾国家不签署《亚伯拉罕协议》，我认为我们就不该和伊朗达成协议。</a> [21] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528011406765800" target="_blank" class="news-link">美国总统特朗普：我认为我们在谈判方面进展良好。</a> [22] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528011353178800" target="_blank" class="news-link">美国总统特朗普：我们现在对伊朗的情况有了了解。</a> [23] <font color='grey'>- 02时39分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528011334452800" target="_blank" class="news-link">美国总统特朗普：我所做的一切不是为了达成一个糟糕的协议，协议必须是完美的。</a> [24] <font color='grey'>- 02时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

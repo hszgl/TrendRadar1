@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2026-05-28 06:57:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">32.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528064119637800" target="_blank" class="news-link">伊朗阿巴斯港发生爆炸 防空系统启动数分钟</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773196" target="_blank" class="news-link">美伊谈判信号相互矛盾，美股高位震荡，原油大跌5%，黄金一度跌2%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528063725013800" target="_blank" class="news-link">伊朗阿巴斯港消息人士称，听到远处传来三四声爆炸声，听起来和几天前晚上（发生爆炸）的方向一样。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528063440282800" target="_blank" class="news-link">当地居民称，伊朗南部阿巴斯港传出爆炸声。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528062011418800" target="_blank" class="news-link">美国智库：特朗普嘴上说不关心，但最怕共和党中期选举惨败</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528060142425800" target="_blank" class="news-link">现货黄金高开，向上触及4460美元/盎司，日内涨0.17%。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2383460" target="_blank" class="news-link">美国“散户大本营”开闸：股民可接入第三方智能体 让AI替自己炒股</a> [12] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528054917696800" target="_blank" class="news-link">美国将联合国约旦河西岸和加沙特别报告员列入制裁名单。</a> [12] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2383335" target="_blank" class="news-link">600亿算力芯片概念股拟定增募资不超23亿元用于信息化芯片等项目|盘后公告集锦</a> [13] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528054836468800" target="_blank" class="news-link">波音(BA.N)获得美国海军8.547亿美元合同修订。</a> [13] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528052138235800" target="_blank" class="news-link">伊朗称不因特朗普言论而退缩</a> [16] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528051532668800" target="_blank" class="news-link">美国官员：美国国防部向微软(MSFT.O)授予了97亿美元的企业软件合同，旨在降低成本。</a> [17] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528050513716800" target="_blank" class="news-link">巴西参议员弗拉维奥·博尔索纳罗于当地时间周三会见了美国国务卿鲁比奥。</a> [19] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=4%E5%88%86%E9%92%9F%E9%BB%84%E9%87%91%E5%87%AF%E6%A0%BC%E5%B0%94%E8%BF%90%E5%8A%A8&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">4分钟黄金凯格尔运动</a> [20] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528045755535800" target="_blank" class="news-link">伊朗：特朗普为了摆脱僵局只能反复无常</a> [23] <font color='grey'>- 06时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260528045742064800" target="_blank" class="news-link">伊朗：伊朗不会因特朗普的言辞而退让红线</a> [24] <font color='grey'>- 06时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

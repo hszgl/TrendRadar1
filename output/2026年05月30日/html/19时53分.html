@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 109</p><p>生成时间: 2026-05-30 19:53:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">10</td>
+                <td class="percentage">9.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530193729860800" target="_blank" class="news-link">据悉OpenAI已与花旗、摩根大通讨论参与IPO事宜</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530190913107800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰军方袭击了距离乌克兰边境500公里处的阿尔马维尔市的俄罗斯石油设施。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773486" target="_blank" class="news-link">美国软件股逆袭，创2001年以来最佳单月表现</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530190753354800" target="_blank" class="news-link">金十数据整理：特朗普过去24小时都忙了什么？（2026-05-30）</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2386167" target="_blank" class="news-link">全国首个绿色算力全栈AI平台上线</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530185118096800" target="_blank" class="news-link">英国海事部门表示，美国对伊朗港口的封锁正在严格执行。霍尔木兹海峡附近船只的船长必须表明其无前往伊朗港口的意图。船只若不服从美国海军在霍尔木兹海峡的命令，将面临危险。</a> [11] <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2386086" target="_blank" class="news-link">AI驱动美股狂飙！标普500 5月牛股盘点：戴尔、美光强势领跑</a> [13] <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530184817484800" target="_blank" class="news-link">全国首个绿色算力全栈AI平台在呼和浩特正式上线</a> [13] <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530184239283800" target="_blank" class="news-link">据伊朗法尔斯通讯社：在过去的24小时内，20艘船在伊朗海军的协调下通过了霍尔木兹海峡。</a> [14] <font color='grey'>- 19时53分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260530165643081800" target="_blank" class="news-link">伊朗最高领袖军事顾问：美国正第三次背叛外交</a> [28] <font color='grey'>- 19时53分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

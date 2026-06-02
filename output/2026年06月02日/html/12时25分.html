@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 219</p><p>生成时间: 2026-06-02 12:25:47</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">26</td>
+                <td class="percentage">11.87%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tc3G5LPI4C" target="_blank" class="news-link">伊朗向以色列发出最新警告</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tcZUHIhU1k" target="_blank" class="news-link">美伊谈判将崩盘？专家：伊朗手握多个反制筹码</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773607" target="_blank" class="news-link">罕见增发！谷歌募资800亿美元砸AI基建，伯克希尔百亿入局</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2387782" target="_blank" class="news-link">一波三折！伊朗叫停对话后，特朗普最新表态：美伊或一周内达成协议</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tcZYXsGgVn" target="_blank" class="news-link">戏剧性一幕，特朗普被迫打了一个电话</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602120218468800" target="_blank" class="news-link">现货黄金向上触及4500美元/盎司，日内涨0.38%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2042914583443136872" target="_blank" class="news-link">油车降价、电车涨价，新能源车渗透率超 60%，当下购车，选油车还是新能源车更划算？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773609" target="_blank" class="news-link">特朗普操纵“美伊叙事”：先说“不在乎谈判成不成”，后发帖“预计一周内达成协议”，称“以黎停火”，但以色列要继续行动</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8E%E4%BC%8A%E6%9C%97%E4%B8%80%E5%91%A8%E5%86%85%E8%BE%BE%E6%88%90%E5%8D%8F%E8%AE%AE" target="_blank" class="news-link">特朗普称与伊朗一周内达成协议</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2387678" target="_blank" class="news-link">美国抢铜潮卷土重来！高盛：美国以外市场铜供应缺口暴增10倍</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2044470737411338909" target="_blank" class="news-link">美国多地传出巨响，初判系流星解体释放约 300 吨 TNT 能量所致，如何理解这一量级？可能带来哪些影响？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%88%91%E7%94%A8AI%E5%81%9A%E4%BA%86%E7%A5%96%E5%9B%BD%E4%BA%BA%E8%83%9C%E5%88%A9%E7%BB%93%E5%B1%80" target="_blank" class="news-link">我用AI做了祖国人胜利结局</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7645850304593313834/" target="_blank" class="news-link">曝特朗普私下多次质疑万斯实力</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602120015420800" target="_blank" class="news-link">&lt;a href=&quot;https://cdn.jin10.com/vip_column/index.html#/detail?id=850541&amp;skuID=1671010697886&amp;type=article&amp;courseID=225&amp;from=flash&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://img.jin10.com/misc/26/06/b-1chgXiGKctV7E-9NKnI.jpg/lite&quot; height=&quot;120&quot;/&gt;&lt;/a&gt;</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773569" target="_blank" class="news-link">黄仁勋的棋局：AI算力的每一条路，都有英伟达在等候</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tcdMywEF0J" target="_blank" class="news-link">美国搞新联盟抗衡中国，欧盟宁可“被殖民”也求加入</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33285513" target="_blank" class="news-link">中美两军在美国夏威夷举行2026年度中美海上军事安全磋商机制工作小组会议</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2387700" target="_blank" class="news-link">特朗普安抚市场： 黎以所有交火行动将立即停止 与伊朗的谈判正“快速推进”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2387742" target="_blank" class="news-link">特朗普称美伊或于一周内达成协议 美国战略石油储备降至两年多来最低水平 | 环球市场</a> [13] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33285729" target="_blank" class="news-link">暂停同美对话、计划封锁海峡，伊朗要求以色列撤军</a> [14] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23iPhone18Pro%E7%94%B5%E6%B1%A0%E5%AE%B9%E9%87%8F%E6%9B%9D%E5%85%89%23&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">iPhone18Pro电池容量曝光</a> [14] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602115211298800" target="_blank" class="news-link">金十数据整理：每日人工智能动态汇总（2026-06-02）</a> [15] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2044914717236224024" target="_blank" class="news-link">黄仁勋联手宇树打造 H2 人形机器人，英伟达提供「大脑」，宇树造「身体」，怎样看待双方的合作？</a> [16] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602115103919800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日减少37.99吨，当前持仓量为15080.7吨。</a> [17] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602114105402800" target="_blank" class="news-link">迈威尔科技(MRVL.O)美股夜盘直线拉升，一度涨超16%，现涨幅收窄至11.5%。此前英伟达CEO黄仁勋称迈威尔科技将成为下一个万亿美元公司。</a> [25] <font color='grey'>- 12时25分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260602113536345800" target="_blank" class="news-link">A股午评：三大股指早盘触底反弹 半导体、芯片、CPO概念股拉升</a> [26] <font color='grey'>- 12时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

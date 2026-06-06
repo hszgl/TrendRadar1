@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 128</p><p>生成时间: 2026-06-06 19:37:28</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">22</td>
+                <td class="percentage">17.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%9F%B3%E6%B2%B9%E5%93%A5%20%E9%AB%98%E8%80%83%E8%AF%AD%E6%96%87%E6%8A%B1%E4%BD%9B%E8%84%9A" target="_blank" class="news-link">石油哥 高考语文抱佛脚</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606191002409800" target="_blank" class="news-link">据沙特媒体哈达斯（Alhadath）：高级消息人士透露，巴基斯坦内政部长携带巴基斯坦军队指挥官致伊朗最高领袖的特别信息前往伊朗。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606185712129800" target="_blank" class="news-link">伊朗副外长：任何与美国达成的协议都必须包含释放一半被冻结伊朗资产的条款</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606184623733800" target="_blank" class="news-link">据伊朗媒体Fars News：霍尔木兹甘省政府称，由于对未爆弹药的排除，霍尔木兹港在接下来的四天内可能会听到爆炸声。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7648234070685830707/" target="_blank" class="news-link">《新闻联播》正在直播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%9060%E5%85%8B%E9%BB%84%E9%87%91%E8%97%8F%E6%B0%B4%E5%A3%B6+%E5%A5%B3%E5%84%BF%E5%BD%93%E5%BA%9F%E5%93%81%E5%8D%96%E4%BA%86" target="_blank" class="news-link">女子60克黄金藏水壶 女儿当废品卖了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2525486" target="_blank" class="news-link">新闻联播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606182622330800" target="_blank" class="news-link">沙特阿拉伯谴责伊朗对巴林和科威特的袭击。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606182007809800" target="_blank" class="news-link">知情人士：美国政府考虑入股人工智能企业</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3773995" target="_blank" class="news-link">黄金抹去2026年全部涨幅，白银单日暴跌8.5%，美国强劲就业数据推升加息预期</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606181845712800" target="_blank" class="news-link">金十数据整理：特朗普过去24小时都忙了什么？（2026-06-06）</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606180922879800" target="_blank" class="news-link">巴林军方表示，成功拦截了来自伊朗的三枚导弹和多架无人机。</a> [11] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606174728776800" target="_blank" class="news-link">据沙特媒体哈达斯（Alhadath）：消息人士称，伊朗要求就核文件的细节进行为期三个月的谈判。</a> [13] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606174628008800" target="_blank" class="news-link">无锡：聚焦AIDC、Token等前沿赛道 分层分类梳理项目清单、建立推进机制</a> [14] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7648202638936247849/" target="_blank" class="news-link">美股黄金大跌 AI泡沫要破了吗</a> [16] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606174245525800" target="_blank" class="news-link">科威特外交部对伊朗的恶劣和反复的侵略行为，尤其是今天凌晨的最新袭击，表示强烈谴责。</a> [16] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606174134661800" target="_blank" class="news-link">据阿拉比亚电视台：消息人士称，巴基斯坦内政部长将在伊朗讨论达成美伊谅解备忘录的途径。</a> [17] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606174043839800" target="_blank" class="news-link">据阿拉比亚电视台：消息人士称，关于美国和伊朗之间的消息是通过伊拉克外交部长阿尔-阿尔基和美国中东问题特使威特科夫进行传递的。</a> [18] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606173931503800" target="_blank" class="news-link">据阿拉比亚电视台：阿拉伯消息人士称，特朗普告知调解人员，他不会进行超过60天的谈判，并要求伊朗迅速作出回应。</a> [19] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7648227068332740115/" target="_blank" class="news-link">美国能否如愿从伊朗脱身</a> [24] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606171956023800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：伊朗国家利益委员会主席萨迪克·阿梅利·拉里贾尼提到核谈判和地区局势时强调，与美国的任何协议都必须在地区和国际体系层面上体现出重大的战略性变革。</a> [25] <font color='grey'>- 19时37分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%AE%98%E5%AE%A3%E5%92%8C%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%88%E6%88%90%E6%9C%8B%E5%8F%8B%E4%BA%86%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">特朗普官宣和马斯克又成朋友了</a> [30] <font color='grey'>- 19时37分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

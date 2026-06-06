@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 144</p><p>生成时间: 2026-06-06 17:34:09</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">26</td>
+                <td class="percentage">18.06%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tjmsxXSCQI" target="_blank" class="news-link">特朗普“官宣”：我和马斯克又成朋友了</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/06/f988b701b41c46d18cd8b49e7ee9ac2d.html" target="_blank" class="news-link">外媒：马克龙准备用凡尔赛宫晚宴留住特朗普</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606170003477800" target="_blank" class="news-link">据伊朗学生通讯社：在过去一个月内，巴基斯坦内政部长已两次前往德黑兰进行双边和区域磋商。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AI%E6%96%87%E9%A3%8E%E5%A4%AA%E5%A5%BD%E8%AE%A4&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">AI文风太好认</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606165323312800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：巴基斯坦内政部长将于周六前往德黑兰。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/06/60bd0afd2ee040d28c233a334083e514.html" target="_blank" class="news-link">特朗普：伊朗导弹大概还剩下两成</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606164755821800" target="_blank" class="news-link">伊朗副外长加里巴巴迪：如果国际原子能机构希望成为外交解决方案的一部分，就必须避免将技术报告变成政治施压的工具。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606164742931800" target="_blank" class="news-link">伊朗副外长加里巴巴迪：国际原子能机构正利用美国和以色列对伊朗核设施发动袭击所造成的后果，来制造有关伊朗核计划的“模糊性”。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606164625135800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦：将俄罗斯排除在全球石油供应链之外是不可能的。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%B8%82%E5%80%BC%E4%B8%80%E5%A4%9C%E8%92%B8%E5%8F%912.2%E4%B8%87%E4%BA%BF%23&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">英伟达市值一夜蒸发2.2万亿</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606164614805800" target="_blank" class="news-link">伊朗副外长加里巴巴迪：国际原子能机构在某些核设施失去监督是由于发生军事攻击，而非伊朗缺乏合作。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606163340295800" target="_blank" class="news-link">俄罗斯外长拉夫罗夫：俄罗斯的石油产量在欧佩克+协议限制期间下降了150万桶/日。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606162742427800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦：霍尔木兹海峡的长期紧张局势显然会削弱长期石油需求。</a> [12] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606162715130800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦：根据Rystad Energy公司数据，美国石油和天然气公司今年可能获得超过600亿美元的额外利润。</a> [13] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606162647044800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦：在制裁下，俄罗斯减少了石油产量，而大多数欧佩克+成员在欧佩克+协议期间增加了产量。</a> [14] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%A4%96%E9%95%BF%EF%BC%9A%E4%BA%B2%E5%8E%86%E5%B7%B2%E6%95%85%E6%9C%80%E9%AB%98%E9%A2%86%E8%A2%96%E9%81%87%E5%AE%B3%E7%9E%AC%E9%97%B4" target="_blank" class="news-link">伊朗外长：亲历已故最高领袖遇害瞬间</a> [15] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606162327329800" target="_blank" class="news-link">伊朗边防指挥官阿里·阿克巴尔·贾维丹：昨晚，一支企图进入伊朗境内并袭击边防基地的恐怖组织小组与边防军发生了激烈交火，经过激烈的火力对抗，边防军成功对恐怖组织造成了重大损失，6名武装恐怖分子已被击毙，</a> [15] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606161451277800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦：如果对俄罗斯实施额外制裁，我们将对美国加州加油站的汽油价格拭目以待。</a> [18] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606161422991800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦：没有人能阻止我们将俄罗斯的石油发送给我们的战略伙伴。</a> [19] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606161032563800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦：如果危机得到解决，2027年下半年石油市场可能会回归基本面。</a> [20] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606160138308800" target="_blank" class="news-link">俄罗斯石油公司Rosneft CEO谢钦警告称，霍尔木兹海峡关闭后，全球其他航道，如马六甲海峡、巴布曼德海峡和直布罗陀海峡，也可能面临中断威胁。</a> [22] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606154709176800" target="_blank" class="news-link">印尼官员再次承诺将稳定印尼盾汇率并吸引资金流入</a> [25] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7648118055435767302/" target="_blank" class="news-link">腾讯AI是不是慢了</a> [26] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606154047951800" target="_blank" class="news-link">俄罗斯石油公司首席执行官谢钦：无法将俄罗斯排除在全球石油供应链之外。</a> [26] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260606153726538800" target="_blank" class="news-link">俄罗斯石油公司首席执行官谢钦：霍尔木兹海峡长期紧张局势显然会削弱石油的长期需求。</a> [27] <font color='grey'>- 17时34分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7647825202339987465" target="_blank" class="news-link">拆解与 AI 的一次对话</a> [27] <font color='grey'>- 17时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

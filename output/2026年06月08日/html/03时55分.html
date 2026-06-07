@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2026-06-08 03:55:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">29.41%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608033930754800" target="_blank" class="news-link">以军正在拦截伊朗来袭导弹 多地拉响防空警报</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608033644265800" target="_blank" class="news-link">以色列军方：迄今为止，从伊朗发射的所有导弹均已被拦截。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608033418480800" target="_blank" class="news-link">据Walla网站记者Adamker报道，以色列据称正在寻求美国许可，以轰炸伊朗能源设施。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608033218572800" target="_blank" class="news-link">据以色列媒体援引安全消息人士：以色列将对伊朗作出回应。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608033021989800" target="_blank" class="news-link">伊朗最高领袖顾问莫赫森·雷扎伊表示，伊朗一再警告不会容忍违反停火的行为和对黎巴嫩的袭击；侵略者今晚已收到回应。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608032901741800" target="_blank" class="news-link">据AXIOS网站：美国总统特朗普已听取关于以伊局势升级的简报。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608032800938800" target="_blank" class="news-link">第三波弹道导弹从伊朗向以色列北部发射。</a> [11] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608032039298800" target="_blank" class="news-link">伊朗革命卫队表示，以色列军队必须停止对黎巴嫩的攻击；如果以方扩大攻击范围或对伊朗的行动作出回应，将面临“更具毁灭性和更令人懊悔的打击”。</a> [13] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608031813233800" target="_blank" class="news-link">以军称监测到伊朗导弹来袭 多地响起防空警报</a> [14] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608031645531800" target="_blank" class="news-link">以色列军方表示，他们监测到从伊朗向以色列发射的第二波导弹。</a> [15] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608030612709800" target="_blank" class="news-link">据以色列第13频道援引一名高级官员的话报道，从伊朗向以色列领土开火意味着重启战争的宣示。</a> [17] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608030332453800" target="_blank" class="news-link">以色列军方：监测到从伊朗向北部定居点发射的导弹。</a> [20] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608030304837800" target="_blank" class="news-link">以色列拉响导弹警报，伊朗发射了导弹。</a> [21] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608021831010800" target="_blank" class="news-link">伊朗最高领袖顾问兼助理穆罕默德·莫赫贝尔：敌人在调解方身处伊朗期间对黎巴嫩进行轰炸，已是第三次烧毁谈判桌。</a> [25] <font color='grey'>- 03时55分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260608021739259800" target="_blank" class="news-link">据以色列第12频道：一位美国安全消息人士表示，已做好防御准备，以应对伊朗可能发动的攻击。</a> [26] <font color='grey'>- 03时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

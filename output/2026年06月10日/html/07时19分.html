@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2026-06-10 07:19:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">45.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tpnEaZn5yq" target="_blank" class="news-link">特朗普证实美军打击伊朗</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610064721890800" target="_blank" class="news-link">伊朗称南部储水系统遭美军袭击</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610064449762800" target="_blank" class="news-link">伊朗：已向地区内美国目标发射导弹和无人机</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2395384" target="_blank" class="news-link">美股收盘：芯片板块“惊魂一跳”后持续修复 纳指收盘跌约1%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610063825570800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日减少26.73吨，当前持仓量为15034.75吨。欢迎点击查看数据中心…</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610063641524800" target="_blank" class="news-link">知情人士：SpaceX轨道AI计算测试计划将提前至2027年</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610063225617800" target="_blank" class="news-link">伊朗外长阿拉格齐：想要安全，就离开我们所在的地区。波斯湾的历史上，关于外来入侵者的悲惨命运，篇章众多。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610063205497800" target="_blank" class="news-link">伊朗外长阿拉格齐：我们强大的武装力量不会对任何攻击或威胁置之不理。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610063154364800" target="_blank" class="news-link">伊朗外长阿拉格齐：尽管美国在战场上屡遭挫败，但仍选择试探我们的决心。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610062928337800" target="_blank" class="news-link">消息人士：SpaceX告知投资者，其目标是在2027年启动轨道AI计算测试。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2047616042067834810" target="_blank" class="news-link">苹果发布 Siri AI 等 AI 功能，市值一夜蒸发超 5700 亿元，为何投资者反应平平？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610062852689800" target="_blank" class="news-link">据福克斯新闻：美国众议院议长约翰逊表示，他在白宫战情室与特朗普及高层官员进行了会面，随后美国军队发起了被描述为自卫的打击伊朗行动。 约翰逊也称此次行动“比例适当且有限”，目标是雷达、导弹和指挥控制设施。</a> [11] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2395328" target="_blank" class="news-link">国际油价重挫5%！美能源部长称霍尔木兹海峡石油运输量正显著回升</a> [12] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610062436419800" target="_blank" class="news-link">WTI原油抹去盘初1%的涨幅，现货黄金和美股股指期货目前小幅下跌约0.1%。</a> [12] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610062107148800" target="_blank" class="news-link">消息称伊朗无人机飞越伊拉克领空 对美目标发动袭击</a> [13] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610061721218800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日减少3.426吨，当前持仓量为1016.495吨。</a> [14] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610061434000800" target="_blank" class="news-link">据伊朗国家媒体：在美国对伊朗南部地区发动袭击后，目前局势已恢复平静。</a> [15] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610060319000800" target="_blank" class="news-link">美国官员：美军打击了霍尔木兹海峡周边伊朗防空和雷达系统</a> [17] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610055938102800" target="_blank" class="news-link">特朗普称对伊朗进行打击“非常重要”</a> [22] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610055910259800" target="_blank" class="news-link">美国官员：此次对伊打击是警告 不会妨碍谈判</a> [23] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610055551137800" target="_blank" class="news-link">美国国防部：美国国防部长皮特·海格塞斯将于周三前往古巴关塔那摩湾的美国海军基地，与驻扎在那里的部队会面。</a> [25] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610055413211800" target="_blank" class="news-link">据Axios：美国官员称美军袭击了霍尔木兹海峡周边的数个伊朗防空系统和雷达系统。</a> [27] <font color='grey'>- 07时19分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260610055143921800" target="_blank" class="news-link">据华尔街日报：特朗普政府要求人工智能测试机构停止发布公开报告，反映白宫正加强对人工智能模型的管控。</a> [28] <font color='grey'>- 07时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2026-06-12 08:04:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">27</td>
+                <td class="percentage">34.62%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774389" target="_blank" class="news-link">特朗普“TACO”主导市场，原油大跌，美股债大反弹，半导体指数大涨8%，黄金收复4200</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tt1H0RgCkY" target="_blank" class="news-link">伊朗阿巴斯港传出爆炸声</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612075139887800" target="_blank" class="news-link">美国总统特朗普：我的总统任期是历史上最成功的之一。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tsig3GUtRk" target="_blank" class="news-link">特朗普称取消打击伊朗行动</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612074809477800" target="_blank" class="news-link">芝商所拟推原油、黄金“全天候交易”，周末或不再怕“黑天鹅”？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774457" target="_blank" class="news-link">几小时内反转！特朗普称取消打击伊朗计划，协议基本定稿、伊朗各方批准，或周末在欧洲签署</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2397775" target="_blank" class="news-link">【早报】特朗普取消打击伊朗；黄金、白银大涨；世界杯开幕，墨西哥2比0战胜南非</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8tso5G96e80" target="_blank" class="news-link">特朗普称美伊协议进入最后定稿阶段，有望本周末签署</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2397755" target="_blank" class="news-link">美股收盘：美伊局势反转纳指升超2.5% 芯片股强反弹费城指数涨8%</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612074520011800" target="_blank" class="news-link">美国上诉法院放行特朗普的10%关税政策 后续或再上最高法院</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7650278567816728102/" target="_blank" class="news-link">特朗普取消对伊朗“猛烈打击”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%8F%96%E6%B6%88%E5%AF%B9%E4%BC%8A%E7%8C%9B%E7%83%88%E6%89%93%E5%87%BB+%E4%BC%8A%E6%9C%97%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">特朗普称取消对伊猛烈打击 伊朗回应</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">现货黄金</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3774438" target="_blank" class="news-link">伊朗战争推高通胀压力，欧洲央行近三年来首次加息！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612072231859800" target="_blank" class="news-link">巴西石油公司首席执行官：钻探活动将于一个月后抵达亚马逊纳斯地区的储油层。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612072040056800" target="_blank" class="news-link">据NewsNation：一位美国国防部官员表示，五角大楼正准备将国防补充拨款请求送回白宫，该请求金额预计在500亿至800亿美元之间。</a> [11] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612070859759800" target="_blank" class="news-link">特朗普欲“抹除”两次弹劾记录 专家指此程序仅有象征意义</a> [12] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612070155257800" target="_blank" class="news-link">据华尔街日报：特朗普与盟友正制定计划以“抹除”弹劾记录。</a> [13] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612065400194800" target="_blank" class="news-link">伊朗革命卫队：我们将继续监视霍尔木兹海峡，并将对任何试图通过的船只采取严厉措施。</a> [16] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612065131632800" target="_blank" class="news-link">据伊朗媒体：伊朗军方消息人士称，违规船只为一艘油轮，在伊朗革命卫队海军发出警告后，被迫遵守霍尔木兹海峡的“航行禁令”。</a> [17] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%BA%94%E8%A7%92%E5%A4%A7%E6%A5%BC%E8%A2%AB%E5%B0%81%E9%94%81" target="_blank" class="news-link">美国五角大楼被封锁</a> [19] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612064850285800" target="_blank" class="news-link">据伊朗媒体：军方消息人士称，锡里克地区的爆炸声与对抗试图通过霍尔木兹海峡的“违规船只”有关。</a> [19] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612064649190800" target="_blank" class="news-link">特朗普叫停对伊朗打击！称“未来几天”签和平协议，伊朗回应：还没结论！</a> [20] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612064510182800" target="_blank" class="news-link">现货黄金小幅拉升10美元，最新报4226美元/盎司。</a> [21] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612064451567800" target="_blank" class="news-link">金十提示：美国总统特朗普将此前取消打击伊朗的帖子置顶。</a> [22] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612063056623800" target="_blank" class="news-link">伊朗媒体：已故最高领袖葬礼推迟举行</a> [25] <font color='grey'>- 08时04分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260612062549871800" target="_blank" class="news-link">全球最大的黄金ETF SPDR Gold Trust持仓量为1013.640吨，较前一个交易日维持不变。</a> [27] <font color='grey'>- 08时04分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

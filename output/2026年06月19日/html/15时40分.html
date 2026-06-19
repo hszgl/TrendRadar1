@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 230</p><p>生成时间: 2026-06-19 15:40:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">31</td>
+                <td class="percentage">13.48%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u50XKAkou2" target="_blank" class="news-link">临时改由美伊总统签协议，伊朗发言人透露原因</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/19/7f306333ba24428b9ba052971d059c91.html" target="_blank" class="news-link">外媒：服役35年，美国“空军一号”总统专机退役</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355283&amp;amp;topic_name=%E6%97%A5%E4%BC%81%E6%8E%8F%E9%92%B1%2C%E4%BC%8A%E6%9C%97%E7%99%BD%E6%8D%A1%E4%B8%89%E5%8D%83%E4%BA%BF" target="_blank" class="news-link">日企掏钱,伊朗白捡三千亿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/19/aea4fef7bd1843a69d52642840d07471.html" target="_blank" class="news-link">赫格塞思：美国将重新评估在欧洲军事存在</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2404208" target="_blank" class="news-link">伊朗推迟赴瑞士行程！黎巴嫩问题成变数 万斯指责以色列对美缺乏信任</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775064" target="_blank" class="news-link">网友提问“中国大模型何时达到Fable级别？”，马斯克“可能明年Q1”，智谱CEO唐杰“不需要那么久”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2404332" target="_blank" class="news-link">中国大模型何时能达Fable级别？马斯克预计明年Q1 唐杰称不用那么久</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/19/e90074e3b50d49b0a19f684ac5cbfc95.html" target="_blank" class="news-link">马克龙：不认为伊朗战争“已完全结束”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33412460" target="_blank" class="news-link">AI写作涌入市场，“人”的信任和感动何处安放？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7652592367971090495/" target="_blank" class="news-link">美国4位前总统同框：克林顿打瞌睡</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/19/2e552175378f4fc3a9ad2407f5ed06ca.html" target="_blank" class="news-link">西媒：德国防长呼吁美国制定退出防务承诺“路线图”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619150915774800" target="_blank" class="news-link">据美国地质调查局地震信息网19日消息，俄罗斯堪察加彼得罗巴甫洛夫斯克发生6.6级地震，震源深度10公里。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/19/c6553ce705ae4dfa9e9bdeb02f374c19.html" target="_blank" class="news-link">西媒：中国利用AI提升药物研发竞赛优势</a> [12] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/19/c4561ce949ac4bac853bd415c4a1a22f.html" target="_blank" class="news-link">德媒：西方经济对台芯片产业依赖加深</a> [15] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619150544958800" target="_blank" class="news-link">挪威国家石油公司：向欧洲供应更多天然气。</a> [16] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2051222502768992382" target="_blank" class="news-link">美军已解除对伊朗海上封锁，特朗普称预计「所有战线将实现全面停火」，霍尔木兹海峡的「和平」能维持多久？</a> [17] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/19/986a627d82a84f02bc61ee8f5634bfb0.html" target="_blank" class="news-link">媒体：赖当局全面押注美国恐将“四输”</a> [18] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2047442845498398435" target="_blank" class="news-link">为什么 AI 永远无法像一个长辈那样给你忠告，反而可能悄悄把你推向极端？</a> [19] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7651886514986942499" target="_blank" class="news-link">手把手带你实践历时一年总结的 AI Code Review 最佳工作流！</a> [20] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619145355458800" target="_blank" class="news-link">挂单报告：国际现货黄金关注空单押注 美日留意两处上行动能</a> [21] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619145339256800" target="_blank" class="news-link">法国外交部长巴罗：伊朗人民是最大的受害者。</a> [22] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%9F%A5%E5%90%8D%E4%BD%9C%E5%AE%B6%E6%89%BF%E8%AE%A4%E6%96%B0%E4%B9%A6AI%E5%86%99%E4%BD%9C%E6%AF%94%E9%87%8D%E5%8D%A0%E4%B8%80%E5%8D%8A" target="_blank" class="news-link">知名作家承认新书AI写作比重占一半</a> [23] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619145114607800" target="_blank" class="news-link">伊朗革命卫队：任何侵犯伊朗权利的行为都将招致更强硬的军事回应。</a> [23] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619145055980800" target="_blank" class="news-link">俄罗斯石油公司首席执行官：在当前风险环境下，公司认为股票回购不太可能对其市值产生实质性影响。</a> [24] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7652160519214612507" target="_blank" class="news-link">双引擎赋能AI编程：OpenSpec+CodeGraph破解落地难题，兼顾规范、效率与成本</a> [24] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619145047504800" target="_blank" class="news-link">俄罗斯石油公司首席执行官：公司几乎不出口任何石油产品，优先保障俄罗斯国内消费者的供应。</a> [25] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619145039396800" target="_blank" class="news-link">俄罗斯石油公司首席执行官：俄罗斯燃料市场形势并不轻松，但公司旗下所有加油站将继续稳定运营。</a> [26] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619145027563800" target="_blank" class="news-link">俄罗斯石油公司首席执行官：公司正致力于提高石油产量，欧佩克+协议允许其增产，且所有产量都将售出。</a> [27] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7652548338932924470" target="_blank" class="news-link">都AI时代了，我为何还在学习前端基础知识？</a> [27] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260619144635915800" target="_blank" class="news-link">法国外交部长巴罗：在没有法国批准的情况下，联合国安全理事会对伊朗的制裁不会被解除。</a> [28] <font color='grey'>- 15时40分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7652201148235382803" target="_blank" class="news-link">老板：“请说出一个录用你的理由。”我脱口而出：“每个月 AI 支出都超过我的生活费了！”老板愣了一下，随即哈哈大笑：“好吧，你被录用了。”</a> [28] <font color='grey'>- 15时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

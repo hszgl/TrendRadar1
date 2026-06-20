@@ -1,0 +1,86 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 108</p><p>生成时间: 2026-06-20 20:02:22</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>tieba</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">12</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620191907755800" target="_blank" class="news-link">据沙特媒体哈达斯：伊朗革命卫队警告船只不要偏离南拉尔克岛的“指定航道”。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7653199724945866803/" target="_blank" class="news-link">马斯克获得3.04亿股特斯拉股票</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620190751325800" target="_blank" class="news-link">据阿拉伯卫星电视台：美国特使维特科夫刚刚抵达瑞士。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775113" target="_blank" class="news-link">“AI最紧瓶颈”！存储的影响已扩展至宏观经济，加剧整体通胀</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775105" target="_blank" class="news-link">学习英伟达“好榜样”，谷歌和博通都开始“有样学样”，开启“AI芯片闭环”</a> <font color='red'><strong>[10]</strong></font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620190142057800" target="_blank" class="news-link">特朗普自夸对伊战争成果：伊朗被“完全击败”，美国不再软弱</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u6ykIAUSiQ" target="_blank" class="news-link">“美国撇开印度，担心刺激中国”</a> [12] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620184815728800" target="_blank" class="news-link">金十数据整理：特朗普过去24小时都忙了什么？（2026-06-20）</a> [12] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7653414381891358251/" target="_blank" class="news-link">美国为何在军事上边缘化印度</a> [18] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620174109237800" target="_blank" class="news-link">伊方威胁若以色列持续攻击黎巴嫩 伊朗将退出谈判</a> [18] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2045842898327795610" target="_blank" class="news-link">AI 最容易在哪些内容上说得头头是道，却不一定靠谱？</a> [18] <font color='grey'>- 20时02分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%231%E5%B9%B4500%E5%85%83%E4%BD%A0%E4%BC%9A%E6%8A%8A%E8%84%B8%E5%8D%96%E7%BB%99AI%E7%9F%AD%E5%89%A7%E5%90%97%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">1年500元你会把脸卖给AI短剧吗</a> [29] <font color='grey'>- 20时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

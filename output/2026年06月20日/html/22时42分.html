@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 136</p><p>生成时间: 2026-06-20 22:42:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">31</td>
+                <td class="percentage">22.79%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620223102837800" target="_blank" class="news-link">美国军方：美国军方始终保持在场并保持警惕，以确保与伊朗的协议各方面得到遵守、执行，并全面有效。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620223019478800" target="_blank" class="news-link">美国军方：今天通过霍尔木兹海峡运输了超过1700万桶石油。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620222931884800" target="_blank" class="news-link">美国军方：6月20日霍尔木兹海峡的商业船舶通行量有所增加，美军继续在该区域展开行动，以支持航行自由。今天有55艘商船通过霍尔木兹海峡。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E2%80%9C%E4%B9%B0%E8%84%B8%E2%80%9D+%E6%AF%8F%E5%BC%A0%E8%84%B8500%E5%85%83%E4%B8%80%E5%B9%B4" target="_blank" class="news-link">AI短剧“买脸” 每张脸500元一年</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620221832413800" target="_blank" class="news-link">据沙特媒体哈达斯：伊朗谈判团队在伊朗外长阿拉格齐的带领下已前往瑞士。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u5cA2CLh6U" target="_blank" class="news-link">外媒爆料：特朗普和高市早苗在G7会议上吵了起来</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%86%9B%E6%96%B9%E5%AE%A3%E5%B8%83%E5%85%B3%E9%97%AD%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1" target="_blank" class="news-link">伊朗军方宣布关闭霍尔木兹海峡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33421715" target="_blank" class="news-link">伊朗军方宣布关闭霍尔木兹海峡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u7OIGS9JgA" target="_blank" class="news-link">伊朗军方宣布关闭霍尔木兹海峡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620221348834800" target="_blank" class="news-link">美军称暂未观察到伊朗关闭霍尔木兹海峡</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33420376" target="_blank" class="news-link">美以关系如何？特朗普：关系很好，但必须让内塔尼亚胡“保持理智”</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620220116164800" target="_blank" class="news-link">伊朗革命卫队海军：以色列在黎巴嫩的行动以及美国违反停火承诺是霍尔木兹海峡关闭的原因。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620220057593800" target="_blank" class="news-link">伊朗革命卫队：警告船只不要接近霍尔木兹海峡，否则其安全将面临风险。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620215939293800" target="_blank" class="news-link">伊朗革命卫队：霍尔木兹海峡对所有船只关闭。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620215716855800" target="_blank" class="news-link">据伊朗媒体Fars News：一名伊朗海军军方消息人士表示，霍尔木兹海峡从几分钟前开始完全封闭。</a> [11] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620215552113800" target="_blank" class="news-link">伊朗外交部：美国未能约束以色列 违反谅解备忘录</a> [12] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620215327229800" target="_blank" class="news-link">存储芯片公司英韧科技完成IPO辅导 主营业务为高性能固态硬盘主控芯片的设计与供应</a> [13] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620214445625800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：伊朗外交部发言人表示，谈判团队将在几分钟内启程前往瑞士。</a> [14] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620214155877800" target="_blank" class="news-link">伊朗外长将与巴基斯坦内政部长一同前往瑞士</a> [15] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33415864" target="_blank" class="news-link">经纬度：让AI走进千家万户，人工智能消费按下加速键</a> [16] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620213449335800" target="_blank" class="news-link">据伊朗法尔斯通讯社：伊朗外交部发言人消息称，我们不会签署无法兑现的承诺；我们的原则是“承诺换承诺”。</a> [17] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620213425166800" target="_blank" class="news-link">据伊朗法尔斯通讯社：伊朗外交部发言人消息称，如果另一方拒绝履行其承诺，伊朗将采取必要措施作出回应。</a> [18] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33418162" target="_blank" class="news-link">智谱唐杰“呛声”马斯克：中国模型达到Fable水平用不了那么久</a> [19] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%BD%93%E4%BC%97%E5%90%B5%E8%B5%B7%E6%9D%A5%E4%BA%86%23&amp;t=31&amp;band_rank=19&amp;Refer=top" target="_blank" class="news-link">特朗普高市早苗当众吵起来了</a> [19] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620213405576800" target="_blank" class="news-link">据伊朗法尔斯通讯社：伊朗外交部发言人消息称，另一方必须尽快采取必要措施。</a> [19] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620213320601800" target="_blank" class="news-link">据伊朗法尔斯通讯社：伊朗外交部发言人消息称，若对方的承诺未能兑现，整个谅解备忘录将面临问题。</a> [20] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2051222502768992382" target="_blank" class="news-link">美军已解除对伊朗海上封锁，特朗普称预计「所有战线将实现全面停火」，霍尔木兹海峡的「和平」能维持多久？</a> [20] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620213038102800" target="_blank" class="news-link">据伊朗法尔斯通讯社：伊朗外交部发言人消息称，伊朗遵守了承诺，对方有责任迫使以色列停止对黎巴嫩的攻击。</a> [21] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620213027551800" target="_blank" class="news-link">据伊朗法尔斯通讯社：伊朗外交部发言人消息称，我们将在瑞士就对方履行承诺进行要求，明确他们将如何履行自己的义务。</a> [22] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620212848767800" target="_blank" class="news-link">伊朗外交部：伊朗代表团将前往瑞士</a> [23] <font color='grey'>- 22时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260620212521745800" target="_blank" class="news-link">据沙特媒体哈达斯：伊朗外长阿拉格齐今晚将与巴基斯坦内政部长一同前往瑞士。</a> [26] <font color='grey'>- 22时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

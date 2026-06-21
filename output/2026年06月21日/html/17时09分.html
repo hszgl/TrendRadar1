@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 173</p><p>生成时间: 2026-06-21 17:09:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">13.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7653316503539613715/" target="_blank" class="news-link">美国家庭股票财富今年暴增41万亿</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u8igDXFYqk" target="_blank" class="news-link">伊朗透露伊美会谈安排</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/21/4029267055c74d5ea77f75a046f5db1c.html" target="_blank" class="news-link">特朗普持续抨击梅洛尼：美伊停战后，意总理又想“重修旧好”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u8jKnIv0GU" target="_blank" class="news-link">伊朗外交部发言人：美国未执行谅解备忘录第一条</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/06/21/17b38fb18ddf48168522d2ac97aee704.html" target="_blank" class="news-link">梅洛尼怼特朗普：“我的受欢迎程度与您无关”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621162951540800" target="_blank" class="news-link">伊朗外长与瑞士外长在瑞士比尔根山会晤</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621162312014800" target="_blank" class="news-link">伊朗：瑞士会谈为期一天 黎巴嫩停火将成为核心议题</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8u8ecch77aK" target="_blank" class="news-link">梅洛尼终于爆发，“干了件美国盟友都不敢的事儿”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621161922599800" target="_blank" class="news-link">据伊朗伊斯兰共和国通讯社（IRNA）：伊朗外交部发言人表示，会议还将讨论其他议题，包括对伊朗石油销售的豁免以及解冻伊朗被冻结资产。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621161743669800" target="_blank" class="news-link">据伊朗伊斯兰共和国通讯社（IRNA）：伊朗外交部发言人表示，美国未能确保黎巴嫩停火，该议题将成为瑞士会议的核心议题。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621161724023800" target="_blank" class="news-link">据伊朗伊斯兰共和国通讯社（IRNA）：伊朗外交部发言人表示，今天的会议是对与美国达成的谅解备忘录实施情况的后续跟进。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621161521199800" target="_blank" class="news-link">据伊朗伊斯兰共和国通讯社（IRNA）：伊朗外交部发言人表示，比尔根山会议为期一天，下午将举行伊朗、美国、卡塔尔和巴基斯坦四方联席会议。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33407734" target="_blank" class="news-link">对话丨被AI震动的两年人生，数学博士生的新难题：如何证明自己？</a> [11]</div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621160901006800" target="_blank" class="news-link">伊朗军方消息人士：霍尔木兹海峡仍然关闭</a> [12] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621155208138800" target="_blank" class="news-link">瑞士官方部门称，由万斯率领的美国代表团、由卡利巴夫率领的伊朗代表团及调解方均已抵达比尔根山（Bürgenstock），谈判将于（当地时间）周日上午启动。</a> [14] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7653701627672546859/" target="_blank" class="news-link">中国芯片出口正经历最猛烈的扩张</a> [19] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621154733386800" target="_blank" class="news-link">据伊朗伊斯兰共和国通讯社（IRNA）：伊朗外长阿拉格齐与瑞士外长在比尔根山（ Bürgenstock）会晤。</a> [19] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621154610259800" target="_blank" class="news-link">当地政府称，俄罗斯克拉斯诺达尔地区一处石油终端在乌克兰无人机袭击后起火。</a> [20] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2542302" target="_blank" class="news-link">父亲节用AI表达爱</a> [23] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260621152821623800" target="_blank" class="news-link">据以色列i24News：消息人士称，瑞士谈判中，美方的首要要求之一，就是允许国际原子能机构核查人员进入伊朗核设施。</a> [27] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7652606969635471403" target="_blank" class="news-link">AI 能写代码了，为什么我反而开始要求它先写文档？</a> [27] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%95%B0%E5%AD%A6%E5%8D%9A%E5%A3%AB%E7%94%9F2%E5%B9%B4%E7%A0%94%E7%A9%B6%E8%A2%ABAI%E6%8A%A2%E5%8F%91%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">数学博士生2年研究被AI抢发</a> [28] <font color='grey'>- 17时09分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7652586257183752233" target="_blank" class="news-link">别再迷信 AI 编程王炸组合：OpenSpec+Superpowers 5大实操冲突及解决方案</a> [28] <font color='grey'>- 17时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

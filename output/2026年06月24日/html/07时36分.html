@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 61</p><p>生成时间: 2026-06-24 07:36:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">24.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775262" target="_blank" class="news-link">科技热潮降温 ，纳指跌超2%，芯片指数跌近8%，美债汇齐升，金银下挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624071224150800" target="_blank" class="news-link">美国众议院多数议员投票支持一项两党法案，旨在缓解严重住房短缺问题并推动保障性住房建设；投票仍在继续进行中。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624070317956800" target="_blank" class="news-link">民调显示：美国超半数民众不认可对伊动武</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624065330318800" target="_blank" class="news-link">支持率跌至三成，特朗普承诺“前所未有的经济腾飞”将至</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775294" target="_blank" class="news-link">AI交易遭遇加息考验：除了美元、美债，一切都在跌</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624063432942800" target="_blank" class="news-link">现货黄金回落至4100美元/盎司下方，日内跌0.24%。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775310" target="_blank" class="news-link">高盛复盘韩股暴跌：养老金撤退、散户杠杆爆仓引发芯片股雪崩</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624063354430800" target="_blank" class="news-link">巴西国家石油公司CEO：1月至5月的产量较去年同期增长了10%。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775297" target="_blank" class="news-link">孙正义反驳马斯克：太空数据中心“没意义”，AI竞赛将在地球决胜</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2407391" target="_blank" class="news-link">【早报】美股半导体指数，暴跌超7%！芯片股全线重挫，闪迪、美光科技跌超13%；黄金、原油齐跌；C罗双响葡萄牙5球大胜、英格兰0-0战平加纳</a> [12] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624062022488800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日减少4.567吨，当前持仓量为1017.637吨。</a> [12] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624061822886800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日减少81.58吨，当前持仓量为14941.91吨。欢迎点击查看数据中心...</a> [13] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260624060356993800" target="_blank" class="news-link">网络状况监测网站DownDetector：超过18,000名用户报告Instagram出现问题，超过20,000名用户报告美国Facebook出现问题。</a> [14] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2052317085955518628" target="_blank" class="news-link">财政部宣布在政府采购活动中对 46 家美国企业采取相关措施，释放哪些信号？</a> [15] <font color='grey'>- 07时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%8C%BB%E7%94%9F%E4%BC%9A%E8%A2%ABAI%E8%BD%BB%E6%98%93%E5%8F%96%E4%BB%A3%E5%90%97&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">医生会被AI轻易取代吗</a> [29] <font color='grey'>- 07时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

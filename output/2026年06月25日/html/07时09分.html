@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2026-06-25 07:09:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">14</td>
+                <td class="percentage">33.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775351" target="_blank" class="news-link">科技股承压，美股指涨跌互现，美债美元齐涨，黄金暴跌，美光盘后暴涨12%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2408510" target="_blank" class="news-link">美股收盘：科技股回调拖累纳指跌0.4% AI估值与资本开支担忧持续发酵</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2052696986457827081" target="_blank" class="news-link">如何看待本次美国世界杯场馆没有遮雨棚，比赛期间暴雨所有观众和媒体都被惨浇，不装顶棚是因为气候还是成本？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3775443" target="_blank" class="news-link">美光上季营收增逾三倍大超预期、指引炸裂，料AI存储供应紧张持续至2027年后，盘后拉升 | 财报见闻</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625062437881800" target="_blank" class="news-link">美国海啸警报：在委内瑞拉地震震中300公里范围内的沿海地区可能出现危险海啸波。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625062330435800" target="_blank" class="news-link">委内瑞拉发生7级左右地震 美国发布海啸预警</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625062158762800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日减少4.282吨，当前持仓量为1013.355吨。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625062012085800" target="_blank" class="news-link">美国海啸预警系统：委内瑞拉地震后，波多黎各和维尔京群岛面临海啸威胁。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625061828637800" target="_blank" class="news-link">美国地质勘探局：委内瑞拉莫龙地区发生7.1级地震。</a> [11] <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2408477" target="_blank" class="news-link">英伟达股东会摘要：黄仁勋豪言AI投资回报率的问题“已有答案”</a> [13] <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625061700386800" target="_blank" class="news-link">美国海啸预警系统：在委内瑞拉沿海地震后发布海啸威胁警报。</a> [13] <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625061135675800" target="_blank" class="news-link">美光强劲财报引爆芯片股盘后行情 高通AI前景助推股价飙升</a> [15] <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625060708840800" target="_blank" class="news-link">AI驱动债务狂潮创纪录 6月美国高评级债券发行飙至1750亿美元</a> [16] <font color='grey'>- 07时09分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260625060151037800" target="_blank" class="news-link">受美光科技(MU.O)等芯片股盘后上涨提振，纳指期货周四开涨2%。</a> [18] <font color='grey'>- 07时09分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 46</p><p>生成时间: 2026-07-02 05:08:11</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">17</td>
+                <td class="percentage">36.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702044814695800" target="_blank" class="news-link">卡塔尔外交大臣：卡塔尔与巴基斯坦调解人今日在多哈分别与美国和伊朗谈判代表举行会晤。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702044739454800" target="_blank" class="news-link">卡塔尔：各方同意推进讨论 下次会晤将在前伊朗最高领袖葬礼后举行</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702044234084800" target="_blank" class="news-link">美财政部公布“特朗普账户”投资组合标的 主投宽基标普500指数ETF</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702043656056800" target="_blank" class="news-link">据CNBC：高盛估计，世界杯可能使美国6月就业报告多增加40,000个岗位。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702043036201800" target="_blank" class="news-link">据纽约时报：美国副总统万斯为特朗普在伊朗相关的战争与谈判立场进行辩护，称美国正在以军事力量作为和平谈判中的重要筹码。他同时表示，特朗普对军方提出的要求明显高于历任前总统。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702042858373800" target="_blank" class="news-link">美国总统特朗普：油价在下跌。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702042850197800" target="_blank" class="news-link">美国总统特朗普：船只正从霍尔木兹海峡驶出。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702042523360800" target="_blank" class="news-link">美国总统特朗普：我们造出了有史以来最先进的潜艇。在潜艇以及其他一些领域，我们领先对手15年。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702041739954800" target="_blank" class="news-link">消息人士：软银就以OpenAI股权为抵押的贷款谈判重启，并作出更多让步</a> [12] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702041320467800" target="_blank" class="news-link">市场消息：消息人士称，软银正与多家贷款机构谈判，拟筹集100亿美元保证金贷款，以OpenAI持股及还款担保作为支持。高盛、摩根大通及瑞穗金融集团预计将加入该贷款银团。</a> [14] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702041008414800" target="_blank" class="news-link">美国总统特朗普：西班牙是北约成员，但并不是一个表现很好的成员。他们的表现并不太友好，但他们会学会怎么做的。</a> [15] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702040849951800" target="_blank" class="news-link">美国总统特朗普：古巴正在向美国靠拢。</a> [16] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2055677703194403478" target="_blank" class="news-link">如何看待 rust 2026 roadmap 计划实现 Move Trait, 移除 Pin?</a> [20] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702035645327800" target="_blank" class="news-link">市场消息：苹果(AAPL.O)正与特朗普政府就芯片采购事宜进行谈判。</a> [23] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702035327823800" target="_blank" class="news-link">美国总统特朗普：7月4日大概会有107华氏度的高温，但我还是会去发表一篇非常长的讲话，只是为了证明我什么都能做到。</a> [24] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702035147218800" target="_blank" class="news-link">美国法官阻止邮政部门实施对邮寄选票的限制。</a> [25] <font color='grey'>- 05时08分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260702034845941800" target="_blank" class="news-link">市场消息：美国签署协议，将在耶路撒冷建立永久大使馆。</a> [26] <font color='grey'>- 05时08分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

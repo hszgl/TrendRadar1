@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 112</p><p>生成时间: 2026-07-06 08:11:21</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">13.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uX0AQwmuwO" target="_blank" class="news-link">伊朗最高领袖发布任免令</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uWz9x0USqP" target="_blank" class="news-link">特朗普一通电话后，国际足联“破例”了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706075143937800" target="_blank" class="news-link">科技部部长阴和俊：加快新能源、新材料、航空航天、低空经济等战略性新兴产业集群发展</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AD%99%E9%A2%96%E8%8E%8E%E6%99%8B%E7%BA%A7%E7%BE%8E%E5%9B%BD%E5%A4%A7%E6%BB%A1%E8%B4%AF%E5%86%B3%E8%B5%9B" target="_blank" class="news-link">孙颖莎晋级美国大满贯决赛</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706073731841800" target="_blank" class="news-link">北约峰会火药味升级：特朗普调停俄乌冲突，盟友却先“内部分裂”</a> [13] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7659180474241125924/" target="_blank" class="news-link">特朗普为何要与普京通话</a> [16] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7657941347903209513/" target="_blank" class="news-link">40天加长三伏天 减脂黄金期来了</a> [17] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706072920031800" target="_blank" class="news-link">矿业公司Genesis报价56亿澳元竞购黄金矿商Vault</a> [17] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706072831809800" target="_blank" class="news-link">现货黄金站上4200美元</a> [18] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706071640269800" target="_blank" class="news-link">据华尔街日报：美国航空航天局（NASA）局长贾里德·艾萨克曼不顾美国联邦航空管理局（FAA）反对，驾驶复古战机参加华盛顿航展。艾萨克曼曾邀请美国财长贝森特、白宫办公厅副主任丹·斯卡维诺以及特朗普高级顾问克里斯·拉西维塔等白宫官员乘坐飞机，但这些安排最终被取消。</a> [19] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706065533294800" target="_blank" class="news-link">金十图示：2026年07月06日（周一）白银ETF持仓报告</a> [23] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706065529374800" target="_blank" class="news-link">金十图示：2026年07月06日（周一）黄金ETF持仓报告</a> [24] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706065107849800" target="_blank" class="news-link">特朗普一个电话改写世界杯？FIFA撤销红牌引爆“政治干预体育”风暴</a> [26] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7658290915859087370" target="_blank" class="news-link">2026年7月AI圈大地震：GPT-5.6被政府限制、Claude入驻Slack、Anthropic自研芯片</a> [29] <font color='grey'>- 08时11分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260706063735558800" target="_blank" class="news-link">现货黄金站上4190美元/盎司，日内涨0.37%。</a> [30] <font color='grey'>- 08时11分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

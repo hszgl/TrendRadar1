@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 223</p><p>生成时间: 2026-07-07 11:52:07</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">37</td>
+                <td class="percentage">16.59%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AF%94%E5%88%A9%E6%97%B64-1%E5%A4%A7%E8%83%9C%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">比利时4-1大胜美国</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2418591" target="_blank" class="news-link">【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2057413355376227594" target="_blank" class="news-link">世界杯 1/8 决赛比利时 4-1 美国，至此 3 个东道主全部出局，如何评价本场比赛？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7659590855321976874/" target="_blank" class="news-link">美国门将超级巨大失误</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776327" target="_blank" class="news-link">三星电子Q2季度利润飙升19倍，超越英伟达成“全球最赚钱公司”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%AF%94%E5%88%A9%E6%97%B64-1%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">比利时4-1美国</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707112604602800" target="_blank" class="news-link">经济学家：中期选举后特朗普或加大海外军事行动，市场需警惕</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2418641" target="_blank" class="news-link">存储芯片涨价潮持续！三星Q2营业利润飙升18倍 再创历史新高</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355958&amp;amp;topic_name=%E7%9B%98%E5%A4%96%E6%8B%9B%E6%97%A0%E7%94%A8%21%E6%AF%94%E5%88%A9%E6%97%B6%E5%A4%A7%E8%83%9C%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">盘外招无用!比利时大胜美国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uYHhG4pLt3" target="_blank" class="news-link">特朗普再回应红牌事件，称若比利时赢了美国就是有黑幕</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD%E9%97%A8%E5%B0%86%E5%A4%A7%E5%A4%B1%E8%AF%AF%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">美国门将大失误</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%BA%A2%E7%89%8C%E8%BF%98%E8%A6%81%E7%A6%81%E8%B5%9B" target="_blank" class="news-link">特朗普称不知道红牌还要禁赛</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776319" target="_blank" class="news-link">英伟达回应新一代AI服务器系统延期发布传闻：产品路线图未变</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707111513562800" target="_blank" class="news-link">几十个国家和国际组织将派高级别代表出席2026世界人工智能大会</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776333" target="_blank" class="news-link">大摩告诉客户：是时候“卖芯片、买云”，“存储”类似“白银”见顶</a> <font color='red'><strong>[8]</strong></font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2418644" target="_blank" class="news-link">三星利润超越英伟达 世界杯红牌争议“越描越黑” | 环球市场</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707111116854800" target="_blank" class="news-link">美国ITC发布对用于液晶显示器的玻璃基板及其下游产品和制造此类基板的方法II的337部分终裁</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776296" target="_blank" class="news-link">AI 砍掉的第一批大厂人：高薪，高绩效，高P</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E6%B7%98%E6%B1%B0&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">美国淘汰</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2057732608214004902" target="_blank" class="news-link">如何评价国际足联主席称确实接到了特朗普电话，但「独立裁决」巴洛贡红牌禁赛延后处罚案件？真的毫无影响吗？</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E9%97%A8%E5%B0%86%E8%B6%85%E7%BA%A7%E5%B7%A8%E5%A4%A7%E5%A4%B1%E8%AF%AF" target="_blank" class="news-link">美国门将超级巨大失误</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2561113" target="_blank" class="news-link">美国1:4比利时</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AF%94%E5%88%A9%E6%97%B6%E5%AE%98%E6%96%B9%E5%98%B2%E8%AE%BD%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">比利时官方嘲讽美国</a> [12] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2418537" target="_blank" class="news-link">SpaceX“二把手”官宣向“特朗普账户”捐赠个人股票 总价值超3亿美元</a> [12] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7659568902120181294/" target="_blank" class="news-link">比利时4-1美国 东道主全出局</a> [13] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%BA%A2%E7%89%8C%E8%BF%98%E8%A6%81%E7%A6%81%E8%B5%9B%23&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">特朗普称不知道红牌还要禁赛</a> [13] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%8D%A0%E4%BE%BF%E5%AE%9C%E4%BA%86%E8%BF%98%E8%A2%AB%E6%B7%98%E6%B1%B0" target="_blank" class="news-link">美国占便宜了还被淘汰</a> [14] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707110649004800" target="_blank" class="news-link">2025年上海规上AI企业产业规模超6370亿元 同比增长39.5%</a> [15] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33531419" target="_blank" class="news-link">头条世界杯｜C罗的时代结束了，葡萄牙也浪费了黄金一代</a> [17] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707110243285800" target="_blank" class="news-link">三星利润暴增19倍却触发熔断：亚洲芯片股“卖事实”行情爆发！</a> [18] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7659225944678432806" target="_blank" class="news-link">Godot 全面封杀 Vibe Coding，作为每天用 AI 写代码的人，我反而觉得这是件好事</a> [22] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707105606371800" target="_blank" class="news-link">若西方黄金基金资金流稳定，黄金下半年将重新看向4500上方</a> [24] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707105547821800" target="_blank" class="news-link">我国规上工业企业人工智能应用普及率已超30%</a> [26] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707105519832800" target="_blank" class="news-link">必和必拓智利铜矿扩建获首批环评批准，近150亿美元工程即将启动</a> [27] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707105427162800" target="_blank" class="news-link">国家发改委王若蒙：AI手机、AI电脑的销量预计今年有望首次超过非AI产品</a> [29] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%BB%E5%B8%85%E6%80%92%E8%B8%A2%E6%B0%B4%E7%93%B6" target="_blank" class="news-link">美国主帅怒踢水瓶</a> [30] <font color='grey'>- 11时52分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260707105410926800" target="_blank" class="news-link">美国总统特朗普：我刚刚得知，美国零售商沃尔玛将在我政府的要求下大幅降价，以庆祝我们伟大国家的250周年生日。</a> [30] <font color='grey'>- 11时52分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

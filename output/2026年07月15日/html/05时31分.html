@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2026-07-15 05:31:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">18</td>
+                <td class="percentage">33.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776859" target="_blank" class="news-link">美国通胀降温，美股指全线反弹，存储芯片股大涨，IBM暴跌25%，油金齐涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715052333131800" target="_blank" class="news-link">据伊朗塔斯尼姆通讯社：伊朗当地和安全官员否认在恰巴哈尔发生任何爆炸。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715052147110800" target="_blank" class="news-link">据伊通社（IRNA）：伊朗亨格姆岛遭美方炮弹袭击。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715051930421800" target="_blank" class="news-link">美国众议院投票通过永久实行夏令时的法案，并将该法案提交参议院审议。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715051614385800" target="_blank" class="news-link">据伊朗迈赫尔通讯社：伊朗布什尔核电站附近的防空系统已启动。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715051227872800" target="_blank" class="news-link">据伊朗媒体Fars News：伊朗本普尔和恰巴哈尔传出多次爆炸声，目前爆炸原因尚不清楚。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715050136121800" target="_blank" class="news-link">OpenAI开始涉足苹果“舒适区”，拟推首款AI硬件</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715044652988800" target="_blank" class="news-link">OpenAI表示，其AI智能音箱产品并未侵犯苹果(AAPL.O)的商业机密。</a> [11] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715044636741800" target="_blank" class="news-link">市场消息：OpenAI计划推出AI智能音箱作为旗下首款硬件产品，定位为AI陪伴助手。</a> [12] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715044428953800" target="_blank" class="news-link">美国能源部长赖特：我们必须确保石油能够从阿拉伯湾流出。</a> [13] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715044320219800" target="_blank" class="news-link">美国能源部长赖特：已不再考虑收取20%的费用。</a> [14] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715044255068800" target="_blank" class="news-link">美国能源部长赖特：霍尔木兹海峡将不收取通行费。</a> [15] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715044252786800" target="_blank" class="news-link">美国能源部长赖特：大约每天有1500万桶石油从阿拉伯湾出口。</a> [16] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715044150500800" target="_blank" class="news-link">据Axios：一名白宫官员驳斥了以色列媒体有关内塔尼亚胡将于下周访问华盛顿的报道，并表示：“目前特朗普总统的日程安排中没有内塔尼亚胡的访问计划。”</a> [17] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715043914073800" target="_blank" class="news-link">美国国务院官员：美国预计，美国企业将在推进伊拉克—叙利亚原油管道重建工作中发挥重要作用。</a> [18] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715043826685800" target="_blank" class="news-link">美国至7月10日当周API投产原油量 5.6万桶/日，前值3.4万桶/日。</a> [19] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715043800599800" target="_blank" class="news-link">美国至7月10日当周API成品油进口 -18.8万桶/日，前值-32.5万桶/日。</a> [20] <font color='grey'>- 05时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260715043746845800" target="_blank" class="news-link">美国至7月10日当周API原油进口 -11.9万桶，前值15.9万桶。</a> [21] <font color='grey'>- 05时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

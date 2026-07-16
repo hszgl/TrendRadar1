@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 160</p><p>生成时间: 2026-07-16 16:20:46</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">11.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8undGPmAvXz" target="_blank" class="news-link">特朗普感谢伊朗</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716160057851800" target="_blank" class="news-link">伦敦金属交易所(LME)：镍库存增加300吨，铜库存减少1675吨，锌库存减少575吨，锡库存减少140吨，铅库存减少2550吨，铝库存减少1500吨。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8unxtekvlRl" target="_blank" class="news-link">美国宣布对部分巴西进口商品加征25%关税</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2573272" target="_blank" class="news-link">美国对三星等7家公司启动337调查</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/16/baaa5f4653db4ea5aa9d73ceb5000aaf.html" target="_blank" class="news-link">皮尤最新调查：中国全球好感度优于美国</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8unem73HpQO" target="_blank" class="news-link">泽连斯基在法国拧个瓶盖冲上多国热搜(图)</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716155724279800" target="_blank" class="news-link">市场消息：由日本支持、搭载英伟达Rubin GPU的数据中心将于2028年6月投入运营。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7662966179715108378/" target="_blank" class="news-link">存储芯片股为何再度跳水</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716155335282800" target="_blank" class="news-link">AWS发布AI-DLC与Kiro工具 瞄准AI编程“效率低、安全弱”痛点</a> [11] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2427879" target="_blank" class="news-link">纽约州叫停建设AI数据中心？特朗普怒喷：你们在白白丢掉“摇钱树”！</a> [12] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2573340" target="_blank" class="news-link">披着AI外衣的现实短片</a> [13] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716155157506800" target="_blank" class="news-link">有外媒渲染中国提供开源AI模型是“陷阱”，外交部：反对以意识形态划线</a> [13] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E8%82%A1%E4%B8%BA%E4%BD%95%E5%86%8D%E5%BA%A6%E8%B7%B3%E6%B0%B4" target="_blank" class="news-link">存储芯片股为何再度跳水</a> [15] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716154717041800" target="_blank" class="news-link">日本拟采购2.75万颗英伟达Rubin芯片 开发本土机器人AI模型</a> [18] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7662978878985473582/" target="_blank" class="news-link">怎么看存储芯片的全球“蝴蝶效应”</a> [20] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33586841" target="_blank" class="news-link">外资机构把脉A股：AI景气度仍向好，市场正进入结构性分化新阶段</a> [20] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2060040310399263380" target="_blank" class="news-link">美国 NSF 新规，「几乎要全面禁止与中国科学家合作」，将可能带来哪些影响？</a> [20] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260716154128609800" target="_blank" class="news-link">市场消息：日本将购买27500颗英伟达(NVDA.O)RUBIN芯片，用于构建机器人人工智能系统。</a> [26] <font color='grey'>- 16时20分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7661841880096112692" target="_blank" class="news-link">倒腾2天，我开源了一款AI驱动的实时 3D CAD / 参数化建模工作台</a> [28] <font color='grey'>- 16时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

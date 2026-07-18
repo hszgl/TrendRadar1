@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 114</p><p>生成时间: 2026-07-18 22:02:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">20.18%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/18/10bcfcf8af834e00a82f4e394e84ed75.html" target="_blank" class="news-link">美国国土安全部长威胁选举官员：“不配合就坐牢”</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718213737406800" target="_blank" class="news-link">中创新航发布提供广汽埃安AION S电池系统直接维保服务的公告</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718213228936800" target="_blank" class="news-link">AI模型评测平台Arena显示，Kimi-K3已在Frontend Code Arena中以1679分位居第一，超越了Claude Fable 5。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7663703562971512886/" target="_blank" class="news-link">伊朗：已停止履行伊美谅解备忘录</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718212017645800" target="_blank" class="news-link">海湾合作委员会秘书长：伊朗针对巴林、科威特和约旦基础设施的袭击行为构成战争罪。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777263" target="_blank" class="news-link">美股半导体指数跌入熊市，芯片股溃败时苹果盘中夺回市值第一，AI牛市迎来“换锚”时刻？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718211902900800" target="_blank" class="news-link">伊拉克正利用叙利亚绕过霍尔木兹海峡出口石油</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7663839907923627562/" target="_blank" class="news-link">韩国全民借钱炒股的黄金梦为何破碎</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%8A%E6%9C%97%E5%B7%B2%E5%81%9C%E6%AD%A2%E5%B1%A5%E8%A1%8C%E4%BC%8A%E7%BE%8E%E8%B0%85%E8%A7%A3%E5%A4%87%E5%BF%98%E5%BD%95" target="_blank" class="news-link">伊朗已停止履行伊美谅解备忘录</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777307" target="_blank" class="news-link">上游订单爆表、下游不计代价！“大空头”查诺斯：AI这笔账为什么算不过来</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718210538813800" target="_blank" class="news-link">中国首创人工智能赋能核能技术路线全球首发</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2430037" target="_blank" class="news-link">响应“AI牛股”激励风向 阿斯麦将向全体员工发放2万欧元大红包</a> [13] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718210251434800" target="_blank" class="news-link">卡塔尔外交部：强烈谴责伊朗对约旦、巴林和科威特的反复袭击。此举公然侵犯了受袭国家的主权和领土完整，严重违反了国际法、《联合国宪章》以及睦邻友好原则。</a> [14] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2061441397995954863" target="_blank" class="news-link">如何看待白宫提词器操作员提前获取特朗普演讲稿，并据此押注获利近 10 万元，最终被调查？</a> [14] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718205046665800" target="_blank" class="news-link">金十图示：2026年07月18日（周六）新闻联播今日要点</a> [16] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718204219080800" target="_blank" class="news-link">伊朗驻巴基斯坦大使谴责美方曲解伊美谅解备忘录</a> [17] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718204134957800" target="_blank" class="news-link">伊朗卫生部：自6月27日以来，美国的袭击造成至少50人遇难，500人受伤。</a> [18] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718203633453800" target="_blank" class="news-link">千觉机器人首个VTLA具身触觉模型亮相世界人工智能大会</a> [19] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718203356472800" target="_blank" class="news-link">伊朗副外长：伊朗已停止履行伊美谅解备忘录</a> [20] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7663809319988629018/" target="_blank" class="news-link">锂电池开征消费税 新能源车要涨价吗</a> [23] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718202648250800" target="_blank" class="news-link">B2B行业首份AI智能体全球支付白皮书发布</a> [25] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718202124153800" target="_blank" class="news-link">美媒：一项允许沙特进行铀浓缩的核协议悬而未决，尚待特朗普政府批准</a> [26] <font color='grey'>- 22时02分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260718201459495800" target="_blank" class="news-link">国务院国资委：国资央企要持续攻关基础算法、物理AI、智算芯片、量子通信等原创性技术</a> [27] <font color='grey'>- 22时02分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

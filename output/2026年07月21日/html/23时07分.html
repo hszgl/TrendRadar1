@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 124</p><p>生成时间: 2026-07-21 23:07:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">16</td>
+                <td class="percentage">12.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721224818568800" target="_blank" class="news-link">据伊朗Press TV：伊朗革命卫队打击了科威特贾比尔基地的美军雷达。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777518" target="_blank" class="news-link">全球科技股反弹！美股盘初走高，存储芯片股普涨，闪迪涨9%，布油重回90美元上方，现货白银涨4%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721224247956800" target="_blank" class="news-link">科威特外交部：科威特已就伊朗周一在霍尔木兹海峡袭击科威特油轮“KAIFAN”号一事召见伊朗大使，提出抗议。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7664353036575850515/" target="_blank" class="news-link">专家：黄金已严重超卖</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%93%E5%AE%B6%EF%BC%9A%E9%BB%84%E9%87%91%E5%B7%B2%E4%B8%A5%E9%87%8D%E8%B6%85%E5%8D%96" target="_blank" class="news-link">专家：黄金已严重超卖</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uwrsyeC1bU" target="_blank" class="news-link">伊朗还有两大杀手锏</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2433005" target="_blank" class="news-link">美股AI概念盘前昂扬齐涨 美伊战火仍在持续 | 今夜看点</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uwrK5sQQBp" target="_blank" class="news-link">“美国海军第五舰队司令部发生爆炸”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2062849285499138343" target="_blank" class="news-link">如何看待世界杯决赛之后，西班牙队在官方的庆祝照片上把特朗普给裁剪掉了？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777496" target="_blank" class="news-link">特朗普暗示美军将对伊朗发动强硬报复：每杀害一名美国士兵将付出数倍代价</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2061915732447687216" target="_blank" class="news-link">网友发现很多 KTV 都没有 MV 了，全是奇怪的 AI 画面，为什么会这样？你有遇到这种情况吗？</a> [12] <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%A6%96%E9%83%A8AI%E9%95%BF%E5%89%A7%E8%A6%81%E6%9D%A5%E4%BA%86&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">首部AI长剧要来了</a> [14] <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721222147051800" target="_blank" class="news-link">伊朗内政部长：我们赞赏巴基斯坦为签署谅解备忘录所做的努力。</a> [14] <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721221744899800" target="_blank" class="news-link">格里尔暗示美国新一轮关税措施“很快将采取行动”</a> [21] <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721221530413800" target="_blank" class="news-link">巴基斯坦总理：（对伊朗内政部长表示）我们对近期地区局势升级感到担忧，各方应保持克制。</a> [24] <font color='grey'>- 23时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721221236963800" target="_blank" class="news-link">数据显示，阿塞拜疆通过BTC管道的石油出口在1月至6月期间下降了8.7%。</a> [26] <font color='grey'>- 23时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

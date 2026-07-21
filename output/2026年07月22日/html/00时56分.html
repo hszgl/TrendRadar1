@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 370</p><p>生成时间: 2026-07-22 00:56:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">52</td>
+                <td class="percentage">14.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722005010964800" target="_blank" class="news-link">伊朗警告保加利亚勿为美军提供便利</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777518" target="_blank" class="news-link">全球科技股反弹！美股存储芯片指数涨超10%，布油重回90美元上方，现货白银涨4%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uwidXo8t4N" target="_blank" class="news-link">英媒爆料：中美正计划9月举行AI会谈</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7664063148857442347" target="_blank" class="news-link">AI 又又造词，Graph 就又要替代 Loop 了？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7664544012321426987/" target="_blank" class="news-link">世界人工智能大会达成丰硕成果</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777383" target="_blank" class="news-link">中东局势与财报季双重压力下，美股三连跌，芯片股抛售暂歇，中概收涨，油价过山车</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uvTwaa2evE" target="_blank" class="news-link">约旦称拦截并击落3枚自伊朗发射的导弹</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722004305132800" target="_blank" class="news-link">据沙特阿拉伯阿拉比亚电视台：也门石油部长称，已指示石油公司制定增加产量的计划，计划在首月将石油产能提升25%，将把石油出口收入存入中央银行。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%93%E5%AE%B6%EF%BC%9A%E9%BB%84%E9%87%91%E5%B7%B2%E4%B8%A5%E9%87%8D%E8%B6%85%E5%8D%96" target="_blank" class="news-link">专家：黄金已严重超卖</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777542" target="_blank" class="news-link">美财长贝森特宣称：美国很快将控制全球80%的算力</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722003813231800" target="_blank" class="news-link">美国白宫宣布与约旦达成贸易协议</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777521" target="_blank" class="news-link">绝地大反转！科创50狂涨超10%，芯片半导体集体爆发、存储“一哥”涨停，恒科指涨超1%，智谱飙涨超35%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33625490" target="_blank" class="news-link">美国宣布对加拿大部分产品加征50%关税</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2433005" target="_blank" class="news-link">美股AI概念盘前昂扬齐涨 美伊战火仍在持续 | 今夜看点</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uwrsyeC1bU" target="_blank" class="news-link">伊朗还有两大杀手锏</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/NVDA" target="_blank" class="news-link">英伟达</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7664353036575850515/" target="_blank" class="news-link">专家：黄金已严重超卖</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777467" target="_blank" class="news-link">报道：谷歌正在开发新款芯片，Gemini架构直接写入硅片，效率最高提升10倍</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uwrK5sQQBp" target="_blank" class="news-link">“美国海军第五舰队司令部发生爆炸”</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722003143324800" target="_blank" class="news-link">特朗普会见黎巴嫩总统奥恩</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uw6DFYEY9O" target="_blank" class="news-link">美国下黑手，加拿大总理强硬回应</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7663854184966389806" target="_blank" class="news-link">不用 LangChain，手搓 AI Agent：给大模型装上“手”，让它自己读项目文件</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2062849285499138343" target="_blank" class="news-link">如何看待世界杯决赛之后，西班牙队在官方的庆祝照片上把特朗普给裁剪掉了？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777496" target="_blank" class="news-link">特朗普暗示美军将对伊朗发动强硬报复：每杀害一名美国士兵将付出数倍代价</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33622414" target="_blank" class="news-link">专访UCL教授：AI正抽走职业梯子的最底层，大学必须补上这一环</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2432689" target="_blank" class="news-link">【每日收评】创业板指探底回升涨超7%，半导体芯片、算力硬件等科技赛道卷土重来</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8uwZlCa0EaK" target="_blank" class="news-link">因人事任命非特朗普属意，美国考虑退出联合国难民署</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/21/638464dc21764c7a971d17309edd6354.html" target="_blank" class="news-link">特朗普的“空军一号”将升级改造</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722002835074800" target="_blank" class="news-link">伊朗外长阿拉格齐与法国外长巴罗通话，伊朗外长阿拉格齐指责法国外交官在德黑兰行为不可接受，并称霍尔木兹海峡局势升级责任在美国。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777491" target="_blank" class="news-link">AI动量交易面临挑战，高盛：对冲基金过去两个月创纪录抛售美国科技股</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722002000799800" target="_blank" class="news-link">巴基斯坦政府：巴基斯坦总理会见伊朗内政部长，伊朗内政部长肯定了巴基斯坦方面为促成伊斯兰堡谅解备忘录作出的努力。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260722000941339800" target="_blank" class="news-link">白宫：约旦皇家航空公司向美国订购了波音(BA.N)787-9客机。</a> [11] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%A6%96%E9%83%A8AI%E9%95%BF%E5%89%A7%E8%A6%81%E6%9D%A5%E4%BA%86&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">首部AI长剧要来了</a> [12] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2061915732447687216" target="_blank" class="news-link">网友发现很多 KTV 都没有 MV 了，全是奇怪的 AI 画面，为什么会这样？你有遇到这种情况吗？</a> [12] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2432678" target="_blank" class="news-link">华尔街集体喊多芯片股！大摩：存储股抛售潮带来绝佳上车机会</a> [13] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/21/82984c29e22a4369a04ac28f02295356.html" target="_blank" class="news-link">人工智能成为风投行业“催化剂”</a> [13] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7664150646267576374" target="_blank" class="news-link">从文本到具身：我给 AI Agent 搭了套实时 3D 交互身体</a> [14] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7664487899658223631" target="_blank" class="news-link">推荐几个我常听的AI播客！</a> [17] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721235701108800" target="_blank" class="news-link">美国总统特朗普宣布与约旦达成贸易协议。</a> [19] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2062554385847160852" target="_blank" class="news-link">中国计划 2030 年前载人登月，美国计划 2028 年重返月球，你觉得谁会先上？为什么？</a> [19] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/21/ab0ea23ec2a24d1f9fad89ca4df13103.html" target="_blank" class="news-link">日媒：全球存储芯片价格飙升真相</a> [20] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7664139332774363170" target="_blank" class="news-link">AI Coding 那么快，为什么还需要 SDD？</a> [20] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721234954823800" target="_blank" class="news-link">特朗普承认伊朗在约旦“钻了空子”</a> [21] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356366&amp;amp;topic_name=OpenAI%E8%B4%9F%E8%B4%A3%E4%BA%BA%E6%8A%A8%E5%87%BBKimi%E5%BC%80%E6%BA%90" target="_blank" class="news-link">OpenAI负责人抨击Kimi开源</a> [22] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721234712878800" target="_blank" class="news-link">英国外交大臣米利班预计将在东盟会议上与美国国务卿鲁比奥进行双边会谈。</a> [22] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7664262170474872884" target="_blank" class="news-link">为什么 skills 装得越多，AI 越笨？最火的那个 skill 只有一句话</a> [22] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260721234532750800" target="_blank" class="news-link">金十提示：美国总统特朗普与黎巴嫩总统白宫会晤的媒体公开部分结束。</a> [23] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/21/4bdeaed8d77a46ddad00ac6be9041048.html" target="_blank" class="news-link">特朗普说内塔尼亚胡来美不会被捕</a> [24] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7663762583838064666" target="_blank" class="news-link">我受够了每天问“今天吃什么”，于是做了个 AI 菜单工具</a> [25] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7664486932710113331" target="_blank" class="news-link">分享一套我一直在使用的 AICoding 组合拳，小而美的典范。</a> [27] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7532773996762841151" target="_blank" class="news-link">抖音集团基于Paimon的流式数据湖应用实践</a> [28] <font color='grey'>- 00时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7533474784086589466" target="_blank" class="news-link">Vercel 发布 AI SDK 5，引入语音 API；Ollama 新版本支持多模态交互 丨日报</a> [30] <font color='grey'>- 00时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

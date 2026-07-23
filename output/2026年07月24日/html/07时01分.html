@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 33</p><p>生成时间: 2026-07-24 07:01:16</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">39.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724062756413800" target="_blank" class="news-link">墨西哥经济部：美国和墨西哥对美墨加协定（USMCA）的第四轮审查谈判定于9月前两周进行。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777754" target="_blank" class="news-link">AI开支担忧与地缘风险夹击美股，标普创月内最大跌幅，特斯拉跌超14%，油价破百，黄金重挫</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724061915850800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日增加1.427吨，当前持仓量为1009.298吨。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724061356755800" target="_blank" class="news-link">韩国和美国开设造船合作中心</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724061147585800" target="_blank" class="news-link">在美国政府宣布新关税措施后，墨西哥经济部长埃布拉德表示：我们认为墨西哥实际承担的关税税率并未发生变化。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724060544831800" target="_blank" class="news-link">特朗普：将用伊朗资金赔付船只及货物损失</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AD%98%E7%AE%97%E4%B8%80%E4%BD%93%E8%8A%AF%E7%89%87%E6%98%AFAI%E7%9A%84%E7%AD%94%E6%A1%88%E5%90%97" target="_blank" class="news-link">存算一体芯片是AI的答案吗</a> [11] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2435701" target="_blank" class="news-link">美国公布新关税措施 24日生效</a> [11] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724055906399800" target="_blank" class="news-link">新加坡政府投资公司GIC：目标是投资人工智能（AI）物理基础设施，包括数据中心所需的电力和电网设施。</a> [12] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724055905165800" target="_blank" class="news-link">新加坡政府投资公司GIC：对人工智能投资采取审慎态度；聚焦先进半导体制造与设计。</a> [13] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724054826717800" target="_blank" class="news-link">英特尔(INTC.O)首席财务官：2026年将比2025年多购买40%的芯片制造设备。</a> [15] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724054003062800" target="_blank" class="news-link">声明显示，巴西政府拒绝接受美国针对巴西商品征收的12.5%关税。</a> [17] <font color='grey'>- 07时01分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260724053636609800" target="_blank" class="news-link">美国对60个经济体加征10%-12.5%的关税</a> [18] <font color='grey'>- 07时01分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

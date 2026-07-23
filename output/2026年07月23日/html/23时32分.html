@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 139</p><p>生成时间: 2026-07-23 23:32:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">16.55%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2582778" target="_blank" class="news-link">中国女排3:2战胜美国晋级四强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/07/23/2129b6a3a38445479b2f6c38698d346c.html" target="_blank" class="news-link">美国将帮助沙特发展民用核项目</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723231320592800" target="_blank" class="news-link">海湾国家和约旦联合声明：伊朗的袭击尤其加剧了对巴林、科威特和约旦的威胁。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723231141626800" target="_blank" class="news-link">海湾国家和约旦联合声明：伊朗对我们的领土、公民和民用设施的攻击持续不断。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723231121562800" target="_blank" class="news-link">海湾国家和约旦联合声明：我们对谴责伊朗及其代理人对我们领土的侵略持统一立场。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7665720445194210822/" target="_blank" class="news-link">中国女排3-2逆转美国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777754" target="_blank" class="news-link">AI开支引发回报疑虑，纳指跌幅扩大至2%，特斯拉跌超13%，布油触及百元关口，美国长债承压</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8v06FjHSYYN" target="_blank" class="news-link">给“南海仲裁案”递刀子的美国人，在菲律宾被枪杀</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723231019937800" target="_blank" class="news-link">自由港麦克莫兰公司首席执行官：正等待特朗普政府关于铜232关税的决定。若对铜征收关税，公司在美国市场的铜价可能上涨。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723230752815800" target="_blank" class="news-link">美国证券交易委员会（SEC）：会议讨论内容将包括支持隔夜交易的准备工作。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723230637005800" target="_blank" class="news-link">美国证券交易委员会（SEC） 将于9月17日举行圆桌会议，讨论24小时交易事宜。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7665693109317013033/" target="_blank" class="news-link">马斯克第三次喊“奇点已至”</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%8D%E8%A6%81%E9%9A%8F%E6%84%8F%E6%8A%8A%E7%85%A7%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91%E5%8F%91%E7%BB%99AI&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">不要随意把照片和视频发给AI</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2435521" target="_blank" class="news-link">Alphabet现金流首度转负 AI资本支出压力考验科技巨头财报</a> [11] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723230113550800" target="_blank" class="news-link">Databricks与微软(MSFT.O)扩大合作，助力企业将商业背景融入企业人工智能。</a> [11] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723230051077800" target="_blank" class="news-link">据ABC新闻：美国副总统万斯的保护团队成员正接受调查。</a> [12] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723230022738800" target="_blank" class="news-link">美国7月堪萨斯联储制造业产出指数 17，前值19。</a> [14] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723230014904800" target="_blank" class="news-link">美国7月堪萨斯联储制造业综合指数 9，前值11。</a> [15] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723225413881800" target="_blank" class="news-link">APEC数字和人工智能部长会议通过成都声明</a> [18] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%923%E6%AF%942%E7%BE%8E%E5%9B%BD%E5%A5%B3%E6%8E%92&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">中国女排3比2美国女排</a> [20] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260723224553646800" target="_blank" class="news-link">美众院再次通过决议 要求特朗普结束对伊朗战事</a> [22] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%923%E6%AF%942%E9%80%86%E8%BD%AC%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">中国女排3比2逆转美国</a> [25] <font color='grey'>- 23时32分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7665687468549275657/" target="_blank" class="news-link">美国男子打死父亲被警方连开18枪击毙</a> [30] <font color='grey'>- 23时32分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

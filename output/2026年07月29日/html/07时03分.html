@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 46</p><p>生成时间: 2026-07-29 07:03:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">19</td>
+                <td class="percentage">41.3%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729064359841800" target="_blank" class="news-link">据CNN：一名美国官员称，初步估计显示，伊朗在此次袭击中发射的弹道导弹不超过4枚。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729063338334800" target="_blank" class="news-link">非正式停火告吹 伊朗今晨向美军基地发射导弹 原油大涨4%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729062845151800" target="_blank" class="news-link">美国中央司令部：美国东部时间今日下午5:45（北京时间29日清晨5:45），伊朗伊斯兰革命卫队的部队从伊朗发射了多枚弹道导弹，试图对驻中东的美军进行突袭。所有伊朗导弹均已成功拦截。美军保持警惕，处于高度戒备状态。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7666689922334244870/" target="_blank" class="news-link">17万新能源车开3年电池故障更换要5万</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2439531" target="_blank" class="news-link">美股收盘：AI概念延续“血色一夜” 另一场狂欢由此开启</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3778137" target="_blank" class="news-link">费城半导体指数跌破11200点关键支撑，AI牛市悬了！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729062318386800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日减少0.571吨，当前持仓量为1008.727吨。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729062302266800" target="_blank" class="news-link">对约旦的最新袭击是自上周五美国暂停对伊朗的攻击以来，伊朗首次对该地区的美国基地发起导弹攻击。</a> [11] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729062056108800" target="_blank" class="news-link">随着油价走高，美国10年期国债期货下跌3个点。</a> [12] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729062041060800" target="_blank" class="news-link">WTI原油上涨3.00%，现报80.68美元/桶。美媒消息称，伊朗向约旦的美军基地发射导弹。</a> [13] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729062017946800" target="_blank" class="news-link">据Axios网站：美国官员表示，导弹已被拦截。</a> [14] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729061329814800" target="_blank" class="news-link">据Axios网站：美国官员称，伊朗向约旦的一处美军基地发射了弹道导弹。</a> [15] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729061228397800" target="_blank" class="news-link">据伊朗Press TV：有媒体报道称约旦遭遇导弹袭击，并传出爆炸声。</a> [16] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729055535836800" target="_blank" class="news-link">乌克兰伊朗外长就袭船事件通电话</a> [22] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729054723726800" target="_blank" class="news-link">高盛仍看多日本AI板块：暴跌后反成买入良机</a> [24] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729053516327800" target="_blank" class="news-link">OpenAI越狱代理攻击范围扩大 再曝一公司客户账户遭入侵</a> [25] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729053346909800" target="_blank" class="news-link">美国千名AI公司员工发联名信 寻求建立协同放缓前沿AI发展的机制</a> [26] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729053120034800" target="_blank" class="news-link">美国官员：霍尔木兹海峡通航协调方案不涉及收费</a> [27] <font color='grey'>- 07时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260729052624982800" target="_blank" class="news-link">Visa(V.N)首席财务官：世界杯相关支出也推动了美国支付量的增长。</a> [28] <font color='grey'>- 07时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

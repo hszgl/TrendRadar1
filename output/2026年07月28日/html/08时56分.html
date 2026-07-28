@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 136</p><p>生成时间: 2026-07-28 08:56:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">16.91%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7667348037127114246/" target="_blank" class="news-link">美股迎芯片风暴 苹果重返市值第一</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E8%8A%AF%E7%89%87%E8%82%A1%E2%80%9C%E8%A1%80%E6%B5%81%E6%88%90%E6%B2%B3%E2%80%9D" target="_blank" class="news-link">美股芯片股“血流成河”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3777993" target="_blank" class="news-link">AI忧虑盖过油价下跌，纳指承压，半导体指数一度跌超5%，中概股逆市收涨</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2438404" target="_blank" class="news-link">【早报】美存储股全线重挫，SK海力士破发；原油暴跌、黄金微涨；“东方证券+上海证券”合并重组草案出炉</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728084604232800" target="_blank" class="news-link">现货白银向下触及58美元/盎司，日内跌0.70%。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8v6sJsiidDd" target="_blank" class="news-link">内塔尼亚胡访美，会与特朗普聊啥？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://v.ifeng.com/c/8v6Pfq6f76o" target="_blank" class="news-link">打不赢、耗不起、走不掉，美国被以色列拖进泥潭</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8v6sTHp3nlX" target="_blank" class="news-link">乌克兰袭船还回嘴：伊朗没资格“装”受害者</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3778058" target="_blank" class="news-link">中国DRAM巨头搅动全球格局，美股存储芯片跳水，SK海力士破发，闪迪一个月接近腰斩</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8v7UlJm7wWT" target="_blank" class="news-link">600名以色列前高官联名致信特朗普，发出警告</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7666095375690350643/" target="_blank" class="news-link">美国掀起中国科技大讨论</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7667350797637652011/" target="_blank" class="news-link">美称若谈判破裂将强力打击伊朗</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728083113585800" target="_blank" class="news-link">胡塞武装再炸沙特石油“备用生命线”，全球最大原油处理厂据悉也遇袭</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728083029546800" target="_blank" class="news-link">欢迎进入链接网页右侧下载本周财经数据与事件精美周历壁纸：今日美国ADP就业人数周度变动将公布，特朗普将与内塔尼亚胡、乌克兰总统泽连斯基会晤。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7666819334011584518/" target="_blank" class="news-link">佛得角门将签约泪洒现场？图是AI的</a> [11] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2438356" target="_blank" class="news-link">卫星图像显示多处沙特石油设施升腾起黑烟</a> [12] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2438340" target="_blank" class="news-link">美伊停火延续至第三天，特朗普称双方正进行“深度谈判”</a> [13] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728081259044800" target="_blank" class="news-link">美媒：美官员称经济制裁对伊朗杀伤力远超轰炸，但长期战线或拖累共和党选情</a> [18] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%8A%E6%BC%94%E8%8A%AF%E7%89%87%E9%A3%8E%E6%9A%B4+%E8%8B%B9%E6%9E%9C%E9%87%8D%E8%BF%94%E5%B8%82%E5%80%BC%E7%AC%AC%E4%B8%80" target="_blank" class="news-link">美股上演芯片风暴 苹果重返市值第一</a> [23] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260728080451780800" target="_blank" class="news-link">据Axios网站：美国官员认为，相比于轰炸，经济制裁可能对伊朗造成更大伤害。</a> [28] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%94%B5%E8%A7%86%E5%BC%80%E5%A7%8B%E6%92%AD%E6%94%BEAI%E5%89%A7%E9%9B%86%E4%BA%86%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">电视开始播放AI剧集了</a> [29] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E8%82%A1%E8%BF%8E%E6%9D%A5%E8%8A%AF%E7%89%87%E9%A3%8E%E6%9A%B4%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">美股迎来芯片风暴</a> [30] <font color='grey'>- 08时56分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7666842496224477184" target="_blank" class="news-link">AI时代，JS混淆加密还有用吗？</a> [30] <font color='grey'>- 08时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

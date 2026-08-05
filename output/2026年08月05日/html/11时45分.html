@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 204</p><p>生成时间: 2026-08-05 11:45:10</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">25</td>
+                <td class="percentage">12.25%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vKnanF6ECv" target="_blank" class="news-link">私下谈判态度软化？伊朗考虑让欧洲清除霍尔木兹水雷</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805113713838800" target="_blank" class="news-link">A股午评：科创50指数半日涨超5% 存储芯片概念掀涨停潮</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068088684528791862" target="_blank" class="news-link">外媒称美国拟禁止进口中国新型号的光收发模块，此举将对中美科技竞争及全球数据产业带来哪些影响？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vKxCYCwO7C" target="_blank" class="news-link">美财长透露与伊朗达成协议时间</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/05/e3093033057e4303b9208816669002c8.html" target="_blank" class="news-link">德媒：“旁观”的欧洲应学习中国AI发展模式</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vKyAhdi2cE" target="_blank" class="news-link">特朗普不满坡度与外观，要求重建白宫停机坪</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2445817" target="_blank" class="news-link">AI短剧市场有多火？虚拟演员商单报价超真人网红 但爆款率不足0.5%困局待解</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805113300073800" target="_blank" class="news-link">美国总统特朗普：伊朗不会拥有核武器。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vKr8e96eoW" target="_blank" class="news-link">美国巴西外交冲突升级了！</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vKzM4B96pz" target="_blank" class="news-link">苹果状告OpenAI，反遭嘲讽：律师连邮件都发不对</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E9%99%85%E6%97%AD%E5%88%9B%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%9B%BD%E5%85%89%E6%A8%A1%E5%9D%97%E7%A6%81%E4%BB%A4%E5%BD%B1%E5%93%8D%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">中际旭创回应美国光模块禁令影响</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3778694" target="_blank" class="news-link">SpaceX电话会：剑指美国“第四大运营商”，或提前实现万亿收入目标，芯片锁定英伟达</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805113016011800" target="_blank" class="news-link">早盘收盘，国内期货主力合约涨多跌少，铂涨超7%，钯涨超6%，沪银涨超5%，尿素涨超4%，焦煤涨超3%，沪铅、焦炭涨超2%。跌幅方面，集运欧线跌超9%，SC原油跌超6%，乙二醇（EG）、纯苯、苯乙烯（EB）跌超5%，瓶片跌近5%，对二甲苯、液化石油气（LPG）跌超4%。</a> [11] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2067572483331291076" target="_blank" class="news-link">京东外卖推出 AI 头盔，能语音接单、规划路线、解析备注，对骑手安全和效率有提升吗？会成为外卖标配吗？</a> [13] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%93%9C%E5%AD%90%E6%B0%B4%E9%A5%BA%E7%A9%B6%E7%AB%9F%E2%80%9C%E5%A8%81%E8%83%81%E2%80%9D%E4%BA%86%E7%BE%8E%E5%9B%BD%E4%BB%80%E4%B9%88" target="_blank" class="news-link">瓜子水饺究竟“威胁”了美国什么</a> [14] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805112211407800" target="_blank" class="news-link">美国总统特朗普：伊朗不想承认正在进行谈判，伊朗想达成协议，我们拭目以待。</a> [17] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2598026" target="_blank" class="news-link">中际旭创回应美国光模块禁令影响</a> [19] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805111555175800" target="_blank" class="news-link">美国总统特朗普：霍尔木兹海峡将很快开放，否则伊朗将遭受严重打击。</a> [20] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7669743766019244084" target="_blank" class="news-link">AI我们好像都用错了</a> [20] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805111211037800" target="_blank" class="news-link">据美媒报道，美方计划周三宣布就霍尔木兹海峡达成协议，现货金银多头占比均接近90%，美国原油多头占比升破80%，后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）</a> [22] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/00883" target="_blank" class="news-link">中国海洋石油</a> [24] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260805110945151800" target="_blank" class="news-link">据福克斯新闻：美国总统特朗普表示，我们与伊朗的讨论非常顺利。</a> [25] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7669940984565792819/" target="_blank" class="news-link">美议员质疑美军伊朗战事伤亡统计</a> [27] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=DeepSeek%E8%AE%A9%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%92%B8%E5%8F%914%E4%B8%87%E4%BA%BF&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">DeepSeek让英伟达蒸发4万亿</a> [27] <font color='grey'>- 11时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7670329320713388070/" target="_blank" class="news-link">美国计划关闭5处驻外机构意味什么</a> [28] <font color='grey'>- 11时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

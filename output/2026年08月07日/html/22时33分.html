@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 98</p><p>生成时间: 2026-08-07 22:33:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">17</td>
+                <td class="percentage">17.35%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%87%8D%E7%A3%85%EF%BC%81%E5%8C%97%E4%BA%AC%E8%B0%83%E6%95%B4%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%94%BF%E7%AD%96" target="_blank" class="news-link">重磅！北京调整房地产政策</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807222418037800" target="_blank" class="news-link">乌兹别克斯坦方面称，乌兹别克斯坦总统与美国总统特朗普通电话。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2601420" target="_blank" class="news-link">北京出台房地产新政</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3778924" target="_blank" class="news-link">非农爆冷打击加息预期，美股高开，光通信概念股普涨，光模块制造商AAOI涨超12%，现货黄金突破4350</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2448784" target="_blank" class="news-link">美国7月非农意外减少 美股期指走高 加息预期降温 | 今夜看点</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8C%97%E4%BA%AC%E5%87%BA%E5%8F%B0%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%96%B0%E6%94%BF%E7%AD%96%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">北京出台房地产新政策</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807221921850800" target="_blank" class="news-link">法院裁决显示，美国上诉法院阻止了特朗普4亿美元的白宫宴会厅项目，但暂停执行相关裁决，为期14天，以便政府向最高法院提出上诉。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3778942" target="_blank" class="news-link">中国央行连续21个月增持黄金，7月购金力度提速</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2448836" target="_blank" class="news-link">美国就业市场意外“熄火”：7月非农负增长 劳动参与率跌至5年来新低</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">黄金</a> [11] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2448766" target="_blank" class="news-link">大厂“集中兵力”抢入口 AI办公赛道突然“挤”了起来</a> [13] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807220824000800" target="_blank" class="news-link">白宫国家经济委员会主任哈塞特：特朗普和沃什时时刻刻谈论经济问题。</a> [19] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807220744224800" target="_blank" class="news-link">白宫国家经济委员会主任哈塞特：我相信美国总统特朗普不会给美联储主席沃什关于利率的建议。</a> [20] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807220713739800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：必须尊重和保护国际水道的航行自由以及商业航运的安全畅通。</a> [21] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807220705108800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：船只在霍尔木兹海峡受到的这些袭击导致1名船员遇难，20人受伤。</a> [22] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807220644289800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：正在与相关部门采取措施，以保护员工、资产和运营，并尽可能满足客户需求。</a> [23] <font color='grey'>- 22时33分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260807220456201800" target="_blank" class="news-link">阿联酋阿布扎比国家石油公司ADNOC：本周在霍尔木兹海峡过境时三艘船只遭到袭击。</a> [25] <font color='grey'>- 22时33分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

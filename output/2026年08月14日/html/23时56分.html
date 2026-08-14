@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 86</p><p>生成时间: 2026-08-14 23:56:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">15.12%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814232559287800" target="_blank" class="news-link">美国司法部：亚马逊同意支付225万美元和解金，并接受禁令，以解决涉嫌违反《公平信用报告法》的问题。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3779437" target="_blank" class="news-link">美疲弱零售销售数据再挫加息预期，美股涨跌互现，存储芯片股普涨，闪迪涨约7%，金涨油跌</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814231332310800" target="_blank" class="news-link">美国贸易代表格里尔：加拿大对美国酒类的禁令必须得到解决。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068917345393940011" target="_blank" class="news-link">围棋与境界、修养之类的东西毫无关系，能赢是因为计算力强，这么明显的道理在 AI 以前人们怎么不懂？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814231214926800" target="_blank" class="news-link">美国贸易代表格里尔：加拿大希望采取更具和解性的方式。</a> [11] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814230437653800" target="_blank" class="news-link">巴西总统卢拉：我希望与美国保持良好关系，不想发生冲突。</a> [15] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814230121768800" target="_blank" class="news-link">巴西总统卢拉：我希望与美国保持良好关系，但不幸的是，他们正在对巴西散布谣言。</a> [17] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33737938" target="_blank" class="news-link">对话卡内基梅隆大学教授鲁斯兰（下）：AI时代，我们站在怎样的分岔口？</a> [20] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814230043360800" target="_blank" class="news-link">美国证交会文件：沙特公共投资基金（PIF）披露持有SpaceX(SPCX.O)1.541亿股A类股。</a> [20] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814225853406800" target="_blank" class="news-link">巴西总统卢拉说特朗普一直对他很好，很尊重他。</a> [23] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814225840596800" target="_blank" class="news-link">巴西总统卢拉：我正在努力与特朗普对话，希望能与他保持联系，进行一对一的谈话。</a> [24] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814225733880800" target="_blank" class="news-link">巴西总统卢拉：美国基于谎言对待巴西。</a> [25] <font color='grey'>- 23时56分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260814225245934800" target="_blank" class="news-link">OpenAI首席财务官弗莱尔今日将召开投资者会议。</a> [27] <font color='grey'>- 23时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2026-08-20 01:29:57</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">12</td>
+                <td class="percentage">22.64%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820010612377800" target="_blank" class="news-link">市场消息：支付巨头Stripe同意收购AI路由公司OpenRouter。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820010411780800" target="_blank" class="news-link">美国20年期国债收益率在拍卖后几乎没有变化，下跌7.42个基点至5.205%。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820010257637800" target="_blank" class="news-link">美国至8月19日20年期国债竞拍-得标利率配置百分比 65.58%，前值15.13%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820010251766800" target="_blank" class="news-link">美国至8月19日20年期国债竞拍-得标利率 5.204%，前值5.16%。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%A7%9C%E7%8F%AE%E7%91%B6%E6%89%BE%E5%87%8C%E7%8E%B2%E5%83%8FAI%E4%B8%80%E6%A0%B7%E4%B8%9D%E6%BB%91&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">姜珮瑶找凌玲像AI一样丝滑</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820010238500800" target="_blank" class="news-link">美国至8月19日20年期国债竞拍-投标倍数 2.53，前值2.64。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820010011044800" target="_blank" class="news-link">委内瑞拉加大石油招商力度，拟签署更多产量分成协议</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820005852510800" target="_blank" class="news-link">特朗普预计今年晚些时候会见金正恩</a> [11] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820005329680800" target="_blank" class="news-link">伊朗将军纳赫迪：美国未能实现“推翻伊朗政权”和“分裂伊朗”的战争目标，后续行动已失去战略方向。伊朗当前重点是恢复威慑力，防止对手再次发动攻击。</a> [12] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820005036137800" target="_blank" class="news-link">伊朗将军纳赫迪：停火或谈判本身不是最终目标，关键是建立“让对手不敢再次攻击”的威慑机制。</a> [13] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820004434011800" target="_blank" class="news-link">美国商品期货交易委员会（CFTC）就上线算力衍生品合约公开征求意见。</a> [15] <font color='grey'>- 01时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260820003954444800" target="_blank" class="news-link">美国能源公司Crossover Energy首席执行官表示，公司已与委内瑞拉国家石油公司敲定石油交易协议。</a> [19] <font color='grey'>- 01时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

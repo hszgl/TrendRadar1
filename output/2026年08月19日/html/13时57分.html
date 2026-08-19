@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2026-08-19 13:57:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">10</td>
+                <td class="percentage">11.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/19/b2f3711105e3415195d8e0fe4f8e65d9.html" target="_blank" class="news-link">德专家：美国“军事上赢了，战略上却输了”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8viES1IRwn8" target="_blank" class="news-link">特朗普宣布：推迟3天加征关税</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/08/19/483e77df0a684cf195f73995ad68057c.html" target="_blank" class="news-link">美专家：美国把中企“拒之门外”得不偿失</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819134641990800" target="_blank" class="news-link">AI需求推动 上半年韩国上市公司合并营业利润同比飙升近350%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819134331266800" target="_blank" class="news-link">AI资本开支正在挤出非AI经济</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8viHTd5I3Xw" target="_blank" class="news-link">刚访华不久，美国会机构就嚷嚷：中国占尽优势，咱也得搞</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819134051553800" target="_blank" class="news-link">据报道，受SK海力士等企业芯片产量大增推动，韩国忠清北道今年第二季度的矿业及制造业产出同比增长近28%。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3779747" target="_blank" class="news-link">美国债市遭“重锤”，华尔街：这一次恐非“暂时”，看起来很像2007</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819132245321800" target="_blank" class="news-link">据阿拉比亚电视台：伊朗议会议长卡利巴夫抵达巴格达，将会见伊拉克官员。</a> [20] <font color='grey'>- 13时57分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260819131219226800" target="_blank" class="news-link">江苏出台“人工智能+”工业软件行动方案</a> [29] <font color='grey'>- 13时57分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

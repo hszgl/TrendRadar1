@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 75</p><p>生成时间: 2026-08-24 23:43:08</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">12</td>
+                <td class="percentage">16.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824232342819800" target="_blank" class="news-link">市场消息：美国战略石油储备的原油库存上周下降约370万桶，降至2.897亿桶，为1982年以来最低水平。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824230607218800" target="_blank" class="news-link">英伟达：Nebius成为首家采用英伟达Groq 3 LPX的AI云服务商。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824230514893800" target="_blank" class="news-link">英伟达：SpaceXAI Starmind卫星将使用新一代机架级代理型AI超级计算机与基础设施平台Vera Rubin NVL72。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824230414513800" target="_blank" class="news-link">英伟达的Groq 3 LPX输出速度达到每秒3400个Token。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824230343944800" target="_blank" class="news-link">英伟达：SpaceXAI将在Vera Rubin平台上扩展GROK。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824230251240800" target="_blank" class="news-link">市场消息：SpaceXAI将采用英伟达Vera CPU，以大规模加速智能体AI。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824230143374800" target="_blank" class="news-link">市场消息：英伟达旗下AI推理加速器Groq 3 LPX已全面投入生产。</a> [12] <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824230003946800" target="_blank" class="news-link">谈崩之后再加码：特朗普对加拿大汽车产业亮出50%关税大棒</a> [14] <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7676809747731300371/" target="_blank" class="news-link">小米发布国内首款3nm智驾芯片</a> [21] <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%8A%A0%E8%B0%88%E5%B4%A9%E7%89%B9%E6%9C%97%E6%99%AE%E6%B0%94%E5%88%B0%E7%9D%A1%E4%B8%8D%E7%9D%80%23&amp;t=31&amp;band_rank=21&amp;Refer=top" target="_blank" class="news-link">美加谈崩特朗普气到睡不着</a> [21] <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824223842669800" target="_blank" class="news-link">“消失的石油”？霍尔木兹通航数据成谜，美方与商业数据分歧显著</a> [24] <font color='grey'>- 23时43分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260824223619294800" target="_blank" class="news-link">特朗普对加拿大汽车和钢铁加征关税，对多领域的潜在影响</a> [26] <font color='grey'>- 23时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

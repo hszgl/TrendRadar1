@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-08-25 01:34:58</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">40.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825012325100800" target="_blank" class="news-link">美国财政部：美国撤销了对努斯拉阵线（也称为沙姆解放阵线，HTS）的“特别指定全球恐怖分子”认定。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825012259414800" target="_blank" class="news-link">金十提示：美国财长贝森特结束讲话。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825012240903800" target="_blank" class="news-link">美国财长贝森特：阿联酋一直是很好的合作伙伴，承受了伊朗袭击带来的主要冲击。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825012134835800" target="_blank" class="news-link">美国财长贝森特：我们认为发出警告并进行重新校准是适当的行动。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825012106951800" target="_blank" class="news-link">美国财长贝森特：不要轻视二级制裁的影响，二级制裁是一种非常强大的工具。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825012050226800" target="_blank" class="news-link">美国财长贝森特：我们尚未购买任何债券，下次操作是在9月9日。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825012003798800" target="_blank" class="news-link">美国财政部：美国国务院当地时间周一取消了对叙利亚“支持恐怖主义国家”的认定。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011934851800" target="_blank" class="news-link">美国财长公布多项针对伊朗的经济制裁措施</a> [11] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011901661800" target="_blank" class="news-link">美国财长贝森特：本周末前将有一家主要金融机构因伊朗问题受到制裁。</a> [12] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2462867" target="_blank" class="news-link">AI芯片万亿市场迎来群雄竞逐 英伟达“护城河”遭遇四路大军围攻</a> [13] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011838883800" target="_blank" class="news-link">美国财长贝森特：美国总统特朗普希望加拿大能够坐下来真诚谈判。</a> [13] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011744122800" target="_blank" class="news-link">美国财长贝森特：过去那种靠给伊朗好处换取其克制的政策已经行不通了。</a> [14] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011555819800" target="_blank" class="news-link">美国财长贝森特：预计其他国家将采取类似行动孤立伊朗。</a> [15] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011543482800" target="_blank" class="news-link">美国财长贝森特：我们将继续进行常规的国债拍卖计划。</a> [16] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7677517230615039526/" target="_blank" class="news-link">大V：特朗普想打经济战发现没人跟风</a> [17] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011500687800" target="_blank" class="news-link">美国财长贝森特：我们正在与每个国家进行沟通，告知他们我们的期望。</a> [17] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011359535800" target="_blank" class="news-link">美国财长贝森特：不会设定切断与伊朗关系的具体时间表，我们没有无限的耐心。</a> [18] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011330820800" target="_blank" class="news-link">美国财长贝森特：世界各国领导人必须做出决定，伊朗问题行动将于今日开始。</a> [19] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011242322800" target="_blank" class="news-link">美国财长贝森特：任何为伊朗洗钱提供便利的实体将被移出美元体系。</a> [20] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011212399800" target="_blank" class="news-link">美国财长贝森特：没有人能凌驾于美国制裁之上。</a> [21] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011154003800" target="_blank" class="news-link">加拿大总理卡尼：（关于特朗普最新的关税威胁）美国采取某种形式的报复并不令人意外。</a> [22] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011122184800" target="_blank" class="news-link">加拿大总理卡尼：关注美国总统特朗普的50%汽车关税威胁。</a> [23] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011110214800" target="_blank" class="news-link">加拿大总理卡尼：美国总统特朗普希望在他的谈判条件下摧毁我们的关键产业。</a> [24] <font color='grey'>- 01时34分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260825011015728800" target="_blank" class="news-link">美国财长贝森特：与伊朗的任何经济往来都将使相关责任人面临“美国力量的全面制裁”。</a> [25] <font color='grey'>- 01时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

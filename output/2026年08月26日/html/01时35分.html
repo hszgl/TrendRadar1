@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2026-08-26 01:35:32</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">30.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826013119197800" target="_blank" class="news-link">据巴西媒体：巴西与美国将于当地时间8月31日讨论关税问题。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826012959147800" target="_blank" class="news-link">加拿大总理卡尼：加拿大将对美国的新关税实施等额对等关税，分毫不差。此外，我们还将推出总额达75亿加元的额外强化支持措施，以援助加拿大劳动者与企业。这笔资金将叠加在此前美国无理加征关税以来已宣布的约250亿加元支持措施之上。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826012042048800" target="_blank" class="news-link">美国得州野火蔓延超200平方公里 农村地区居民被疏散</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826011644978800" target="_blank" class="news-link">霍尔木兹海峡中央航道恢复通行 美国称已清除全部水雷</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826011235114800" target="_blank" class="news-link">据Axios：美国官员表示，过去30天内，已有超过500艘船只通过霍尔木兹海峡南部航道进出，其中仅约2%的船只遭到伊朗无人机或导弹袭击。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826010438809800" target="_blank" class="news-link">美国两年期国债收益率在拍卖后保持稳定，最新下跌3.43个基点，报4.202% 。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826010242539800" target="_blank" class="news-link">美国至8月25日2年期国债竞拍-得标利率配置百分比 85.68%，前值69.04%。</a> [11] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826010235934800" target="_blank" class="news-link">美国至8月25日2年期国债竞拍-得标利率 4.204%，前值4.32%。</a> [12] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2464064" target="_blank" class="news-link">美加贸易战升级 特朗普称考虑将安大略湖改名“美国湖”</a> [13] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826010227908800" target="_blank" class="news-link">美国至8月25日2年期国债竞拍-投标倍数 2.6，前值2.66。</a> [13] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826010140622800" target="_blank" class="news-link">蒙特利尔银行：重新谈判《美墨加协定》将给贸易政策和加拿大经济带来重大风险。预计加拿大将继续享有合规豁免，大部分出口商品仍可免关税进入美国。</a> [15] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826010043858800" target="_blank" class="news-link">蒙特利尔银行：最新的美国关税可能会降低加拿大的年度经济增长。</a> [16] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826005419332800" target="_blank" class="news-link">据Axios：两名美国官员证实，特朗普此前宣布霍尔木兹海峡的水雷已全部清除的消息属实。美国海军已清理霍尔木兹海峡中央航道，也就是连接伊朗和阿曼之间、供商船通行的主要航线。</a> [18] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260826003500556800" target="_blank" class="news-link">伊朗能源交易所：进口超级汽油最新成交价约每升9万土曼</a> [20] <font color='grey'>- 01时35分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E9%87%8F%E4%BA%A72nm%E8%8A%AF%E7%89%87%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">苹果发布全球首款量产2nm芯片</a> [30] <font color='grey'>- 01时35分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 60</p><p>生成时间: 2026-09-02 06:29:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">26</td>
+                <td class="percentage">43.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7680480074214166059/" target="_blank" class="news-link">华东地区发现特大铜金矿有何影响</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3780783" target="_blank" class="news-link">美伊冲突升级油价飙升5%，美国股债双杀，半导体与软件重挫，黄金失守4350美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902062224093800" target="_blank" class="news-link">美国财长贝森特：利率将在我们渡过这一阶段后下降。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902062210704800" target="_blank" class="news-link">美国财长贝森特：资本支出将转化为生产力，并极大地降低通胀压力。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902062055733800" target="_blank" class="news-link">美国财长贝森特：伊朗总统佩泽希齐扬、议长卡利巴夫和央行行长承认伊朗面临经济问题；伊朗经济崩溃只是时间问题。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061954728800" target="_blank" class="news-link">美国财长贝森特：伊朗无法获得美元，正处于垂死挣扎中。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061814803800" target="_blank" class="news-link">全球最大黄金ETF--SPDR Gold Trust持仓较上日增加4.279吨，当前持仓量为1046.636吨。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061810942800" target="_blank" class="news-link">美国财长贝森特：两艘船只在霍尔木兹海峡未遭水雷袭击。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061538793800" target="_blank" class="news-link">美国财长贝森特：正在创造私营部门就业机会。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061510091800" target="_blank" class="news-link">美国财长贝森特：收入最低四分之一的群体正在实现实际工资增长。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061400954800" target="_blank" class="news-link">美国财长贝森特：最重要的事情是实现更高的增长。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2471341" target="_blank" class="news-link">美伊互轰深夜升级！特朗普称打击规模“庞大且强劲” 美股受累跳水</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061330115800" target="_blank" class="news-link">美国财长贝森特：盟友确认支持针对伊朗的“经济弃儿”行动；将追究任何支持伊朗政权的实体。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061243459800" target="_blank" class="news-link">美国财长贝森特：将关闭任何向伊朗转移资金的渠道。</a> [11] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061242088800" target="_blank" class="news-link">美国财长贝森特：目前伊朗储存在海上的原油数量极少。</a> [12] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061046558800" target="_blank" class="news-link">美国财长贝森特：与未受制裁的俄罗斯金融部长会面。</a> [13] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061036688800" target="_blank" class="news-link">美国财长贝森特：许多盟友表示，他们将采取一切必要措施应对伊朗问题。</a> [14] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902061008975800" target="_blank" class="news-link">科威特军方：科威特空中防御系统目前正在应对来自伊朗的无人机攻击。</a> [15] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902060721178800" target="_blank" class="news-link">美国财长贝森特：与加拿大财长讨论了人工智能和全球不平衡问题。</a> [16] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902060106413800" target="_blank" class="news-link">美国财长贝森特：债务困境可能阻碍企业对员工和未来的投资。</a> [19] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902060052427800" target="_blank" class="news-link">亚马逊云服务(AWS)：为2026年美国大选扩展数字竞选防御方案，提供20多项免费或低成本的网络安全服务。</a> [20] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902060040262800" target="_blank" class="news-link">WTI原油周三小幅低开，现货黄金小幅高开。</a> [22] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902055946238800" target="_blank" class="news-link">美国财长贝森特：增长是持久繁荣的基础。G20讨论强调资源的丰富性。</a> [23] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902055227493800" target="_blank" class="news-link">戴尔(DELL.N)首席运营官：公司正面临零星的 CPU 和硬盘短缺，同时看到其存储产品在人工智能领域的应用正在增加。</a> [27] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7680500174254247462/" target="_blank" class="news-link">房地产将告别期房预售时代</a> [28] <font color='grey'>- 06时29分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E7%94%A8100%E5%A4%A9%E6%89%8B%E6%90%93AI%E6%A1%8C%E5%AE%A0" target="_blank" class="news-link">UP主用100天手搓AI桌宠</a> [28] <font color='grey'>- 06时29分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

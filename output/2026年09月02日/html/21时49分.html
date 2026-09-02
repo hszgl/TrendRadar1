@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 177</p><p>生成时间: 2026-09-02 21:49:54</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">8.47%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E5%9C%B0%E5%8B%A4%E6%9A%B4%E5%8A%9B%E6%8D%9F%E5%9D%8F%E4%B8%AD%E5%9B%BD%E9%A3%9E%E6%9C%BA%EF%BC%9F%E5%9B%BD%E8%88%AA%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">美国地勤暴力损坏中国飞机？国航回应</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2471980" target="_blank" class="news-link">“一块板子”卖到12万元/平米，AI又撑起一个千亿级产业</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902214633697800" target="_blank" class="news-link">加拿大央行：不确定性很高，新一轮美国关税及进一步行动的威胁对复苏的可持续性构成风险。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7680509153680556086/" target="_blank" class="news-link">伊朗：4名士兵在美军袭击中死亡</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902214617513800" target="_blank" class="news-link">加拿大央行：中东冲突和美国关税形势仍然不稳定。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3780923" target="_blank" class="news-link">“小非农”低于预期！美国8月ADP新增就业3.8万人，创下今年以来最低单月增长纪录</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8w63t4Ss1CL" target="_blank" class="news-link">国航回应“美国地勤不拔油管扯爆飞机油箱”</a> [11] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902214316044800" target="_blank" class="news-link">现货白银日内涨幅扩大至2%，现报65.35美元/盎司。</a> [13] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902214243377800" target="_blank" class="news-link">现货黄金日内涨幅达1%，现报4372.30美元/盎司。</a> [14] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902214147549800" target="_blank" class="news-link">英伟达CEO黄仁勋敦促G20加快AI应用，以促进经济增长</a> [16] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260902214141437800" target="_blank" class="news-link">伊朗驳斥美中央司令部：锡里克婚礼袭击不是故事，受害者真实存在</a> [17] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33992478" target="_blank" class="news-link">法学精英、新手母亲，在时代广场遇刺的美国银行高管是谁？</a> [20] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B5%B7%E4%B8%8A%E6%BC%82%E4%BA%86272%E5%A4%A9%E7%9A%84%E7%BE%8E%E5%9B%BD%E6%B0%B4%E5%85%B5%E7%99%BB%E9%99%86%E4%BA%86" target="_blank" class="news-link">海上漂了272天的美国水兵登陆了</a> [25] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SZ000506" target="_blank" class="news-link">招金黄金</a> [27] <font color='grey'>- 21时49分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7680812223383584794/" target="_blank" class="news-link">美国林肯号航母停靠泰国港口</a> [28] <font color='grey'>- 21时49分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

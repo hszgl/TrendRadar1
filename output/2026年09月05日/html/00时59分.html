@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 370</p><p>生成时间: 2026-09-05 00:59:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">51</td>
+                <td class="percentage">13.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7681646221273943578/" target="_blank" class="news-link">中国女篮不敌美国女篮</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781105" target="_blank" class="news-link">非农大爆表！美国8月新增就业16.2万人，预期仅5.5万人，失业率维持在4.1%不变</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474660" target="_blank" class="news-link">美国8月非农大超预期 美股三大期指涨跌不一 | 今夜看点</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781033" target="_blank" class="news-link">“欢迎进入AGI时代”！OpenAI发布GPT-6 Astra，10万GPU训练，网安能力首达“关键”级</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474737" target="_blank" class="news-link">美国8月非农录得16.2万大超预期 美联储9月加息押注升温</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2634859" target="_blank" class="news-link">女篮世界杯中国61:94美国</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/NVDA" target="_blank" class="news-link">英伟达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7680741276414296104" target="_blank" class="news-link">AI全栈开发最佳实践💐</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3780985" target="_blank" class="news-link">沃勒发言打击加息预期，美股指两连涨，标普创一个月最大涨幅，日元急升2%，黄金大涨</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/04/0f4bb6b02988485ea9dd50edd9f4e101.html" target="_blank" class="news-link">以色列总理：推翻伊朗领导层仍是“核心任务”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905003503598800" target="_blank" class="news-link">特朗普：增长不会导致通胀，应维持全球最低利率</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/04/d87a1eac626c46a7a20e885655c91735.html" target="_blank" class="news-link">外媒：万斯称与伊朗冲突并非“战争”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781079" target="_blank" class="news-link">今晚美国非农大考，“好消息”也是“坏消息”！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905003333059800" target="_blank" class="news-link">美国总统特朗普：增长不会导致通胀。如果继续坚持当前理论，美国将无法实现应有的经济繁荣。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474406" target="_blank" class="news-link">错过AI，基金经理公开承认“失职”，半年报中一波集中道歉</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905003311540800" target="_blank" class="news-link">美国总统特朗普：最新公布的就业数据表现良好，市场本应上涨，但由于长期存在的“担忧通胀”理念，股市反而下跌。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7681676937646932531/" target="_blank" class="news-link">中国女篮失误次数是美国女篮两倍多</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474575" target="_blank" class="news-link">多国从美国运回黄金</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8w8XoLbfDkX" target="_blank" class="news-link">以防长威胁让伊朗回到石器时代</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2635027" target="_blank" class="news-link">多国从美国运回黄金</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474429" target="_blank" class="news-link">【焦点复盘】科创50高开低走跌超2%，AI产业链现“硬切软”行情，粮食概念卷土重来</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7681676033841434148/" target="_blank" class="news-link">美总统称赞美国“就业数据”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781108" target="_blank" class="news-link">特朗普施压沃什降息：高利率令美国陷入“不公平劣势”，否则停止与逆差国贸易</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7680757400489738276" target="_blank" class="news-link">AI 时代，也许你的 Flutter 需要一套 Dartastic OpenTelemetry 监控</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34003038" target="_blank" class="news-link">用AI审核游戏：从“删词”到“读心”，谁来定义“毒性”？</a> [11] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905003017247800" target="_blank" class="news-link">乌克兰总统泽连斯基：与北约秘书长吕特进行了交谈。我向他介绍了俄罗斯袭击的情况、我们的防御需求，以及与美国总统代表举行会谈的准备工作。</a> [11] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7681146373547868166" target="_blank" class="news-link">一周之内，前端 AI 编程的格局被彻底改写了三次</a> [12] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2079140562767295956" target="_blank" class="news-link">2026 女篮世界杯小组赛，中国女篮 61-94 不敌美国女篮，如何评价本场比赛？</a> [12] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE61%E6%AF%9494%E7%BE%8E%E5%9B%BD%E5%A5%B3%E7%AF%AE" target="_blank" class="news-link">中国女篮61比94美国女篮</a> [13] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/04/fc3ca05a9d5b4ea3aa56740cff7b4ee2.html" target="_blank" class="news-link">外媒：英伟达欲以129亿美元收购“抱抱脸”公司</a> [14] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7681635421662481963/" target="_blank" class="news-link">650亿桶石油为何压不住美国油价</a> [15] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34007024" target="_blank" class="news-link">新闻蒸馏器｜适龄人口锐减，美国数百所大学免申请“直接录取”抢生源</a> [15] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905001607548800" target="_blank" class="news-link">美国财长贝森特：伊朗的出口生命线正被切断，石油滞留、库容见底、收入急剧缩水。</a> [15] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2078552060379902048" target="_blank" class="news-link">国航回应「美国地勤不拔油管扯爆国航油箱」，航班加油时加油车非正常移动导致飞机部件损伤，如何看待此事？</a> [15] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34000995" target="_blank" class="news-link">一图世界｜美军称伊朗使用火箭布设水雷，真的可行吗？</a> [17] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E5%8F%91%E6%96%87%E8%B5%9E%E8%B5%8F%E7%BE%8E%E5%9B%BD8%E6%9C%88%E9%9D%9E%E5%86%9C%E6%95%B0%E6%8D%AE%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">特朗普发文赞赏美国8月非农数据</a> [17] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE61-94%E4%B8%8D%E6%95%8C%E7%BE%8E%E5%9B%BD%E5%A5%B3%E7%AF%AE" target="_blank" class="news-link">中国女篮61-94不敌美国女篮</a> [18] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2074085438403489864" target="_blank" class="news-link">如何看待日本 GDP 占美国的比重从 1995 年的 71% 下降到 2026 年的 13%？</a> [18] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905001233149800" target="_blank" class="news-link">乌克兰总统泽连斯基呼吁俄罗斯在美国特使访问期间停止对乌克兰的攻击。</a> [19] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/ALB" target="_blank" class="news-link">美国雅保</a> [20] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=OpenAI%E6%80%BB%E8%A3%81%E5%AE%A3%E5%B8%83AGI%E5%88%B0%E6%9D%A5" target="_blank" class="news-link">OpenAI总裁宣布AGI到来</a> [21] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/04/12770149a8914de199658cd526ac2ad9.html" target="_blank" class="news-link">日媒：日本财务大臣否认曾被美国财长诘问</a> [21] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905001118254800" target="_blank" class="news-link">乌克兰总统泽连斯基：乌克兰将在美国谈判代表访问莫斯科时保证俄罗斯空域的安全。</a> [21] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905001042763800" target="_blank" class="news-link">消息人士：美国总统特朗普预计将在周五签署一项与牛肉相关的行政命令。</a> [22] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7680812218214072354" target="_blank" class="news-link">面试官让我用 AI 重构一个 8 年陈的 React 组件——他说他不看代码，只看我会不会拆</a> [22] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260905000941872800" target="_blank" class="news-link">乌克兰总统泽连斯基：美国谈判代表将于周日访问基辅。</a> [23] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7680833230097481763" target="_blank" class="news-link">🎮 豆包完胜 DeepSeek ？！零玩家竞技场，AI Agent 专属对弈！</a> [25] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/04/811b8b2c34bc42cdb111a6f4abd906b7.html" target="_blank" class="news-link">外媒：万斯证实正调查“美军空袭伊朗婚礼现场”事件</a> [26] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7681160462331772969" target="_blank" class="news-link">天才陨落了！三大 AI 集体不可用！</a> [29] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7680388981322645554/" target="_blank" class="news-link">多国从美国运回黄金有何影响</a> [30] <font color='grey'>- 00时59分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/03/a75949d1b50e45f39d31415f650cdf98.html" target="_blank" class="news-link">133个国家完成缴纳，美国拖欠联合国巨额会费</a> [30] <font color='grey'>- 00时59分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

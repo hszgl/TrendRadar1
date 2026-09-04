@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 219</p><p>生成时间: 2026-09-04 16:42:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">15</td>
+                <td class="percentage">6.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260904161958363800" target="_blank" class="news-link">“末日博士”鲁比尼：推动收益率上升的最大因素是科技支出；不认为人工智能属于泡沫。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2079133158939824398" target="_blank" class="news-link">特斯拉 Cybercab 在美投入运营，取消方向盘和踏板，纯视觉技术路线无人车型，会颠覆美国网约车行业吗？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474064" target="_blank" class="news-link">美国首只中国人形机器人ETF上市，背后原因何在？</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2474109" target="_blank" class="news-link">黄金下一波牛市要来了？专家：年内还能涨30%，“鹰派FED”光说不做！</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7680388981322645554/" target="_blank" class="news-link">多国从美国运回黄金有何影响</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781018" target="_blank" class="news-link">英伟达同意收购Hugging Face，黄仁勋：允许自由上传、下载模型，不强制使用英伟达硬件</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/04/fc3ca05a9d5b4ea3aa56740cff7b4ee2.html" target="_blank" class="news-link">外媒：英伟达欲以129亿美元收购“抱抱脸”公司</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260904161120086800" target="_blank" class="news-link">安联首席顾问：美国财政部的行为“太过激进”</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260904160840961800" target="_blank" class="news-link">港股收盘，恒生指数收涨1.74%，恒生科技指数收涨2.27%；猪肉、明星科网、AI应用、智能驾驶等板块涨幅居前；希音-W(00625.HK)跌超9%。</a> [12] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/04/12770149a8914de199658cd526ac2ad9.html" target="_blank" class="news-link">日媒：日本财务大臣否认曾被美国财长诘问</a> [17] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260904160124753800" target="_blank" class="news-link">金十图示：2026年09月04日（周五）上海黄金交易所市场行情</a> [18] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7681146373547868166" target="_blank" class="news-link">一周之内，前端 AI 编程的格局被彻底改写了三次</a> [21] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260904160044330800" target="_blank" class="news-link">上海黄金交易所9月4日（周五）交易行情</a> [23] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7680833230097481763" target="_blank" class="news-link">🎮 豆包完胜 DeepSeek ？！零玩家竞技场，AI Agent 专属对弈！</a> [27] <font color='grey'>- 16时42分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7680387129118277686" target="_blank" class="news-link">AI 视频迎来了奇点时刻</a> [29] <font color='grey'>- 16时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

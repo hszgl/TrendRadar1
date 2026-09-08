@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 64</p><p>生成时间: 2026-09-09 05:20:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">20.31%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909045209786800" target="_blank" class="news-link">OpenAI内部模型88小时暴力攻克千禧年数学难题</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909045200502800" target="_blank" class="news-link">现货黄金向下触及4350美元/盎司，日内跌1.37%。</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909043515909800" target="_blank" class="news-link">特朗普拟取消加拿大超500亿美元GSA采购计划资格</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909043231362800" target="_blank" class="news-link">美官员透露美军打击哈尔克岛附近伊朗目标</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909043058510800" target="_blank" class="news-link">美国总统特朗普：指示美国总务管理局（GSA）与美国贸易代表办公室（USTR）合作，采取一切必要措施，将加拿大原产产品从GSA的多项采购计划中移除。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909042921471800" target="_blank" class="news-link">美国官员：针对伊朗多次对美国海军军舰的导弹攻击尝试，美国军队已对与伊朗革命卫队有关的多艘伊朗油轮进行了打击。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909042505416800" target="_blank" class="news-link">据伊朗国家广播公司IRIB：美国在贾斯克水域附近袭击了第二艘油轮。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909042057306800" target="_blank" class="news-link">伊朗据称连续发动对美袭击 美方警惕其导弹升级</a> [13] <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2080276423739172027" target="_blank" class="news-link">特朗普发布新版「美国总统从夯到拉排名」，自己夯爆了，拜登、奥巴马在「失败区」，你怎么看特朗普的排名？</a> [19] <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909040058490800" target="_blank" class="news-link">伊朗方面威胁打击海湾地区港口船只</a> [23] <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909035830417800" target="_blank" class="news-link">据伊朗革命卫队旗下媒体Sepahnews：伊朗革命卫队质疑美方称无人潜航器故障说法，称如果该无人潜航器确实缺少声呐等关键设备，为何仍在霍尔木兹海峡水域执行任务。伊方认为，美方强调设备老旧和缺乏敏感装备，是为了降低该事件的影响。</a> [24] <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909035225896800" target="_blank" class="news-link">据华尔街日报：据美国官员透露，伊朗周一对美国海军舰艇发动了一次袭击，但美国军方尚未公开确认。此前，伊朗在周末曾向美国一艘航空母舰和一艘导弹驱逐舰发射弹道导弹。美国官员称，袭击未造成美国舰艇受损，但伊朗近期多次尝试打击美国海军资产，引发美方对其使用更先进武器的担忧。</a> [26] <font color='grey'>- 05时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260909034542887800" target="_blank" class="news-link">博通(AVGO.O)CEO：公司可以锁定2027年的芯片供应，目前正在锁定2028年的供应。</a> [28] <font color='grey'>- 05时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

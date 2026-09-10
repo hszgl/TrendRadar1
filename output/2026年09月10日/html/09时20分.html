@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 144</p><p>生成时间: 2026-09-10 09:20:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">23</td>
+                <td class="percentage">15.97%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2478804" target="_blank" class="news-link">【早报】深夜，苹果折叠屏手机发布，起售价15999元；重磅发布会，今日举行，央行、金融监管总局、证监会、外汇局等出席；原油飙升、黄金走强</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910091942483800" target="_blank" class="news-link">消息称英伟达Rubin Ultra芯片拟改用8层HBM</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7683678605951372809/" target="_blank" class="news-link">特朗普预告战事将终结 伊朗开出条件</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wHYX9oATYv" target="_blank" class="news-link">被伊朗警告后，韩国还派兵吗？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910091527518800" target="_blank" class="news-link">2026年9月10日银行间外汇市场人民币汇率中间价</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910091435214800" target="_blank" class="news-link">据华尔街日报：美国总统特朗普登台为中期选举陈述共和党主张。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781415" target="_blank" class="news-link">霍尔木兹海峡风险骤升！伊朗称将设立新的海上“制裁区域”，布油重返100美元</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3781412" target="_blank" class="news-link">27岁研究员连辞OpenAI、Anthropic！两家都在拿我们的命下注</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2478812" target="_blank" class="news-link">特朗普称美伊战事将在中期选举后“立即终结” | 环球市场</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2478825" target="_blank" class="news-link">美伊战事中期选举后“终结”！特朗普抛最新时间表 伊朗重申止战条件</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910090500001800" target="_blank" class="news-link">美国总统特朗普将于十分钟后在达拉斯美国航空中心发表讲话。</a> [13] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AirPods%205%20%E7%9C%9F%E6%9C%BA%E6%B5%8B%E8%AF%84" target="_blank" class="news-link">AirPods 5 真机测评</a> [14] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34036556" target="_blank" class="news-link">“1890年美国就想用关税吞并我们”，加拿大总理发表全国动员应战讲话</a> [15] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%BB%84%E9%87%91%E7%99%BD%E9%93%B6%E5%A4%A7%E8%B7%8C&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">黄金白银大跌</a> [15] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910090228491800" target="_blank" class="news-link">海湾石油运输量统计失准，不确定性推高油价风险溢价</a> [15] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910090200554800" target="_blank" class="news-link">比亚迪在互动平台表示，第二代刀片电池产线改造与扩产稳步推进，目前闪充车型订单需求充足，公司将全力推进产能释放。</a> [16] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=AirPods5+%E4%BE%BF%E5%AE%9C" target="_blank" class="news-link">AirPods5 便宜</a> [19] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910090013866800" target="_blank" class="news-link">上海黄金交易所黄金T+D 9月10日（周四）早盘盘初上涨0.73%报954.09元/克；&lt;br/&gt;上海黄金交易所白银T+D 9月10日（周四）早盘盘初上涨1.38%报16325.0元/千克。</a> [20] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7683674493318860314/" target="_blank" class="news-link">曝特朗普未反对英国等国涉以制裁</a> [22] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910084818857800" target="_blank" class="news-link">金十图示：2026年09月10日（周四）白银ETF持仓报告</a> [23] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910084752562800" target="_blank" class="news-link">加州州长签署获Anthropic和OpenAI支持的AI安全法案</a> [24] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910084542315800" target="_blank" class="news-link">美国中期选举相关政治广告支出达到60亿美元</a> [27] <font color='grey'>- 09时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260910084203144800" target="_blank" class="news-link">美国联邦住房局局长表示，将立即把房利美和房地美的内部信用评分数据纳入MBS、CRT及其他证券化产品中。</a> [28] <font color='grey'>- 09时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 202</p><p>生成时间: 2026-09-12 13:31:33</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">10.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912131504438800" target="_blank" class="news-link">伊朗革命卫队发言人：也门安萨鲁拉（胡塞武装）在西部海岸的胜利，是一场神圣胜利的写照，也是多年来在最艰难战场上坚持的成果。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2082035913132193247" target="_blank" class="news-link">陶哲轩、邓煜等菲奖得主联合抗议 AI 公司数学军备竞赛，AI 是否在毁掉数学？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=25%E4%BD%8D%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%BE%97%E4%B8%BB%E8%AD%A6%E5%91%8A%EF%BC%9AAI%E6%AD%A3%E6%AF%81%E6%8E%89%E6%95%B0%E5%AD%A6" target="_blank" class="news-link">25位菲尔兹奖得主警告：AI正毁掉数学</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://original.ifeng.com/c/8wLwf1DbPBs" target="_blank" class="news-link">美企称伊朗试图利用AI大模型攻击美国军舰，详情披露</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%95%B0%E5%AD%A6%E5%AE%B6%E4%B8%BA%E4%BD%95%E6%8A%B5%E5%88%B6AI%E6%95%B0%E5%AD%A6%E9%BB%91%E5%AE%A2%E6%9D%BE" target="_blank" class="news-link">数学家为何抵制AI数学黑客松</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%BE%97%E4%B8%BB%E7%A7%B0AI%E4%B8%8E%E6%95%B0%E5%AD%A6%E6%AD%A3%E4%B8%A5%E9%87%8D%E9%94%99%E4%BD%8D%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">菲尔兹奖得主称AI与数学正严重错位</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://original.ifeng.com/c/8wM2pkaSs1S" target="_blank" class="news-link">纽约举办“9·11”纪念活动：特朗普缺席，4位前总统出席</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2081393640379893635" target="_blank" class="news-link">陶哲轩发文称「AI 正杀死数学百年开放传统」，你如何看待这一观点？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%98%8E%E5%AD%A6%E9%80%9A%E6%8B%86%E8%A7%A3%E7%BE%8E%E5%9B%BD%E5%A4%96%E4%BA%A4%E7%AD%96%E7%95%A5" target="_blank" class="news-link">阎学通拆解美国外交策略</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7684218756874174491/" target="_blank" class="news-link">美国再陷入9·11后海外持久战困境</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2481345" target="_blank" class="news-link">特朗普连续3天许诺：共和党赢下中期选举，将向所有美国成年人发放5000美元</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2081684942476375940" target="_blank" class="news-link">知名黄金珠宝品牌千叶珠宝疑暴雷，创始人夫妇失联，大量员工称遭欠薪，具体情况如何？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912121636178800" target="_blank" class="news-link">铜价局中局：全球喊缺铜，美国却囤疯？</a> [11] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2078761189157425780" target="_blank" class="news-link">加拿大一向很听美国的话，这次怎么敢真的和美国打贸易战？</a> [11] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7683684464609755145/" target="_blank" class="news-link">25位菲尔兹奖得主：AI正毁掉数学</a> [13] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912120544145800" target="_blank" class="news-link">英媒：美国限制油轮通过霍尔木兹海峡的防空时段</a> [13] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7684225409808990271/" target="_blank" class="news-link">特朗普盟友：美低估中国科技先进</a> [20] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912112600325800" target="_blank" class="news-link">OpenAI Codex产品负责人：已修复Astra多项质量问题，今日午夜前将重置</a> [21] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2646100" target="_blank" class="news-link">AirPods 5首发评测</a> [23] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912103303391800" target="_blank" class="news-link">美国总统特朗普：我要求史密森学会将近日在“自由250大奖赛”上展出的那座11英尺华盛顿雕像安置在博物馆的国旗厅，并在2026年9月17日宪法日举行揭幕仪式。</a> [26] <font color='grey'>- 13时31分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260912103111910800" target="_blank" class="news-link">加拿大称与美国尚无贸易谈判安排</a> [27] <font color='grey'>- 13时31分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

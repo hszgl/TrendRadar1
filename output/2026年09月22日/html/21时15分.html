@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 214</p><p>生成时间: 2026-09-22 21:15:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">25</td>
+                <td class="percentage">11.68%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2489879" target="_blank" class="news-link">3倍性能最强芯片、10万亿参数模型、20GW数据中心……阿里云栖大会“火力全开”</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34121849" target="_blank" class="news-link">美国五大电视网白宫记者团暂停报道特朗普，三大媒体联合起诉</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922210549004800" target="_blank" class="news-link">黄金空头发力，但震荡格局仍未打破，多空博弈鹿死谁手？金十研究员Steven正在直播，立即观看&gt;&gt;&lt;font class=&quot;important-text&quot;&gt;&lt;/font&gt;</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8F%91%E7%8E%B0%E8%B6%85%E5%A4%A7%E5%9E%8B%E9%93%9C%E9%87%91%E7%9F%BF" target="_blank" class="news-link">中国发现超大型铜金矿</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782272" target="_blank" class="news-link">最强国产AI芯片、20GW数据中心、千问手机、个人agent—阿里云栖大会“火力全开”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Meta%20AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%A6%82%E4%BD%95%E5%BD%B1%E5%93%8D%E7%BE%8E%E8%82%A1" target="_blank" class="news-link">Meta AI智能体如何影响美股</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922210407117800" target="_blank" class="news-link">美媒：特朗普称若“条件合适”希望在纽约与伊朗官员会面</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782263" target="_blank" class="news-link">黑石：我们正处在“1870 年的拂晓时刻”，抓住“AI时代”的“牛肉”</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2490193" target="_blank" class="news-link">【焦点复盘】市场全天现放量滞涨，AI软硬件再度分化，两只新股上市首日双双大涨超6.8倍</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922210243717800" target="_blank" class="news-link">知情人士：DeepSeek将向联合国介绍AI风险</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/09/22/acd58a0e5e8642d1807cc15f4a5cae9c.html" target="_blank" class="news-link">俄媒：俄罗斯增加对华石油天然气出口</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782269" target="_blank" class="news-link">A股三大股指尾盘一度转跌，算力芯片掀涨停潮，AI应用拉升，恒指、恒科指小幅收涨，腾讯阿里集体反弹</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2490143" target="_blank" class="news-link">【每日收评】创业板指冲高回落微涨收盘，AI应用概念全线爆发，算力硬件股午后调整</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2085644866751555565" target="_blank" class="news-link">美股纳指创新高，科技股无视美联储鹰声，AMD 市值破 1 万亿，原油黄金下跌，你怎么看，科技行情会延续吗？</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922210126462800" target="_blank" class="news-link">据华尔街日报：由美国副总统万斯领导的工作组计划取消约76万份涉嫌欺诈的“奥巴马医改”参保资格。</a> [11] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7687916094401249330/" target="_blank" class="news-link">“四川甘孜州街头出现棕熊”系AI伪造</a> [13] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922210002680800" target="_blank" class="news-link">夜盘开盘，国内期货主力合约跌多涨少，SC原油、短纤、液化石油气（LPG）跌超2%，低硫燃料油（LU）、瓶片、塑料、燃料油、苯乙烯（EB）跌超1%。涨幅方面，沪镍涨超1%。</a> [13] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922205901761800" target="_blank" class="news-link">瑞银调研：AI需求没有降温，英伟达、台积电和存储巨头景气仍强</a> [14] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34114690" target="_blank" class="news-link">安全与普惠如何兼得？全国首个生成式人工智能安全测试公共服务平台发布</a> [17] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922205654598800" target="_blank" class="news-link">美国能源部长：去年，美国液化天然气出口量首次突破1亿吨大关，创下历史纪录。今年，美国LNG出口量有望突破1.2亿吨。这一显著增长得益于Caturus等企业的推动，该公司近期宣布大规模扩建其位于墨西哥湾沿岸的LNG出口设施。</a> [18] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7688319842767621641/" target="_blank" class="news-link">邵永灵：“美国弃台论”甚嚣尘上</a> [19] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922205523645800" target="_blank" class="news-link">美国至9月19日当周红皮书商业零售销售年率 7.6%，前值8.5%。</a> [19] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34118868" target="_blank" class="news-link">共同擘画中美关系新篇章——写在习近平主席对美国进行国事访问之际</a> [20] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922205330875800" target="_blank" class="news-link">白宫官员：特朗普将谈及如何防止联合国侵犯国家主权。</a> [21] <font color='grey'>- 21时15分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260922205102896800" target="_blank" class="news-link">英媒：土耳其多家航司取消往返伊朗航班</a> [27] <font color='grey'>- 21时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

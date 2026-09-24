@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 77</p><p>生成时间: 2026-09-25 07:20:02</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">24</td>
+                <td class="percentage">31.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%8C%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E7%89%B9%E6%9C%97%E6%99%AE%E4%BC%9A%E8%B0%88" target="_blank" class="news-link">习近平同美国总统特朗普会谈</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E6%AC%A2%E8%BF%8E%E4%B9%A0%E8%BF%91%E5%B9%B3%E8%AE%BF%E7%BE%8E" target="_blank" class="news-link">特朗普欢迎习近平访美</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925065905832800" target="_blank" class="news-link">伊朗总统佩泽希齐扬：特朗普不断说“我想给伊朗人民一份礼物”，但他们给我们的礼物，是制导导弹、重型武器和毁灭。</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%BC%9A%E8%B0%88%E5%90%8E%E7%89%B9%E6%9C%97%E6%99%AE%E6%8C%A5%E6%89%8B%E9%80%81%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%A6%BB%E5%BC%80%E7%99%BD%E5%AE%AB" target="_blank" class="news-link">会谈后特朗普挥手送习近平离开白宫</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925065710429800" target="_blank" class="news-link">伊朗总统佩泽希齐扬：任何人都可以提出抗议。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925065544590800" target="_blank" class="news-link">全球最大白银ETF--iShares Silver Trust持仓较上日增加11.23吨，当前持仓量为15361.83吨。欢迎点击查看数据中心...</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925065357978800" target="_blank" class="news-link">全球最大的黄金ETF SPDR Gold Trust持仓量为1056.836吨，较前一个交易日维持不变。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782474" target="_blank" class="news-link">半夏投资李蓓：AI资本开支或在明年年中见顶，地产的机会升级到二十年一遇</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2492836" target="_blank" class="news-link">习近平同美国总统特朗普会谈</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925064617501800" target="_blank" class="news-link">据Axios：美国总统特朗普、众议院议长约翰逊及科技公司首席执行官将于9月29日就人工智能召开会议。</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925064427639800" target="_blank" class="news-link">美国天然气期货日内下跌3%，现报3.268美元/百万英热。</a> [12] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925064247788800" target="_blank" class="news-link">据《财富》杂志：OpenAI还将推出一款新产品，帮助客户以更安全、更自动化的方式部署GPT-6 Cyber。</a> [13] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925064219213800" target="_blank" class="news-link">据《财富》杂志：OpenAI正准备在未来几天预览其最新网络安全专用模型GPT-6 Cyber。</a> [14] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E8%BF%99%E6%98%AF%E4%B8%80%E6%AC%A1%E2%80%9C%E4%BC%9F%E5%A4%A7%E7%9A%84%E4%BC%9A%E6%99%A4%E2%80%9D" target="_blank" class="news-link">特朗普：这是一次“伟大的会晤”</a> [15] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925063709403800" target="_blank" class="news-link">伊朗总统：战争能否年底前结束取决于美国</a> [15] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925063458294800" target="_blank" class="news-link">伊朗总统佩泽希齐扬：（关于战争是否能在年底前结束）必须由美国决定是否想要结束这一切。</a> [16] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925063316017800" target="_blank" class="news-link">习近平和彭丽媛将出席特朗普总统夫妇举行的欢迎宴会</a> [17] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/31381946" target="_blank" class="news-link">未来三十年内，哪些行业的工作人员可能会被人工智能取代？</a> [17] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925062757635800" target="_blank" class="news-link">据天空新闻：英国外交大臣米利班德警告伊朗外长阿拉格齐，英国“不会容忍在英国领土上的敌对活动”。</a> [19] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925062354440800" target="_blank" class="news-link">伊朗总统佩泽希齐扬：伊朗将履行其在《不扩散核武器条约》框架下承担的全部义务。伊朗愿意在该框架内放弃丰度60%的浓缩铀。</a> [22] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925062123653800" target="_blank" class="news-link">伊朗总统：伊朗未关闭霍尔木兹海峡，仍愿推进协议</a> [23] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925061842966800" target="_blank" class="news-link">伊朗总统佩泽希齐扬：（谈及浓缩铀问题表示）我们将遵守国际法。</a> [24] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925061821017800" target="_blank" class="news-link">伊朗总统佩泽希齐扬：战争是强加给我们的。我们不寻求战争。</a> [25] <font color='grey'>- 07时20分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260925061649297800" target="_blank" class="news-link">伊朗总统佩泽希齐扬：也门胡塞武装队需为其行动负责。胡塞武装不听从伊朗方面的指示，也不接受伊朗下达的命令。</a> [26] <font color='grey'>- 07时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

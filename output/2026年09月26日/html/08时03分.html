@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 85</p><p>生成时间: 2026-09-26 08:03:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">17</td>
+                <td class="percentage">20.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7688701070259981860/" target="_blank" class="news-link">中美元首夫妇参观美国国家档案馆</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%9C%86%E6%BB%A1%E7%BB%93%E6%9D%9F%E5%AF%B9%E7%BE%8E%E5%9B%BD%E7%9A%84%E5%9B%BD%E4%BA%8B%E8%AE%BF%E9%97%AE" target="_blank" class="news-link">习近平圆满结束对美国的国事访问</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2667337" target="_blank" class="news-link">习近平圆满结束对美国的国事访问</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926055556730800" target="_blank" class="news-link">美国最高法院第三次阻止密苏里州在11月中期选举中使用共和党绘制的国会选区地图。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926053636640800" target="_blank" class="news-link">美国海啸预警系统：新喀里多尼亚忠诚群岛地区发生7级地震后，没有发布海啸警报、海啸提示、海啸监视或海啸威胁。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926053339765800" target="_blank" class="news-link">美国地质勘探局：位于南太平洋的新喀里多尼亚塔迪内附近发生7.0级地震。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7689614804578733595/" target="_blank" class="news-link">特朗普：这次访问富有成效</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926052933663800" target="_blank" class="news-link">美国官员：（关于7天计划）美国正通过中间人与伊朗进行积极、建设性的讨论，双方继续就核问题展开沟通。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782557" target="_blank" class="news-link">习近平和彭丽媛同美国总统特朗普夫妇茶叙</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926051926285800" target="_blank" class="news-link">伊朗外长阿拉格齐在纽约出席联合国大会期间，与土耳其外长举行会晤。</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782531" target="_blank" class="news-link">Codex和Claude Code都跑偏了，前OpenAI研究员称Jev出现前AI世界是个悲剧</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782526" target="_blank" class="news-link">日元强势反攻！日本财务大臣：特朗普对日元贬值表达了担忧，将与美方密切协调</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926051113951800" target="_blank" class="news-link">伊朗外长：截至2026年2月28日，霍尔木兹海峡一直保持开放。该地区的安全与航运状况是近期敌对行动与事态发展的直接结果。</a> [11] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926051101139800" target="_blank" class="news-link">伊朗外长：通过军事行动、威胁、封锁或经济压力，无法恢复霍尔木兹海峡的航运安全与通行。</a> [12] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926051022035800" target="_blank" class="news-link">伊朗外长：伊朗一直受到国际原子能机构（IAEA）的广泛监督，不能一边高谈防扩散，一边对IAEA监督下的和平核计划发动袭击。</a> [13] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926050753249800" target="_blank" class="news-link">据华尔街日报：特朗普政府支持的北美蓝色能源伙伴公司正加速扩大在委内瑞拉的石油产量，未来数月内可能挑战雪佛龙(CVX.N)在当地最大私人石油生产商的地位。</a> [14] <font color='grey'>- 08时03分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260926050438778800" target="_blank" class="news-link">伊朗外长：伊朗接近获得核武器说法是“巨大谎言”。</a> [15] <font color='grey'>- 08时03分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

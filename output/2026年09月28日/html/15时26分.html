@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 221</p><p>生成时间: 2026-09-28 15:26:37</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">17</td>
+                <td class="percentage">7.69%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928150828556800" target="_blank" class="news-link">智界RX首发电池黑匣子</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2087828746975852506" target="_blank" class="news-link">亚运会乒乓球男单半决赛，王楚钦 4-1 伊朗选手阿拉米扬，如何评价本场比赛？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782625" target="_blank" class="news-link">创业板跌超4%，算力硬件下挫，“易中天”集体大跌，恒指早盘一度涨1%，AI大模型双雄齐跌</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7690462542493126180/" target="_blank" class="news-link">黄金失守4200美元 加仓还是赎回</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782611" target="_blank" class="news-link">&quot;从ICU到KTV&quot;！两级摇摆的&quot;AI叙事&quot;让投资者&quot;心累&quot;</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782618" target="_blank" class="news-link">迎战Meta Muse，OpenAI紧急推出个人助手，预计周二发布</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%8E%8B%E6%A5%9A%E9%92%A64%E6%AF%941%E4%BC%8A%E6%9C%97%E8%80%81%E5%B0%86+%E6%99%8B%E7%BA%A7%E7%94%B7%E5%8D%95%E5%86%B3%E8%B5%9B" target="_blank" class="news-link">王楚钦4比1伊朗老将 晋级男单决赛</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782617" target="_blank" class="news-link">中国互联网最成功的地方，可能恰恰是AI Agent最大的麻烦</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [雪球] <a href="https://xueqiu.com/s/SH600547" target="_blank" class="news-link">山东黄金</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928150417632800" target="_blank" class="news-link">法国国防、航空航天和数字安全企业Thales：扩大与谷歌云的合作，以帮助保障智能体人工智能工作流程的安全。</a> [11] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928150327107800" target="_blank" class="news-link">现货白银日内跌幅扩大至3美元，现报61.31美元/盎司，跌幅4.67%。</a> [13] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%8D%A2%E7%94%B5%E6%B1%A0%E5%B0%8F%E5%8D%A1%E6%89%A3%E8%A6%8113%E4%B8%87%E6%8E%A5%E8%BF%91%E8%BD%A6%E4%BB%B7%E4%B8%80%E5%8D%8A%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">换电池小卡扣要13万接近车价一半</a> [16] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2087849328337318049" target="_blank" class="news-link">如何评价吴艳妮夺铜后发言「起跑慢因三年前的阴影，我没有被挫折和网暴打败」？</a> [16] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928150207341800" target="_blank" class="news-link">特朗普为何拒绝伊朗停火提议？</a> [19] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928150117757800" target="_blank" class="news-link">十年大数据统计：金、银、油、铜、农产品期货本周展望（9月28日更新）</a> [23] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928150059960800" target="_blank" class="news-link">午盘收盘，国内期货主力合约跌多涨少，碳酸锂、沪银跌超5%，生猪跌超4%，红枣、钯、沪金、玻璃跌近3%，焦煤跌超2%。涨幅方面，集运欧线涨近7%，甲醇涨超4%，燃料油涨近4%，丙烯涨超2%，液化石油气（LPG）、豆一、聚丙烯涨超1%。</a> [25] <font color='grey'>- 15时26分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7690031273628745779" target="_blank" class="news-link">思考|谈谈AI时代的后端开发+QECon演讲PPT</a> [28] <font color='grey'>- 15时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

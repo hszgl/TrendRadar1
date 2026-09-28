@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 127</p><p>生成时间: 2026-09-28 09:07:13</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">13</td>
+                <td class="percentage">10.24%</td>
+                <td class="titles"><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928083447037800" target="_blank" class="news-link">现货白银日内下跌1美元，现报63.28美元/盎司，跌幅1.60%。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782598" target="_blank" class="news-link">本周重磅日程：美国非农与中国PMI、OpenAI开发者大会、美光财报、巴西大选</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2493599" target="_blank" class="news-link">【早报】伊朗：已为与美战事重开做好准备；特朗普：预计本周与伊朗谈判；原油高开、黄金下跌；武契奇宣布辞职</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wmNoOWEKxz" target="_blank" class="news-link">美国要禁止柴油出口？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928083148458800" target="_blank" class="news-link">现货黄金短线跌幅扩大，跌破4230美元/盎司。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8wmSMFPHohF" target="_blank" class="news-link">伊朗外长警告：已为“末日战争”做好准备</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928083030119800" target="_blank" class="news-link">现货黄金亚盘跌破4250美元/盎司，日内跌0.82%。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://original.ifeng.com/c/8wlnndccQAd" target="_blank" class="news-link">如果英国空军基地“重大事件”与伊朗有关，欧洲会出兵吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928082540957800" target="_blank" class="news-link">贝森特：AI或缓解物价压力，美联储应对通胀保持开放态度</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928082215022800" target="_blank" class="news-link">澜起科技成功量产DDR5第五子代RCD芯片</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928080105191800" target="_blank" class="news-link">现货白银日内下跌1.00%，现报63.66美元/盎司。</a> [22] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E7%AC%AC1%E6%AC%A1%E4%B8%8A%E7%83%AD%E6%90%9C%E6%B6%A8%E7%B2%89130%E4%B8%87%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">肖战第1次上热搜涨粉130万</a> [26] <font color='grey'>- 09时07分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260928075858104800" target="_blank" class="news-link">英国美军基地附近5人涉恐被捕：特朗普称其欲制造“重大破坏”，伊朗关联待查</a> [26] <font color='grey'>- 09时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

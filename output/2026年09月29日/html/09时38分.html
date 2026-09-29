@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 168</p><p>生成时间: 2026-09-29 09:38:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">21</td>
+                <td class="percentage">12.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782633" target="_blank" class="news-link">中东局势不明，原油冲高回落，美股指收跌，10年期美债收益率创2007年来新高，黄金重挫</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E7%9F%AD%E7%89%87%E6%97%A0%E6%95%8C%E8%B6%85%E4%BA%BA" target="_blank" class="news-link">AI短片无敌超人</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7690028888260444214/" target="_blank" class="news-link">日方官员称特朗普表态让日本不舒服</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%84%E4%BB%B7%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%EF%BC%9AAmazing%EF%BC%81" target="_blank" class="news-link">特朗普评价中美元首会晤：Amazing！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929092948926800" target="_blank" class="news-link">A股电池板块高开，时代万恒涨停，国轩高科、武汉蓝电、中瑞股份、利元亨、宏工科技跟涨。消息面上，七部门联合制定印发的《新型电池产业发展“十五五”规划》。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2494687" target="_blank" class="news-link">特朗普证实美伊代表已交换信息 普京签署总统令再次扩编俄军 | 环球市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782655" target="_blank" class="news-link">央行等八部门：引导金融机构综合运用信贷、债券、股权等多样化工具，支持“人工智能+软件”发展</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929092846518800" target="_blank" class="news-link">美国国务卿鲁比奥：我们在更广泛的西方国家看到的情况，以及上一届美国政府执政期间美国出现的情况，是大量人员不受控制地涌入。大规模移民对任何社会而言都会带来极高的成本。从长远来看，这根本不可持续。我认为欧洲国家现在也正在认识到这一点。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2494709" target="_blank" class="news-link">一起呼吁“AI减速”？OpenAI取消最新模型发布，Anthropic却“两连发”！</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3782663" target="_blank" class="news-link">真金白银表达信心！英伟达追加1500亿美元回购，规模创美企历史纪录</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2494646" target="_blank" class="news-link">德银警示铜市陷入供应流动性危机：铜价半年涨幅或超50%</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929092707539800" target="_blank" class="news-link">美国国务卿鲁比奥：只要特朗普总统还在任，我们就绝不会允许古巴成为危害美国利益或威胁美国国家安全的行动基地。这一点我们的立场非常明确。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929092704453800" target="_blank" class="news-link">“大空头”加速押注AI崩盘：泡沫可能比预想更早破裂</a> [11] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929092511604800" target="_blank" class="news-link">美国国务卿鲁比奥：如果伊朗拥有核武器，没人能够阻止其控制霍尔木兹海峡。</a> [15] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929092457497800" target="_blank" class="news-link">美国国务卿鲁比奥：伊朗利用其资金在全球资助恐怖主义。</a> [16] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34163502" target="_blank" class="news-link">全球前瞻｜美国对加拿大产品新进口禁令本周生效，日本前外相率团访华</a> [19] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929091949218800" target="_blank" class="news-link">美国国务卿鲁比奥：特朗普总统采取行动，是为了阻止伊朗达到他所称的“免疫线”，即德黑兰可能积累足够多的导弹、无人机和其他武器，使针对其核计划采取军事行动变得困难得多。</a> [22] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E6%98%9F%E6%B2%B3%E8%BF%BD%E6%A2%A6%E5%86%9B%E4%B9%90AI%E7%89%88" target="_blank" class="news-link">三角洲星河追梦军乐AI版</a> [23] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929091924932800" target="_blank" class="news-link">Anthropic IPO招股书警告AI“生存风险”，近三分之一篇幅披露风险因素</a> [23] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20260929091815550800" target="_blank" class="news-link">OpenAI：8月中旬的一次审查发现，有相关活动影响了澳大利亚服务局、新南威尔士州犯罪统计与研究局、维多利亚州卫生部等机构。</a> [25] <font color='grey'>- 09时38分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7689740291688562703" target="_blank" class="news-link">以餐厅后厨为例讲清楚AI十大技术概念</a> [30] <font color='grey'>- 09时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

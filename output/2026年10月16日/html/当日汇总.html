@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 当日汇总</p><p>总标题数: 370</p><p>生成时间: 2026-10-16 02:32:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">55</td>
+                <td class="percentage">14.86%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783663" target="_blank" class="news-link">AI担忧刺激美股轮动，标普道指反弹，芯片指数一度跌超4%，CoreWeave信用风险创新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xFd2c6lM2Z" target="_blank" class="news-link">克宫批基辅：与美国促和背道而驰</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font><br>[抖音] <a href="https://www.douyin.com/hot/2695822" target="_blank" class="news-link">当我拥有自己的ai播放器</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/15/cb3126fc87294696beb832c1455a9a87.html" target="_blank" class="news-link">伊朗总统：美国封锁旨在煽动伊朗民众抗议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016020002687800" target="_blank" class="news-link">日本官员：G7和G20财金领导人认为AI引发的市场抛售暂无金融稳定风险</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 02时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783586" target="_blank" class="news-link">美CPI重燃加息押注，纳指跌近2%，芯片指数六连跌，CoreWeave暴跌15%，美元创18个月新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时31分</font><br>[雪球] <a href="https://xueqiu.com/s/NVDA" target="_blank" class="news-link">英伟达</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7696118815167807539" target="_blank" class="news-link">老干妈靠AI闷赚54亿，你的AI还在写文案？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 02时31分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/15/6e835b53e5b4450faf66e7a8e72cff6c.html" target="_blank" class="news-link">德媒：不顾特朗普批评，泽连斯基宣布打击俄罗斯炼油厂</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 02时31分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xFSTji8A1c" target="_blank" class="news-link">丹麦：没给美国开特权</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016015343327800" target="_blank" class="news-link">据以色列媒体：美国国务卿鲁比奥与以色列总理内塔尼亚胡进行美国能源部长通话。</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 02时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783717" target="_blank" class="news-link">通胀全面超预期！美国9月PPI同比上涨6.3%，创四年来最高纪录，核心涨幅扩大至5%</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时31分</font><br>[微博] <a href="https://s.weibo.com/weibo?q=AI%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%AF%94%E4%BA%BA%E6%BC%94%E7%9A%84%E5%A5%BD&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">AI射雕英雄传看起来比人演的好</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时31分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/15/94190e4ca3cf4db8a542450eb4c4f44f.html" target="_blank" class="news-link">美媒：法院叫停白宫禁令，特朗普政府提出上诉</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016015301962800" target="_blank" class="news-link">伊朗外交部发言人巴加埃批评英国外交大臣米利班德将伊朗称为“侵略者”，指责英方颠倒事实、混淆侵略者与受害者的身份，并称英国长期对伊朗采取敌对行动。</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 02时31分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367216&amp;amp;topic_name=%E8%80%81%E5%B9%B2%E5%A6%88%E7%94%A8AI%E4%B8%80%E5%B9%B4%E7%8B%82%E8%B5%9A54%E4%BA%BF" target="_blank" class="news-link">老干妈用AI一年狂赚54亿</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016015110646800" target="_blank" class="news-link">马斯克：老朋友就是最好的朋友。黄仁勋太棒了。由SpaceX(SPCX.O)和英伟达(NVDA.O)联合研发的Star Mind计算机，表现远超几乎所有人的预期，并将于明年实现量产。</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7695698056566358066" target="_blank" class="news-link">全程 AI 写的小程序，刚接上会员虚拟支付，上线第二天就有人真金白银买单了｜双签名、定价、iOS 的坑我全踩了一遍</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 02时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E6%B6%88%E5%A4%B1%E5%89%8D%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9" target="_blank" class="news-link">AI消失前的最后一天</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时31分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xFVzqyTVNv" target="_blank" class="news-link">黄仁勋：绝对必须与中国AI企业合作</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 02时31分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783673" target="_blank" class="news-link">市场终于发现，AI最大的瓶颈不是电，不是芯片，而是钱</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%8B%B1%E4%BC%9F%E8%BE%BERTX%20Spark%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90" target="_blank" class="news-link">英伟达RTX Spark性能分析</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时31分</font><br>[抖音] <a href="https://www.douyin.com/hot/2696431" target="_blank" class="news-link">科技股调整砸出黄金坑了吗</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016013514763800" target="_blank" class="news-link">美国30年期房贷利率维持7.4% 连续八周未降</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 02时31分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E4%B8%BA%E4%BD%95%E4%BC%9A%E6%AC%BA%E9%AA%97%E4%BA%BA%E7%B1%BB" target="_blank" class="news-link">AI为何会欺骗人类</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016013238803800" target="_blank" class="news-link">美国财政部宣布新一轮伊朗及古巴制裁 调整卢克石油交易许可</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7695613699442311222" target="_blank" class="news-link">AI翻译都这么强了，为什么程序员还是躲不开英语？假如你想用上GPT6，我劝你还是早点背单词吧！</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016012720335800" target="_blank" class="news-link">美国总统特朗普：希望对任何杀害消防员的人判处死刑。</a> [11] <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7696118815168954419" target="_blank" class="news-link">AI 时代，软件程序员未来 10—15 年的职业前景</a> [11] <font color='grey'>- 02时31分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34254228" target="_blank" class="news-link">乌克兰指责美国帮俄罗斯：星链突然被限速、没收到导弹预警</a> [12] <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7695985750949494818" target="_blank" class="news-link">开源项目第235期：REA — 让 AI Agent 逆向任何东西，从网站/Electron 应用一路分析到二进制层</a> [12] <font color='grey'>- 02时31分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2506125" target="_blank" class="news-link">美国9月PPI通胀大超预期 能源冲击向更多领域扩散 美联储加息预期再升温</a> [13] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016012404494800" target="_blank" class="news-link">美国总统特朗普： 墨西哥应该打击贩毒集团，但他们做不到。</a> [14] <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7695725609003778111" target="_blank" class="news-link">开源GIS老大翻脸了：两条规定，AI辅助代码彻底出局</a> [14] <font color='grey'>- 02时31分</font><br>[知乎] <a href="https://www.zhihu.com/question/2062123788586726125" target="_blank" class="news-link">看多了 AI 短剧，为什么都不太喜欢看真人演的短剧或电视剧了呢？</a> [14] <font color='grey'>- 02时31分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/15/c458e8fcfbe848449b0039c9208e03b1.html" target="_blank" class="news-link">美媒文章：中国引领世界向AI机器人时代转型</a> [15] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016012132880800" target="_blank" class="news-link">Anthropic：将向相关评估人员提供员工级访问权限，以开展前沿AI模型风险评估。</a> [16] <font color='grey'>- 02时31分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34257391" target="_blank" class="news-link">为何霍尔木兹海峡袭船事件骤增？伊朗官员称要影响美国中期选举</a> [17] <font color='grey'>- 02时31分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7696881601984073257/" target="_blank" class="news-link">美国为何非得买俄罗斯柴油</a> [18] <font color='grey'>- 02时31分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/15/dce138c587f44184b79b25ecfdab9f55.html" target="_blank" class="news-link">马斯克：星链不能用于进攻性作战</a> [18] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016012044653800" target="_blank" class="news-link">Meta Platforms(META.O)：Muse Spark Open的模型权重现已开放下载，可通过亚马逊SageMaker AI、谷歌云Model Garden、Hugging Face及微软Foundry Models获取。</a> [18] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016012033518800" target="_blank" class="news-link">Meta Platforms(META.O)：Muse Spark Open今日起可通过Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter和Together AI等平台的API使用。</a> [19] <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7695976921429147686" target="_blank" class="news-link">Codex 不只是写代码：OpenAI 想抢走 AI 工作流入口</a> [19] <font color='grey'>- 02时31分</font><br>[知乎] <a href="https://www.zhihu.com/question/2093925846901862591" target="_blank" class="news-link">英国首相伯纳姆表示，他将试图帮助「修复」特朗普和泽连斯基二人之间的「（关系）桥梁」。他能做到吗？</a> [19] <font color='grey'>- 02时31分</font><br>[微博] <a href="https://s.weibo.com/weibo?q=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%BC%80%E5%A7%8B%E7%94%A8AI%E6%95%B4%E9%A1%BF%E5%8F%8C11%E4%BA%86&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">年轻人开始用AI整顿双11了</a> [20] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016012009640800" target="_blank" class="news-link">Meta Platforms(META.O)： Muse Spark Open今日正式推出，首次将领先的智能体能力带到苹果M5 Ultra芯片的Mac Studio桌面电脑上。</a> [20] <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7695999400864956451" target="_blank" class="news-link">AI 时代，个人开发者到底能不能靠一个小程序赚到钱</a> [21] <font color='grey'>- 02时31分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/15/a087c29cbb83421dbfbd9d6e1a3ca6bb.html" target="_blank" class="news-link">特朗普：向媒体泄密者应被枪毙</a> [22] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016011837808800" target="_blank" class="news-link">美国中央司令部：尽管发生袭击，商业船舶仍在通过霍尔木兹海峡，主要航道依然没有水雷。过去24小时内，已有超过40艘船舶通行。</a> [22] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016011713103800" target="_blank" class="news-link">美国中央司令部：伊朗伊斯兰革命卫队持续声称控制着霍尔木兹海峡，事实上，美国及其地区伙伴控制着该海峡。尽管伊朗革命卫队持续发动无端袭击，商业船舶仍在通行。</a> [24] <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7695618100750729257" target="_blank" class="news-link">花了几百万买的 AI 系统，为什么最后全成了花瓶？</a> [24] <font color='grey'>- 02时31分</font><br>[参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/15/9b367d39c00e4a3180c224e302028e0d.html" target="_blank" class="news-link">内塔尼亚胡称不支持在以色列选举前再袭伊朗</a> [25] <font color='grey'>- 02时31分</font><br>[金十数据] <a href="https://flash.jin10.com/detail/20261016010954034800" target="_blank" class="news-link">Meta发布开放权重AI模型 最强技术仍保持闭源</a> [26] <font color='grey'>- 02时31分</font><br>[少数派] <a href="https://juejin.cn/post/7696444047594946570" target="_blank" class="news-link">AI 帮我写的小程序，上线不到一个月流量主突然爆了</a> [27] <font color='grey'>- 02时31分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7696855392491408938/" target="_blank" class="news-link">胡塞越打越狠是冲着美国来的吗</a> [30] <font color='grey'>- 02时31分</font></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    

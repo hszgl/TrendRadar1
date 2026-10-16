@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 216</p><p>生成时间: 2026-10-16 13:38:27</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">新闻联播 AI 人工智能 特朗普 黄金 汇率 白银 铜 英伟达 石油 房地产 新能源车 芯片 排行榜 热搜 马斯克 伊朗 美国 话题 量子科技 电池 光伏 航空航天 小金属</td>
+                <td class="count">34</td>
+                <td class="percentage">15.74%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7697106528259591690/" target="_blank" class="news-link">美国肯德基将改用可口可乐</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/16/eefe187ae44b4c25a8a4469b4ad595db.html" target="_blank" class="news-link">特朗普：“不会直播”处决胡德堡枪击案凶手过程</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016131125649800" target="_blank" class="news-link">日本财务大臣片山皋月：我们希望与美国财政部合作，维护外汇市场的有序运行。</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7696926689994162217/" target="_blank" class="news-link">美媒：中国造出了美国人喜欢的车</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8xGVPM9kRUJ" target="_blank" class="news-link">特朗普：泽连斯基太可耻，我不太喜欢他，不好相处</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/16/5032f42208bd4425b2d4c6403a79475d.html" target="_blank" class="news-link">美媒文章：中国AI对全球南方影响力提升</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7697088960333352511/" target="_blank" class="news-link">马斯克为何称中国对石油依赖快速下降</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2506337" target="_blank" class="news-link">AI风向标生变！Anthropic估值预期据称缩水 高增长故事讲不下去了？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%AA%92%E7%9C%BC%E9%A6%8B%EF%BC%9A%E4%B8%AD%E5%9B%BD%E9%80%A0%E5%87%BA%E4%BA%86%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%96%9C%E6%AC%A2%E7%9A%84%E8%BD%A6" target="_blank" class="news-link">美媒眼馋：中国造出了美国人喜欢的车</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/16/9fd01dad210948df81a35caef13f3254.html" target="_blank" class="news-link">飓风“伊萨亚斯”袭击美国多州</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2094346221913690254" target="_blank" class="news-link">美国肯德基 2027 年起将改用可口可乐，背后是什么原因？消费者实际感受差别大吗？</a> <font color='red'><strong>[6]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/16/312f49ed224e4451aa05bcd1b8f8bda5.html" target="_blank" class="news-link">从天气到金钱——英国人最爱聊的话题变了</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016130533650800" target="_blank" class="news-link">A股飞行汽车概念股午后继续拉升，英博尔、广联航空、王子新材、瑞玛精密、均胜电子等近20股涨停。马斯克表示，特斯拉将在2028年开始生产Roadster跑车。</a> <font color='red'><strong>[7]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E4%BA%A7AI%E6%94%BB%E5%85%8B%E4%B8%96%E7%95%8C%E7%BA%A7%E6%95%B0%E5%AD%A6%E9%9A%BE%E9%A2%98" target="_blank" class="news-link">国产AI攻克世界级数学难题</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2506569" target="_blank" class="news-link">一文读懂：AI融资离“爆雷”究竟有多远？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2093992911612244313" target="_blank" class="news-link">「豆包对低认知人群有权威性」引热议，你怎么看这一说法？缺乏辨别力更容易盲目相信 AI，还是会更抵触？</a> <font color='red'><strong>[8]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34261270" target="_blank" class="news-link">能飞还会空中翻滚！特斯拉新款Roadster跑车亮相，马斯克称2028年量产</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2506233" target="_blank" class="news-link">Meta发布美国最强开源大模型 “仅用”两台苹果电脑就能本地运行</a> <font color='red'><strong>[9]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7697112143132380715/" target="_blank" class="news-link">周鸿祎谈老干妈用AI一年赚54亿</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2506314" target="_blank" class="news-link">10月16日投资避雷针：高盛发布研报称 储能增长难抵全球电池行业供应过剩压力</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [参考消息] <a href="https://ckxxapp.ckxx.net/pages/2026/10/16/6b6669e1b0564cb4af83bbb8d18dd811.html" target="_blank" class="news-link">美财政部对美国银行开出12亿罚单</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016130115748800" target="_blank" class="news-link">Anthropic联合创始人Jack Clark：我们需要为人工智能制定符合常识的标准。</a> <font color='red'><strong>[10]</strong></font> <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2506275" target="_blank" class="news-link">Anthropic上市估值又有新传言 美国肯德基将告别百事可乐 | 环球市场</a> [11] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016130014924800" target="_blank" class="news-link">Anthropic联合创始人Jack Clark：我们对我们的人工智能系统进行测试，并分享相关信息，但这不应完全基于自愿。</a> [11] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016125957722800" target="_blank" class="news-link">AI风险率先在债市暴露，数据中心融资成本飙升</a> [12] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016125910502800" target="_blank" class="news-link">金银比重返73，白银的买盘接得住吗？</a> [13] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016125633321800" target="_blank" class="news-link">IMF总裁格奥尔基耶娃：推动人工智能发展的国家有责任与企业共同建立保护措施。</a> [14] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%99%BE%E4%BA%8B%E5%9B%9E%E5%BA%94%E7%BE%8E%E5%9B%BD%E8%82%AF%E5%BE%B7%E5%9F%BA%E6%94%B9%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">百事回应美国肯德基改可口可乐</a> [15] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016125447356800" target="_blank" class="news-link">IMF总裁格奥尔基耶娃：人工智能自我监管是合适的，但需要更广泛地听取社会的意见。</a> [17] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2093694435599070363" target="_blank" class="news-link">AI 游戏占 Steam 新游三分之一，销量却只占约 10%，为何游戏生产暴增，玩家需求却没有暴增？</a> [17] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016124416915800" target="_blank" class="news-link">特朗普AI工作组首次会议聚焦网络与生物安全，拟建立模型安全风险预警机制</a> [24] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016124410090800" target="_blank" class="news-link">IMF总裁格奥尔基耶娃：世界需要一个伦理基础来支持人工智能，但我不确定我们整个社会是否已经做好准备。</a> [25] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [金十数据] <a href="https://flash.jin10.com/detail/20261016124332434800" target="_blank" class="news-link">IMF总裁格奥尔基耶娃：如果没有保障措施，人工智能的风险可能超过机遇。</a> [26] <font color='grey'>- 13时38分</font></div><br><div class='new-title'>🆕 [少数派] <a href="https://juejin.cn/post/7696448963306356746" target="_blank" class="news-link">面试官问你，你会的 AI 都能做了，公司为什么还需要你</a> [27] <font color='grey'>- 13时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
